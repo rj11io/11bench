@@ -1,6 +1,6 @@
 ---
 name: Ricardo Jorge
-title: Product Engineering for Early Stage Startups
+title: AI + Product Engineer
 location: Lisbon, Portugal
 website: https://www.rj11.io
 email: you@example.com
