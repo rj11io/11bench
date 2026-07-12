@@ -27,7 +27,7 @@ I was the first frontend hire for the majority of the projects that I worked on,
 I've had contact with all types of companies and products across many industries. But, the majority of my experience has been building cybersecurity dashboards and proprietary explorers, where I developed a passion for data-driven products and data visualisations.
 
 I've always carried myself as a "Self Guided Missile". You point me at a target and I'll figure out how to hit it on my own, leveraging my entire experience to
-avoid pitfalls and drive straight to the solution. This goes beyond engineering, where I would step up to fill the gap needed at the time and eventually wear all the possible hats you can wear on a startup (officially and non-officially) but defaulting to product engineer since that's where I know I can have the biggest and most immediate impact.
+avoid pitfalls and drive straight to the solution. This goes beyond engineering, where I would step up to fill the gap needed at the time and eventually wear all the possible hats you can wear on a startup (officially and non-officially) even though I default to product engineer since that's where I know I can have the biggest and most immediate impact.
 
 I'm an early adopter of everything technology and up to date with the
 latest AI tools. Currently working as a hands-on product engineering
