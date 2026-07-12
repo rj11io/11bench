@@ -8,15 +8,26 @@ linkedin: rj11io
 github: rj11io
 ---
 
-Hi, I'm Ricardo Jorge — you can call me RJ. I've been coding since I was
-a kid, modding and cracking games, which somehow got me to China for the
-World Robotics Championship in 2008, at 14 years old.
+Hi, I'm Ricardo Jorge, but you can call me RJ. I started coding when i was very young for the fun of it: modding and reverse engineering games and consoles, building my own
+fighting game on the MUGEN engine, and running dedicated game servers for
+Counter-Strike, Minecraft, and half the titles I grew up on. In 7th grade
+science class I started programming Lego Mindstorms robots and that took our
+team to a national second place finish and the final four of the 2008 robotics world
+cup in China, when I was only 14 years old.
 
-Today I'm a software engineer with 10+ years of experience, focused on
-**frontend, dashboards, and data visualisation**. I see myself as a
-*"Self Guided Missile"*: point me at a target and I'll figure out how to
-hit it on my own — no micromanagement needed, leveraging experience to
-avoid the pitfalls and drive straight to the solution.
+Competitive gaming taught me the rest. I led teams, guilds, and clans to
+top online ladders and win local LAN tournaments, which turns out to be management
+training in disguise: recruiting, coaching, and keeping a roster of remote
+hyperactive teenagers aligned and motivated on the same strategy and goal.
+
+I started working in software professionally in 2014 where I very quickly specialized in frontend javascript applications and was an early adopter of React.js (2016) and Next.js (2018), in a time where nobody was hiring for these technologies I had the foresight to bet on what would eventually become the standard language of the web and AI engineering.
+
+I was the first frontend hire for the majority of the projects that I worked on, meaning I was also responsible for the fundamental architecture, tooling, component library, infrastructure, environments, workflows, and pipelines for anything I was asked to build. I was also often responsible for growing the team, onboarding and managing the new members, and creating the playbooks for them to integrate and contribute to the project seamlessly.
+
+I've had contact with all types of companies and products across many industries. But, the majority of my experience has been building cybersecurity dashboards and proprietary explorers, where I developed a passion for data-driven products and data visualisations.
+
+I've always carried myself as a "Self Guided Missile". You point me at a target and I'll figure out how to hit it on my own, leveraging my entire experience to
+avoid pitfalls and drive straight to the solution. This goes beyond engineering, where I would step up to fill the gap needed at the time and eventually wear all the possible hats you can wear on a startup (officially and non-officially) but defaulting to product engineer since that's where I know I can have the biggest and most immediate impact.
 
 I'm an early adopter of everything technology and up to date with the
 latest AI tools. Currently working as a hands-on product engineering

@@ -1,6 +1,6 @@
 # Experience
 
-## Product Engineering for Early Stage Startups
+## AI Product Engineer
 company: rj11io
 period: Mar 2025 — Present
 location: Portugal · Remote
@@ -18,7 +18,7 @@ building projects from the ground up:
 - Multiple AI chats / GPT experiences
 - AI smart scraping agents
 
-## Datavis Engineer
+## Product / Datavis Engineer
 company: Hunt Intelligence, Inc.
 period: Apr 2024 — Mar 2025
 location: Remote

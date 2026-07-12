@@ -21,7 +21,7 @@ function plain(text: string) {
 
 export function generateMetadata(): Metadata {
   const { profile } = loadCV()
-  const title = [profile.name, profile.title].filter(Boolean).join(" — ")
+  const title = `${[profile.name, profile.title].filter(Boolean).join(": ")} CV`
   return {
     title: title || "CV",
     description: profile.summary[0] ? plain(profile.summary[0]) : undefined,

@@ -191,7 +191,7 @@ export default function Page() {
       <style>
         {"@media print { nextjs-portal { display: none } html, body { background: #fff !important } }"}
       </style>
-      <div className="mx-auto max-w-[44rem] px-6 py-16 sm:px-8 sm:py-24 print:max-w-none print:p-0">
+      <div className="mx-auto max-w-[50rem] px-6 py-16 sm:px-8 sm:py-24 print:max-w-none print:p-0">
         <header className="relative">
           {profile.name && (
             <h1
