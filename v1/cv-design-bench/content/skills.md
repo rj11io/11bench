@@ -1,13 +1,19 @@
 # Skills
 
 ## Core Stack
-AI SDK, TypeScript, JavaScript, React.js, Next.js, Node.js, Convex
+TypeScript, React.js, Next.js, AI SDK, Convex, Playwright, Vercel
 
-## UI & Styling
-Tailwind CSS, shadcn/ui, Material-UI, HTML5, CSS
+## AI Engineering
+Agent Automations, Custom Agent Skills, Harness Engineering, Codex, Claude Code 
 
-## Data
-Data Visualization, Dashboards
+## UI & Design
+Tailwind CSS, shadcn/ui, Material-UI, Design Systems, Storybook, Refactoring UI
 
-## Leadership & Practice
-Team Management, Project Management, Product Design, Git
+## Data & Visualisation
+Dashboards, Data Visualisation (d3, Recharts, Nivo), Web Scraping, Data Enrichment
+
+## Leadership & Delivery
+Team & Project Management, End-to-End Product Engineering, Product Design, Agile Methodologies
+
+## Foundations
+JavaScript, Node.js, HTML5, CSS, Git, GitHub Actions, REST APIs, CI/CD, Testing

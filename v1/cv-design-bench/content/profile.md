@@ -32,7 +32,7 @@ playbooks that let new engineers integrate seamlessly.
 I've worked with companies across many industries, but most of my experience
 is in cybersecurity, building dashboards and proprietary data explorers.
 That's where I developed a passion for data-driven products and data
-visualization, and where I learned what separates a polished product from a
+visualisation, and where I learned what separates a polished product from a
 prototype.
 
 I operate as a self-guided missile: point me at a target and I'll figure out
