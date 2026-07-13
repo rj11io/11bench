@@ -23,9 +23,6 @@ company: Hunt Intelligence, Inc.
 period: Apr 2024 — Mar 2025
 location: B2B · Remote
 
-Left OMEGA to go deep on my specialty, data visualisation for a
-threat-intelligence product:
-
 - Built a modern TypeScript codebase with the latest Next.js and shadcn/ui,
   production and staging environments on Vercel, end-to-end tests with
   Playwright, CI/CD on GitHub Actions, and automated release changelogs
