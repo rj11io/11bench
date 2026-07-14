@@ -1,5 +1,7 @@
 # cv-design-bench
 
+Deployed at https://cv-design-bench.rj11.io/
+
 A benchmark for how different coding agents design the same thing: a
 personal CV website with a "Download PDF" button (browser print dialog).
 Every run gets identical content, identical components, and identical
