@@ -12,8 +12,8 @@ period: 2026 - Present
 
 Open source AI skills, plugins, and workflows
 
-## 11benchmarks
-url: https://github.com/rj11io/11benchmarks
+## 11bench
+url: https://github.com/rj11io/11bench
 period: 2026 - Present
 
 Open source AI benchmarks
