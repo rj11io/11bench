@@ -36,6 +36,23 @@ $12.22) build of the same task.
   that the thread really was the run), `summary.json`, and the readable
   `COSTS.md`.
 
+## Run locally
+
+This app requires Node.js and npm. It does not use environment variables.
+
+```bash
+npm install
+npm run dev
+```
+
+Before accepting a benchmark run, check the app with its verification scripts:
+
+```bash
+npm run lint
+npm run typecheck
+npm run build
+```
+
 ## Starting a run
 
 1. Fill in (or update) the content in `content/*.md`.
@@ -56,6 +73,16 @@ bucketed as repo conversation.
 The measured data lives in `benchmark/costs/`: one JSON per run with
 token counts, cache breakdown, the rates used, and the attribution
 evidence, plus `summary.json` and the readable `COSTS.md`.
+
+Print the cost tables for this benchmark, or scan a larger directory for
+other benchmark reports, with:
+
+```bash
+bash print-costs.sh
+bash print-costs.sh /path/to/search-root
+```
+
+The reporting script is read-only and requires Bash and Python 3.
 
 ## Judging
 

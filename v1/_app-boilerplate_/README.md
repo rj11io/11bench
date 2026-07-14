@@ -1,16 +1,37 @@
-# Next.js template
+# v1 app boilerplate
 
-This is a Next.js template with shadcn/ui.
+The reusable Next.js and shadcn/ui starter for v1 benchmark apps. It includes
+TypeScript, Tailwind CSS, theming, path aliases, and the shared UI component
+set.
+
+## Local development
+
+This app requires Node.js and npm. It does not currently use environment
+variables.
+
+```bash
+npm install
+npm run dev
+```
+
+## Commands
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the Next.js development server |
+| `npm run build` | Create a production build |
+| `npm run start` | Serve the production build |
+| `npm run lint` | Run ESLint |
+| `npm run typecheck` | Check TypeScript without emitting files |
+| `npm run format` | Format TypeScript and TSX files with Prettier |
 
 ## Adding components
 
-To add components to your app, run the following command:
+The shadcn/ui configuration writes components to `components/ui/`:
 
 ```bash
-npx shadcn@latest add button
+npx shadcn@latest add <component>
 ```
-
-This will place the ui components in the `components` directory.
 
 ## Using components
 
