@@ -1,5 +1,5 @@
 {
-  "name": "11benchmarks",
+  "name": "@rj11io/11bench",
   "version": "0.0.1",
   "private": true,
   "scripts": {
