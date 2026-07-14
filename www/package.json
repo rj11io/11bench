@@ -1,5 +1,5 @@
 {
-  "name": "11bench-www",
+  "name": "@rj11io/11bench-www",
   "version": "0.0.1",
   "type": "module",
   "private": true,
