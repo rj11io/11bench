@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/rj11io/11benchmarks/compare/v1.2.0...v1.3.0) (2026-07-14)
+
+
+### Features
+
+* init root www ([92bc2c6](https://github.com/rj11io/11benchmarks/commit/92bc2c6926d417f36d88c22c7208c911725caad5))
+
 # [1.2.0](https://github.com/rj11io/11benchmarks/compare/v1.1.0...v1.2.0) (2026-07-13)
 
 
