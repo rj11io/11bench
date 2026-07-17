@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 360">
+  <title id="title">Ricardo Jorge profile console</title>
+  <desc id="desc">A static terminal-style panel summarizing Ricardo Jorge as an AI product engineer building agents, dashboards, and data explorers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.52" stop-color="#101820"/>
+      <stop offset="1" stop-color="#12151f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f81f7"/>
+      <stop offset="0.48" stop-color="#2ea043"/>
+      <stop offset="1" stop-color="#f2cc60"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-10%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="36" y="34" width="1128" height="292" rx="18" fill="#0b0f14" stroke="#30363d" filter="url(#shadow)"/>
+  <rect x="36" y="34" width="1128" height="52" rx="18" fill="#161b22"/>
+  <circle cx="70" cy="60" r="8" fill="#ff7b72"/>
+  <circle cx="98" cy="60" r="8" fill="#f2cc60"/>
+  <circle cx="126" cy="60" r="8" fill="#3fb950"/>
+  <text x="164" y="67" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">rj11io/profile</text>
+  <rect x="66" y="116" width="1068" height="4" rx="2" fill="url(#line)"/>
+  <text x="72" y="162" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="34" font-weight="700">Ricardo Jorge</text>
+  <text x="72" y="204" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="25">AI Product Engineer from Lisbon</text>
+  <text x="72" y="252" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21">$ build --focus agents dashboards data-explorers</text>
+  <text x="72" y="292" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21">$ stack  --core TypeScript React Next.js Playwright</text>
+  <g transform="translate(806 145)">
+    <rect width="286" height="46" rx="10" fill="#13233a" stroke="#2f81f7"/>
+    <text x="22" y="30" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">11ai: skills/plugins</text>
+    <rect y="64" width="286" height="46" rx="10" fill="#132819" stroke="#2ea043"/>
+    <text x="22" y="94" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">11bench: AI evals</text>
+    <rect y="128" width="286" height="46" rx="10" fill="#2b2111" stroke="#d29922"/>
+    <text x="22" y="158" fill="#f2cc60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">11io: B2B product</text>
+  </g>
+</svg>

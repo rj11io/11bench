@@ -1,0 +1,36 @@
+/*
+  Desktop two-column grid for the screen layout: a narrow left rail for
+  lookup facts (skills, projects, education) beside a wide main column for
+  the content that has to be read in order (about + experience). Built with
+  named grid areas so the visual placement is independent of DOM order — the
+  DOM stays in reading order (about, sidebar, experience) for screen readers
+  and any plain-text extraction. See design.md, "Hierarchy".
+*/
+
+.layout {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+    column-gap: 4rem;
+    grid-template-areas:
+      "sidebar about"
+      "sidebar experience";
+    align-items: start;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+  }
+
+  .about {
+    grid-area: about;
+  }
+
+  .experience {
+    grid-area: experience;
+  }
+}

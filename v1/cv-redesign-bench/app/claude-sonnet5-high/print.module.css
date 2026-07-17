@@ -1,0 +1,12 @@
+/*
+  Print-only geometry that Tailwind utilities can't express: the physical page
+  box itself. Everything else (colors, spacing, break points) is Tailwind
+  print: utilities on the elements in page.tsx — see design.md, "Print
+  strategy".
+*/
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 16mm;
+  }
+}

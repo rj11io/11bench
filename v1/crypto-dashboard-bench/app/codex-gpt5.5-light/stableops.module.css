@@ -1,0 +1,420 @@
+.shell {
+  min-height: 100vh;
+  background: #f7f8fb;
+  color: #111827;
+  padding: 28px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 24px;
+  align-items: end;
+  margin: 0 auto 18px;
+  max-width: 1440px;
+}
+
+.hero h1 {
+  max-width: 920px;
+  margin: 0;
+  font-size: clamp(2.1rem, 4vw, 4.8rem);
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+.subhead {
+  max-width: 760px;
+  margin: 18px 0 0;
+  color: #4b5563;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #1d4ed8;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.trustPanel,
+.metric,
+.workspace,
+.sidePanel,
+.chartPanel,
+.riskPanel {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 14px 40px rgba(15, 23, 42, 0.05);
+}
+
+.trustPanel {
+  display: grid;
+  gap: 11px;
+  padding: 18px;
+  color: #374151;
+  font-size: 0.9rem;
+}
+
+.trustPanel div,
+.toolbar,
+.sectionHeader,
+.routeCard,
+.riskEvent {
+  display: flex;
+  align-items: center;
+}
+
+.trustPanel div {
+  gap: 10px;
+}
+
+.toolbar {
+  max-width: 1440px;
+  margin: 0 auto 18px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pill,
+.activePill,
+.iconButton {
+  min-height: 40px;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #374151;
+  padding: 0 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.activePill {
+  background: #111827;
+  border-color: #111827;
+  color: #ffffff;
+}
+
+.iconButton {
+  width: 42px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0;
+}
+
+.kpiGrid,
+.mainGrid,
+.analyticsGrid {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.kpiGrid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 16px;
+}
+
+.metric {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  min-width: 0;
+}
+
+.metric p,
+.metric small {
+  margin: 0;
+  color: #6b7280;
+}
+
+.metric strong {
+  display: block;
+  margin: 5px 0 4px;
+  font-size: 1.45rem;
+  line-height: 1.1;
+}
+
+.metricIcon,
+.eventIcon {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.mainGrid {
+  grid-template-columns: minmax(0, 1fr) 400px;
+  margin-bottom: 16px;
+}
+
+.workspace,
+.sidePanel,
+.chartPanel,
+.riskPanel {
+  padding: 18px;
+}
+
+.sectionHeader {
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.sectionHeader h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.sectionHeader span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #6b7280;
+  font-size: 0.84rem;
+}
+
+.invoiceList {
+  display: grid;
+  gap: 10px;
+}
+
+.invoiceRow {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 74px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fbfdff;
+  color: #111827;
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.invoiceRow:disabled {
+  opacity: 0.68;
+  cursor: not-allowed;
+}
+
+.selectedRow {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+.check {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  color: #2563eb;
+}
+
+.invoiceRow strong,
+.routeCard strong,
+.riskEvent strong {
+  display: block;
+}
+
+.invoiceRow small,
+.routeCard span,
+.riskEvent small {
+  color: #6b7280;
+}
+
+.amount {
+  font-weight: 800;
+}
+
+.riskBadge {
+  justify-self: end;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.low {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.watch {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.elevated {
+  background: #ffedd5;
+  color: #9a3412;
+}
+
+.blocked {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.selectLabel {
+  display: block;
+  margin-bottom: 6px;
+  color: #4b5563;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.select {
+  width: 100%;
+  height: 44px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0 12px;
+  font: inherit;
+}
+
+.routeCard {
+  justify-content: space-between;
+  gap: 14px;
+  margin: 14px 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.decisionList {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 16px;
+}
+
+.decisionList div {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 10px;
+  border-bottom: 1px solid #eef2f7;
+  padding-bottom: 10px;
+}
+
+.decisionList dt {
+  color: #6b7280;
+}
+
+.decisionList dd {
+  margin: 0;
+  font-weight: 700;
+}
+
+.primaryAction,
+.disabledAction {
+  width: 100%;
+  min-height: 46px;
+  border: 0;
+  border-radius: 8px;
+  background: #1d4ed8;
+  color: #ffffff;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.disabledAction {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.savedNote {
+  margin: 10px 0 0;
+  color: #6b7280;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.analyticsGrid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 420px;
+}
+
+.riskEvent {
+  align-items: flex-start;
+  gap: 12px;
+  border-top: 1px solid #eef2f7;
+  padding: 13px 0;
+}
+
+.riskEvent p {
+  margin: 4px 0;
+  color: #4b5563;
+  line-height: 1.45;
+}
+
+.emptyState {
+  display: grid;
+  place-items: center;
+  min-height: 270px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+  padding: 26px;
+  text-align: center;
+}
+
+.emptyState h3 {
+  margin: 8px 0 4px;
+}
+
+.emptyState p {
+  max-width: 520px;
+  margin: 0;
+  color: #6b7280;
+}
+
+@media (max-width: 1050px) {
+  .hero,
+  .mainGrid,
+  .analyticsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .kpiGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .shell {
+    padding: 16px;
+  }
+
+  .hero h1 {
+    font-size: 2.35rem;
+  }
+
+  .kpiGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .invoiceRow {
+    grid-template-columns: 30px minmax(0, 1fr);
+  }
+
+  .amount,
+  .invoiceRow .riskBadge {
+    justify-self: start;
+    grid-column: 2;
+  }
+
+  .decisionList div {
+    grid-template-columns: 1fr;
+  }
+}

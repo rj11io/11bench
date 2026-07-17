@@ -1,0 +1,498 @@
+.shell {
+  --ink: #181715;
+  --muted: #64615b;
+  --hairline: #d7d0c4;
+  --paper: #fffdf8;
+  --field: #f1eee7;
+  --accent: #0f6b63;
+  --accent-strong: #06443f;
+  min-height: 100svh;
+  padding: 28px;
+  background:
+    linear-gradient(135deg, rgba(15, 107, 99, 0.14), transparent 36%),
+    linear-gradient(315deg, rgba(126, 91, 48, 0.12), transparent 34%),
+    #e7e1d6;
+  color: var(--ink);
+  font-family: var(--font-sans), Inter, Arial, sans-serif;
+}
+
+.printButton {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(24, 23, 21, 0.2);
+  border-radius: 999px;
+  padding: 10px 14px;
+  background: #181715;
+  color: #fffdf8;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  box-shadow: 0 12px 30px rgba(24, 23, 21, 0.22);
+  cursor: pointer;
+}
+
+.printButton:hover {
+  background: var(--accent-strong);
+}
+
+.sheet {
+  width: min(100%, 210mm);
+  min-height: 297mm;
+  margin: 0 auto 28px;
+  padding: 14mm 14mm 12mm;
+  background: var(--paper);
+  box-shadow: 0 24px 70px rgba(43, 35, 24, 0.22);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(230px, 0.85fr);
+  gap: 18px;
+  align-items: start;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.eyebrow,
+.sectionLabel,
+.contactList span,
+.projectGrid time,
+.roleHeader time,
+.continuationHeader p,
+.education time {
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: var(--accent-strong);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 47px;
+  line-height: 0.94;
+  letter-spacing: 0;
+}
+
+.title {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contactList {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  font-style: normal;
+  font-size: 11px;
+}
+
+.contactList a,
+.projectGrid a,
+.role a,
+.roleCompact a,
+.continuationHeader a {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.contactList a {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  overflow-wrap: anywhere;
+}
+
+.contactList span {
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.summaryBlock {
+  display: grid;
+  grid-template-columns: 1.45fr 0.85fr;
+  gap: 16px;
+  margin: 12px 0 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.summaryBlock p {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.45;
+}
+
+.summaryBlock p:first-child {
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 26mm minmax(0, 1fr);
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.sheet .section:last-child {
+  border-bottom: 0;
+}
+
+.sectionLabel {
+  color: var(--accent-strong);
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.sectionBody {
+  min-width: 0;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 13px;
+}
+
+.skillGroup {
+  padding-left: 8px;
+  border-left: 2px solid var(--accent);
+}
+
+.skillGroup h2,
+.projectGrid h2,
+.education h2 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.skillGroup p,
+.projectGrid p,
+.education p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.35;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 12px;
+}
+
+.projectGrid article {
+  padding: 8px;
+  background: var(--field);
+  border-left: 3px solid var(--accent);
+}
+
+.projectGrid div {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.projectGrid time {
+  color: var(--muted);
+  font-size: 8.5px;
+  white-space: nowrap;
+}
+
+.projectGrid a {
+  display: inline-block;
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: 750;
+}
+
+.roles {
+  display: grid;
+  gap: 9px;
+}
+
+.role,
+.roleCompact {
+  break-inside: avoid;
+}
+
+.roleHeader {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 12px;
+  align-items: start;
+}
+
+.roleHeader h3 {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.18;
+}
+
+.roleHeader p {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.25;
+}
+
+.roleHeader time,
+.education time {
+  color: var(--accent-strong);
+  font-size: 9.5px;
+  font-weight: 900;
+  line-height: 1.3;
+  text-align: right;
+}
+
+.role ul,
+.roleCompact ul {
+  margin: 5px 0 0;
+  padding-left: 15px;
+}
+
+.role li,
+.roleCompact li {
+  margin: 0 0 3px;
+  font-size: 11px;
+  line-height: 1.36;
+}
+
+.roleCompact li {
+  font-size: 10.5px;
+}
+
+.continuationHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: end;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.continuationHeader p {
+  margin: 0 0 4px;
+  color: var(--accent-strong);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.continuationHeader h2 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.continuationHeader a {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.education {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 14px;
+}
+
+@media (max-width: 760px) {
+  .shell {
+    padding: 16px;
+  }
+
+  .printButton {
+    position: sticky;
+    top: 12px;
+    margin-left: auto;
+    margin-bottom: 12px;
+  }
+
+  .sheet {
+    min-height: auto;
+    padding: 24px;
+  }
+
+  .hero,
+  .summaryBlock,
+  .section,
+  .roleHeader,
+  .education {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .contactList a {
+    grid-template-columns: 68px minmax(0, 1fr);
+  }
+
+  .skillGrid,
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .roleHeader time,
+  .education time {
+    text-align: left;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .shell {
+    padding: 0;
+    background: #fff;
+    color: #000;
+  }
+
+  .printButton {
+    display: none;
+  }
+
+  .sheet {
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+    margin: 0;
+    padding: 10mm 11mm 9mm;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: none;
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .sheet:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  .hero {
+    padding-bottom: 9px;
+  }
+
+  .hero h1 {
+    font-size: 41px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .summaryBlock {
+    margin: 9px 0;
+    padding: 8px 0;
+  }
+
+  .summaryBlock p {
+    font-size: 10.7px;
+    line-height: 1.32;
+  }
+
+  .summaryBlock p:first-child {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .section {
+    grid-template-columns: 23mm minmax(0, 1fr);
+    gap: 8px;
+    padding: 6.5px 0;
+  }
+
+  .skillGrid {
+    gap: 6px 10px;
+  }
+
+  .skillGroup h2,
+  .projectGrid h2,
+  .education h2 {
+    font-size: 10.8px;
+  }
+
+  .skillGroup p,
+  .projectGrid p,
+  .education p {
+    font-size: 9.3px;
+    line-height: 1.25;
+  }
+
+  .projectGrid article {
+    padding: 6px;
+  }
+
+  .roles {
+    gap: 6.5px;
+  }
+
+  .roleHeader h3 {
+    font-size: 12.8px;
+  }
+
+  .roleHeader p {
+    font-size: 9.4px;
+  }
+
+  .roleHeader time,
+  .education time {
+    font-size: 8.8px;
+  }
+
+  .role ul,
+  .roleCompact ul {
+    margin-top: 3px;
+    padding-left: 12px;
+  }
+
+  .role li,
+  .roleCompact li {
+    margin-bottom: 2px;
+    font-size: 9.65px;
+    line-height: 1.25;
+  }
+
+  .roleCompact li {
+    font-size: 9.35px;
+  }
+
+  .continuationHeader {
+    padding-bottom: 9px;
+  }
+
+  .continuationHeader h2 {
+    font-size: 24px;
+  }
+
+  .sheet a {
+    color: #000;
+    text-decoration: none;
+  }
+}

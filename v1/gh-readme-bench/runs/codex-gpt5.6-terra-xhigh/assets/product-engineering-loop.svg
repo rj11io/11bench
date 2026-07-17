@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
+  <title id="title">The product engineering loop</title>
+  <desc id="desc">A four-part loop: understand the signal, shape the interface, ship the system, and make the work easier to extend. The center is labelled AI product engineering.</desc>
+  <rect width="1100" height="360" rx="28" fill="#0d1117"/>
+  <rect x="1" y="1" width="1098" height="358" rx="27" fill="none" stroke="#30363d" stroke-width="2"/>
+
+  <text x="68" y="68" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3">PRODUCT ENGINEERING, END TO END</text>
+  <text x="68" y="102" fill="#f0f6fc" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">A loop, not a hand-off</text>
+
+  <path d="M287 207H386" fill="none" stroke="#58a6ff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M376 197L388 207L376 217" fill="none" stroke="#58a6ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M718 207H817" fill="none" stroke="#58a6ff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M807 197L819 207L807 217" fill="none" stroke="#58a6ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M925 260C860 300 713 305 586 286" fill="none" stroke="#8b949e" stroke-width="2" stroke-dasharray="7 9" stroke-linecap="round"/>
+  <path d="M599 277L583 286L602 293" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M512 286C355 305 198 300 174 260" fill="none" stroke="#8b949e" stroke-width="2" stroke-dasharray="7 9" stroke-linecap="round"/>
+  <path d="M166 272L173 257L181 274" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="68" y="148" width="219" height="112" rx="18" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <circle cx="99" cy="180" r="10" fill="#58a6ff"/>
+    <text x="121" y="186" fill="#f0f6fc" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Understand the signal</text>
+    <text x="92" y="222" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="16">Data, domain, and the actual task</text>
+  </g>
+
+  <g>
+    <rect x="388" y="148" width="330" height="112" rx="18" fill="#1c2330" stroke="#58a6ff" stroke-width="2"/>
+    <text x="553" y="178" fill="#58a6ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2" text-anchor="middle">AI PRODUCT ENGINEERING</text>
+    <text x="553" y="210" fill="#f0f6fc" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Shape the interface</text>
+    <text x="553" y="236" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="middle">Make the signal legible and useful</text>
+  </g>
+
+  <g>
+    <rect x="819" y="148" width="213" height="112" rx="18" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <circle cx="850" cy="180" r="10" fill="#3fb950"/>
+    <text x="872" y="186" fill="#f0f6fc" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Ship the system</text>
+    <text x="843" y="222" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="16">Tests, CI/CD, and delivery</text>
+  </g>
+
+  <text x="68" y="318" fill="#f0f6fc" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Make it easier to extend</text>
+  <text x="68" y="342" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="15">Systems, playbooks, onboarding, and team foundations turn one delivery into the next loop.</text>
+</svg>

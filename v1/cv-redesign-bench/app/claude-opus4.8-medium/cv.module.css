@@ -1,0 +1,751 @@
+/* ============================================================
+   CV route — editorial modernism, scoped to this folder.
+   Screen: two-track editorial grid, theme-aware (light/dark).
+   Print:  single ATS-safe column, black-on-white, exactly 2 A4 pages.
+   ============================================================ */
+
+.root {
+  --accent: oklch(0.52 0.16 32); /* terracotta — AA on white for large text */
+  --rail-w: 8.5rem;
+  --content-max: 58rem;
+  --page-max: 60rem;
+
+  min-height: 100svh;
+  background: var(--background);
+  color: var(--foreground);
+  padding: clamp(1.25rem, 4vw, 4rem) clamp(1rem, 4vw, 3rem);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv05" 1, "ss01" 1;
+}
+
+:global(.dark) .root {
+  --accent: oklch(0.74 0.14 45);
+}
+
+.page {
+  margin: 0 auto;
+  max-width: var(--page-max);
+}
+
+/* ---------------- Header ---------------- */
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 1rem 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--foreground);
+}
+
+.identity {
+  min-width: 0;
+}
+
+.name {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: clamp(2.1rem, 6vw, 3.4rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.nick {
+  color: var(--muted-foreground);
+  font-weight: 400;
+  font-size: 0.5em;
+  letter-spacing: 0;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-style: italic;
+  color: var(--accent);
+  margin: 0.5rem 0 0;
+}
+
+.locus {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  color: var(--muted-foreground);
+  margin: 0.35rem 0 0;
+}
+
+.dot {
+  color: var(--accent);
+}
+
+.headerActions {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end;
+}
+
+.contact {
+  grid-column: 1 / -1;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.1rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+/* ---------------- Links ---------------- */
+.link,
+.orgLink {
+  color: var(--foreground);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: color-mix(in oklab, var(--accent) 60%, transparent);
+  text-decoration-thickness: 1px;
+  border-radius: 2px;
+}
+
+.link:hover,
+.orgLink:hover {
+  text-decoration-color: var(--accent);
+}
+
+.link:focus-visible,
+.orgLink:focus-visible,
+.project:focus-visible,
+.downloadBtn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---------------- Download button ---------------- */
+.downloadBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--foreground);
+  border-radius: 999px;
+  background: var(--foreground);
+  color: var(--background);
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+  white-space: nowrap;
+}
+
+.downloadBtn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.downloadIcon {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+/* ---------------- Section grid ---------------- */
+.section {
+  display: grid;
+  grid-template-columns: var(--rail-w) 1fr;
+  gap: 0 2.5rem;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.rail {
+  position: relative;
+}
+
+.railNum {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+.railLabel {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0.15rem 0 0;
+  letter-spacing: -0.01em;
+  position: sticky;
+  top: 1rem;
+}
+
+.body {
+  min-width: 0;
+  max-width: var(--content-max);
+}
+
+/* ---------------- Summary ---------------- */
+.para {
+  margin: 0 0 0.85rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: color-mix(in oklab, var(--foreground) 92%, transparent);
+}
+
+.para:last-of-type {
+  margin-bottom: 0;
+}
+
+.personality {
+  list-style: none;
+  margin: 1.1rem 0 0;
+  padding: 0.9rem 0 0;
+  border-top: 1px dashed var(--border);
+  display: grid;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--muted-foreground);
+}
+
+.personality li {
+  padding-left: 1rem;
+  position: relative;
+}
+
+.personality li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* ---------------- Skills ---------------- */
+.skills {
+  margin: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.skillRow {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  gap: 0.4rem 1rem;
+  align-items: baseline;
+}
+
+.skillLabel {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted-foreground);
+}
+
+.skillItems {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.4rem;
+}
+
+.tag {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  padding: 0.18rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--card);
+  color: color-mix(in oklab, var(--foreground) 88%, transparent);
+  white-space: nowrap;
+}
+
+/* ---------------- Experience ---------------- */
+.entries {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.entry {
+  break-inside: avoid;
+}
+
+.entryHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.entryRole {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.entryPeriod {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--muted-foreground);
+  white-space: nowrap;
+}
+
+.entryOrg {
+  margin: 0.15rem 0 0.5rem;
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: color-mix(in oklab, var(--foreground) 90%, transparent);
+}
+
+.entryMeta {
+  font-weight: 400;
+  color: var(--muted-foreground);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+}
+
+.bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.bullets li {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: color-mix(in oklab, var(--foreground) 90%, transparent);
+}
+
+.bullets li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ---------------- Earlier ---------------- */
+.earlierBlock {
+  break-inside: avoid;
+}
+
+.earlierLabel {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted-foreground);
+  margin: 0 0 0.5rem;
+}
+
+.earlierList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.earlierItem {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+  break-inside: avoid;
+}
+
+.earlierRole {
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.earlierOrg {
+  color: color-mix(in oklab, var(--foreground) 85%, transparent);
+  font-weight: 500;
+}
+
+.earlierPeriod {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+/* ---------------- Projects ---------------- */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card);
+  text-decoration: none;
+  color: var(--foreground);
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease;
+  break-inside: avoid;
+}
+
+.project:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.projectHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.projectName {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.projectPeriod {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--muted-foreground);
+}
+
+.projectDomain {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--accent);
+}
+
+.projectDesc {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--muted-foreground);
+  margin-top: 0.15rem;
+}
+
+/* ---------------- Education ---------------- */
+.eduNote {
+  margin: 0.15rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-style: normal;
+  color: var(--muted-foreground);
+}
+
+/* ---------------- Footer ---------------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  margin-top: 0.5rem;
+  border-top: 2px solid var(--foreground);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--muted-foreground);
+}
+
+.footerLink {
+  color: var(--accent);
+}
+
+.pageBreak {
+  display: none;
+}
+
+/* ============================================================
+   Responsive — mobile (single column)
+   ============================================================ */
+@media (max-width: 720px) {
+  .section {
+    grid-template-columns: 1fr;
+    gap: 0.75rem 0;
+    padding: 1.4rem 0;
+  }
+
+  .rail {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+  }
+
+  .railNum {
+    font-size: 0.72rem;
+  }
+
+  .railLabel {
+    position: static;
+    font-size: 1.15rem;
+  }
+
+  .skillRow {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    grid-template-columns: 1fr;
+  }
+
+  .headerActions {
+    grid-column: 1;
+    grid-row: auto;
+    justify-self: start;
+  }
+}
+
+/* ============================================================
+   PRINT — exactly two A4 pages, black-on-white, ATS-safe.
+   ============================================================ */
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+
+  /* Force a clean light rendering regardless of screen theme. */
+  .root {
+    --accent: #7a2e17;
+    background: #fff !important;
+    color: #000 !important;
+    min-height: 0;
+    padding: 0;
+    font-size: 10pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .page {
+    max-width: none;
+  }
+
+  /* Hide screen-only chrome. */
+  .headerActions {
+    display: none !important;
+  }
+
+  /* Collapse the two-track grid into one linear column. */
+  .section {
+    display: block;
+    padding: 6pt 0;
+    border-bottom: 0.5pt solid #bbb;
+    break-inside: auto;
+  }
+
+  .header {
+    border-bottom: 1.5pt solid #000;
+    padding-bottom: 6pt;
+  }
+
+  .footer {
+    border-top: 1.5pt solid #000;
+    padding-top: 6pt;
+  }
+
+  .name {
+    font-size: 20pt;
+    color: #000;
+  }
+
+  .nick,
+  .locus,
+  .entryPeriod,
+  .entryMeta,
+  .earlierPeriod,
+  .projectPeriod,
+  .skillLabel,
+  .earlierLabel,
+  .footer {
+    color: #444 !important;
+  }
+
+  .title {
+    color: #7a2e17 !important;
+    font-size: 12pt;
+  }
+
+  .contact {
+    font-size: 8.5pt;
+    margin-top: 6pt;
+  }
+
+  /* Section label becomes an inline heading above the content. */
+  .rail {
+    display: flex;
+    align-items: baseline;
+    gap: 6pt;
+    margin-bottom: 4pt;
+  }
+
+  .railNum {
+    color: #7a2e17;
+    font-size: 8pt;
+  }
+
+  .railLabel {
+    position: static;
+    font-size: 12pt;
+  }
+
+  .body {
+    max-width: none;
+  }
+
+  .para {
+    font-size: 9.2pt;
+    line-height: 1.32;
+    margin-bottom: 4pt;
+    color: #111;
+  }
+
+  .personality {
+    margin-top: 5pt;
+    padding-top: 5pt;
+    font-size: 8.3pt;
+    gap: 2pt;
+    color: #333;
+  }
+
+  .personality li::before,
+  .bullets li::before,
+  .dot,
+  .projectDomain,
+  .footerLink {
+    color: #7a2e17 !important;
+  }
+
+  .skills {
+    gap: 3pt;
+  }
+
+  .tag {
+    font-size: 8.5pt;
+    padding: 1pt 4pt;
+    border: 0.5pt solid #999;
+    background: #fff;
+    color: #111;
+  }
+
+  /* Block flow so forced page breaks on children are honoured. */
+  .entries {
+    display: block;
+  }
+
+  .entry {
+    margin-bottom: 7pt;
+  }
+
+  .earlierBlock {
+    margin-top: 7pt;
+  }
+
+  .entry,
+  .earlierItem,
+  .earlierBlock,
+  .project {
+    break-inside: avoid;
+  }
+
+  .entryRole {
+    font-size: 10pt;
+    color: #000;
+  }
+
+  .entryOrg {
+    font-size: 8.6pt;
+    margin-bottom: 2pt;
+    color: #111;
+  }
+
+  .bullets {
+    gap: 1.5pt;
+  }
+
+  .bullets li {
+    font-size: 8.8pt;
+    line-height: 1.3;
+    color: #111;
+  }
+
+  .bullets li::before {
+    background: #7a2e17;
+  }
+
+  .earlierList {
+    gap: 3pt;
+  }
+
+  .earlierItem {
+    font-size: 8.5pt;
+    line-height: 1.35;
+    color: #222;
+  }
+
+  .earlierRole,
+  .earlierOrg {
+    color: #000;
+  }
+
+  .projects {
+    gap: 6pt;
+  }
+
+  .project {
+    padding: 6pt;
+    border: 0.5pt solid #999;
+  }
+
+  .projectName {
+    font-size: 9.5pt;
+  }
+
+  .projectDesc {
+    font-size: 8pt;
+    color: #333;
+  }
+
+  .link,
+  .orgLink {
+    color: #000 !important;
+    text-decoration: underline;
+    text-decoration-color: #7a2e17;
+  }
+
+  /* Deliberate page-one / page-two boundary. */
+  .pageBreak {
+    display: block;
+    break-before: page;
+    height: 0;
+  }
+
+  /* Prevent an empty trailing page. */
+  .footer {
+    break-before: avoid;
+  }
+}

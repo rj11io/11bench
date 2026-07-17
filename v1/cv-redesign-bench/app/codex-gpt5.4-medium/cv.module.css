@@ -1,0 +1,625 @@
+.stage {
+  --paper: #f5f0e8;
+  --paper-strong: #fffdf8;
+  --ink: #1f1c19;
+  --muted: #5f5850;
+  --rule: rgba(53, 42, 32, 0.16);
+  --accent: #b65c2a;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(233, 174, 129, 0.18), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(133, 110, 89, 0.12), transparent 24%),
+    linear-gradient(180deg, #e8dfd0 0%, #f5f0e8 26%, #efe8dc 100%);
+  color: var(--ink);
+  font-family: var(--cv-font-body), sans-serif;
+  padding: 2rem 1rem 4rem;
+  overflow-x: clip;
+}
+
+.toolbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 74rem;
+  margin: 0 auto 1.5rem;
+}
+
+.toolbarTitle,
+.name,
+.pageHeading,
+.roleTitle,
+.educationTitle,
+.skillTitle,
+.projectName {
+  font-family: var(--cv-font-display), serif;
+}
+
+.toolbarTitle {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 0.95;
+  margin: 0.15rem 0 0;
+}
+
+.toolbarNote,
+.sectionCaption,
+.roleMeta,
+.rolePeriod,
+.projectPeriod,
+.educationMeta,
+.educationDetail,
+.sheetTopbar,
+.linkList {
+  color: var(--muted);
+}
+
+.toolbarNote,
+.summary,
+.roleSummary,
+.roleCard li,
+.roleCompact li,
+.projectBody,
+.skillBody,
+.educationDetail,
+.secondaryCopy,
+.miniList li {
+  line-height: 1.45;
+}
+
+.kicker,
+.sectionLabel {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+  color: var(--accent);
+}
+
+.toolbarNote {
+  margin: 0.45rem 0 0;
+  max-width: 42rem;
+}
+
+.printButton {
+  appearance: none;
+  border: 1px solid rgba(31, 28, 25, 0.14);
+  background: rgba(255, 253, 248, 0.82);
+  backdrop-filter: blur(12px);
+  border-radius: 999px;
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  padding: 0.85rem 1.2rem;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease;
+}
+
+.printButton:hover,
+.printButton:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(36, 26, 18, 0.14);
+  background: var(--paper-strong);
+}
+
+.sheetStack {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 74rem;
+  margin: 0 auto;
+}
+
+.sheet {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.85), rgba(255, 253, 248, 0.98)),
+    var(--paper-strong);
+  border: 1px solid rgba(31, 28, 25, 0.08);
+  box-shadow:
+    0 24px 70px rgba(53, 42, 32, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+.stage :global(*) {
+  box-sizing: border-box;
+}
+
+.sheet::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, transparent 0, rgba(182, 92, 42, 0.035) 18%, transparent 36%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.4), transparent 14%);
+  pointer-events: none;
+}
+
+.sheetTopbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  align-items: center;
+  font-size: 0.82rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--rule);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.hero {
+  display: grid;
+  gap: 1rem;
+  padding: 1.1rem 0 1rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.name {
+  margin: 0.15rem 0 0;
+  font-size: clamp(2.6rem, 7vw, 4.8rem);
+  line-height: 0.9;
+  max-width: 10ch;
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+  font-size: 0.94rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.link {
+  color: inherit;
+  text-decoration-color: rgba(182, 92, 42, 0.45);
+  text-underline-offset: 0.16em;
+}
+
+.leadGrid,
+.dualSection,
+.bottomGrid {
+  display: grid;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.hero,
+.leadGrid,
+.dualSection,
+.bottomGrid,
+.projectGrid,
+.skillGrid,
+.roleStack,
+.roleStackCompact,
+.leadCopy,
+.sidePanel,
+.educationBlock {
+  min-width: 0;
+}
+
+.summary {
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.38;
+  margin: 0;
+  max-width: 34rem;
+}
+
+.leadCopy {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.evidenceStrip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.evidenceStrip span,
+.tagList li {
+  border: 1px solid rgba(31, 28, 25, 0.08);
+  background: rgba(255, 253, 248, 0.76);
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.8rem;
+}
+
+.sidePanel,
+.educationBlock {
+  border-left: 2px solid rgba(182, 92, 42, 0.18);
+  padding-left: 1rem;
+}
+
+.miniList,
+.tagList,
+.bulletList {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.miniList {
+  margin-top: 0.55rem;
+}
+
+.projectGrid,
+.skillGrid,
+.roleStack,
+.roleStackCompact {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.projectCard,
+.roleCard,
+.roleCompact,
+.skillCard {
+  break-inside: avoid;
+  border: 1px solid rgba(31, 28, 25, 0.08);
+  background: rgba(255, 252, 245, 0.84);
+  border-radius: 1rem;
+  padding: 0.85rem 0.95rem;
+}
+
+.projectHeader,
+.roleHeader,
+.sectionHeadingRow {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.projectName {
+  font-size: 1.1rem;
+  color: var(--ink);
+}
+
+.projectPeriod {
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.projectBody,
+.roleSummary,
+.educationDetail {
+  margin: 0.35rem 0 0;
+}
+
+.sectionBlock,
+.secondaryIntro {
+  padding-top: 1rem;
+}
+
+.sectionHeadingRow {
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.sectionCaption {
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+.roleTitle {
+  margin: 0;
+  font-size: 1.14rem;
+  line-height: 1.05;
+}
+
+.roleMeta,
+.rolePeriod,
+.roleSummary,
+.secondaryCopy,
+.skillBody,
+.projectBody {
+  font-size: 0.93rem;
+  overflow-wrap: anywhere;
+}
+
+.roleMeta,
+.educationMeta {
+  margin: 0.22rem 0 0;
+}
+
+.rolePeriod,
+.educationMeta {
+  white-space: nowrap;
+}
+
+.bulletList {
+  margin-top: 0.5rem;
+}
+
+.bulletList li + li {
+  margin-top: 0.28rem;
+}
+
+.secondaryIntro {
+  display: grid;
+  gap: 0.8rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.9rem;
+}
+
+.pageHeading {
+  margin: 0.25rem 0 0;
+  font-size: clamp(1.6rem, 3vw, 2.45rem);
+  line-height: 1.02;
+  max-width: 14ch;
+}
+
+.secondaryCopy {
+  margin: 0;
+  max-width: 38rem;
+}
+
+.roleStackCompact {
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.roleCompact .roleTitle {
+  font-size: 1rem;
+}
+
+.skillCard {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.skillTitle {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.skillBody {
+  margin: 0;
+}
+
+.educationTitle {
+  margin: 0.35rem 0 0;
+  font-size: 1.14rem;
+}
+
+.educationDetail {
+  max-width: 28rem;
+}
+
+@media (min-width: 720px) {
+  .sheet {
+    padding: 1.8rem;
+  }
+
+  .hero,
+  .leadGrid,
+  .dualSection,
+  .bottomGrid {
+    grid-template-columns: 1.4fr 1fr;
+  }
+
+  .hero {
+    align-items: end;
+  }
+
+  .projectGrid,
+  .skillGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 719px) {
+  .toolbar {
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .printButton {
+    width: 100%;
+  }
+
+  .toolbarTitle {
+    max-width: 100%;
+  }
+
+  .sheetStack,
+  .sheet {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .roleHeader,
+  .projectHeader,
+  .sectionHeadingRow {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .rolePeriod,
+  .educationMeta {
+    white-space: normal;
+  }
+
+  .sheetTopbar,
+  .linkList,
+  .roleMeta {
+    font-size: 0.88rem;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  .stage {
+    background: #fff;
+    color: #111;
+    padding: 0;
+  }
+
+  .toolbar {
+    display: none !important;
+  }
+
+  .sheetStack {
+    gap: 0;
+    margin: 0;
+    max-width: none;
+  }
+
+  .sheet {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0;
+    padding: 11mm 12mm 10mm;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: #fff;
+    break-inside: avoid;
+    overflow: hidden;
+  }
+
+  .sheet::before {
+    display: none;
+  }
+
+  .sheet:first-child {
+    break-after: page;
+  }
+
+  .sheetTopbar,
+  .toolbarNote,
+  .sectionCaption,
+  .projectPeriod,
+  .roleMeta,
+  .rolePeriod,
+  .educationMeta,
+  .educationDetail,
+  .secondaryCopy {
+    color: #3d3d3d;
+  }
+
+  .name {
+    font-size: 28pt;
+    max-width: none;
+  }
+
+  .summary {
+    font-size: 10.2pt;
+    line-height: 1.35;
+    max-width: none;
+  }
+
+  .pageHeading {
+    font-size: 18pt;
+    max-width: 14ch;
+  }
+
+  .sheetTopbar,
+  .projectPeriod,
+  .sectionLabel,
+  .sectionCaption {
+    font-size: 7.2pt;
+  }
+
+  .linkList,
+  .roleMeta,
+  .rolePeriod,
+  .roleSummary,
+  .projectBody,
+  .skillBody,
+  .educationMeta,
+  .educationDetail,
+  .secondaryCopy,
+  .bulletList,
+  .miniList {
+    font-size: 8.15pt;
+  }
+
+  .roleTitle,
+  .educationTitle,
+  .projectName,
+  .skillTitle {
+    font-size: 10.4pt;
+  }
+
+  .hero,
+  .leadGrid,
+  .dualSection,
+  .bottomGrid {
+    gap: 6mm;
+  }
+
+  .hero {
+    padding: 6mm 0 5mm;
+  }
+
+  .leadGrid,
+  .dualSection,
+  .sectionBlock,
+  .secondaryIntro,
+  .bottomGrid {
+    padding-top: 5mm;
+  }
+
+  .projectGrid,
+  .skillGrid,
+  .roleStack,
+  .roleStackCompact {
+    gap: 3mm;
+  }
+
+  .roleCard,
+  .roleCompact,
+  .projectCard,
+  .skillCard {
+    padding: 3mm 3.4mm;
+    background: #fff;
+    border-color: rgba(0, 0, 0, 0.11);
+    border-radius: 4mm;
+  }
+
+  .bulletList {
+    margin-top: 1.6mm;
+    padding-left: 3.8mm;
+  }
+
+  .bulletList li + li {
+    margin-top: 1mm;
+  }
+
+  .roleSummary,
+  .projectBody,
+  .educationDetail {
+    margin-top: 1.2mm;
+  }
+
+  .evidenceStrip span,
+  .tagList li {
+    background: #fff;
+    font-size: 7.4pt;
+    padding: 1.2mm 2.4mm;
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sidePanel,
+  .educationBlock {
+    padding-left: 4mm;
+  }
+
+  .link {
+    color: inherit;
+  }
+}

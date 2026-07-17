@@ -1,0 +1,30 @@
+/* Route-local styles for the Glidepath demo.
+   Data-viz palette lives in lib/theme.ts (charts read resolved hex values);
+   this module carries layout helpers that Tailwind utilities don't cover. */
+
+.root {
+  min-height: 100svh;
+}
+
+/* Horizontal scroll areas (mobile nav, wide tables) hide scrollbars but stay scrollable. */
+.scrollRow {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollRow::-webkit-scrollbar {
+  display: none;
+}
+
+/* Tabular figures for anything numeric that must align. */
+.nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .root *,
+  .root *::before,
+  .root *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

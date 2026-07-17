@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-labelledby="title desc">
+  <title id="title">RJ's product-engineering signal</title>
+  <desc id="desc">A simple static diagram: AI systems, product interfaces, and data visualization meet at the point of shipped work.</desc>
+  <style>
+    .bg{fill:#f6f8fa}.line{stroke:#57606a;stroke-width:2}.node{fill:#fff;stroke:#d0d7de;stroke-width:2}.core{fill:#ddf4ff;stroke:#0969da;stroke-width:2}.t{fill:#24292f;font:600 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.s{fill:#57606a;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    @media (prefers-color-scheme: dark){.bg{fill:#0d1117}.line{stroke:#8b949e}.node{fill:#161b22;stroke:#30363d}.core{fill:#0c2d6b;stroke:#58a6ff}.t{fill:#f0f6fc}.s{fill:#8b949e}}
+  </style>
+  <rect class="bg" width="960" height="220" rx="16"/>
+  <path class="line" d="M245 110H367M593 110H715"/>
+  <path class="line" d="M480 57V34M480 163v23"/>
+  <circle cx="480" cy="110" r="57" class="core"/>
+  <text x="480" y="105" text-anchor="middle" class="t">shipped work</text>
+  <text x="480" y="128" text-anchor="middle" class="s">the useful intersection</text>
+  <rect x="35" y="72" width="210" height="76" rx="12" class="node"/>
+  <text x="140" y="102" text-anchor="middle" class="t">AI systems</text>
+  <text x="140" y="126" text-anchor="middle" class="s">agents · skills · workflows</text>
+  <rect x="715" y="72" width="210" height="76" rx="12" class="node"/>
+  <text x="820" y="102" text-anchor="middle" class="t">product interfaces</text>
+  <text x="820" y="126" text-anchor="middle" class="s">TypeScript · React · Next.js</text>
+  <text x="480" y="25" text-anchor="middle" class="s">data visualisation</text>
+  <text x="480" y="207" text-anchor="middle" class="s">architecture · delivery · teams</text>
+</svg>

@@ -1,0 +1,938 @@
+.scope {
+  min-height: 100vh;
+  color: #171717;
+  background:
+    radial-gradient(circle at top left, rgba(122, 110, 94, 0.12), transparent 28%),
+    radial-gradient(circle at 85% 10%, rgba(27, 78, 74, 0.08), transparent 18%),
+    linear-gradient(180deg, #f4efe7 0%, #f7f4ee 38%, #efe9df 100%);
+  font-family: var(--cv-sans), var(--font-sans), system-ui, sans-serif;
+  color-scheme: light;
+}
+
+.shell {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+.brand {
+  min-width: 0;
+}
+
+.kicker {
+  margin: 0 0 8px;
+  color: rgba(23, 23, 23, 0.72);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--cv-serif), Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 4.2vw, 4.4rem);
+  font-weight: 600;
+  line-height: 0.94;
+  letter-spacing: -0.04em;
+}
+
+.subtitleRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-top: 12px;
+  color: rgba(23, 23, 23, 0.75);
+  font-size: 0.92rem;
+}
+
+.subtitleRow a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(23, 23, 23, 0.28);
+  text-underline-offset: 0.18em;
+}
+
+.toolbarActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.archive {
+  color: rgba(23, 23, 23, 0.68);
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+.pages {
+  display: grid;
+  gap: 22px;
+}
+
+.page {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(23, 23, 23, 0.08);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 20px 60px rgba(22, 24, 28, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(23, 23, 23, 0.03), transparent 14%, transparent 86%, rgba(23, 23, 23, 0.03)),
+    linear-gradient(180deg, rgba(23, 23, 23, 0.01), transparent 10%);
+}
+
+.pageInner {
+  position: relative;
+  padding: 28px 30px 30px;
+}
+
+.pageHeader {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px 20px;
+  align-items: start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.12);
+}
+
+.pageName {
+  margin: 0;
+  font-family: var(--cv-serif), Georgia, "Times New Roman", serif;
+  font-size: clamp(1.9rem, 3vw, 3.1rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
+}
+
+.pageRole {
+  margin: 6px 0 0;
+  color: rgba(23, 23, 23, 0.74);
+  font-size: 0.96rem;
+  font-style: italic;
+}
+
+.pageMeta {
+  display: grid;
+  justify-items: end;
+  gap: 8px;
+  text-align: right;
+}
+
+.pageMetaNote {
+  margin: 0;
+  color: rgba(23, 23, 23, 0.62);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.pageContact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px 12px;
+  font-size: 0.84rem;
+}
+
+.pageContact a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(23, 23, 23, 0.24);
+  text-underline-offset: 0.16em;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 16px 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.12);
+}
+
+.section:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.sectionLabel {
+  margin: 0;
+  color: rgba(23, 23, 23, 0.72);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.sectionBody {
+  min-width: 0;
+}
+
+.summary {
+  display: grid;
+  gap: 14px;
+}
+
+.summary p {
+  margin: 0;
+  max-width: 68ch;
+  font-size: 1rem;
+  line-height: 1.62;
+}
+
+.skillGroups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 20px;
+}
+
+.skillGroup {
+  display: grid;
+  gap: 6px;
+}
+
+.skillGroup h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.chip {
+  padding: 0.38rem 0.58rem;
+  border: 1px solid rgba(23, 23, 23, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 0.82rem;
+  line-height: 1;
+}
+
+.projectList {
+  display: grid;
+  gap: 10px;
+}
+
+.projectItem {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 6px 14px;
+  align-items: baseline;
+}
+
+.projectMain {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: baseline;
+  min-width: 0;
+}
+
+.projectName {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.projectDescription {
+  color: rgba(23, 23, 23, 0.84);
+}
+
+.projectDates {
+  color: rgba(23, 23, 23, 0.62);
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
+.experienceList {
+  display: grid;
+  gap: 18px;
+}
+
+.experienceItem {
+  display: grid;
+  gap: 10px;
+}
+
+.experienceHead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px 16px;
+  align-items: baseline;
+}
+
+.experienceTitle {
+  margin: 0;
+  font-size: 1.06rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.experienceCompany {
+  margin: 3px 0 0;
+  color: rgba(23, 23, 23, 0.72);
+  font-size: 0.92rem;
+}
+
+.experienceDates {
+  color: rgba(23, 23, 23, 0.62);
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
+.experienceBullets {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 8px;
+}
+
+.experienceBullets li {
+  line-height: 1.58;
+}
+
+.educationList {
+  display: grid;
+  gap: 12px;
+}
+
+.educationItem {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px 16px;
+  align-items: baseline;
+}
+
+.educationSchool {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.educationDetail {
+  margin: 4px 0 0;
+  color: rgba(23, 23, 23, 0.78);
+  font-size: 0.92rem;
+}
+
+.educationDates {
+  color: rgba(23, 23, 23, 0.62);
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
+.notes {
+  margin-top: 20px;
+  padding: 18px 0 0;
+  border-top: 1px solid rgba(23, 23, 23, 0.12);
+  color: rgba(23, 23, 23, 0.68);
+  font-size: 0.82rem;
+  line-height: 1.58;
+}
+
+.notes strong {
+  color: rgba(23, 23, 23, 0.9);
+}
+
+@media (max-width: 900px) {
+  .toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .toolbarActions {
+    align-items: flex-start;
+  }
+
+  .pageInner {
+    padding: 22px 18px 22px;
+  }
+
+  .pageHeader {
+    grid-template-columns: 1fr;
+  }
+
+  .pageMeta {
+    justify-items: start;
+    text-align: left;
+  }
+
+  .pageContact {
+    justify-content: flex-start;
+  }
+
+  .section {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .skillGroups {
+    grid-template-columns: 1fr;
+  }
+
+  .projectItem,
+  .experienceHead,
+  .educationItem {
+    grid-template-columns: 1fr;
+  }
+
+  .projectDates,
+  .experienceDates,
+  .educationDates {
+    white-space: normal;
+  }
+}
+
+@media print {
+  .scope {
+    min-height: auto;
+    background: #fff !important;
+    color: #000 !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .shell {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .pages {
+    gap: 0;
+  }
+
+  .page {
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: #fff;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+
+  .page::before {
+    content: none;
+  }
+
+  .pageInner {
+    padding: 0;
+  }
+
+  .page:not(:last-child) {
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .pageHeader {
+    padding-bottom: 3.5mm;
+    border-bottom-color: rgba(0, 0, 0, 0.12);
+  }
+
+  .pageName {
+    font-size: 20.5pt;
+    line-height: 0.96;
+  }
+
+  .pageRole {
+    margin-top: 1.5mm;
+    font-size: 7.6pt;
+  }
+
+  .pageMetaNote {
+    font-size: 6.2pt;
+  }
+
+  .pageContact {
+    gap: 1.1mm 2.6mm;
+    font-size: 6.5pt;
+    line-height: 1.18;
+  }
+
+  .section {
+    grid-template-columns: 7rem minmax(0, 1fr);
+    gap: 3mm 4.5mm;
+    padding: 3mm 0;
+  }
+
+  .pageName,
+  .title {
+    color: #000;
+  }
+
+  .pageRole,
+  .kicker,
+  .sectionLabel,
+  .pageMetaNote,
+  .subtitleRow,
+  .subtitleRow a,
+  .projectDates,
+  .experienceDates,
+  .educationDates,
+  .educationDetail,
+  .notes {
+    color: #000;
+  }
+
+  .page:nth-child(2) .pageContact {
+    display: none;
+  }
+
+  .page:nth-child(2) .pageMetaNote {
+    font-size: 6.5pt;
+  }
+
+  .experienceList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3.5mm 5mm;
+  }
+
+  .experienceItem {
+    display: grid;
+    gap: 2mm;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .experienceHead {
+    gap: 2mm 4mm;
+  }
+
+  .experienceTitle {
+    margin: 0;
+    font-size: 8.8pt;
+    line-height: 1.18;
+  }
+
+  .experienceCompany,
+  .experienceDates {
+    font-size: 6.8pt;
+  }
+
+  .experienceBullets {
+    gap: 1mm;
+    padding-left: 1rem;
+  }
+
+  .experienceBullets li {
+    font-size: 7.1pt;
+    line-height: 1.14;
+  }
+
+  .summary {
+    gap: 2.5mm;
+  }
+
+  .summary p {
+    max-width: none;
+    font-size: 8.4pt;
+    line-height: 1.24;
+  }
+
+  .skillGroups {
+    gap: 2.4mm 4.5mm;
+  }
+
+  .skillGroup h3 {
+    font-size: 7.8pt;
+  }
+
+  .chips {
+    gap: 1.2mm;
+  }
+
+  .chip {
+    padding: 0.22rem 0.42rem;
+    font-size: 6.4pt;
+  }
+
+  .projectList {
+    gap: 1.8mm;
+  }
+
+  .projectItem {
+    gap: 1mm 3.2mm;
+  }
+
+  .projectMain {
+    gap: 1.2mm 2mm;
+  }
+
+  .projectName {
+    font-size: 7.6pt;
+  }
+
+  .projectDescription {
+    font-size: 7.1pt;
+    line-height: 1.18;
+  }
+
+  .projectDates {
+    font-size: 6.5pt;
+  }
+
+  .educationList {
+    gap: 2mm;
+  }
+
+  .educationSchool {
+    font-size: 8.6pt;
+  }
+
+  .educationDetail,
+  .educationDates {
+    font-size: 6.8pt;
+  }
+
+  .notes {
+    display: none;
+  }
+
+  .subtitleRow a,
+  .pageContact a,
+  .projectName {
+    text-decoration-color: #000;
+  }
+
+  .page,
+  .section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  @page {
+    size: A4;
+    margin: 11mm 12mm 12mm;
+  }
+}
+
+:global(html[data-cv-print="true"]) .toolbar {
+  display: none;
+}
+
+:global(html[data-cv-print="true"]) .pages {
+  gap: 0;
+}
+
+:global(html[data-cv-print="true"]) .page {
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+:global(html[data-cv-print="true"]) .page::before {
+  content: none;
+}
+
+:global(html[data-cv-print="true"]) .pageInner {
+  padding: 0;
+}
+
+:global(html[data-cv-print="true"]) .page:not(:last-child) {
+  break-after: page;
+  page-break-after: always;
+}
+
+:global(html[data-cv-print="true"]) .pageHeader {
+  padding-bottom: 5mm;
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+}
+
+:global(html[data-cv-print="true"]) .pageName,
+:global(html[data-cv-print="true"]) .title,
+:global(html[data-cv-print="true"]) .pageRole,
+:global(html[data-cv-print="true"]) .kicker,
+:global(html[data-cv-print="true"]) .sectionLabel,
+:global(html[data-cv-print="true"]) .pageMetaNote,
+:global(html[data-cv-print="true"]) .subtitleRow,
+:global(html[data-cv-print="true"]) .subtitleRow a,
+:global(html[data-cv-print="true"]) .projectDates,
+:global(html[data-cv-print="true"]) .experienceDates,
+:global(html[data-cv-print="true"]) .educationDates,
+:global(html[data-cv-print="true"]) .educationDetail {
+  color: #000;
+}
+
+:global(html[data-cv-print="true"]) .page:nth-child(2) .pageContact {
+  display: none;
+}
+
+:global(html[data-cv-print="true"]) .page:nth-child(2) .pageMetaNote {
+  font-size: 6.5pt;
+}
+
+:global(html[data-cv-print="true"]) .subtitleRow a,
+:global(html[data-cv-print="true"]) .pageContact a,
+:global(html[data-cv-print="true"]) .projectName {
+  text-decoration-color: #000;
+}
+
+:global(html[data-cv-print="true"]) .experienceList {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4mm 6mm;
+}
+
+:global(html[data-cv-print="true"]) .experienceItem {
+  display: grid;
+  gap: 2mm;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+:global(html[data-cv-print="true"]) .experienceHead {
+  gap: 2mm 4mm;
+}
+
+:global(html[data-cv-print="true"]) .experienceTitle {
+  margin: 0;
+  font-size: 9.6pt;
+  line-height: 1.18;
+}
+
+:global(html[data-cv-print="true"]) .experienceCompany,
+:global(html[data-cv-print="true"]) .experienceDates {
+  font-size: 7.1pt;
+}
+
+:global(html[data-cv-print="true"]) .experienceBullets {
+  gap: 1.4mm;
+  padding-left: 1rem;
+}
+
+:global(html[data-cv-print="true"]) .experienceBullets li {
+  font-size: 7.9pt;
+  line-height: 1.18;
+}
+
+:global(html[data-cv-print="true"]) .notes {
+  display: none;
+}
+
+.scope[data-cv-print="true"] .toolbar {
+  display: none;
+}
+
+.scope[data-cv-print="true"] .pages {
+  gap: 0;
+}
+
+.scope[data-cv-print="true"] .page {
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.scope[data-cv-print="true"] .page::before {
+  content: none;
+}
+
+.scope[data-cv-print="true"] .pageInner {
+  padding: 0;
+}
+
+.scope[data-cv-print="true"] .page:not(:last-child) {
+  break-after: page;
+  page-break-after: always;
+}
+
+.scope[data-cv-print="true"] .pageHeader {
+  padding-bottom: 3.5mm;
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+}
+
+.scope[data-cv-print="true"] .pageName {
+  font-size: 20.5pt;
+  line-height: 0.96;
+}
+
+.scope[data-cv-print="true"] .pageRole {
+  margin-top: 1.5mm;
+  font-size: 7.6pt;
+}
+
+.scope[data-cv-print="true"] .pageMetaNote {
+  font-size: 6.2pt;
+}
+
+.scope[data-cv-print="true"] .pageContact {
+  gap: 1.1mm 2.6mm;
+  font-size: 6.5pt;
+  line-height: 1.18;
+}
+
+.scope[data-cv-print="true"] .section {
+  grid-template-columns: 7rem minmax(0, 1fr);
+  gap: 3mm 4.5mm;
+  padding: 3mm 0;
+}
+
+.scope[data-cv-print="true"] .pageName,
+.scope[data-cv-print="true"] .title,
+.scope[data-cv-print="true"] .pageRole,
+.scope[data-cv-print="true"] .kicker,
+.scope[data-cv-print="true"] .sectionLabel,
+.scope[data-cv-print="true"] .pageMetaNote,
+.scope[data-cv-print="true"] .subtitleRow,
+.scope[data-cv-print="true"] .subtitleRow a,
+.scope[data-cv-print="true"] .projectDates,
+.scope[data-cv-print="true"] .experienceDates,
+.scope[data-cv-print="true"] .educationDates,
+.scope[data-cv-print="true"] .educationDetail {
+  color: #000;
+}
+
+.scope[data-cv-print="true"] .page:nth-child(2) .pageContact {
+  display: none;
+}
+
+.scope[data-cv-print="true"] .page:nth-child(2) .pageMetaNote {
+  font-size: 6.5pt;
+}
+
+.scope[data-cv-print="true"] .subtitleRow a,
+.scope[data-cv-print="true"] .pageContact a,
+.scope[data-cv-print="true"] .projectName {
+  text-decoration-color: #000;
+}
+
+.scope[data-cv-print="true"] .experienceList {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5mm 4mm;
+}
+
+.scope[data-cv-print="true"] .experienceItem {
+  display: grid;
+  gap: 1.4mm;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.scope[data-cv-print="true"] .experienceHead {
+  gap: 1.4mm 3mm;
+}
+
+.scope[data-cv-print="true"] .experienceTitle {
+  margin: 0;
+  font-size: 8.1pt;
+  line-height: 1.12;
+}
+
+.scope[data-cv-print="true"] .experienceCompany,
+.scope[data-cv-print="true"] .experienceDates {
+  font-size: 6.1pt;
+}
+
+.scope[data-cv-print="true"] .experienceBullets {
+  gap: 0.9mm;
+  padding-left: 1rem;
+}
+
+.scope[data-cv-print="true"] .experienceBullets li {
+  font-size: 6.5pt;
+  line-height: 1.08;
+}
+
+.scope[data-cv-print="true"] .summary {
+  gap: 2.5mm;
+}
+
+.scope[data-cv-print="true"] .summary p {
+  max-width: none;
+  font-size: 8.4pt;
+  line-height: 1.24;
+}
+
+.scope[data-cv-print="true"] .skillGroups {
+  gap: 2.4mm 4.5mm;
+}
+
+.scope[data-cv-print="true"] .skillGroup h3 {
+  font-size: 7.8pt;
+}
+
+.scope[data-cv-print="true"] .chips {
+  gap: 1.2mm;
+}
+
+.scope[data-cv-print="true"] .chip {
+  padding: 0.22rem 0.42rem;
+  font-size: 6.4pt;
+}
+
+.scope[data-cv-print="true"] .projectList {
+  gap: 1.8mm;
+}
+
+.scope[data-cv-print="true"] .projectItem {
+  gap: 1mm 3.2mm;
+}
+
+.scope[data-cv-print="true"] .projectMain {
+  gap: 1.2mm 2mm;
+}
+
+.scope[data-cv-print="true"] .projectName {
+  font-size: 7.6pt;
+}
+
+.scope[data-cv-print="true"] .projectDescription {
+  font-size: 7.1pt;
+  line-height: 1.18;
+}
+
+.scope[data-cv-print="true"] .projectDates {
+  font-size: 6.5pt;
+}
+
+.scope[data-cv-print="true"] .educationList {
+  gap: 2mm;
+}
+
+.scope[data-cv-print="true"] .educationSchool {
+  font-size: 8.6pt;
+}
+
+.scope[data-cv-print="true"] .educationDetail,
+.scope[data-cv-print="true"] .educationDates {
+  font-size: 6.8pt;
+}
+
+.scope[data-cv-print="true"] .notes {
+  display: none;
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Ricardo Jorge profile banner</title>
+  <desc id="desc">A warm-toned banner for Ricardo Jorge, also known as RJ, describing him as an AI product engineer focused on dashboards, data explorers, and agent tooling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6f1e6"/>
+      <stop offset="55%" stop-color="#efe7d7"/>
+      <stop offset="100%" stop-color="#e4dcc7"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+
+  <g opacity="0.16" stroke="#0f172a" fill="none">
+    <path d="M54 58h200" />
+    <path d="M54 86h140" />
+    <path d="M54 114h170" />
+    <path d="M948 68h198" />
+    <path d="M1002 96h144" />
+    <path d="M964 124h182" />
+    <rect x="34" y="36" width="236" height="100" rx="12"/>
+    <rect x="934" y="46" width="232" height="96" rx="12"/>
+  </g>
+
+  <rect x="66" y="221" width="178" height="10" rx="5" fill="url(#bar)"/>
+
+  <text x="66" y="118" fill="#161616" font-family="Georgia, Times New Roman, serif" font-size="84" font-weight="700">RJ</text>
+  <text x="66" y="168" fill="#4b5563" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">AI_PRODUCT_ENGINEER</text>
+
+  <text x="320" y="96" fill="#171717" font-family="Georgia, Times New Roman, serif" font-size="42" font-weight="700">Ricardo Jorge</text>
+  <text x="320" y="136" fill="#525252" font-family="Arial, Helvetica, sans-serif" font-size="24">Building products where AI, data, and interfaces meet.</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">
+    <text x="320" y="192" fill="#0f766e">[ dashboards ]</text>
+    <text x="515" y="192" fill="#0f766e">[ data explorers ]</text>
+    <text x="760" y="192" fill="#0f766e">[ agent tooling ]</text>
+
+    <text x="320" y="234" fill="#92400e">[ typescript ]</text>
+    <text x="500" y="234" fill="#92400e">[ react ]</text>
+    <text x="623" y="234" fill="#92400e">[ next.js ]</text>
+    <text x="778" y="234" fill="#92400e">[ playbook builder ]</text>
+  </g>
+
+  <text x="320" y="280" fill="#404040" font-family="Arial, Helvetica, sans-serif" font-size="20">Lisbon, Portugal - rj11.io - github.com/rj11io</text>
+</svg>

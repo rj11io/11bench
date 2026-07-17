@@ -1,0 +1,694 @@
+.shell,
+.shell * {
+  box-sizing: border-box;
+}
+
+@page {
+  size: A4;
+  margin: 6mm 8mm;
+}
+
+.shell {
+  --cv-ink: #1a1714;
+  --cv-muted: #5f564d;
+  --cv-line: rgba(41, 34, 28, 0.14);
+  --cv-surface: rgba(255, 255, 255, 0.82);
+  --cv-surface-strong: rgba(255, 255, 255, 0.92);
+  --cv-accent: #214f59;
+  --cv-bullet: #8b7f74;
+
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;
+  padding: clamp(16px, 2vw, 28px);
+  color: var(--cv-ink);
+  background:
+    radial-gradient(circle at 88% 10%, rgba(33, 79, 89, 0.16), transparent 28%),
+    radial-gradient(circle at 12% 8%, rgba(138, 107, 78, 0.16), transparent 26%),
+    linear-gradient(180deg, #f5efe7 0%, #efe8de 100%);
+}
+
+.topbar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  width: min(100%, 1180px);
+  margin: 0 auto 14px;
+}
+
+.pages {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 22px;
+  width: min(100%, 1180px);
+  margin: 0 auto;
+}
+
+.sheet {
+  width: 100%;
+  padding: clamp(22px, 3vw, 38px);
+  border: 1px solid rgba(41, 34, 28, 0.1);
+  border-radius: 28px;
+  background: var(--cv-surface);
+  box-shadow: 0 28px 80px rgba(38, 30, 22, 0.08);
+  backdrop-filter: blur(18px);
+}
+
+.sheetDense {
+  padding-bottom: clamp(20px, 2.7vw, 32px);
+}
+
+.decor {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.decorOrbA,
+.decorOrbB {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(12px);
+  opacity: 0.65;
+}
+
+.decorOrbA {
+  top: -8rem;
+  right: -7rem;
+  width: 26rem;
+  height: 26rem;
+  background: radial-gradient(circle, rgba(33, 79, 89, 0.2), transparent 68%);
+}
+
+.decorOrbB {
+  left: -10rem;
+  bottom: -11rem;
+  width: 30rem;
+  height: 30rem;
+  background: radial-gradient(circle, rgba(138, 107, 78, 0.18), transparent 68%);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.75rem 1rem;
+  align-items: start;
+}
+
+.identity {
+  min-width: 0;
+}
+
+.name {
+  margin: 0;
+  font-family: var(--cv-serif), serif;
+  font-size: clamp(3rem, 5.6vw, 4.9rem);
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+}
+
+.headline {
+  margin: 0.4rem 0 0;
+  font-family: var(--cv-serif), serif;
+  font-size: clamp(1.08rem, 1.9vw, 1.55rem);
+  font-style: italic;
+  color: var(--cv-muted);
+}
+
+.portfolio {
+  justify-self: end;
+  padding-top: 0.65rem;
+  font-family: var(--cv-mono), monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--cv-muted);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  white-space: nowrap;
+}
+
+.contactRow {
+  grid-column: 1 / -1;
+  margin-top: 1rem;
+}
+
+.trail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0;
+  min-width: 0;
+}
+
+.trailItem {
+  min-width: 0;
+  color: inherit;
+}
+
+.trailLink {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.skillsList .trailItem {
+  text-decoration: none;
+}
+
+.trailItem + .trailItem::before {
+  margin: 0 0.65rem;
+  color: var(--cv-line);
+  content: "·";
+}
+
+.trailItem:focus-visible,
+.portfolio:focus-visible,
+.printButton:focus-visible,
+.projectName a:focus-visible,
+.projectUrl:focus-visible {
+  outline: 2px solid var(--cv-accent);
+  outline-offset: 3px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr);
+  gap: 1rem 1.5rem;
+  margin-top: 1.1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--cv-line);
+}
+
+.sectionLabel {
+  padding-top: 0.35rem;
+  font-family: var(--cv-mono), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--cv-muted);
+}
+
+.sectionBody {
+  min-width: 0;
+}
+
+.pageLayout {
+  display: grid;
+  gap: 1rem;
+}
+
+.pageColumn {
+  display: grid;
+  gap: 0.9rem;
+  align-content: start;
+  min-width: 0;
+}
+
+.summaryBody {
+  display: grid;
+  gap: 0.95rem;
+  max-width: 74ch;
+  font-size: 1.05rem;
+  line-height: 1.72;
+  color: var(--cv-ink);
+}
+
+.summaryBody p {
+  margin: 0;
+}
+
+.skillsList {
+  display: grid;
+  gap: 0.95rem;
+}
+
+.skillGroup {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 12.5rem) minmax(0, 1fr);
+  gap: 0.35rem 1rem;
+  align-items: start;
+}
+
+.skillLabel {
+  font-weight: 600;
+  color: var(--cv-ink);
+}
+
+.skillItems {
+  margin: 0;
+  color: var(--cv-muted);
+  line-height: 1.45;
+}
+
+.projectList {
+  display: grid;
+  gap: 1rem;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.35rem 1rem;
+  align-items: baseline;
+}
+
+.projectCopy {
+  min-width: 0;
+}
+
+.projectTop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.75rem;
+}
+
+.projectName {
+  font-family: var(--cv-serif), serif;
+  font-size: 1.4rem;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.projectName a {
+  color: var(--cv-ink);
+  text-decoration: none;
+}
+
+.projectUrl {
+  font-family: var(--cv-mono), monospace;
+  font-size: 0.92rem;
+  color: var(--cv-muted);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.projectDate {
+  justify-self: end;
+  font-family: var(--cv-mono), monospace;
+  font-size: 0.9rem;
+  color: var(--cv-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.projectDescription {
+  margin: 0.3rem 0 0;
+  color: var(--cv-muted);
+  line-height: 1.55;
+}
+
+.rolesList {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.role {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.35rem 1rem;
+  align-items: baseline;
+}
+
+.roleTop,
+.compactTop,
+.educationTop {
+  display: contents;
+}
+
+.roleTitle {
+  margin: 0;
+  font-family: var(--cv-serif), serif;
+  font-size: 1.38rem;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.roleDates {
+  justify-self: end;
+  font-family: var(--cv-mono), monospace;
+  font-size: 0.9rem;
+  color: var(--cv-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.roleSummary {
+  grid-column: 1 / -1;
+  margin: 0.1rem 0 0;
+  color: var(--cv-ink);
+  line-height: 1.6;
+}
+
+.bullets {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.15rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bulletItem {
+  position: relative;
+  padding-left: 1rem;
+  line-height: 1.55;
+  color: var(--cv-ink);
+}
+
+.bulletItem::before {
+  position: absolute;
+  left: 0;
+  color: var(--cv-bullet);
+  content: "-";
+}
+
+.compactList {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.compactRole {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.3rem 1rem;
+  align-items: baseline;
+}
+
+.compactTitle {
+  margin: 0;
+  font-family: var(--cv-serif), serif;
+  font-size: 1.14rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.compactSummary {
+  grid-column: 1 / -1;
+  margin: 0.05rem 0 0;
+  color: var(--cv-muted);
+  line-height: 1.55;
+}
+
+.educationList {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.educationItem {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.3rem 1rem;
+  align-items: baseline;
+}
+
+.educationTitle {
+  margin: 0;
+  font-family: var(--cv-serif), serif;
+  font-size: 1.28rem;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.educationDates {
+  justify-self: end;
+  font-family: var(--cv-mono), monospace;
+  font-size: 0.9rem;
+  color: var(--cv-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.educationMeta {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0;
+  font-family: var(--cv-mono), monospace;
+  font-size: 0.9rem;
+  color: var(--cv-muted);
+}
+
+.educationMeta span + span::before {
+  margin: 0 0.65rem;
+  color: var(--cv-line);
+  content: "·";
+}
+
+.educationDetail {
+  grid-column: 1 / -1;
+  color: var(--cv-ink);
+  line-height: 1.55;
+}
+
+.printButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid rgba(33, 79, 89, 0.18);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(33, 79, 89, 0.98), rgba(23, 59, 68, 1));
+  padding: 0.72rem 1rem;
+  color: #fff;
+  font-family: var(--cv-mono), monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  box-shadow: 0 12px 30px rgba(33, 79, 89, 0.22);
+}
+
+.printButton svg {
+  flex: none;
+}
+
+@media (max-width: 760px) {
+  .shell {
+    padding: 12px;
+  }
+
+  .topbar {
+    margin-bottom: 12px;
+  }
+
+  .sheet {
+    padding: 18px 16px 20px;
+    border-radius: 20px;
+  }
+
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .portfolio {
+    justify-self: start;
+    padding-top: 0;
+  }
+
+  .section {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.55rem;
+  }
+
+  .sectionLabel {
+    padding-top: 0;
+    letter-spacing: 0.28em;
+  }
+
+  .skillGroup,
+  .project,
+  .role,
+  .compactRole,
+  .educationItem {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .projectDate,
+  .roleDates,
+  .educationDates {
+    justify-self: start;
+  }
+
+  .summaryBody {
+    font-size: 1rem;
+    line-height: 1.62;
+  }
+}
+
+@media print {
+  .shell {
+    min-height: auto;
+    overflow: visible;
+    padding: 0;
+    color: #000;
+    background: #fff;
+  }
+
+  .decor,
+  .topbar,
+  .printButton {
+    display: none !important;
+  }
+
+  .pages {
+    width: 100%;
+    gap: 0;
+  }
+
+  .sheet {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: #fff;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+
+  .sheet + .sheet {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .sheetDense {
+    padding-bottom: 0;
+  }
+
+  .name {
+    font-size: 24pt;
+    line-height: 0.92;
+  }
+
+  .headline {
+    font-size: 11.4pt;
+    color: #000;
+  }
+
+  .portfolio,
+  .sectionLabel,
+  .trailItem,
+  .projectUrl,
+  .projectDate,
+  .roleDates,
+  .educationDates,
+  .educationMeta,
+  .contactRow {
+    color: #000;
+  }
+
+  .portfolio {
+    font-size: 7.4pt;
+    letter-spacing: 0.18em;
+  }
+
+  .contactRow {
+    margin-top: 0.6rem;
+  }
+
+  .section {
+    margin-top: 0.55rem;
+    padding-top: 0.55rem;
+    gap: 0.5rem 0.8rem;
+    break-inside: avoid;
+  }
+
+  .sectionLabel {
+    font-size: 6.9pt;
+  }
+
+  .summaryBody,
+  .roleSummary,
+  .compactSummary,
+  .projectDescription,
+  .educationDetail {
+    font-size: 8.7pt;
+    line-height: 1.24;
+    color: #000;
+  }
+
+  .pageLayout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.55rem;
+    align-items: start;
+  }
+
+  .pageColumn {
+    gap: 0.32rem;
+  }
+
+  .skillGroup,
+  .project,
+  .role,
+  .compactRole,
+  .educationItem,
+  .skillsList,
+  .projectList,
+  .rolesList,
+  .compactList,
+  .educationList,
+  .bullets {
+    break-inside: avoid;
+  }
+
+  .skillLabel {
+    font-size: 9.2pt;
+  }
+
+  .skillItems {
+    font-size: 8.9pt;
+    line-height: 1.28;
+  }
+
+  .trail,
+  .educationMeta {
+    line-height: 1.35;
+  }
+
+  .trailItem + .trailItem::before,
+  .educationMeta span + span::before {
+    color: #000;
+  }
+
+  .projectName {
+    font-size: 11.8pt;
+  }
+
+  .roleTitle,
+  .educationTitle {
+    font-size: 11.4pt;
+  }
+
+  .compactTitle {
+    font-size: 10.3pt;
+  }
+
+  .bullets {
+    gap: 0;
+    margin-top: 0.08rem;
+  }
+
+  .bulletItem {
+    display: inline;
+    line-height: 1.28;
+    padding-left: 0;
+  }
+
+  .bulletItem::before {
+    content: "";
+  }
+
+  .bulletItem + .bulletItem::before {
+    color: #000;
+    content: " · ";
+  }
+
+  .shell a {
+    color: #000;
+  }
+}

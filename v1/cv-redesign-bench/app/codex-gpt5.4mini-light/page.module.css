@@ -1,0 +1,332 @@
+.page {
+  --ink: #111111;
+  --muted: #5b5b5b;
+  --line: #d8d4cc;
+  --paper: #fcfbf7;
+  --accent: #6b5b4a;
+  background:
+    radial-gradient(circle at top left, rgba(107, 91, 74, 0.08), transparent 24%),
+    radial-gradient(circle at right 12%, rgba(17, 17, 17, 0.04), transparent 18%),
+    var(--paper);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+.shell {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.printButton {
+  appearance: none;
+  border: 1px solid rgba(17, 17, 17, 0.18);
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(17, 17, 17, 0.08);
+}
+
+.canvas {
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 24px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.72));
+}
+
+.pagePane {
+  padding: 56px 58px 54px;
+}
+
+.topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+
+.nameBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.name {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: clamp(3rem, 6vw, 5.2rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.role {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-style: italic;
+  font-size: clamp(1.25rem, 2vw, 2rem);
+  color: var(--accent);
+}
+
+.siteMark,
+.mono {
+  font-family: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.contactRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin: 12px 0 24px;
+  color: var(--muted);
+  font-family: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.9rem;
+}
+
+.contactRow a,
+.projectLink,
+.inlineLink {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 0 0 24px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 24px;
+  padding: 18px 0 22px;
+  border-top: 1px solid var(--line);
+}
+
+.sectionLabel {
+  font-family: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  font-size: 0.72rem;
+  color: var(--muted);
+  padding-top: 4px;
+}
+
+.sectionBody {
+  min-width: 0;
+}
+
+.summary {
+  display: grid;
+  gap: 18px;
+  font-size: 1.02rem;
+  line-height: 1.78;
+  max-width: 68ch;
+}
+
+.summary p {
+  margin: 0;
+}
+
+.factList {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 10px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.skillGrid {
+  display: grid;
+  gap: 14px;
+}
+
+.skillRow {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 18px;
+}
+
+.skillGroup {
+  font-weight: 700;
+}
+
+.projectList,
+.experienceList {
+  display: grid;
+  gap: 20px;
+}
+
+.projectItem,
+.experienceItem {
+  display: grid;
+  gap: 6px;
+}
+
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.itemTitle {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 1.6rem;
+  line-height: 1.05;
+  margin: 0;
+}
+
+.experienceTitle {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 1.44rem;
+  line-height: 1.08;
+  margin: 0;
+}
+
+.itemMeta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.itemSummary {
+  margin: 0;
+  line-height: 1.62;
+  color: #333;
+  max-width: 75ch;
+}
+
+.bulletList {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 9px;
+  line-height: 1.55;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.printPages {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .shell {
+    padding: 14px;
+  }
+
+  .pagePane {
+    padding: 28px 18px 34px;
+  }
+
+  .topline {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .skillRow {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .itemHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media print {
+  .page {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .shell {
+    max-width: none;
+    padding: 0;
+  }
+
+  .toolbar,
+  .canvas {
+    display: none !important;
+  }
+
+  .printPages {
+    display: block;
+  }
+
+  .printPage {
+    width: 210mm;
+    height: 297mm;
+    box-sizing: border-box;
+    padding: 14mm 16mm 13mm;
+    overflow: hidden;
+    page-break-after: always;
+    break-after: page;
+    color: #000 !important;
+    background: #fff !important;
+  }
+
+  .printPage:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .section {
+    border-top-color: #cfcfcf;
+    padding: 12px 0 14px;
+  }
+
+  .pagePane {
+    padding: 0;
+  }
+
+  .contactRow,
+  .siteMark,
+  .mono,
+  .sectionLabel,
+  .itemMeta,
+  .note,
+  .summary p,
+  .itemSummary,
+  .factList,
+  .bulletList {
+    color: #000 !important;
+  }
+
+  :global(*) {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  :global(a) {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+}

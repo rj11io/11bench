@@ -1,0 +1,1146 @@
+.route {
+  --canvas: #d9d8d2;
+  --paper: #f7f3e9;
+  --ink: #181b18;
+  --muted: #60655f;
+  --faint: #8d928c;
+  --line: rgba(24, 27, 24, 0.18);
+  --soft-line: rgba(24, 27, 24, 0.1);
+  --accent: #f04d2f;
+  --accent-ink: #7a2416;
+  min-height: 100vh;
+  overflow-x: clip;
+  background:
+    radial-gradient(circle at 14% 4%, rgba(255, 255, 255, 0.72), transparent 31rem),
+    var(--canvas);
+  color: var(--ink);
+  padding: 20px 24px 72px;
+  font-family: var(--font-sans), Arial, sans-serif;
+}
+
+:global(.dark) .route {
+  --canvas: #090c0a;
+  --paper: #151a17;
+  --ink: #f3efe5;
+  --muted: #aeb4ad;
+  --faint: #818881;
+  --line: rgba(243, 239, 229, 0.2);
+  --soft-line: rgba(243, 239, 229, 0.11);
+  --accent: #ff6a49;
+  --accent-ink: #ff9a82;
+  background:
+    radial-gradient(circle at 14% 2%, rgba(84, 103, 91, 0.28), transparent 34rem),
+    var(--canvas);
+}
+
+.route *,
+.route *::before,
+.route *::after {
+  box-sizing: border-box;
+}
+
+.route a {
+  color: inherit;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.route a:hover {
+  color: var(--accent-ink);
+}
+
+.route a:focus-visible,
+.route button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.skipLink {
+  position: fixed;
+  z-index: 100;
+  top: 10px;
+  left: 10px;
+  transform: translateY(-160%);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  padding: 10px 14px;
+  font-weight: 700;
+}
+
+.skipLink:focus {
+  transform: translateY(0);
+}
+
+.screenToolbar {
+  position: sticky;
+  z-index: 20;
+  top: 14px;
+  display: flex;
+  width: min(100%, 1120px);
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 16px;
+  border: 1px solid color-mix(in srgb, var(--line) 75%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper) 84%, transparent);
+  box-shadow: 0 8px 34px rgba(24, 27, 24, 0.08);
+  padding: 7px 8px 7px 15px;
+  backdrop-filter: blur(18px);
+}
+
+.screenToolbar > p {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.statusDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 17%, transparent);
+}
+
+.printButton {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 8px 15px;
+  font: 700 13px/1 var(--font-sans), Arial, sans-serif;
+  cursor: pointer;
+}
+
+.printButton:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.sheet {
+  position: relative;
+  width: min(100%, 1120px);
+  min-height: 1120px;
+  margin: 0 auto 32px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background:
+    linear-gradient(90deg, transparent 0, transparent 32px, var(--soft-line) 32px, var(--soft-line) 33px, transparent 33px),
+    var(--paper);
+  box-shadow:
+    0 32px 90px rgba(21, 25, 22, 0.14),
+    0 3px 10px rgba(21, 25, 22, 0.06);
+  padding: clamp(34px, 5.5vw, 74px) clamp(28px, 6.2vw, 84px) 34px;
+}
+
+.hero {
+  border-top: 5px solid var(--ink);
+  padding-top: 16px;
+}
+
+.heroMeta,
+.heroGrid,
+.roleHeading,
+.earlierHeading,
+.continuationHeader,
+.pageFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroMeta {
+  align-items: center;
+  color: var(--muted);
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.heroMeta p,
+.heroAside,
+.jobTitle,
+.contacts,
+.summary,
+.signals dd,
+.focusCard p,
+.skillGroup p,
+.project p,
+.organisationLine,
+.period,
+.bullets,
+.continuationHeader p,
+.earlierRole p,
+.education p,
+.contactCta p,
+.pageFooter {
+  margin: 0;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 218px;
+  align-items: end;
+  gap: 32px;
+  margin-top: 44px;
+}
+
+.name {
+  max-width: 850px;
+  margin: 0;
+  font-size: clamp(62px, 8.3vw, 118px);
+  font-weight: 850;
+  letter-spacing: -0.075em;
+  line-height: 0.79;
+}
+
+.jobTitle {
+  margin-top: 18px;
+  color: var(--accent);
+  font-size: clamp(20px, 2.2vw, 30px);
+  font-weight: 750;
+  letter-spacing: -0.035em;
+  line-height: 1;
+}
+
+.heroAside {
+  border-left: 1px solid var(--line);
+  padding: 3px 0 2px 20px;
+  color: var(--muted);
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  line-height: 1.75;
+  text-transform: uppercase;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 20px;
+  margin-top: 33px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 18px;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 28px;
+  margin-top: 36px;
+}
+
+.sectionMarker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  align-self: start;
+  color: var(--accent);
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+}
+
+.markerRule {
+  width: 100%;
+  height: 1px;
+  background: var(--accent);
+}
+
+.sectionTitle {
+  margin: -2px 0 17px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.summary {
+  max-width: 785px;
+  font-size: clamp(17px, 1.7vw, 21px);
+  letter-spacing: -0.017em;
+  line-height: 1.48;
+}
+
+.signals {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin: 25px 0 0;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+
+.signals > div {
+  min-width: 0;
+  background: var(--paper);
+  padding: 14px 13px 13px;
+}
+
+.signals dt {
+  overflow-wrap: anywhere;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.signals dd {
+  margin-top: 5px;
+  color: var(--muted);
+  font-family: var(--font-mono), monospace;
+  font-size: 9px;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.focusGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.focusCard {
+  min-width: 0;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 16px 17px 17px;
+}
+
+.focusCard h3,
+.skillGroup h3,
+.project h3,
+.roleTitle,
+.earlierRole h3,
+.education h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 780;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.focusCard h3::before {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+  content: "";
+}
+
+.focusCard p {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 28px;
+}
+
+.skillGroup {
+  border-top: 1px solid var(--soft-line);
+  padding: 12px 0;
+}
+
+.skillGroup h3 {
+  font-size: 13px;
+}
+
+.skillGroup p {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 13px;
+}
+
+.project {
+  min-width: 0;
+  border: 1px solid var(--line);
+  padding: 15px;
+}
+
+.project > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.project h3 {
+  font-size: 18px;
+}
+
+.projectPeriod {
+  flex: 0 0 auto;
+  color: var(--faint);
+  font-family: var(--font-mono), monospace;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+.project > p {
+  margin-top: 13px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.roleStack {
+  display: grid;
+  gap: 0;
+}
+
+.role {
+  break-inside: avoid;
+  border-top: 1px solid var(--line);
+  padding: 20px 0;
+}
+
+.role:last-child {
+  padding-bottom: 0;
+}
+
+.roleHeading {
+  gap: 22px;
+}
+
+.roleTitle {
+  font-size: 20px;
+}
+
+.organisationLine {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.period {
+  flex: 0 0 auto;
+  padding-top: 3px;
+  color: var(--faint);
+  font-family: var(--font-mono), monospace;
+  font-size: 9px;
+  letter-spacing: 0.03em;
+  line-height: 1.35;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.bullets {
+  display: grid;
+  gap: 7px;
+  margin-top: 13px;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.48;
+}
+
+.bullets li {
+  position: relative;
+  padding-left: 17px;
+}
+
+.bullets li::before {
+  position: absolute;
+  top: 0.68em;
+  left: 0;
+  width: 7px;
+  height: 1px;
+  background: var(--accent);
+  content: "";
+}
+
+.roleCompact {
+  padding: 16px 0;
+}
+
+.roleCompact .roleTitle {
+  font-size: 17px;
+}
+
+.roleCompact .bullets {
+  gap: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.43;
+}
+
+.pageFooter {
+  position: absolute;
+  right: clamp(28px, 6.2vw, 84px);
+  bottom: 19px;
+  left: clamp(28px, 6.2vw, 84px);
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+  color: var(--faint);
+  font-family: var(--font-mono), monospace;
+  font-size: 8px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.continuationHeader {
+  align-items: end;
+  border-top: 5px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+  padding: 16px 0 24px;
+}
+
+.continuationEyebrow {
+  color: var(--accent);
+  font-family: var(--font-mono), monospace;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.continuationHeader h2 {
+  margin: 22px 0 0;
+  font-size: clamp(34px, 4.5vw, 58px);
+  font-weight: 830;
+  letter-spacing: -0.055em;
+  line-height: 0.95;
+}
+
+.continuationRole {
+  color: var(--muted);
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.earlierGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 26px;
+}
+
+.earlierRole {
+  break-inside: avoid;
+  border-top: 1px solid var(--soft-line);
+  padding: 13px 0 14px;
+}
+
+.earlierRole:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.earlierHeading {
+  gap: 16px;
+}
+
+.earlierRole h3 {
+  font-size: 13px;
+}
+
+.earlierHeading > p {
+  flex: 0 0 auto;
+  color: var(--faint);
+  font-family: var(--font-mono), monospace;
+  font-size: 8px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.earlierOrganisation {
+  margin-top: 4px !important;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 650;
+}
+
+.earlierRole > p:last-child {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.47;
+}
+
+.closingGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 32px;
+}
+
+.education,
+.origins {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+
+.miniLabel {
+  margin-bottom: 10px !important;
+  color: var(--accent);
+  font-family: var(--font-mono), monospace;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.education h3 {
+  font-size: 15px;
+}
+
+.education h3 + p {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.education .period {
+  margin-top: 8px;
+  padding: 0;
+  text-align: left;
+}
+
+.origins .bullets {
+  margin-top: 0;
+  font-size: 11px;
+}
+
+.contactCta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 32px;
+  border: 1px solid var(--ink);
+  padding: 15px 17px;
+  font-size: 12px;
+}
+
+.contactCta p {
+  color: var(--muted);
+}
+
+.contactCta a {
+  flex: 0 0 auto;
+  font-weight: 800;
+}
+
+@media (max-width: 760px) {
+  .route {
+    padding: 0;
+  }
+
+  .screenToolbar {
+    top: 8px;
+    width: calc(100% - 20px);
+    margin: 8px auto;
+  }
+
+  .sheet {
+    width: 100%;
+    min-height: 0;
+    margin: 0;
+    border-width: 0 0 1px;
+    border-radius: 0;
+    background: var(--paper);
+    box-shadow: none;
+    padding: 34px 20px 62px;
+  }
+
+  .heroGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 36px;
+  }
+
+  .name {
+    font-size: clamp(55px, 19vw, 82px);
+  }
+
+  .heroAside {
+    border-top: 1px solid var(--line);
+    border-left: 0;
+    padding: 14px 0 0;
+  }
+
+  .contacts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px 18px;
+  }
+
+  .contacts a {
+    overflow-wrap: anywhere;
+  }
+
+  .section {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 32px;
+  }
+
+  .sectionMarker {
+    width: 100%;
+  }
+
+  .sectionTitle {
+    margin-bottom: 14px;
+  }
+
+  .summary {
+    font-size: 17px;
+  }
+
+  .signals,
+  .focusGrid,
+  .skillsGrid,
+  .projects,
+  .earlierGrid,
+  .closingGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .earlierRole:last-child:nth-child(odd) {
+    grid-column: auto;
+  }
+
+  .signals {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .projects {
+    gap: 10px;
+  }
+
+  .roleHeading,
+  .earlierHeading,
+  .continuationHeader,
+  .contactCta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .period {
+    padding-top: 0;
+    text-align: left;
+  }
+
+  .continuationHeader {
+    gap: 24px;
+  }
+
+  .contactCta a {
+    flex: auto;
+    overflow-wrap: anywhere;
+  }
+
+  .pageFooter {
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .route {
+    --canvas: #fff;
+    --paper: #fff;
+    --ink: #111;
+    --muted: #3f3f3f;
+    --faint: #666;
+    --line: rgba(0, 0, 0, 0.24);
+    --soft-line: rgba(0, 0, 0, 0.13);
+    --accent: #111;
+    --accent-ink: #111;
+    width: 210mm;
+    min-height: 0;
+    overflow: visible;
+    background: #fff !important;
+    padding: 0;
+    color: #111 !important;
+    print-color-adjust: economy;
+  }
+
+  .screenToolbar,
+  .skipLink {
+    display: none !important;
+  }
+
+  .sheet {
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+    margin: 0;
+    break-after: page;
+    border: 0;
+    border-radius: 0;
+    background: #fff !important;
+    box-shadow: none;
+    padding: 9mm 11mm 8mm;
+  }
+
+  .sheet:last-child {
+    break-after: auto;
+  }
+
+  .contacts {
+    display: flex;
+  }
+
+  .signals {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .focusGrid,
+  .skillsGrid,
+  .earlierGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .projects {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .closingGrid {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  }
+
+  .roleHeading,
+  .earlierHeading,
+  .continuationHeader,
+  .contactCta {
+    flex-direction: row;
+  }
+
+  .continuationHeader {
+    align-items: end;
+  }
+
+  .contactCta {
+    align-items: baseline;
+  }
+
+  .period {
+    text-align: right;
+  }
+
+  .earlierRole:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+
+  .hero {
+    border-top-width: 1.2mm;
+    padding-top: 3mm;
+  }
+
+  .heroMeta {
+    font-size: 6.2pt;
+  }
+
+  .heroGrid {
+    grid-template-columns: minmax(0, 1fr) 39mm;
+    gap: 6mm;
+    margin-top: 7mm;
+  }
+
+  .name {
+    font-size: 34pt;
+    letter-spacing: -0.065em;
+    line-height: 0.84;
+  }
+
+  .jobTitle {
+    margin-top: 3.2mm;
+    font-size: 14pt;
+  }
+
+  .heroAside {
+    padding-left: 4mm;
+    font-size: 6.2pt;
+    line-height: 1.55;
+  }
+
+  .contacts {
+    gap: 1.4mm 4mm;
+    margin-top: 5mm;
+    padding-bottom: 3.2mm;
+    font-size: 7pt;
+  }
+
+  .section {
+    grid-template-columns: 22mm minmax(0, 1fr);
+    gap: 4mm;
+    margin-top: 4.1mm;
+  }
+
+  .sectionMarker {
+    gap: 2mm;
+    font-size: 5.8pt;
+  }
+
+  .sectionTitle {
+    margin: -0.2mm 0 2.7mm;
+    font-size: 7.1pt;
+  }
+
+  .summary {
+    max-width: none;
+    font-size: 9.15pt;
+    line-height: 1.36;
+  }
+
+  .signals {
+    margin-top: 3.4mm;
+  }
+
+  .signals > div {
+    padding: 2.1mm 2.2mm 1.9mm;
+  }
+
+  .signals dt {
+    font-size: 8pt;
+  }
+
+  .signals dd {
+    margin-top: 0.8mm;
+    font-size: 5.1pt;
+  }
+
+  .focusCard {
+    padding: 2.2mm 2.6mm 2.3mm;
+  }
+
+  .focusCard h3 {
+    font-size: 7.4pt;
+  }
+
+  .focusCard h3::before {
+    width: 1.4mm;
+    height: 1.4mm;
+    margin-right: 1.5mm;
+  }
+
+  .focusCard p {
+    margin-top: 1.1mm;
+    font-size: 6.55pt;
+    line-height: 1.37;
+  }
+
+  .skillsGrid {
+    gap: 0 5mm;
+  }
+
+  .skillGroup {
+    padding: 1.5mm 0;
+  }
+
+  .skillGroup h3 {
+    font-size: 6.9pt;
+  }
+
+  .skillGroup p {
+    margin-top: 0.6mm;
+    font-size: 6.2pt;
+    line-height: 1.35;
+  }
+
+  .projects {
+    gap: 2.2mm;
+  }
+
+  .project {
+    padding: 2mm;
+  }
+
+  .project h3 {
+    font-size: 8.6pt;
+  }
+
+  .projectPeriod {
+    font-size: 4.8pt;
+  }
+
+  .project > p {
+    margin-top: 1.6mm;
+    font-size: 6pt;
+    line-height: 1.3;
+  }
+
+  .roleCompact {
+    padding: 2.4mm 0;
+  }
+
+  .roleCompact .roleTitle {
+    font-size: 8.6pt;
+  }
+
+  .organisationLine {
+    margin-top: 0.6mm;
+    font-size: 6.2pt;
+  }
+
+  .period {
+    padding-top: 0.5mm;
+    font-size: 5.4pt;
+  }
+
+  .roleCompact .bullets {
+    gap: 0.9mm;
+    margin-top: 1.5mm;
+    font-size: 6.4pt;
+    line-height: 1.34;
+  }
+
+  .bullets li {
+    padding-left: 3mm;
+  }
+
+  .bullets li::before {
+    width: 1.5mm;
+  }
+
+  .pageFooter {
+    right: 11mm;
+    bottom: 4mm;
+    left: 11mm;
+    padding-top: 1.6mm;
+    font-size: 5pt;
+  }
+
+  .continuationHeader {
+    border-top-width: 1.2mm;
+    padding: 3mm 0 4.2mm;
+  }
+
+  .continuationEyebrow {
+    font-size: 5.5pt;
+  }
+
+  .continuationHeader h2 {
+    margin-top: 3.4mm;
+    font-size: 24pt;
+  }
+
+  .continuationRole {
+    font-size: 5.5pt;
+  }
+
+  .secondSheet .section {
+    margin-top: 3.5mm;
+  }
+
+  .secondSheet .roleCompact {
+    padding: 2.1mm 0;
+  }
+
+  .secondSheet .roleCompact .bullets {
+    font-size: 6.2pt;
+    line-height: 1.3;
+  }
+
+  .earlierGrid {
+    gap: 0 4.5mm;
+  }
+
+  .earlierRole {
+    padding: 1.6mm 0 1.8mm;
+  }
+
+  .earlierRole h3 {
+    font-size: 6.8pt;
+  }
+
+  .earlierHeading > p {
+    font-size: 4.9pt;
+  }
+
+  .earlierOrganisation {
+    margin-top: 0.5mm !important;
+    font-size: 5.4pt;
+  }
+
+  .earlierRole > p:last-child {
+    margin-top: 0.9mm;
+    font-size: 5.8pt;
+    line-height: 1.32;
+  }
+
+  .closingGrid {
+    gap: 5mm;
+  }
+
+  .education,
+  .origins {
+    padding-top: 2mm;
+  }
+
+  .miniLabel {
+    margin-bottom: 1.4mm !important;
+    font-size: 4.9pt;
+  }
+
+  .education h3 {
+    font-size: 7.2pt;
+  }
+
+  .education h3 + p {
+    margin-top: 0.8mm;
+    font-size: 5.8pt;
+  }
+
+  .education .period {
+    margin-top: 1mm;
+  }
+
+  .origins .bullets {
+    gap: 0.9mm;
+    font-size: 5.8pt;
+    line-height: 1.3;
+  }
+
+  .contactCta {
+    gap: 5mm;
+    margin-top: 4mm;
+    padding: 2.4mm 2.8mm;
+    font-size: 6.3pt;
+  }
+
+  .route a {
+    text-decoration-color: #111;
+    text-underline-offset: 0.1em;
+  }
+}

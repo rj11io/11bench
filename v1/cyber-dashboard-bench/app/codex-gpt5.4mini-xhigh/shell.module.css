@@ -1,0 +1,55 @@
+.orbA,
+.orbB,
+.grid {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+}
+
+.orbA {
+  inset: -10rem auto auto -12rem;
+  height: 32rem;
+  width: 32rem;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.2), transparent 68%);
+  filter: blur(56px);
+  animation: driftA 20s ease-in-out infinite alternate;
+}
+
+.orbB {
+  inset: auto -10rem 4rem auto;
+  height: 28rem;
+  width: 28rem;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.16), transparent 68%);
+  filter: blur(56px);
+  animation: driftB 24s ease-in-out infinite alternate;
+}
+
+.grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-position: center;
+  background-size: 42px 42px;
+  mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.95), transparent 78%);
+  opacity: 0.7;
+}
+
+@keyframes driftA {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(7%, 4%, 0) scale(1.06);
+  }
+}
+
+@keyframes driftB {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(-6%, -4%, 0) scale(1.08);
+  }
+}

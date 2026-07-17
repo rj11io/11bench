@@ -1,0 +1,78 @@
+.sheet {
+  --accent: oklch(0.47 0.14 40); /* warm rust, AA on both paper and dark */
+  --rule: var(--border);
+}
+
+:global(.dark) .sheet {
+  --accent: oklch(0.72 0.13 45);
+}
+
+.serif {
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+}
+
+.eyebrow {
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
+
+.entry {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.pageTwoStart {
+  break-before: page;
+  page-break-before: always;
+}
+
+.noPrint {
+  display: inline-flex;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 11mm 14mm;
+  }
+
+  .sheet {
+    color: #111 !important;
+    background: #fff !important;
+    max-width: none !important;
+    width: auto !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .sheet * {
+    color: #111 !important;
+    border-color: #bbb !important;
+  }
+
+  .sheet a {
+    color: #111 !important;
+    text-decoration: underline;
+  }
+
+  .sheet .eyebrow,
+  .sheet .accentText {
+    color: #444 !important;
+  }
+
+  .noPrint {
+    display: none !important;
+  }
+
+  .pageTwoStart {
+    break-before: page;
+    page-break-before: always;
+  }
+}

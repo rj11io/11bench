@@ -1,0 +1,96 @@
+/* Patchbay route-scoped theme. The .theme class redefines the shadcn design
+   tokens so the demo renders as a calm dark control room regardless of the
+   host site's light/dark mode. It is applied to the route wrapper AND to any
+   portal content (dialogs, sheets, selects) that renders outside it. */
+
+.theme {
+  --background: #0b0e14;
+  --foreground: #e8ecf4;
+  --card: #11151d;
+  --card-foreground: #e8ecf4;
+  --popover: #151b26;
+  --popover-foreground: #e8ecf4;
+  --primary: #4cc2ff;
+  --primary-foreground: #06131c;
+  --secondary: #1b2230;
+  --secondary-foreground: #dbe2ee;
+  --muted: #1a1f2b;
+  --muted-foreground: #96a0b5;
+  --accent: #1d2635;
+  --accent-foreground: #e8ecf4;
+  --destructive: #ff5d5d;
+  --border: rgba(226, 236, 255, 0.09);
+  --input: rgba(226, 236, 255, 0.14);
+  --ring: rgba(76, 194, 255, 0.6);
+  --chart-1: #4cc2ff;
+  --chart-2: #ff5d5d;
+  --chart-3: #ff9f43;
+  --chart-4: #3ecf8e;
+  --chart-5: #a78bfa;
+  --sidebar: #0d111a;
+  --sidebar-foreground: #e8ecf4;
+  --sidebar-border: rgba(226, 236, 255, 0.09);
+
+  color-scheme: dark;
+}
+
+.root {
+  background: var(--background);
+  color: var(--foreground);
+  min-height: 100dvh;
+  font-feature-settings: "cv11", "ss01";
+}
+
+.root ::selection {
+  background: rgba(76, 194, 255, 0.28);
+}
+
+/* Thin, theme-matched scrollbars for dense panes */
+.root *::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.root *::-webkit-scrollbar-thumb {
+  background: rgba(226, 236, 255, 0.14);
+  border-radius: 8px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+.root *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Queue row hover/focus affordance */
+.row {
+  transition: background-color 120ms ease;
+}
+.row:hover {
+  background: rgba(226, 236, 255, 0.035);
+}
+.row:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: -2px;
+}
+
+/* Subtle pulse for the high-attention banner marker */
+@keyframes pb-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+.pulse {
+  animation: pb-pulse 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pulse {
+    animation: none;
+  }
+  .row {
+    transition: none;
+  }
+}

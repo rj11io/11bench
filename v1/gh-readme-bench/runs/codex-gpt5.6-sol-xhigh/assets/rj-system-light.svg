@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" role="img" aria-labelledby="title desc">
+  <title id="title">RJ, AI Product Engineer</title>
+  <desc id="desc">A three-stage path from games and robotics, through dashboards and data explorers, to AI products and agents.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#d8dee4" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0969da"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="798" height="278" rx="18" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+  <rect x="1" y="1" width="798" height="278" rx="18" fill="url(#grid)" opacity="0.48"/>
+
+  <text x="48" y="66" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2">RJ // AI PRODUCT ENGINEER</text>
+  <text x="48" y="110" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="700">Make complex systems operable.</text>
+  <text x="48" y="142" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17">From raw signals to useful interfaces to capable agents.</text>
+
+  <path d="M 110 218 C 190 218, 210 218, 285 218" fill="none" stroke="#0969da" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 380 218 C 470 218, 490 218, 570 218" fill="none" stroke="#0969da" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <circle cx="88" cy="218" r="13" fill="#1a7f37"/>
+  <circle cx="358" cy="218" r="13" fill="#0969da"/>
+  <circle cx="648" cy="218" r="16" fill="#8250df"/>
+  <circle cx="648" cy="218" r="24" fill="none" stroke="#8250df" stroke-width="2" opacity="0.45"/>
+
+  <text x="48" y="188" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5">ORIGIN</text>
+  <text x="48" y="252" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="650">games + robotics</text>
+
+  <text x="318" y="188" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5">CRAFT</text>
+  <text x="318" y="252" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="650">dashboards + explorers</text>
+
+  <text x="608" y="188" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5">NOW</text>
+  <text x="608" y="252" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="650">AI products + agents</text>
+</svg>
+

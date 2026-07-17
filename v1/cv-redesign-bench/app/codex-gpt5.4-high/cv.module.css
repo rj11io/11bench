@@ -1,0 +1,611 @@
+.route {
+  --paper: #f6f1e8;
+  --paper-strong: #fffdf9;
+  --ink: #1f1915;
+  --muted: #62574e;
+  --line: rgba(68, 54, 42, 0.16);
+  --accent: #a2552d;
+  --shadow: 0 1.25rem 3.5rem rgba(34, 24, 18, 0.12);
+  color: var(--ink);
+  font-family: var(--font-body), sans-serif;
+}
+
+.route,
+.route * {
+  box-sizing: border-box;
+}
+
+.canvas {
+  min-height: 100svh;
+  background:
+    radial-gradient(circle at top left, rgba(162, 85, 45, 0.08), transparent 28%),
+    linear-gradient(180deg, #ebe3d6 0%, #f5efe7 42%, #f2ebdf 100%);
+  padding: 2rem 1rem 3rem;
+}
+
+.controls {
+  margin: 0 auto 1.25rem;
+  display: flex;
+  width: min(100%, 66rem);
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.controlNote {
+  max-width: 34rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.printButton {
+  border: 1px solid rgba(31, 25, 21, 0.18);
+  background: rgba(255, 255, 255, 0.72);
+  padding: 0.85rem 1.15rem;
+  color: var(--ink);
+  font-family: var(--font-mono-local), monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:
+    transform 150ms ease,
+    background-color 150ms ease;
+}
+
+.printButton:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.sheets {
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.sheet {
+  display: flex;
+  width: 210mm;
+  min-height: 297mm;
+  flex-direction: column;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 252, 248, 0.98)),
+    var(--paper);
+  box-shadow: var(--shadow);
+  padding: 13mm 14mm 12mm;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.25fr);
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1rem;
+}
+
+.identityBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.eyebrow {
+  color: var(--muted);
+  font-family: var(--font-mono-local), monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.name {
+  margin: 0;
+  font-family: var(--font-display), serif;
+  font-size: clamp(2.6rem, 6vw, 4rem);
+  font-weight: 600;
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+}
+
+.headline {
+  margin: 0;
+  color: color-mix(in srgb, var(--ink) 80%, var(--accent) 20%);
+  font-family: var(--font-display), serif;
+  font-size: 1.45rem;
+  font-style: italic;
+  line-height: 1.1;
+}
+
+.heroSide {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+}
+
+.contactStrip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.8rem;
+  align-items: center;
+  color: var(--muted);
+  font-family: var(--font-mono-local), monospace;
+  font-size: 0.72rem;
+  line-height: 1.45;
+}
+
+.summaryPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.summaryKicker {
+  margin: 0;
+  color: var(--accent);
+  font-family: var(--font-mono-local), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.summaryParagraph {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.introSection,
+.flowSection,
+.compactSection {
+  border-top: 1px solid var(--line);
+  padding-top: 0.65rem;
+}
+
+.introSection {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 1rem;
+  padding-top: 0.95rem;
+}
+
+.flowSection {
+  display: grid;
+  gap: 0.9rem;
+  padding-top: 0.95rem;
+}
+
+.compactGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem 1rem;
+  margin-top: 0.95rem;
+}
+
+.sectionLabel {
+  margin: 0 0 0.6rem;
+  color: var(--muted);
+  font-family: var(--font-mono-local), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.signalList,
+.roleBullets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.signalList {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.signalList li {
+  position: relative;
+  padding-left: 0.9rem;
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.signalList li::before,
+.roleBullets li::before {
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  content: "—";
+}
+
+.skillBands {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.skillBand h2,
+.projectCard h2,
+.earlierList h2,
+.educationCard h2 {
+  margin: 0 0 0.2rem;
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.skillBand p,
+.projectCard p,
+.earlierList p,
+.educationCard p {
+  margin: 0;
+  color: color-mix(in srgb, var(--ink) 86%, transparent);
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.projectList,
+.earlierList {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.projectCard,
+.earlierList article,
+.educationCard {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.projectTopline,
+.earlierTopline {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.projectTopline span,
+.earlierTopline span,
+.educationDates,
+.roleDates,
+.columnNote {
+  color: var(--muted);
+  font-family: var(--font-mono-local), monospace;
+}
+
+.projectTopline span,
+.earlierTopline span,
+.educationDates {
+  font-size: 0.68rem;
+  line-height: 1.4;
+}
+
+.projectLinkRow {
+  margin-top: 0.05rem;
+}
+
+.columnHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: 1px solid var(--line);
+  padding-top: 0.65rem;
+}
+
+.columnNote {
+  margin: 0;
+  font-size: 0.63rem;
+  letter-spacing: 0.03em;
+  text-align: right;
+}
+
+.roleStack {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.roleCard {
+  break-inside: avoid;
+  border: 1px solid rgba(68, 54, 42, 0.12);
+  background: rgba(255, 255, 255, 0.48);
+  padding: 0.8rem 0.9rem 0.85rem;
+}
+
+.roleTopline {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.roleTitle {
+  margin: 0;
+  font-family: var(--font-display), serif;
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.roleMeta,
+.roleContext,
+.roleSummary,
+.earlierCompany,
+.bottomLinks {
+  margin: 0;
+}
+
+.roleMeta,
+.roleContext {
+  font-size: 0.77rem;
+  line-height: 1.45;
+}
+
+.roleContext,
+.earlierCompany,
+.bottomLinks,
+.projectCard p,
+.educationCard p {
+  color: var(--muted);
+}
+
+.roleDates {
+  margin: 0;
+  flex-shrink: 0;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.roleSummary {
+  margin-top: 0.55rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.roleBullets {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 0.6rem;
+}
+
+.roleBullets li {
+  position: relative;
+  padding-left: 0.95rem;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.inlineLink {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(98, 87, 78, 0.45);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.bottomLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.7rem;
+  font-family: var(--font-mono-local), monospace;
+  font-size: 0.68rem;
+  line-height: 1.45;
+}
+
+.pageFooter {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-family: var(--font-mono-local), monospace;
+  font-size: 0.63rem;
+  letter-spacing: 0.08em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+  .controls {
+    width: min(100%, 40rem);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sheet {
+    width: min(100%, 210mm);
+    min-height: auto;
+    padding: 1.15rem;
+  }
+
+  .hero,
+  .introSection {
+    grid-template-columns: 1fr;
+  }
+
+  .columnHeader {
+    display: grid;
+    gap: 0.25rem;
+  }
+
+  .columnNote,
+  .roleDates,
+  .projectTopline span,
+  .earlierTopline span {
+    text-align: left;
+  }
+
+  .roleTopline,
+  .projectTopline,
+  .earlierTopline {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .compactGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .canvas {
+    padding: 1rem 0.65rem 1.8rem;
+  }
+
+  .sheet {
+    padding: 1rem 0.9rem;
+  }
+
+  .name {
+    font-size: 2.45rem;
+  }
+
+  .headline {
+    font-size: 1.2rem;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .route,
+  .sheets {
+    background: #fff;
+  }
+
+  .canvas {
+    background: #fff;
+    padding: 0;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .sheets {
+    gap: 0;
+  }
+
+  .sheet {
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+    box-shadow: none;
+    background: #fff;
+    break-after: page;
+    color: #000;
+    overflow: hidden;
+    padding: 10mm 11mm 9mm;
+  }
+
+  .sheet:last-child {
+    break-after: auto;
+  }
+
+  .introSection,
+  .flowSection,
+  .compactSection,
+  .columnHeader,
+  .hero {
+    border-color: rgba(0, 0, 0, 0.18);
+  }
+
+  .hero {
+    gap: 0.8rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .introSection {
+    gap: 0.75rem;
+    padding-top: 0.75rem;
+  }
+
+  .flowSection {
+    padding-top: 0.75rem;
+  }
+
+  .compactGrid {
+    gap: 0.7rem 0.85rem;
+    margin-top: 0.8rem;
+  }
+
+  .name {
+    font-size: 2.15rem;
+  }
+
+  .headline {
+    font-size: 1rem;
+  }
+
+  .contactStrip,
+  .summaryKicker,
+  .sectionLabel,
+  .projectTopline span,
+  .earlierTopline span,
+  .educationDates,
+  .roleDates,
+  .columnNote,
+  .bottomLinks,
+  .pageFooter {
+    font-size: 0.58rem;
+  }
+
+  .summaryParagraph {
+    font-size: 0.68rem;
+    line-height: 1.32;
+  }
+
+  .signalList {
+    gap: 0.32rem;
+  }
+
+  .signalList li,
+  .roleBullets li,
+  .roleSummary,
+  .skillBand p,
+  .projectCard p,
+  .earlierList p,
+  .educationCard p,
+  .roleMeta,
+  .roleContext {
+    font-size: 0.61rem;
+    line-height: 1.32;
+  }
+
+  .skillBand h2,
+  .projectCard h2,
+  .earlierList h2,
+  .educationCard h2 {
+    font-size: 0.67rem;
+  }
+
+  .roleTitle {
+    font-size: 0.9rem;
+  }
+
+  .skillBands,
+  .projectList,
+  .earlierList,
+  .roleStack {
+    gap: 0.42rem;
+  }
+
+  .roleCard {
+    border-color: rgba(0, 0, 0, 0.14);
+    background: #fff;
+    padding: 0.52rem 0.6rem 0.56rem;
+  }
+
+  .inlineLink {
+    color: #000;
+    text-decoration-color: rgba(0, 0, 0, 0.35);
+  }
+
+  .summaryKicker,
+  .signalList li::before,
+  .roleBullets li::before {
+    color: #000;
+  }
+}

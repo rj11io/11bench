@@ -1,0 +1,50 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">RJ systems map</title>
+  <desc id="desc">A static banner with connected cards for AI products, data-heavy interfaces, and agent systems, plus stack tags for TypeScript, React, Next.js, AI SDK, and Playwright.</desc>
+  <rect x="28" y="26" width="1144" height="208" rx="28" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <circle cx="120" cy="130" r="58" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="2"/>
+  <circle cx="120" cy="130" r="42" fill="#0969DA" fill-opacity="0.10" stroke="#0969DA" stroke-width="2"/>
+  <text x="120" y="122" text-anchor="middle" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="700">RJ</text>
+  <text x="120" y="144" text-anchor="middle" fill="#57606A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11">product systems</text>
+
+  <path d="M178 130H262" stroke="#8C959F" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 8"/>
+  <path d="M522 130H612" stroke="#8C959F" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 8"/>
+  <path d="M872 130H962" stroke="#8C959F" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 8"/>
+
+  <rect x="262" y="74" width="260" height="112" rx="22" fill="#FFFFFF" stroke="#0969DA" stroke-width="2"/>
+  <text x="290" y="108" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="700">AI products</text>
+  <text x="290" y="136" fill="#57606A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13">PDF extraction, SEO analytics,</text>
+  <text x="290" y="156" fill="#57606A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13">chat experiences, applied workflows</text>
+  <circle cx="488" cy="100" r="8" fill="#0969DA"/>
+  <circle cx="462" cy="120" r="6" fill="#2DA44E"/>
+  <circle cx="486" cy="140" r="5" fill="#FB8500"/>
+
+  <rect x="612" y="74" width="260" height="112" rx="22" fill="#FFFFFF" stroke="#2DA44E" stroke-width="2"/>
+  <text x="640" y="108" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="700">Data-heavy interfaces</text>
+  <text x="640" y="136" fill="#57606A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13">dashboards, explorers, reports,</text>
+  <text x="640" y="156" fill="#57606A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13">visual systems for real operators</text>
+  <path d="M819 151L832 136L846 142L860 116" stroke="#2DA44E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="819" cy="151" r="4.5" fill="#2DA44E"/>
+  <circle cx="832" cy="136" r="4.5" fill="#2DA44E"/>
+  <circle cx="846" cy="142" r="4.5" fill="#2DA44E"/>
+  <circle cx="860" cy="116" r="4.5" fill="#2DA44E"/>
+
+  <rect x="962" y="74" width="180" height="112" rx="22" fill="#FFFFFF" stroke="#FB8500" stroke-width="2"/>
+  <text x="990" y="108" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="700">Agent systems</text>
+  <text x="990" y="136" fill="#57606A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13">skills, harnesses,</text>
+  <text x="990" y="156" fill="#57606A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13">automations</text>
+  <rect x="1085" y="96" width="26" height="10" rx="5" fill="#FB8500" fill-opacity="0.18" stroke="#FB8500"/>
+  <rect x="1054" y="116" width="57" height="10" rx="5" fill="#FB8500" fill-opacity="0.18" stroke="#FB8500"/>
+  <rect x="1071" y="136" width="40" height="10" rx="5" fill="#FB8500" fill-opacity="0.18" stroke="#FB8500"/>
+
+  <rect x="286" y="196" width="92" height="24" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="332" y="212" text-anchor="middle" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="600">TypeScript</text>
+  <rect x="390" y="196" width="64" height="24" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="422" y="212" text-anchor="middle" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="600">React</text>
+  <rect x="466" y="196" width="76" height="24" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="504" y="212" text-anchor="middle" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="600">Next.js</text>
+  <rect x="554" y="196" width="72" height="24" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="590" y="212" text-anchor="middle" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="600">AI SDK</text>
+  <rect x="638" y="196" width="86" height="24" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="681" y="212" text-anchor="middle" fill="#0F172A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12" font-weight="600">Playwright</text>
+</svg>

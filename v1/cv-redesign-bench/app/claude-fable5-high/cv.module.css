@@ -1,0 +1,658 @@
+/* "Quiet editorial" — see design.md. Screen styles first, print at the end. */
+
+.root {
+  --cv-ink: oklch(0.18 0 0);
+  --cv-ink-muted: oklch(0.45 0 0);
+  --cv-accent: oklch(0.5 0.15 40);
+  --cv-rule: oklch(0.89 0 0);
+  --cv-paper: oklch(0.99 0.002 90);
+  --cv-serif: var(--font-serif-cv), Georgia, "Times New Roman", serif;
+
+  min-height: 100vh;
+  background: var(--cv-paper);
+  color: var(--cv-ink);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+:global(.dark) .root {
+  --cv-ink: oklch(0.93 0 0);
+  --cv-ink-muted: oklch(0.72 0 0);
+  --cv-accent: oklch(0.76 0.11 45);
+  --cv-rule: oklch(0.32 0 0);
+  --cv-paper: oklch(0.16 0 0);
+}
+
+.sheet {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+@media (min-width: 768px) {
+  .sheet {
+    padding: 4.5rem 3rem 6rem;
+  }
+}
+
+/* ---------- Header ---------- */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--cv-rule);
+  margin-bottom: 2.25rem;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2rem;
+  }
+}
+
+.name {
+  font-family: var(--cv-serif);
+  font-weight: 500;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+
+.name em {
+  font-style: normal;
+  color: var(--cv-accent);
+}
+
+.role {
+  font-family: var(--cv-serif);
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--cv-ink-muted);
+  margin-top: 0.5rem;
+}
+
+.contactBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .contactBlock {
+    text-align: right;
+    align-items: flex-end;
+  }
+}
+
+.location {
+  color: var(--cv-ink-muted);
+}
+
+.contactLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .contactLinks {
+    justify-content: flex-end;
+  }
+}
+
+.link {
+  color: var(--cv-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  overflow-wrap: anywhere;
+}
+
+.link:hover {
+  border-bottom-color: currentcolor;
+}
+
+.printButton {
+  align-self: flex-start;
+  margin-top: 0.35rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--cv-ink);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--cv-ink);
+  cursor: pointer;
+  transition:
+    background-color 120ms ease,
+    color 120ms ease;
+}
+
+.printButton:hover {
+  background: var(--cv-ink);
+  color: var(--cv-paper);
+}
+
+@media (min-width: 768px) {
+  .printButton {
+    align-self: flex-end;
+  }
+}
+
+/* ---------- Sections ---------- */
+
+.section {
+  margin-bottom: 2.25rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    column-gap: 2rem;
+  }
+}
+
+.sectionLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--cv-ink-muted);
+  margin: 0 0 0.85rem;
+}
+
+@media (min-width: 768px) {
+  .sectionLabel {
+    margin-bottom: 0;
+    padding-top: 0.2rem;
+  }
+}
+
+.sectionBody {
+  min-width: 0;
+  max-width: 68ch;
+}
+
+/* Experience is split into two grid parts so print can force a page break
+   between them; on screen the parts read as one continuous section. */
+.sectionFlush {
+  margin-bottom: 1.6rem;
+}
+
+.contLabel {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sectionCont .sectionBody {
+    grid-column: 2;
+  }
+}
+
+.profileText p + p {
+  margin-top: 0.75rem;
+}
+
+.availability {
+  margin-top: 1rem;
+  font-family: var(--cv-serif);
+  font-style: italic;
+  color: var(--cv-ink-muted);
+}
+
+/* ---------- Skills ---------- */
+
+.skillRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.15rem;
+  padding: 0.55rem 0;
+}
+
+.skillRow + .skillRow {
+  border-top: 1px solid var(--cv-rule);
+}
+
+@media (min-width: 640px) {
+  .skillRow {
+    grid-template-columns: 11rem 1fr;
+    gap: 1rem;
+  }
+}
+
+.skillName {
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+.skillItems {
+  color: var(--cv-ink-muted);
+  font-size: 0.88rem;
+}
+
+/* ---------- Experience entries ---------- */
+
+.entry {
+  break-inside: avoid;
+}
+
+.entry + .entry {
+  margin-top: 1.6rem;
+}
+
+.entryHead {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+@media (min-width: 768px) {
+  .entryHead {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
+}
+
+.entryTitle {
+  font-family: var(--cv-serif);
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.entryCompany {
+  font-size: 0.88rem;
+  color: var(--cv-ink-muted);
+  margin-top: 0.15rem;
+}
+
+.dates {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.78rem;
+  color: var(--cv-ink-muted);
+  white-space: nowrap;
+}
+
+.lead {
+  margin-top: 0.5rem;
+}
+
+.bullets {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+}
+
+.bullets li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin-top: 0.35rem;
+}
+
+.bullets li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--cv-accent);
+}
+
+/* Earlier one-liners */
+
+.earlierItem {
+  padding: 0.5rem 0;
+  break-inside: avoid;
+}
+
+.earlierItem + .earlierItem {
+  border-top: 1px solid var(--cv-rule);
+}
+
+.earlierHead {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.5rem;
+  align-items: baseline;
+}
+
+.earlierTitle {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.earlierCompany {
+  color: var(--cv-ink-muted);
+  font-size: 0.88rem;
+}
+
+.earlierHead .dates {
+  margin-left: auto;
+}
+
+.earlierNote {
+  color: var(--cv-ink-muted);
+  font-size: 0.88rem;
+  margin-top: 0.1rem;
+}
+
+/* ---------- Projects ---------- */
+
+.projectItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.6rem;
+  padding: 0.45rem 0;
+  break-inside: avoid;
+}
+
+.projectItem + .projectItem {
+  border-top: 1px solid var(--cv-rule);
+}
+
+.projectName {
+  font-family: var(--cv-serif);
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.projectUrl {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.78rem;
+}
+
+.projectDesc {
+  flex-basis: 100%;
+  color: var(--cv-ink-muted);
+  font-size: 0.88rem;
+}
+
+@media (min-width: 640px) {
+  .projectDesc {
+    flex-basis: auto;
+  }
+
+  .projectItem .dates {
+    margin-left: auto;
+  }
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  border-top: 1px solid var(--cv-rule);
+  padding-top: 1.25rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.75rem;
+  color: var(--cv-ink-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  justify-content: space-between;
+}
+
+/* =====================================================================
+   PRINT — exactly two A4 pages, black on white. See design.md.
+   ===================================================================== */
+
+@media print {
+  /* The root element's background propagates to the print canvas; force it
+     white so dark mode never tints the paper (brief: black on white). */
+  :global(html),
+  :global(body) {
+    background: #fff !important;
+    color-scheme: light !important;
+  }
+
+  /* Both selectors so the print palette also beats the dark-theme vars,
+     which carry higher specificity via :global(.dark). */
+  .root,
+  :global(.dark) .root {
+    --cv-ink: #111;
+    --cv-ink-muted: #333;
+    --cv-accent: #111;
+    --cv-rule: #bbb;
+    --cv-paper: #fff;
+
+    background: #fff !important;
+    color: #111 !important;
+    font-size: 9.2pt;
+    line-height: 1.42;
+    min-height: 0;
+    color-scheme: light;
+  }
+
+  .sheet {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .printButton {
+    display: none;
+  }
+
+  .link {
+    color: #111;
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5pt;
+    text-underline-offset: 2pt;
+  }
+
+  /* Header */
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 8mm;
+    padding-bottom: 3.5mm;
+    margin-bottom: 5mm;
+    border-bottom-color: #111;
+  }
+
+  .name {
+    font-size: 25pt;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+  }
+
+  .role {
+    font-size: 11.5pt;
+    margin-top: 1.5mm;
+    color: #333;
+  }
+
+  .contactBlock {
+    font-size: 7.6pt;
+    gap: 1.2mm;
+    text-align: right;
+    align-items: flex-end;
+  }
+
+  .contactLinks {
+    justify-content: flex-end;
+    gap: 1mm 3.5mm;
+  }
+
+  /* Sections: keep the label rail, narrower */
+
+  .section {
+    display: grid;
+    grid-template-columns: 24mm 1fr;
+    column-gap: 6mm;
+    margin-bottom: 4mm;
+  }
+
+  .sectionLabel {
+    font-size: 6.8pt;
+    letter-spacing: 0.16em;
+    margin-bottom: 0;
+    padding-top: 0.8mm;
+    color: #333;
+  }
+
+  .sectionBody {
+    max-width: none;
+  }
+
+  .profileText p + p {
+    margin-top: 1.8mm;
+  }
+
+  .availability {
+    margin-top: 2mm;
+    font-size: 9pt;
+    color: #333;
+  }
+
+  /* Skills */
+
+  .skillRow {
+    grid-template-columns: 34mm 1fr;
+    gap: 4mm;
+    padding: 1.4mm 0;
+  }
+
+  .skillName,
+  .skillItems {
+    font-size: 8.6pt;
+  }
+
+  /* Entries */
+
+  .entry + .entry {
+    margin-top: 3.2mm;
+  }
+
+  .entryHead {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 5mm;
+  }
+
+  .entryTitle {
+    font-size: 11pt;
+  }
+
+  .entryCompany {
+    font-size: 8.6pt;
+    margin-top: 0.5mm;
+  }
+
+  .dates {
+    font-size: 7.4pt;
+  }
+
+  .lead {
+    margin-top: 1.2mm;
+  }
+
+  .bullets {
+    margin-top: 1.2mm;
+  }
+
+  .bullets li {
+    margin-top: 0.9mm;
+    padding-left: 4mm;
+  }
+
+  .earlierItem {
+    padding: 1.1mm 0;
+  }
+
+  .earlierTitle,
+  .earlierCompany,
+  .earlierNote {
+    font-size: 8.6pt;
+  }
+
+  .projectItem {
+    padding: 1.2mm 0;
+  }
+
+  .projectName {
+    font-size: 9.5pt;
+  }
+
+  .projectUrl {
+    font-size: 7.4pt;
+  }
+
+  .projectDesc {
+    font-size: 8.6pt;
+    flex-basis: auto;
+  }
+
+  .projectItem .dates {
+    margin-left: auto;
+  }
+
+  .footer {
+    padding-top: 2mm;
+    font-size: 7pt;
+    color: #333;
+    break-inside: avoid;
+  }
+
+  /* The deliberate page break: applied to the last element of page 1. */
+
+  .pageBreakAfter {
+    break-after: page;
+    margin-bottom: 0;
+  }
+
+  .contLabel {
+    display: block;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: var(--font-mono), monospace;
+    font-size: 6.8pt;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #333;
+    padding-top: 0.8mm;
+  }
+
+  .sectionCont .sectionBody {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .entry,
+  .earlierItem,
+  .projectItem,
+  .skillRow,
+  .header {
+    break-inside: avoid;
+  }
+
+  .sectionBody p,
+  .bullets li {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
+/* Page box — global by nature; only meaningful in print. */
+
+@page {
+  size: A4;
+  margin: 12mm 14mm;
+}

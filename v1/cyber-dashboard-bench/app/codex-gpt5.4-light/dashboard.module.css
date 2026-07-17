@@ -1,0 +1,602 @@
+.shell {
+  --bg: #07111a;
+  --panel: rgba(8, 21, 34, 0.88);
+  --panel-strong: rgba(12, 28, 44, 0.96);
+  --border: rgba(165, 189, 214, 0.18);
+  --text: #eef4fb;
+  --muted: #98adbf;
+  --danger: #ff715b;
+  --signal: #f5b84b;
+  --safe: #4fc9b6;
+  --neutral: #88a8c6;
+  min-height: 100svh;
+  padding: 28px;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top right, rgba(245, 184, 75, 0.16), transparent 24%),
+    radial-gradient(circle at top left, rgba(79, 201, 182, 0.12), transparent 18%),
+    linear-gradient(180deg, #091522 0%, #060d15 100%);
+  font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+}
+
+.hero,
+.workspace,
+.bottomGrid,
+.metrics {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.eyebrow,
+.sectionEyebrow {
+  margin: 0;
+  color: var(--signal);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 11px;
+}
+
+.title {
+  max-width: 10ch;
+  margin: 10px 0 0;
+  font-size: clamp(2.8rem, 7vw, 5.6rem);
+  line-height: 0.94;
+  letter-spacing: -0.06em;
+}
+
+.subtitle {
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+.heroControls {
+  display: grid;
+  gap: 14px;
+  min-width: min(100%, 340px);
+}
+
+.snapshotCard,
+.metricCard,
+.detailCard,
+.notesCard,
+.queueCard,
+.queueCardActive,
+.campaignCard {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+}
+
+.snapshotCard {
+  display: grid;
+  gap: 6px;
+  padding: 16px 18px;
+  border-radius: 22px;
+}
+
+.snapshotCard span,
+.snapshotCard small {
+  color: var(--muted);
+}
+
+.roleSwitch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.roleButton,
+.roleActive,
+.filterButton,
+.filterActive,
+.inlineButton,
+.primaryButton,
+.secondaryButton {
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease;
+}
+
+.roleButton,
+.filterButton,
+.secondaryButton {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.roleActive,
+.filterActive,
+.primaryButton {
+  color: #08111c;
+  background: linear-gradient(135deg, #ffd287 0%, #f5b84b 100%);
+  border-color: rgba(255, 210, 135, 0.9);
+}
+
+.roleButton,
+.roleActive,
+.filterButton,
+.filterActive {
+  padding: 10px 14px;
+  font: inherit;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.metricCard {
+  border-radius: 22px;
+  padding: 18px;
+}
+
+.metricCard[data-tone="danger"] {
+  border-color: rgba(255, 113, 91, 0.34);
+}
+
+.metricCard[data-tone="signal"] {
+  border-color: rgba(245, 184, 75, 0.34);
+}
+
+.metricCard[data-tone="safe"] {
+  border-color: rgba(79, 201, 182, 0.34);
+}
+
+.metricLabel {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--muted);
+}
+
+.metricCard strong {
+  display: block;
+  margin-top: 20px;
+  font-size: 2.7rem;
+  line-height: 1;
+}
+
+.metricCard small {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.06fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.queuePane,
+.detailPane {
+  min-width: 0;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: flex-end;
+}
+
+.sectionHeader h2,
+.detailHeader h2 {
+  margin: 5px 0 0;
+  font-size: 1.35rem;
+}
+
+.filterRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.filterIcon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--muted);
+}
+
+.cardList {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.queueCard,
+.queueCardActive {
+  width: 100%;
+  padding: 16px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.queueCardActive {
+  background: linear-gradient(180deg, rgba(18, 38, 58, 0.96), rgba(10, 25, 40, 0.96));
+  border-color: rgba(245, 184, 75, 0.44);
+  transform: translateY(-1px);
+}
+
+.cardTopline,
+.scoreRow,
+.tagRow,
+.campaignTopline,
+.campaignFooter,
+.pathHeading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.cardId,
+.cardStatus,
+.tagRow span,
+.detailMeta span,
+.campaignFooter small,
+.pathHeading small {
+  color: var(--muted);
+}
+
+.queueCard h3,
+.queueCardActive h3 {
+  margin: 12px 0 6px;
+  font-size: 1.03rem;
+}
+
+.queueCard p,
+.queueCardActive p,
+.campaignCard p,
+.activityList p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.scoreRow {
+  margin-top: 18px;
+}
+
+.scoreRow strong {
+  font-size: 2rem;
+}
+
+.scoreRow span {
+  margin-right: auto;
+  color: var(--text);
+}
+
+.tagRow {
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.tagRow span,
+.reasonPill {
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 0.84rem;
+}
+
+.detailPane {
+  display: grid;
+  gap: 16px;
+}
+
+.detailCard,
+.notesCard {
+  border-radius: 24px;
+  padding: 18px;
+}
+
+.detailHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.detailScore {
+  min-width: 112px;
+  text-align: right;
+}
+
+.detailScore span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.detailScore strong {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.reasonGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.reasonPill {
+  background: rgba(245, 184, 75, 0.1);
+}
+
+.pathCard {
+  margin-top: 18px;
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.pathFlow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.pathNode {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: rgba(7, 17, 26, 0.8);
+  border: 1px solid var(--border);
+}
+
+.columns,
+.bottomGrid {
+  display: grid;
+  gap: 16px;
+}
+
+.columns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 16px;
+}
+
+.subCard {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.subCard h3,
+.notesCard h2 {
+  margin: 0 0 12px;
+}
+
+.subCard ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.detailMeta {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.detailMeta div {
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.detailMeta span,
+.detailMeta strong {
+  display: block;
+}
+
+.detailMeta strong {
+  margin-top: 8px;
+}
+
+.actionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.primaryButton,
+.secondaryButton,
+.inlineButton {
+  padding: 11px 15px;
+  font: inherit;
+}
+
+.notesInput {
+  min-height: 130px;
+  width: 100%;
+  margin-top: 16px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 14px 16px;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.03);
+  font: inherit;
+  resize: vertical;
+}
+
+.bottomGrid {
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+  margin-top: 16px;
+}
+
+.campaignList,
+.activityList {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.campaignCard {
+  border-radius: 18px;
+  padding: 14px;
+}
+
+.progressBar {
+  height: 10px;
+  margin-top: 12px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.progressBar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--safe), #79f0ca);
+}
+
+.activityList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.activityList li {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.activityList li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.activityList strong,
+.activityList span,
+.activityList p {
+  display: block;
+}
+
+.activityList span,
+.activityList small {
+  color: var(--muted);
+}
+
+.emptyState {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px dashed var(--border);
+  color: var(--muted);
+}
+
+.queueCard:focus-visible,
+.queueCardActive:focus-visible,
+.roleButton:focus-visible,
+.roleActive:focus-visible,
+.filterButton:focus-visible,
+.filterActive:focus-visible,
+.inlineButton:focus-visible,
+.primaryButton:focus-visible,
+.secondaryButton:focus-visible,
+.notesInput:focus-visible {
+  outline: 2px solid #f6d290;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .roleButton,
+  .roleActive,
+  .filterButton,
+  .filterActive,
+  .inlineButton,
+  .primaryButton,
+  .secondaryButton,
+  .queueCard,
+  .queueCardActive {
+    transition: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .metrics,
+  .workspace,
+  .bottomGrid,
+  .columns,
+  .detailMeta,
+  .hero {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .heroControls {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .shell {
+    padding: 16px;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .detailHeader,
+  .sectionHeader,
+  .campaignFooter,
+  .cardTopline,
+  .pathHeading {
+    display: block;
+  }
+
+  .detailScore {
+    margin-top: 14px;
+    text-align: left;
+  }
+
+  .detailMeta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .activityList li {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .metrics,
+  .detailMeta {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    max-width: none;
+  }
+}

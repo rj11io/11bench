@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Ricardo Jorge profile signal map</title>
+  <desc id="desc">A static GitHub profile banner connecting TypeScript, data visualisation, agent harnesses, product engineering, and open source AI work.</desc>
+  <rect width="1200" height="360" rx="26" fill="#0d1117"/>
+  <path d="M0 260 C190 190 300 310 465 225 C620 145 705 110 860 166 C990 214 1068 152 1200 86" fill="none" stroke="#2f81f7" stroke-width="4" opacity=".75"/>
+  <path d="M0 302 C210 238 360 350 520 264 C665 186 744 156 914 221 C1018 260 1102 202 1200 158" fill="none" stroke="#3fb950" stroke-width="3" opacity=".55"/>
+  <g fill="#161b22" stroke="#30363d" stroke-width="2">
+    <rect x="52" y="54" width="314" height="138" rx="14"/>
+    <rect x="422" y="92" width="304" height="114" rx="14"/>
+    <rect x="792" y="48" width="356" height="146" rx="14"/>
+    <rect x="82" y="234" width="296" height="76" rx="14"/>
+    <rect x="452" y="250" width="282" height="62" rx="14"/>
+    <rect x="812" y="244" width="306" height="66" rx="14"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="82" y="95" fill="#8b949e" font-size="18">current</text>
+    <text x="82" y="130" fill="#f0f6fc" font-size="30" font-weight="700">AI Product Engineering</text>
+    <text x="82" y="162" fill="#c9d1d9" font-size="18">early-stage products, agents, automations</text>
+    <text x="452" y="134" fill="#8b949e" font-size="18">core stack</text>
+    <text x="452" y="168" fill="#f0f6fc" font-size="26" font-weight="700">TypeScript -> React -> Next.js</text>
+    <text x="822" y="90" fill="#8b949e" font-size="18">signal</text>
+    <text x="822" y="124" fill="#f0f6fc" font-size="28" font-weight="700">Data-rich interfaces</text>
+    <text x="822" y="156" fill="#c9d1d9" font-size="18">security, crypto, gaming, dashboards</text>
+    <text x="112" y="282" fill="#f0f6fc" font-size="22" font-weight="700">agent harnesses</text>
+    <text x="482" y="289" fill="#f0f6fc" font-size="22" font-weight="700">open AI skills</text>
+    <text x="842" y="286" fill="#f0f6fc" font-size="22" font-weight="700">product from zero</text>
+  </g>
+  <g fill="#2f81f7">
+    <circle cx="366" cy="192" r="6"/>
+    <circle cx="726" cy="206" r="6"/>
+    <circle cx="792" cy="194" r="6"/>
+  </g>
+  <g fill="#3fb950">
+    <circle cx="378" cy="310" r="5"/>
+    <circle cx="734" cy="312" r="5"/>
+    <circle cx="812" cy="310" r="5"/>
+  </g>
+</svg>

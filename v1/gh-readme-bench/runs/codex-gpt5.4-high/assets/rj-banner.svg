@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Ricardo Jorge banner</title>
+  <desc id="desc">A static banner for Ricardo Jorge describing him as an AI Product Engineer, with themes of TypeScript, data visualisation, and agent tooling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7f1e8"/>
+      <stop offset="100%" stop-color="#efe6d8"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#7c5c3b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="272" rx="18" fill="none" stroke="#d9c9b4" stroke-width="2"/>
+
+  <g opacity="0.35">
+    <path d="M760 95 C840 55, 905 160, 980 118 S1100 128, 1140 92" fill="none" stroke="url(#line)" stroke-width="4"/>
+    <path d="M760 175 C815 135, 875 225, 940 188 S1060 210, 1138 165" fill="none" stroke="#9d7a55" stroke-width="3"/>
+    <circle cx="790" cy="82" r="7" fill="#1f2937"/>
+    <circle cx="905" cy="142" r="7" fill="#7c5c3b"/>
+    <circle cx="1000" cy="120" r="7" fill="#1f2937"/>
+    <circle cx="1090" cy="108" r="7" fill="#7c5c3b"/>
+    <circle cx="835" cy="169" r="6" fill="#1f2937"/>
+    <circle cx="946" cy="193" r="6" fill="#7c5c3b"/>
+    <circle cx="1072" cy="189" r="6" fill="#1f2937"/>
+  </g>
+
+  <text x="64" y="98" fill="#171717" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700">
+    Ricardo Jorge
+  </text>
+  <text x="66" y="138" fill="#5b4630" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26">
+    AI Product Engineer
+  </text>
+  <text x="66" y="182" fill="#2d2d2d" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20">
+    From game-modding roots to dashboards, data explorers, and AI agent tooling.
+  </text>
+
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">
+    <rect x="66" y="220" width="190" height="38" rx="19" fill="#fffaf3" stroke="#c9b497"/>
+    <text x="90" y="245" fill="#1f2937">TypeScript + React</text>
+
+    <rect x="270" y="220" width="200" height="38" rx="19" fill="#fffaf3" stroke="#c9b497"/>
+    <text x="294" y="245" fill="#1f2937">data visualisation</text>
+
+    <rect x="484" y="220" width="185" height="38" rx="19" fill="#fffaf3" stroke="#c9b497"/>
+    <text x="508" y="245" fill="#1f2937">agent tooling</text>
+  </g>
+</svg>

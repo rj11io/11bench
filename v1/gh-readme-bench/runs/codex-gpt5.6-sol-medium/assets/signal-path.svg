@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">RJ signal path</title>
+  <desc id="desc">A static systems diagram connecting data, interfaces, and agents around the initials RJ.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09111f"/>
+      <stop offset="1" stop-color="#12233f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#65d6c4"/>
+      <stop offset="0.5" stop-color="#8aa8ff"/>
+      <stop offset="1" stop-color="#d49cff"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#9fb4d0" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <path d="M90 150H1110" stroke="#4f6482" stroke-width="2" stroke-dasharray="6 12"/>
+  <path d="M180 150H470M730 150H1020" stroke="url(#line)" stroke-width="4" filter="url(#glow)"/>
+
+  <g fill="#09111f" stroke-width="3">
+    <rect x="70" y="108" width="220" height="84" rx="18" stroke="#65d6c4"/>
+    <rect x="455" y="72" width="290" height="156" rx="28" stroke="#8aa8ff"/>
+    <rect x="910" y="108" width="220" height="84" rx="18" stroke="#d49cff"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#e8eef8">
+    <text x="180" y="144" font-size="17" text-anchor="middle" letter-spacing="4">DENSE DATA</text>
+    <text x="180" y="171" font-size="13" text-anchor="middle" fill="#9eb0c8">signals · context · evidence</text>
+
+    <text x="600" y="147" font-size="72" font-weight="700" text-anchor="middle" letter-spacing="8">RJ</text>
+    <text x="600" y="183" font-size="15" text-anchor="middle" fill="#b7c5d9" letter-spacing="5">PRODUCT ENGINEERING</text>
+
+    <text x="1020" y="144" font-size="17" text-anchor="middle" letter-spacing="4">USABLE SYSTEMS</text>
+    <text x="1020" y="171" font-size="13" text-anchor="middle" fill="#9eb0c8">interfaces · agents · delivery</text>
+  </g>
+
+  <g fill="#09111f" stroke="url(#line)" stroke-width="3">
+    <circle cx="330" cy="150" r="9"/>
+    <circle cx="390" cy="150" r="9"/>
+    <circle cx="810" cy="150" r="9"/>
+    <circle cx="870" cy="150" r="9"/>
+  </g>
+  <g fill="#9eb0c8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2">
+    <text x="70" y="45">RJ / SIGNAL PATH 01</text>
+    <text x="1130" y="267" text-anchor="end">LISBON · REMOTE</text>
+  </g>
+</svg>

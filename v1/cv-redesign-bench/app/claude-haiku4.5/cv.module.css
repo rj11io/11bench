@@ -1,0 +1,335 @@
+.cvContainer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .cvContainer {
+    padding: 1rem;
+  }
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.nameTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.title {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .name {
+    font-size: 1.75rem;
+  }
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  align-items: center;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+}
+
+.contactSeparator {
+  margin: 0 0.25rem;
+}
+
+.contactLink {
+  text-decoration: none;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}
+
+.contactLink:focus-visible {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
+
+.section {
+  margin-bottom: 2rem;
+  page-break-inside: avoid;
+}
+
+.sectionHeading {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid;
+  line-height: 1.3;
+}
+
+@media (max-width: 640px) {
+  .sectionHeading {
+    font-size: 1rem;
+  }
+}
+
+.aboutText {
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+.aboutText p {
+  margin: 0 0 1rem 0;
+}
+
+.aboutText p:last-child {
+  margin-bottom: 0;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .skillsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.skillCategory {
+  page-break-inside: avoid;
+}
+
+.skillCategoryLabel {
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.skillItems {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.projectsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.projectItem {
+  page-break-inside: avoid;
+}
+
+.projectName {
+  font-weight: 600;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.projectLink {
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
+
+.projectLink:focus-visible {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
+
+.projectMeta {
+  font-size: 0.875rem;
+  margin: 0.25rem 0 0.5rem 0;
+}
+
+.projectDescription {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.roleItem {
+  page-break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+
+.roleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.roleTitle {
+  font-weight: 600;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.roleDate {
+  font-size: 0.875rem;
+  white-space: nowrap;
+  order: 3;
+  flex-basis: 100%;
+}
+
+.roleMeta {
+  font-size: 0.875rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.roleLink {
+  text-decoration: none;
+}
+
+.roleLink:hover {
+  text-decoration: underline;
+}
+
+.roleLink:focus-visible {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
+
+.roleDescription {
+  font-size: 0.875rem;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.roleBullets {
+  list-style-position: inside;
+  list-style-type: disc;
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.roleBullets li {
+  margin-bottom: 0.5rem;
+}
+
+.roleBullets li:last-child {
+  margin-bottom: 0;
+}
+
+.roleBulletMarker {
+}
+
+.educationContainer {
+  page-break-inside: avoid;
+}
+
+.educationDegree {
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+}
+
+.educationSchool {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.educationMeta {
+  font-size: 0.875rem;
+  margin: 0.25rem 0 0 0;
+}
+
+.downloadButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.downloadButton:hover {
+  opacity: 0.9;
+}
+
+.downloadButton:focus-visible {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
+
+.projectsSection {
+  page-break-after: always;
+}
+
+/* Print-specific styles */
+@media print {
+  .cvContainer {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    page-break-before: avoid;
+  }
+
+  .downloadButton {
+    display: none;
+  }
+
+  .projectLink {
+    text-decoration: underline;
+  }
+
+  .roleLink {
+    text-decoration: underline;
+  }
+
+  .contactLink {
+    text-decoration: underline;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+
+  .roleItem {
+    page-break-inside: avoid;
+  }
+
+  .name,
+  .sectionHeading,
+  .roleTitle {
+    page-break-after: avoid;
+  }
+
+  @page {
+    margin: 0.5in;
+    size: A4;
+  }
+}

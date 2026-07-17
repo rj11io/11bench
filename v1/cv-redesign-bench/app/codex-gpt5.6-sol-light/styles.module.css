@@ -1,0 +1,630 @@
+.canvas {
+  --ink: #151719;
+  --muted: #5b6066;
+  --paper: #fffdf8;
+  --line: #cfd2d4;
+  --accent: #1748db;
+  min-height: 100vh;
+  padding: 32px 24px 80px;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 18% 8%, rgba(23, 72, 219, 0.08), transparent 25rem),
+    #e9eaec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.actions {
+  width: min(100%, 210mm);
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #4d535a;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+:global(.printButton) {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0 18px;
+  color: white;
+  background: #1748db;
+  box-shadow: 0 8px 20px rgba(23, 72, 219, 0.22);
+  cursor: pointer;
+  font: 700 12px/1 Arial, Helvetica, sans-serif;
+  letter-spacing: 0.04em;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+:global(.printButton svg) {
+  width: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+:global(.printButton:hover) {
+  transform: translateY(-1px);
+  box-shadow: 0 11px 25px rgba(23, 72, 219, 0.28);
+}
+
+:global(.printButton:focus-visible),
+.sheet a:focus-visible {
+  outline: 3px solid #ffbf47;
+  outline-offset: 3px;
+}
+
+.sheet {
+  position: relative;
+  width: min(100%, 210mm);
+  min-height: 297mm;
+  margin: 0 auto 28px;
+  padding: 13mm 15mm 12mm;
+  overflow: hidden;
+  background: var(--paper);
+  box-shadow: 0 18px 54px rgba(20, 25, 35, 0.15);
+}
+
+.hero {
+  border-top: 4px solid var(--accent);
+  padding-top: 10px;
+}
+
+.eyebrow,
+.continuation {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.identity {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 30px;
+  align-items: end;
+  margin: 28px 0 22px;
+}
+
+.kicker {
+  margin: 0 0 6px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.identity h1 {
+  margin: 0;
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 47px;
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 0.94;
+}
+
+.headline {
+  margin: 0;
+  padding-bottom: 2px;
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+  font-size: 10px;
+  font-style: normal;
+}
+
+.sheet a {
+  color: inherit;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 22px;
+  border-top: 1px solid var(--line);
+  margin-top: 16px;
+  padding-top: 12px;
+}
+
+.sectionLabel {
+  margin: 2px 0 0;
+  color: var(--accent);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.profileSection {
+  margin-top: 18px;
+}
+
+.profile {
+  margin: 0;
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.capabilities {
+  margin: 0;
+}
+
+.capabilities > div {
+  display: grid;
+  grid-template-columns: 134px 1fr;
+  gap: 12px;
+  margin-bottom: 6px;
+  font-size: 10.2px;
+  line-height: 1.42;
+}
+
+.capabilities dt {
+  font-weight: 700;
+}
+
+.capabilities dd {
+  margin: 0;
+  color: #3f4449;
+}
+
+.roles {
+  display: grid;
+  gap: 15px;
+}
+
+.role {
+  break-inside: avoid;
+}
+
+.role + .role {
+  border-top: 1px dotted #b9bdc1;
+  padding-top: 13px;
+}
+
+.roleHeader {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 18px;
+  align-items: start;
+}
+
+.role h3,
+.projects h3,
+.education h3 {
+  margin: 0;
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.company {
+  margin: 3px 0 0;
+  color: #30353a;
+  font-size: 9.5px;
+  font-weight: 700;
+}
+
+.company span {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.roleHeader time,
+.education time {
+  color: var(--muted);
+  font-size: 9px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.role ul {
+  margin: 7px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.role li {
+  position: relative;
+  margin: 0 0 3px;
+  padding-left: 13px;
+  color: #2d3135;
+  font-size: 9.7px;
+  line-height: 1.42;
+}
+
+.role li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.continuation {
+  align-items: end;
+  border-top: 4px solid var(--accent);
+  padding-top: 10px;
+}
+
+.continuation p {
+  margin: 0 0 3px;
+  color: var(--ink);
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 17px;
+  letter-spacing: -0.02em;
+  text-transform: none;
+}
+
+.continuation span {
+  color: var(--accent);
+}
+
+.continuation + .section {
+  margin-top: 18px;
+}
+
+.earlier {
+  display: grid;
+  gap: 6px;
+}
+
+.earlier > div {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 10px;
+  font-size: 9.5px;
+  line-height: 1.4;
+}
+
+.earlier time {
+  color: var(--accent);
+  font-size: 8.5px;
+  font-weight: 800;
+}
+
+.earlier p {
+  margin: 0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.projects article {
+  min-width: 0;
+  border-left: 2px solid var(--accent);
+  padding-left: 9px;
+}
+
+.projects article > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.projects h3 {
+  font-size: 13px;
+}
+
+.projects time {
+  color: var(--muted);
+  font-size: 7.5px;
+  white-space: nowrap;
+}
+
+.projects p {
+  min-height: 26px;
+  margin: 5px 0;
+  font-size: 8.8px;
+  line-height: 1.35;
+}
+
+.projects a {
+  font-size: 8.5px;
+  font-weight: 700;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.education p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 9.2px;
+}
+
+.signal {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  margin-top: 16px;
+  border: 1px solid var(--line);
+  padding: 10px 12px;
+  color: #34383c;
+  background: rgba(23, 72, 219, 0.035);
+  font-size: 9px;
+  line-height: 1.4;
+}
+
+.signal > span {
+  color: var(--accent);
+  font-size: 16px;
+  line-height: 1;
+}
+
+.signal p {
+  margin: 0;
+}
+
+.folio {
+  position: absolute;
+  right: 15mm;
+  bottom: 7mm;
+  left: 15mm;
+  display: flex;
+  justify-content: space-between;
+  color: #777c81;
+  font-size: 7.5px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+@media (max-width: 720px) {
+  .canvas {
+    padding: 16px 12px 48px;
+  }
+
+  .actions {
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .actions > span {
+    max-width: 120px;
+    line-height: 1.4;
+  }
+
+  .sheet {
+    min-height: 0;
+    margin-bottom: 16px;
+    padding: 28px 22px 36px;
+  }
+
+  .eyebrow {
+    gap: 16px;
+    line-height: 1.4;
+  }
+
+  .eyebrow span:last-child {
+    text-align: right;
+  }
+
+  .identity {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin: 28px 0 22px;
+  }
+
+  .identity h1 {
+    font-size: clamp(42px, 14vw, 58px);
+  }
+
+  .headline {
+    max-width: 28ch;
+    font-size: 20px;
+  }
+
+  .contact {
+    gap: 10px 16px;
+    font-size: 12px;
+  }
+
+  .section {
+    grid-template-columns: 1fr;
+    gap: 9px;
+    margin-top: 22px;
+    padding-top: 15px;
+  }
+
+  .sectionLabel {
+    font-size: 10px;
+  }
+
+  .profile {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .capabilities > div {
+    grid-template-columns: 1fr;
+    gap: 3px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+
+  .roles {
+    gap: 22px;
+  }
+
+  .role + .role {
+    padding-top: 20px;
+  }
+
+  .roleHeader {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+
+  .role h3,
+  .education h3 {
+    font-size: 18px;
+  }
+
+  .company,
+  .roleHeader time,
+  .education time {
+    font-size: 12px;
+  }
+
+  .role li {
+    margin-bottom: 7px;
+    padding-left: 17px;
+    font-size: 14px;
+    line-height: 1.48;
+  }
+
+  .continuation p {
+    font-size: 18px;
+  }
+
+  .earlier {
+    gap: 13px;
+  }
+
+  .earlier > div {
+    grid-template-columns: 62px 1fr;
+    font-size: 13px;
+  }
+
+  .earlier time {
+    font-size: 11px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .projects h3 {
+    font-size: 18px;
+  }
+
+  .projects time,
+  .projects a {
+    font-size: 11px;
+  }
+
+  .projects p {
+    min-height: 0;
+    font-size: 13px;
+  }
+
+  .education {
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .education p {
+    font-size: 13px;
+  }
+
+  .signal {
+    margin-top: 22px;
+    padding: 14px;
+    font-size: 13px;
+  }
+
+  .folio {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :global(.printButton) {
+    transition: none;
+  }
+}
+
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+@media print {
+  .canvas {
+    display: block;
+    min-height: 0;
+    padding: 0;
+    color: #000;
+    background: #fff;
+  }
+
+  .actions {
+    display: none;
+  }
+
+  .sheet {
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+    margin: 0;
+    padding: 13mm 15mm 12mm;
+    overflow: hidden;
+    color: #000;
+    background: #fff;
+    box-shadow: none;
+  }
+
+  .firstSheet {
+    break-after: page;
+  }
+
+  .secondSheet {
+    break-after: auto;
+  }
+
+  .sheet a {
+    color: #000;
+    text-decoration-color: #000;
+  }
+
+  .hero,
+  .continuation {
+    border-top-color: #000;
+  }
+
+  .sectionLabel,
+  .kicker,
+  .role li::before,
+  .earlier time,
+  .signal > span,
+  .continuation span {
+    color: #000;
+  }
+
+  .signal {
+    background: #fff;
+  }
+}
