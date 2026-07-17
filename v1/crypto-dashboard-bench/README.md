@@ -26,15 +26,15 @@ backend. Realistic seeded data and `localStorage` are allowed.
 
 ## Lifecycle
 
-1. Freeze the rubric and baseline before any run.
-2. Prepare a ledger entry and exact per-run prompt.
-3. Run one agent at a time in a clean working tree.
-4. Audit isolation, dependencies, documentation, render health, and required
-   interactions.
-5. Capture all written artifacts and common desktop/mobile evidence.
-6. Judge anonymously, measure cost, consolidate, and only then publish.
+Cycle 1 is published as an interim result: 26 ledger runs were audited, 16
+eligible runs were judged anonymously, and 10 runs were retained as excluded
+after route/build failures. The campaign remains open for later runs or a
+final cycle.
 
-No runs have been started.
+Canonical outputs are under `benchmark/cycles/cycle-1/`, including the reviewed
+data, report, anonymized evidence, judge artifact, aggregate, and current
+pointer. Transcript token counts are reconciled under `benchmark/costs/`; USD
+pricing is explicitly unavailable for this historical run.
 
 ## Local development
 

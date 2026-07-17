@@ -1,0 +1,1446 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "evidence:cyber-dashboard-2026-07-17-v2",
+  "status": "complete",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "runs": [
+    {
+      "anonymizedAs": "run-01",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-01/research.md",
+          "sha256": "1214330676979ca95d6450b982e51d19f07ad8b202536b59880481433c83679e",
+          "bytes": 8473
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-01/prd.md",
+          "sha256": "694e7ec4b16b9885900b8897400365088caf5b72e79dfd358e625e767a879a9b",
+          "bytes": 8126
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-01/design.md",
+          "sha256": "0a952652696e3db82530fdd1710d853d8364a89c8ab0c836b41de11af4c701d5",
+          "bytes": 4977
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-01/desktop.png",
+          "sha256": "60b7fa91aafccbd998fddd841b0ebb1944c5b21ce51d9683f4757f89e3d1eebe",
+          "bytes": 293808,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-01/mobile.png",
+          "sha256": "60b7fa91aafccbd998fddd841b0ebb1944c5b21ce51d9683f4757f89e3d1eebe",
+          "bytes": 293808,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-02",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-02/research.md",
+          "sha256": "19f2189f38cb0f18d19f166251c3394672d4c850a74661aa1e02320dbd25eb0c",
+          "bytes": 9649
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-02/prd.md",
+          "sha256": "ab3d6df2f320d26fbaefdff1c00c923d37ab102a8fe132fb655dc3464c1e6df6",
+          "bytes": 8312
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-02/design.md",
+          "sha256": "07d14aaf6d20d1eae3a2e9a1d83073bbbe4aee65de914954c168885fde228a6e",
+          "bytes": 5197
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-02/desktop.png",
+          "sha256": "2206f29b0ab1f28703d4029af06a5853988c3fd5ddf748bff8063d5fd66f9cec",
+          "bytes": 216583,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-02/mobile.png",
+          "sha256": "2206f29b0ab1f28703d4029af06a5853988c3fd5ddf748bff8063d5fd66f9cec",
+          "bytes": 216583,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-03",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-03/research.md",
+          "sha256": "8c01de76ff4840c707053301016c72d38f28fad068ac3e71ea3b3d0fb0f5dd68",
+          "bytes": 16041
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-03/prd.md",
+          "sha256": "16517de33164d28e7881567fd8fdf90d8468639eb35fa2783ae88083d64fc0f9",
+          "bytes": 11116
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-03/design.md",
+          "sha256": "e9108559b003c37469718e3a922c9a1733ddc86259819ee30842c3d3f322c1bc",
+          "bytes": 6998
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-03/desktop.png",
+          "sha256": "4a9c38bd5c45f40c95678900eb6865796100a1954745d38680a8eaba190ee536",
+          "bytes": 259076,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-03/mobile.png",
+          "sha256": "f7cb27864c675d8eb7b7041594525179a6834aa62159237fd8f214261056d982",
+          "bytes": 262220,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-04",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-04/research.md",
+          "sha256": "3fcf4c480d42c0fbca774bf9b584437cbf09f53d19463c87a32ea2e0982ae45a",
+          "bytes": 4288
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-04/prd.md",
+          "sha256": "6d812aa6c27167e384b43ffeb21f11cc43f2e1e9ac4eaad08173fc741507999b",
+          "bytes": 5214
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-04/design.md",
+          "sha256": "1e22c0c0df42ba8de2a9712e712e2a9629c2266cda61d7f5824056071786d3f6",
+          "bytes": 2703
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-04/desktop.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-04/mobile.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-05",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-05/research.md",
+          "sha256": "efe57be5a7156758a102edf58e346c72fad53e011ed30d8176b11242b9fe1937",
+          "bytes": 14564
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-05/prd.md",
+          "sha256": "7d292e9ef605f58c1e2f5e9eeb01f2ed35d79f64b72de4130a7b3c5d14735e60",
+          "bytes": 11532
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-05/design.md",
+          "sha256": "60a5a3fbeb1430587e669eaf384402060f4d81a5c581463ea2caa94833025fb2",
+          "bytes": 7321
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-05/desktop.png",
+          "sha256": "4748aa5dc3238e44171aecd62b6b629c41b4c423507ef1f391b642a57b0277c6",
+          "bytes": 487841,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-05/mobile.png",
+          "sha256": "2eae68386b76b69b32bbc76b71da9ed92981e727ac89f94d965e65da6248d939",
+          "bytes": 487886,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-06",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-06/research.md",
+          "sha256": "6374c8f10831eeabc99d457b866780974c6203eb7202a1fae1a85bcacaca0fe4",
+          "bytes": 23183
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-06/prd.md",
+          "sha256": "7a56dabc26befd6b0f48032b5a45b30979e74788d7396e3e3b3988af78d9df03",
+          "bytes": 32301
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-06/design.md",
+          "sha256": "196d415d5a80c270de2301d2bec4ec2846dd88443451588f91c3851e8874f452",
+          "bytes": 17200
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-06/desktop.png",
+          "sha256": "c2a30ed7a43f12ea9148b413e3b820d894c87b97aa5b744e7530ad5a8052b661",
+          "bytes": 121519,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-06/mobile.png",
+          "sha256": "71c5df63cc7afba689c95625449ed506b2432669d61dc0c5fb2f4062f1ab2438",
+          "bytes": 98086,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-07",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-07/research.md",
+          "sha256": "3bf963df43ff895cd9de1dc45a3ebb2421eb4b95e8c517d37ce277bde2fbb57c",
+          "bytes": 4385
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-07/prd.md",
+          "sha256": "8d397ffc762d64b1de5549e276e37023742d940964e5547d88b314775da0f4a6",
+          "bytes": 4988
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-07/design.md",
+          "sha256": "b47b0a9666a4df4cce2b6389cae4618023fbe040d5cd11a750ca7353d0032278",
+          "bytes": 3166
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-07/desktop.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-07/mobile.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-08",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-08/research.md",
+          "sha256": "880d7661743fdcce8c1e45180e1a08e296488e246eb18d518aa2b67de3815446",
+          "bytes": 19192
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-08/prd.md",
+          "sha256": "73562fe68495c1e3b7aa9189bc1d4593c334247c4324998c93b74fe18f331c2d",
+          "bytes": 13777
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-08/design.md",
+          "sha256": "17d1fd233b62dc1a0c9ffad509e0de9bb412601b363c30ab73ea642275fe4070",
+          "bytes": 9647
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-08/desktop.png",
+          "sha256": "0a18fc1699e542c3cabadd78d85e5255c9b1800dc72fc392244968eca5381746",
+          "bytes": 132997,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-08/mobile.png",
+          "sha256": "0a18fc1699e542c3cabadd78d85e5255c9b1800dc72fc392244968eca5381746",
+          "bytes": 132997,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-09",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-09/research.md",
+          "sha256": "6c68d6a0912bd7466ccf8a7b929bafb0c40a2570bcaf8f57ffc24387b05d2770",
+          "bytes": 24313
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-09/prd.md",
+          "sha256": "2f3df9432a401737413fbb686213bec4a042fc19b55247571ca18adaf56cd4e0",
+          "bytes": 22143
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-09/design.md",
+          "sha256": "91861788790840fddebee2c4376e6ab9f2f5ff5eb98c14b17f844a4b0d70e50d",
+          "bytes": 13192
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-09/desktop.png",
+          "sha256": "81cfe893ab1a2baae7ff2f7afd2fedb11d39aaed6fd1eed5244f0e7ac26e4301",
+          "bytes": 160544,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-09/mobile.png",
+          "sha256": "81cfe893ab1a2baae7ff2f7afd2fedb11d39aaed6fd1eed5244f0e7ac26e4301",
+          "bytes": 160544,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-10",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-10/research.md",
+          "sha256": "3d7cd4a92f07e2a710cc98fa9366e26579dbc34ae2b5c2d25ef8a2b611f603b3",
+          "bytes": 11979
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-10/prd.md",
+          "sha256": "596002d57d0d2170540793df2bcf8831af073c9c9dc39270adf3a8158da20e55",
+          "bytes": 11257
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-10/design.md",
+          "sha256": "fc85861d61169d51eaaf54cdf6b5705b90bfaaffab1f12aef51c074477e6413c",
+          "bytes": 6726
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-10/desktop.png",
+          "sha256": "aa0c28966f018290b0827be0612f00d0e048ce0825c59e78603f945be1f64d0a",
+          "bytes": 133266,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-10/mobile.png",
+          "sha256": "4ce2a188a3e968fcc05235ef79da429b3fd557d588d23d9e0b5cb91db6617f68",
+          "bytes": 109624,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-11",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-11/research.md",
+          "sha256": "80215100d9faea53112ad40faca2d9e0b457f3f4a7a449d48014741595928157",
+          "bytes": 8454
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-11/prd.md",
+          "sha256": "b57bc82ec748d71b0b4ecf6f6b00bcc754d8ec91ed454d7f679e3104b6de955b",
+          "bytes": 8002
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-11/design.md",
+          "sha256": "09d08a65ee206aa296162e6694ff0c02451853360f2a59753b1788f109344b1b",
+          "bytes": 4862
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-11/desktop.png",
+          "sha256": "8424d75fd3ec00be88740f5f08e3eff444e658155d0e17877650a3a9174d7849",
+          "bytes": 372651,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-11/mobile.png",
+          "sha256": "35d81a9cc98eef9ce03e17991a5c935b27b78f6b448dc14e7edcfaf3c4b7fe7c",
+          "bytes": 373174,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-12",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-12/research.md",
+          "sha256": "6b49a065e6855707eb552dcd26fdeaa054e2c7714c8bb3788b48b198ebcce881",
+          "bytes": 6117
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-12/prd.md",
+          "sha256": "756c98672f679f12176920cfb8f165b36fc1a6b4924d75f83b90fbcf32d0f6a9",
+          "bytes": 5427
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-12/design.md",
+          "sha256": "570f07402db188ab09f88ecca34f6bcfa0354cf6ad1bee70b33b4fed8356696d",
+          "bytes": 2905
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-12/desktop.png",
+          "sha256": "8a669f46276b411274bf1881051ce18bc171fdd39dc8ad9eec5db03697c3211d",
+          "bytes": 125287,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-12/mobile.png",
+          "sha256": "8a669f46276b411274bf1881051ce18bc171fdd39dc8ad9eec5db03697c3211d",
+          "bytes": 125287,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-13",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-13/research.md",
+          "sha256": "11183c9e56ffd96d523203037dde8a5b0ff8c2e87010dbd59d33c4be150b7ad3",
+          "bytes": 19251
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-13/prd.md",
+          "sha256": "8b87b45665d43f89eb1f23975053f4509954b7bbf688939833f55b24a1017dda",
+          "bytes": 19137
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-13/design.md",
+          "sha256": "51f3647cbb954813b18b416e2e2dcfea6f5f2b1fdfa3ed34dc057d2203c5a7b4",
+          "bytes": 10639
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-13/desktop.png",
+          "sha256": "af9090d5887e51693aba05d353de047cad163101e6903e326c057d1c02963f84",
+          "bytes": 172517,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-13/mobile.png",
+          "sha256": "453b7feaa33d4277c38167a514c89b30f30537d71f13e6e2e29a0f9c5d3db4ab",
+          "bytes": 119522,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-14",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-14/research.md",
+          "sha256": "61e6a0a2189f56be021ce42876756d0785b8b5ee2a8cb6fefe7206cea4959bdc",
+          "bytes": 5137
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-14/prd.md",
+          "sha256": "9813b5f214ffa9b76b45390269e7b6f2982a6d4a591d7779f9a3b5a9369ab471",
+          "bytes": 5189
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-14/design.md",
+          "sha256": "192a546afa388ae2f4034705c5e7ffd4d938426055304a0feb42d0d31baca9b3",
+          "bytes": 3012
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-14/desktop.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-14/mobile.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-15",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-15/research.md",
+          "sha256": "af364e142db1af3e559bbc81b23c582df8aec8d4c88084b4bfc0aaf954448d92",
+          "bytes": 14985
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-15/prd.md",
+          "sha256": "3a17530181e56ff8d1ad5fbeb45ab4b6ad09f17cc89cd5a721db4037746c063e",
+          "bytes": 12030
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-15/design.md",
+          "sha256": "fa7335ff0f156aca713153d01ac80e7cf566c0f15ccfc2efd3348e3b579f79c4",
+          "bytes": 6334
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-15/desktop.png",
+          "sha256": "ac56562b8e8837184d045d203dae8e753bb1bbf33adf7bdf3ed4197dfa108d29",
+          "bytes": 152102,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-15/mobile.png",
+          "sha256": "a3646cafe5cf9f1cb38263e6d8865034c6864faa1de3f378a1dab4042c6466ad",
+          "bytes": 235560,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-16",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-16/research.md",
+          "sha256": "787662b03aa9d3b78e2bd2377d992d728971dab8260135224cc5de24434f332a",
+          "bytes": 14898
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-16/prd.md",
+          "sha256": "2cf7aef9ac2e9cb114e82271b9b1ae1275a0fb1319fde933fe643c29b5114a5a",
+          "bytes": 12854
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-16/design.md",
+          "sha256": "df5082ad9539d64b12bd762e5426380392df39b88f21028b04c505c13f9defe7",
+          "bytes": 7843
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-16/desktop.png",
+          "sha256": "bf429f5ab3783f2f1356f1fcbb943cac9e7a569cbdab700b8103cd595e465279",
+          "bytes": 277176,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-16/mobile.png",
+          "sha256": "3e5efdfd6e895277cf861b18bdaa9787a2508fa9f85d71fb96c9ebeaa49afae8",
+          "bytes": 203448,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-17",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-17/research.md",
+          "sha256": "e7d6cd78560cb9306f74258036b1e85217e41da83dbad5ef9fae7b175e2ee496",
+          "bytes": 12079
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-17/prd.md",
+          "sha256": "dd809ea8a5aac0e79ffa26a55d16c0a82e123746b99564bff89cd11cfb875e4c",
+          "bytes": 10409
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-17/design.md",
+          "sha256": "cc3917df0a886501cd2ef689ce8a3611d2393aa98df81c2c84addd89b2cbac9c",
+          "bytes": 6110
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-17/desktop.png",
+          "sha256": "2d28887831c2bd849f79c69faa3be74c3912b1a5c77a3d00a008d3707ea232ef",
+          "bytes": 257949,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-17/mobile.png",
+          "sha256": "2445a18106726d3b6d4ea04956832aae2bbb3a54e3ad64a3b71bb4ffc189ac7d",
+          "bytes": 258052,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-18",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-18/research.md",
+          "sha256": "64810f667633a346f934e177d1cc9e77a68822553bd7a7fadd3916dc363a8243",
+          "bytes": 22866
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-18/prd.md",
+          "sha256": "06d344e2c007f87c58e54f42b207d76785e85a87cd35e24c210f2faadfda9466",
+          "bytes": 13965
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-18/design.md",
+          "sha256": "5a496955aef7ed92e3960bb2f5bfcc3619d4eb4f44ded06c41ed816a5845d4f9",
+          "bytes": 9508
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-18/desktop.png",
+          "sha256": "a0d15acb06e6caba326cc95f5ea64f21b13e1992f6b9f21794faa1942d6747b2",
+          "bytes": 130417,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-18/mobile.png",
+          "sha256": "b619ce2762902cc25658fcd8f1794427f71e54958c40b5ca414f713bede1260b",
+          "bytes": 157224,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-19",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-19/research.md",
+          "sha256": "ca3404410415e9d72f40da1ec75ab251a9522091ee80783c494aec3f15e4cae7",
+          "bytes": 10288
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-19/prd.md",
+          "sha256": "7c46789845643f0fb953356edb1b4ba0b3d17cae5027c284af7d226fcca17e26",
+          "bytes": 7586
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-19/design.md",
+          "sha256": "5c1293feeb70d9428d56bddd9abde75248e703bb1bcb97d01e7651369c99af38",
+          "bytes": 4183
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-19/desktop.png",
+          "sha256": "e66a53b60e69649b24ce0c014ad2327858327564681373a37a26c6e9849ac029",
+          "bytes": 202101,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-19/mobile.png",
+          "sha256": "e66a53b60e69649b24ce0c014ad2327858327564681373a37a26c6e9849ac029",
+          "bytes": 202101,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-20",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-20/research.md",
+          "sha256": "f71e04053048cc94a85500444e8516a8cf821229e737ba97a6efd9fa3cd77b33",
+          "bytes": 12066
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-20/prd.md",
+          "sha256": "93bf35b4d47503cede104f72980d7ed3878df17959911be3f559f4a7ec2f36d3",
+          "bytes": 12772
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-20/design.md",
+          "sha256": "6f9743b82577ec3ae25ed3ef2c1c6cd01ce6a78d04c83b67c78bce82faa23ada",
+          "bytes": 8921
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-20/desktop.png",
+          "sha256": "40133107f62120bb6e701c1387ee667b4bf755bf9747aa3f2afdfa12cb3a544c",
+          "bytes": 110421,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-20/mobile.png",
+          "sha256": "2c764e5948b2501ae8a5258351056062affdde986642aba77674a73b79fec050",
+          "bytes": 110442,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-21",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-21/research.md",
+          "sha256": "0597ba97540c5b7d9f6bd114a0fef6c774f20ef77a6741067202ad6cfd163b50",
+          "bytes": 11105
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-21/prd.md",
+          "sha256": "16a7c9576332cc1cbca3886bd252e78dd82a3b9ed83a22ba41cfe4576d2f653c",
+          "bytes": 8730
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-21/design.md",
+          "sha256": "106ac255a7f6451a36143d2ef064c4dac4e67206b99288c2024a01347883b6d5",
+          "bytes": 5040
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-21/desktop.png",
+          "sha256": "ae94b24b7fb2561a7b02413d3c7f67ca8507e03868930dbf7b741f7e76808ad2",
+          "bytes": 189379,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-21/mobile.png",
+          "sha256": "ae94b24b7fb2561a7b02413d3c7f67ca8507e03868930dbf7b741f7e76808ad2",
+          "bytes": 189379,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-22",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-22/research.md",
+          "sha256": "a4f34567cee4f4b61c92e28e038059b6fb7bd5743c65e6b69cc0e9da91428878",
+          "bytes": 9427
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-22/prd.md",
+          "sha256": "a343937f58d7f8759d63db4bde0452c8c634a507ffc76e31c374d169ab99a26c",
+          "bytes": 7802
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-22/design.md",
+          "sha256": "87444f603f841278216f6d58c5f5d001ac446fc2c22242f6e7cb218fbf303f07",
+          "bytes": 4749
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-22/desktop.png",
+          "sha256": "18fe0b1811fbdab96cb5d4542c56ebac0ca6cd22732360e3bedb06aa0bb61b10",
+          "bytes": 275554,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-22/mobile.png",
+          "sha256": "7278e7fb04786c1391f3dcd5cb0eac088aab34d33fe068b2b5e4c2b37c146518",
+          "bytes": 275541,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-23",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-23/research.md",
+          "sha256": "056b8efc5b36c85eb4a2ed3d89e9f6875cac2e0fbb26fd371006c0ffca75c2a7",
+          "bytes": 3553
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-23/prd.md",
+          "sha256": "8b1e0984261ba9d96f1e6eef901e2d1fcf960aadce070f6340c7c526cc606e24",
+          "bytes": 3479
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-23/design.md",
+          "sha256": "1cf38705ddd4894af64c2bc67c2b1100c619ffb89e22b818ed767c1134245d81",
+          "bytes": 2246
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-23/desktop.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-23/mobile.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    },
+    {
+      "anonymizedAs": "run-24",
+      "writtenArtifacts": {
+        "research.md": {
+          "path": "judging/evidence/runs/run-24/research.md",
+          "sha256": "3361d825b23a028142f9b69e02b0689fc73bced9dd2158623c120e69428334dc",
+          "bytes": 12551
+        },
+        "prd.md": {
+          "path": "judging/evidence/runs/run-24/prd.md",
+          "sha256": "9ba102f4c87151029049d831ce5ab28d7b2a35609914f5e1bc83e2aba74d7172",
+          "bytes": 12964
+        },
+        "design.md": {
+          "path": "judging/evidence/runs/run-24/design.md",
+          "sha256": "d183e50a92ed8ef14dea0ebe752b7b19f98824e50fb9e3fd780ed5c1fdf075e5",
+          "bytes": 7518
+        }
+      },
+      "surfaces": {
+        "desktop": {
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "judging/evidence/runs/run-24/desktop.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        },
+        "mobile": {
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "judging/evidence/runs/run-24/mobile.png",
+          "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+          "bytes": 18249,
+          "capturedAt": "2026-07-17T14:43:38.892Z",
+          "httpStatus": 200,
+          "route": "/[candidate]",
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "horizontalOverflow": false
+        }
+      },
+      "runtime": {
+        "browser": "Codex In-app Browser",
+        "server": "localhost:3001",
+        "status": "complete"
+      }
+    }
+  ],
+  "captureEnvironment": {
+    "browser": "Codex In-app Browser",
+    "os": "macOS",
+    "server": "localhost:3001",
+    "captureMode": "full-page screenshots",
+    "surfaces": [
+      "desktop-1440x900",
+      "mobile-375x812"
+    ],
+    "capturedAt": "2026-07-17T14:43:38.892Z"
+  },
+  "identityBlinded": true,
+  "provenance": {
+    "producer": "11ai-benchmark-judge",
+    "method": "measured",
+    "sources": [
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/cycle.json",
+      "benchmark/rubric.json",
+      "PROMPT.md"
+    ]
+  },
+  "sourceDigest": "58ebb83752f2adf63fe1d69e972e96be7155714756dd55d005ee9b4dc50c7777"
+}

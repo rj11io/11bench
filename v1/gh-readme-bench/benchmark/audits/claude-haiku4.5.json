@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "audit:gh-readme-bench-v1:claude-haiku4.5",
+  "status": "complete",
+  "sourceDigest": "f8fb5e5d7ce72e0124a6c239984a8addd9d2c04eab7417e91772c5570615ce20",
+  "generatedAt": "2026-07-17T14:40:05.291Z",
+  "runId": "claude-haiku4.5",
+  "pass": true,
+  "configSha": "a49e61fe7153b5aaf40a46d089fc326fa9d41c008c6f7748871ed66a4387a4d6",
+  "rubricSha": "3db7e9862b8c44307a7054647e1df033128553d22aa7e77a359becea216cbc69",
+  "promptTemplateSha": "736f7932cfc78ac9732880edd5e732a67e086ad326d892537b01db1304ede431",
+  "promptInstanceSha": "a38192fbb007e79831f1ce76444f27c0712fcd9f6b3a9bfceaf90bdc97ebc41a",
+  "contentSha": "34da32e10971c7e00ffe47eae63fa5c9e65c5f325b94bc3f721aa268e2bac86e",
+  "checks": [
+    {
+      "name": "required-artifacts",
+      "status": "pass",
+      "required": true,
+      "detail": "research.md, content.md, and README.md are present.",
+      "evidence": [
+        "runs/claude-haiku4.5/README.md",
+        "runs/claude-haiku4.5/content.md",
+        "runs/claude-haiku4.5/research.md"
+      ]
+    },
+    {
+      "name": "frozen-input-integrity",
+      "status": "pass",
+      "required": true,
+      "detail": "The registered prompt template hash and frozen CV reference manifest are present; PDF bytes match the manifest.",
+      "evidence": [
+        "PROMPT.md",
+        "benchmark/reference-manifest.json",
+        "ref/RJ_CV.pdf",
+        "ref/RJ_CV_max.pdf"
+      ]
+    },
+    {
+      "name": "folder-isolation",
+      "status": "warning",
+      "required": false,
+      "detail": "Legacy run is represented by a folder runRef; no pre-run baseline diff artifact exists in the legacy cohort.",
+      "evidence": [
+        "runs/claude-haiku4.5"
+      ]
+    },
+    {
+      "name": "dependency-policy",
+      "status": "not-applicable",
+      "required": false,
+      "detail": "README benchmark run has no per-run package manifest or dependency surface.",
+      "evidence": []
+    },
+    {
+      "name": "markdown-parse",
+      "status": "pass",
+      "required": true,
+      "detail": "README.md parses as GitHub-compatible Markdown without a parser exception.",
+      "evidence": [
+        "runs/claude-haiku4.5/README.md"
+      ]
+    },
+    {
+      "name": "link-and-asset-structure",
+      "status": "pass",
+      "required": true,
+      "detail": "Links use valid URL schemes or resolve to local assets.",
+      "evidence": []
+    },
+    {
+      "name": "privacy-scan",
+      "status": "pass",
+      "required": false,
+      "detail": "No obvious tracking-pixel markup found by the static scan.",
+      "evidence": []
+    },
+    {
+      "name": "desktop-render",
+      "status": "pass",
+      "required": true,
+      "detail": "Captured at 1440×900 with the common local Markdown renderer.",
+      "evidence": [
+        "cycles/cycle-1/judging/evidence/candidate-01-desktop.png"
+      ]
+    },
+    {
+      "name": "mobile-render",
+      "status": "pass",
+      "required": true,
+      "detail": "Captured at 375×812; clean top-viewport capture used because full-page stitching duplicated the document in this browser backend.",
+      "evidence": [
+        "cycles/cycle-1/judging/evidence/candidate-01-mobile-viewport.png"
+      ]
+    }
+  ],
+  "environment": {
+    "os": "macOS",
+    "browser": "Codex In-app Browser",
+    "renderer": "marked + GitHub-like static CSS",
+    "desktopViewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "mobileViewport": {
+      "width": 375,
+      "height": 812
+    }
+  },
+  "runtime": {
+    "desktop": {
+      "status": "captured",
+      "path": "cycles/cycle-1/judging/evidence/candidate-01-desktop.png",
+      "sha256": "963728b48bc7cb85562ebdf01ddb9949206028e8feca0e288cdafbe2b425b2cd"
+    },
+    "mobile": {
+      "status": "captured",
+      "path": "cycles/cycle-1/judging/evidence/candidate-01-mobile-viewport.png",
+      "sha256": "08120333d76f5728aab63635a36d024d4e5bebd0afbd40b2c6460a1b84a095e0",
+      "fullPageAttempt": {
+        "path": "cycles/cycle-1/judging/evidence/candidate-01-mobile.png",
+        "status": "captured-with-stitching-duplication",
+        "sha256": "5a7ae506ed03acb6cb367c4e395bb26ff1dc3eb6fb89d700ced8ee9433c48043"
+      }
+    },
+    "consoleMessages": []
+  },
+  "metadataCoverage": {
+    "legacyBaselineDiff": "unavailable",
+    "runFolder": "measured",
+    "promptHashes": "measured",
+    "contentHash": "measured",
+    "renderScreenshots": "measured",
+    "mobileRender": "complete-top-viewport",
+    "mobileFullPageAttempt": "captured-with-stitching-duplication"
+  },
+  "provenance": {
+    "producer": "11ai-benchmark-compliance-auditor",
+    "method": "measured",
+    "sources": [
+      "benchmark/runs.json",
+      "runs/claude-haiku4.5/README.md",
+      "runs/claude-haiku4.5/content.md",
+      "runs/claude-haiku4.5/research.md",
+      "benchmark/reference-manifest.json"
+    ]
+  }
+}

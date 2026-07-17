@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "rubric:crypto-dashboard-bench:v1",
+  "status": "complete",
+  "version": "v1",
+  "frozenAt": "2026-07-16",
+  "rubricSha": "1f74da0a57a531bbe8cc958ae8c39c9db3f9d8c4766d32cedacd4382129bd7a6",
+  "dimensions": [
+    {
+      "id": "research-rigor-and-synthesis",
+      "name": "Research rigor and synthesis",
+      "weight": 15,
+      "definition": "Quality, credibility, synthesis, and decision impact of the research artifact.",
+      "anchors": {
+        "1": "Shallow or uncited research, fabricated sources/current facts, or no meaningful connection to product decisions.",
+        "5": "Credible coverage of users, products, data, and conventions, but synthesis and differentiation are inconsistent.",
+        "10": "Current, authoritative, cross-checked research identifies a real decision problem and directly shapes strategy, data semantics, trust, design, and execution."
+      },
+      "surfaces": [
+        "research.md"
+      ]
+    },
+    {
+      "id": "product-strategy-prd-gtm",
+      "name": "Product strategy, PRD, and GTM readiness",
+      "weight": 20,
+      "definition": "Specificity and production readiness of product strategy, requirements, metrics, commercialization, and risk planning.",
+      "anchors": {
+        "1": "Generic audience, super-app scope, missing requirements, and no credible adoption or revenue path.",
+        "5": "Plausible focused product with users, workflows, requirements, and a basic GTM plan, but important data, risk, or commercial gaps remain.",
+        "10": "Sharply differentiated thesis, precise scope/non-goals, credible data and security assumptions, measurable success, and a coherent acquisition-to-activation-to-retention strategy."
+      },
+      "surfaces": [
+        "prd.md"
+      ]
+    },
+    {
+      "id": "design-specification-coherence",
+      "name": "Design specification and artifact coherence",
+      "weight": 15,
+      "definition": "Completeness, decisiveness, and consistency of the design specification with the research, PRD, and implemented interface.",
+      "anchors": {
+        "1": "Absent/generic design rationale or major contradictions between research, PRD, and interface.",
+        "5": "Workable IA, flows, responsive plan, and visual direction with some missing states or implementation drift.",
+        "10": "Decisive specification covers journeys, states, provenance, units, visualization, accessibility, and constraints; the implementation realizes it faithfully."
+      },
+      "surfaces": [
+        "design.md",
+        "desktop-1440x900-fullpage",
+        "mobile-375x812-fullpage"
+      ]
+    },
+    {
+      "id": "crypto-domain-correctness-risk-trust",
+      "name": "Crypto domain correctness, risk, and trust",
+      "weight": 15,
+      "definition": "Accuracy and responsibility of crypto terminology, data semantics, provenance, risk communication, and demo/live-state honesty.",
+      "anchors": {
+        "1": "Misleading calculations, unclear units/timeframes, invented live behavior, unsafe wallet patterns, or irresponsible financial presentation.",
+        "5": "Mostly credible terminology and workflows with basic provenance and risk communication, but important ambiguity remains.",
+        "10": "Exceptional clarity around assets, chains, wallets, prices, timestamps, provenance, uncertainty, volatility, liquidity, permissions, and demo limitations."
+      },
+      "surfaces": [
+        "research.md",
+        "prd.md",
+        "design.md",
+        "desktop-1440x900-fullpage",
+        "mobile-375x812-fullpage"
+      ]
+    },
+    {
+      "id": "information-design-visual-execution",
+      "name": "Information design and visual execution",
+      "weight": 20,
+      "definition": "Hierarchy, visualization, comparison, filtering, density, semantic detail, and distinctive production quality of the dashboard interface.",
+      "anchors": {
+        "1": "Arbitrary chart wall, decorative color, poor hierarchy, unreadable density, or visuals that misrepresent the data.",
+        "5": "Professional dashboard with generally appropriate charts and hierarchy, but comparison, filtering, density, or differentiation is uneven.",
+        "10": "Distinctive production-quality system makes complex crypto data fast to scan and honestly comparable through excellent hierarchy, visualization, interaction, and semantic detail."
+      },
+      "surfaces": [
+        "desktop-1440x900-fullpage",
+        "mobile-375x812-fullpage"
+      ]
+    },
+    {
+      "id": "frontend-craft-interaction-responsiveness",
+      "name": "Frontend craft, interaction, and responsiveness",
+      "weight": 15,
+      "definition": "Reliability, feedback, accessibility, state coverage, responsive behavior, and polish of the frontend implementation.",
+      "anchors": {
+        "1": "Static mock, broken controls, console errors, inaccessible behavior, poor mobile adaptation, or unfinished states.",
+        "5": "Core interactions and responsiveness work with some shallow behavior, missing states, or visible roughness.",
+        "10": "Convincing product behavior, purposeful persistence, rich state coverage and feedback, accessible semantics, and polished desktop/mobile execution without backend dependencies."
+      },
+      "surfaces": [
+        "desktop-1440x900-fullpage",
+        "mobile-375x812-fullpage",
+        "interaction-probes"
+      ]
+    }
+  ]
+}

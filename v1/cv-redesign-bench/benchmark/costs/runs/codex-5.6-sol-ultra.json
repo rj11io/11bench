@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-5.6-sol-ultra",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "id": "codex-5.6-sol-ultra",
+  "harness": "unknown",
+  "model": "gpt-5.6-sol",
+  "effort": null,
+  "tokens": 13744082,
+  "inputTokens": 13650600,
+  "outputTokens": 93482,
+  "costUsd": 13.754676,
+  "cacheHitRate": 0.932849252047529,
+  "wallTimeMinutes": 25.790566666666667,
+  "method": "measured",
+  "sourceCount": 4,
+  "sourceThreads": [
+    "codex:f17aeb7d2a62bdf19a3d2229",
+    "codex:9c03b9cb85a718d363550b66",
+    "codex:5f1a8ce16efa6c6a8e770e1e",
+    "codex:32cf638729ec3d888a854d60"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-24-019f6c21-395f-7700-952e-93c78ed5721c.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-50-019f6c21-9d39-7183-bc98-09c983eb3930.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-53-019f6c21-aac8-7bc0-8fc7-dcda20b3d931.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-58-019f6c21-bca9-7a82-96d7-09507fe2d4d3.jsonl"
+    ]
+  }
+}

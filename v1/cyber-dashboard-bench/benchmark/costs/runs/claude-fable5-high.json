@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:claude-fable5-high",
+  "status": "complete",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "id": "claude-fable5-high",
+  "harness": "recovered-existing-run",
+  "model": "claude-fable-5",
+  "effort": "high",
+  "tokens": 25888056,
+  "inputTokens": 25766984,
+  "outputTokens": 121072,
+  "costUsd": 36.633948000000004,
+  "cacheHitRate": 0.9999011137663608,
+  "wallTimeMinutes": 42.351333333333336,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "claude:21958e281315e528cff85887"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cyber-dashboard-bench/33a1ee54-6be0-477e-8829-850220901baf.jsonl"
+    ]
+  }
+}

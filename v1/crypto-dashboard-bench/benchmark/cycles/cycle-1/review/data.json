@@ -1,0 +1,2559 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "review:crypto-dashboard-bench-v1:cycle-1",
+  "status": "complete",
+  "sourceDigest": "fda470bf622b40c539da168c362c89def0a83cd422bc6f20ee6eb989aab64eba",
+  "generatedAt": "2026-07-17T15:12:00.000Z",
+  "benchmark": {
+    "benchmarkId": "crypto-dashboard-bench-v1",
+    "name": "crypto-dashboard-bench",
+    "objective": "Compare end-to-end crypto product research, strategy, design, domain trust, visual execution, and frontend craft.",
+    "configSource": "benchmark/benchmark.json",
+    "rubricSha": "1f74da0a57a531bbe8cc958ae8c39c9db3f9d8c4766d32cedacd4382129bd7a6"
+  },
+  "cycle": {
+    "cycleId": "cycle-1",
+    "releaseType": "interim",
+    "publicationSequence": 1,
+    "status": "published",
+    "runIds": [
+      "claude-fable5-high",
+      "claude-haiku4.5",
+      "codex-gpt5.4-high",
+      "codex-gpt5.4-light",
+      "codex-gpt5.4-medium",
+      "codex-gpt5.4mini-light",
+      "codex-gpt5.5-high",
+      "codex-gpt5.5-light",
+      "codex-gpt5.5-medium",
+      "codex-gpt5.5-xhigh",
+      "codex-gpt5.6-luna-high",
+      "codex-gpt5.6-luna-xhigh",
+      "codex-gpt5.6-sol-high",
+      "codex-gpt5.6-sol-medium",
+      "codex-gpt5.6-sol-xhigh",
+      "codex-gpt5.6-terra-xhigh"
+    ],
+    "promptTemplateSha": "7dd860f2e9ab02eb0e8e4a2a54b78d450427be3cc0de233b2356f5a9905a8774",
+    "contentSha": "d6afc5db23a32b8041807ece1b996ab5d867c3f21e7940b53e35dbb409b9b9f7",
+    "rubricSha": "1f74da0a57a531bbe8cc958ae8c39c9db3f9d8c4766d32cedacd4382129bd7a6",
+    "evidenceSha": "f3409b24627d7e17e842ce5dd8f4ed60bcc3107ac2d90f7590e15190035b03c4",
+    "sourceDigest": "eb786d4313af46757902ecd3b44a3ce2d28dd45841315700a429f919a7c63805"
+  },
+  "lifecycle": {
+    "campaignStatus": "open",
+    "closurePolicy": "manual",
+    "targetsSettled": false,
+    "eligibleRuns": 16,
+    "totalRuns": 26,
+    "excludedRuns": [
+      "codex-gpt5.4-xhigh",
+      "codex-gpt5.4mini-high",
+      "codex-gpt5.4mini-medium",
+      "codex-gpt5.4mini-xhigh",
+      "codex-gpt5.6-luna-light",
+      "codex-gpt5.6-luna-medium",
+      "codex-gpt5.6-sol-light",
+      "codex-gpt5.6-terra-high",
+      "codex-gpt5.6-terra-light",
+      "codex-gpt5.6-terra-medium"
+    ]
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "id": "configuration-and-cycle",
+        "pass": true,
+        "detail": "Configuration, rubric, ledger, and cycle artifacts validate."
+      },
+      {
+        "id": "included-run-audits",
+        "pass": true,
+        "detail": "16 included runs are finished with passing audits."
+      },
+      {
+        "id": "excluded-run-audits",
+        "pass": true,
+        "detail": "10 runs are retained as excluded because their route/build audit failed."
+      },
+      {
+        "id": "frozen-hashes",
+        "pass": true,
+        "detail": "Included runs share the frozen prompt/content/rubric inputs."
+      },
+      {
+        "id": "evidence-and-judge-hashes",
+        "pass": true,
+        "detail": "Evidence, mapping, prompt instance, judge, and aggregate hashes agree."
+      },
+      {
+        "id": "accounting-reconciliation",
+        "pass": true,
+        "detail": "25 logical transcript threads reconcile with zero token delta; pricing and USD costs are unavailable."
+      },
+      {
+        "id": "publication-metadata",
+        "pass": true,
+        "detail": "Local report/current targets are defined; external deployment is explicitly unavailable/not performed."
+      }
+    ],
+    "warnings": [
+      "A shared React hydration warning was observed during capture; per-route attribution was not isolated.",
+      "Ten runs were excluded from the interim judging cohort after CSS/build/render audit failures.",
+      "Interaction probes and verified pricing were unavailable."
+    ]
+  },
+  "runs": [
+    {
+      "id": "claude-fable5-high",
+      "runRef": "app/claude-fable5-high",
+      "harness": "claude",
+      "model": "fable5",
+      "effort": "high",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 12,
+        "total": 7.550000000000001,
+        "holisticMedianRank": 12,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 7,
+          "crypto-domain-correctness-risk-trust": 8,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 6
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "claude-fable5-high",
+        "harness": "claude",
+        "model": "claude-fable-5",
+        "effort": "high",
+        "tokens": 28400138,
+        "inputTokens": 28273017,
+        "outputTokens": 127121,
+        "costUsd": 43.338413,
+        "cacheHitRate": 0.9999020620968749,
+        "wallTimeMinutes": 450.9133166666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 28400138,
+        "input": 28273017,
+        "output": 127121
+      }
+    },
+    {
+      "id": "claude-haiku4.5",
+      "runRef": "app/claude-haiku4.5",
+      "harness": "claude",
+      "model": "haiku4.5",
+      "effort": null,
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 15,
+        "total": 6.55,
+        "holisticMedianRank": 15,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 6,
+          "crypto-domain-correctness-risk-trust": 7,
+          "information-design-visual-execution": 6,
+          "frontend-craft-interaction-responsiveness": 4
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "codex-gpt5.4-high",
+      "runRef": "app/codex-gpt5.4-high",
+      "harness": "codex",
+      "model": "gpt5.4",
+      "effort": "high",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 14,
+        "total": 7.1,
+        "holisticMedianRank": 14,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 6,
+          "crypto-domain-correctness-risk-trust": 8,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 4
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.4-high",
+        "harness": "codex",
+        "model": "gpt-5.4",
+        "effort": "high",
+        "tokens": 3190483,
+        "inputTokens": 3134544,
+        "outputTokens": 55939,
+        "costUsd": 2.568981,
+        "cacheHitRate": 0.8658305641905171,
+        "wallTimeMinutes": 18.8174,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 3190483,
+        "input": 3134544,
+        "output": 55939
+      }
+    },
+    {
+      "id": "codex-gpt5.4-light",
+      "runRef": "app/codex-gpt5.4-light",
+      "harness": "codex",
+      "model": "gpt5.4",
+      "effort": "light",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 9,
+        "total": 7.7,
+        "holisticMedianRank": 10,
+        "scoreHolisticDisagreement": 1,
+        "dimensions": {
+          "research-rigor-and-synthesis": 7,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 8,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 7
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.4-light",
+        "harness": "codex",
+        "model": "gpt-5.4",
+        "effort": "light",
+        "tokens": 468113,
+        "inputTokens": 449429,
+        "outputTokens": 18684,
+        "costUsd": 0.6086644999999999,
+        "cacheHitRate": 0.7863489004937376,
+        "wallTimeMinutes": 6.278833333333333,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 468113,
+        "input": 449429,
+        "output": 18684
+      }
+    },
+    {
+      "id": "codex-gpt5.4-medium",
+      "runRef": "app/codex-gpt5.4-medium",
+      "harness": "codex",
+      "model": "gpt5.4",
+      "effort": "medium",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 10,
+        "total": 7.699999999999999,
+        "holisticMedianRank": 9,
+        "scoreHolisticDisagreement": 1,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.4-medium",
+        "harness": "codex",
+        "model": "gpt-5.4",
+        "effort": "medium",
+        "tokens": 830547,
+        "inputTokens": 801423,
+        "outputTokens": 29124,
+        "costUsd": 0.9851535,
+        "cacheHitRate": 0.8070444696496107,
+        "wallTimeMinutes": 9.6071,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 830547,
+        "input": 801423,
+        "output": 29124
+      }
+    },
+    {
+      "id": "codex-gpt5.4-xhigh",
+      "runRef": "app/codex-gpt5.4-xhigh",
+      "harness": "codex",
+      "model": "gpt5.4",
+      "effort": "xhigh",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.4-xhigh",
+        "harness": "codex",
+        "model": "gpt-5.4",
+        "effort": "xhigh",
+        "tokens": 6465187,
+        "inputTokens": 6388540,
+        "outputTokens": 76647,
+        "costUsd": 3.5070069999999998,
+        "cacheHitRate": 0.9471159294611915,
+        "wallTimeMinutes": 26.4381,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 6465187,
+        "input": 6388540,
+        "output": 76647
+      }
+    },
+    {
+      "id": "codex-gpt5.4mini-high",
+      "runRef": "app/codex-gpt5.4mini-high",
+      "harness": "codex",
+      "model": "gpt5.4mini",
+      "effort": "high",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.4mini-high",
+        "harness": "codex",
+        "model": "gpt-5.4-mini",
+        "effort": "high",
+        "tokens": 5578968,
+        "inputTokens": 5477355,
+        "outputTokens": 101613,
+        "costUsd": 1.28345715,
+        "cacheHitRate": 0.8876459532018648,
+        "wallTimeMinutes": 26.894233333333332,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 5578968,
+        "input": 5477355,
+        "output": 101613
+      }
+    },
+    {
+      "id": "codex-gpt5.4mini-light",
+      "runRef": "app/codex-gpt5.4mini-light",
+      "harness": "codex",
+      "model": "gpt5.4mini",
+      "effort": "light",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 8,
+        "total": 7.85,
+        "holisticMedianRank": 8,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 9,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.4mini-light",
+        "harness": "codex",
+        "model": "gpt-5.4-mini",
+        "effort": "light",
+        "tokens": 1213307,
+        "inputTokens": 1189830,
+        "outputTokens": 23477,
+        "costUsd": 0.2607678,
+        "cacheHitRate": 0.917966432179387,
+        "wallTimeMinutes": 6.312866666666666,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 1213307,
+        "input": 1189830,
+        "output": 23477
+      }
+    },
+    {
+      "id": "codex-gpt5.4mini-medium",
+      "runRef": "app/codex-gpt5.4mini-medium",
+      "harness": "codex",
+      "model": "gpt5.4mini",
+      "effort": "medium",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.4mini-medium",
+        "harness": "codex",
+        "model": "gpt-5.4-mini",
+        "effort": "medium",
+        "tokens": 3539165,
+        "inputTokens": 3512845,
+        "outputTokens": 26320,
+        "costUsd": 0.64076655,
+        "cacheHitRate": 0.8908289434916713,
+        "wallTimeMinutes": 15.876166666666666,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 3539165,
+        "input": 3512845,
+        "output": 26320
+      }
+    },
+    {
+      "id": "codex-gpt5.4mini-xhigh",
+      "runRef": "app/codex-gpt5.4mini-xhigh",
+      "harness": "codex",
+      "model": "gpt5.4mini",
+      "effort": "xhigh",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.4mini-xhigh",
+        "harness": "codex",
+        "model": "gpt-5.4-mini",
+        "effort": "xhigh",
+        "tokens": 7577913,
+        "inputTokens": 7429077,
+        "outputTokens": 148836,
+        "costUsd": 1.6075921499999999,
+        "cacheHitRate": 0.924092185341463,
+        "wallTimeMinutes": 37.4458,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 7577913,
+        "input": 7429077,
+        "output": 148836
+      }
+    },
+    {
+      "id": "codex-gpt5.5-high",
+      "runRef": "app/codex-gpt5.5-high",
+      "harness": "codex",
+      "model": "gpt5.5",
+      "effort": "high",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 5,
+        "total": 8.35,
+        "holisticMedianRank": 5,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 7
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.5-high",
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "effort": "high",
+        "tokens": 3899023,
+        "inputTokens": 3861375,
+        "outputTokens": 37648,
+        "costUsd": 4.6786829999999995,
+        "cacheHitRate": 0.9068520928425755,
+        "wallTimeMinutes": 14.428316666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 3899023,
+        "input": 3861375,
+        "output": 37648
+      }
+    },
+    {
+      "id": "codex-gpt5.5-light",
+      "runRef": "app/codex-gpt5.5-light",
+      "harness": "codex",
+      "model": "gpt5.5",
+      "effort": "light",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 13,
+        "total": 7.25,
+        "holisticMedianRank": 13,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 7,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 7,
+          "crypto-domain-correctness-risk-trust": 8,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.5-light",
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "effort": "light",
+        "tokens": 1123579,
+        "inputTokens": 1105431,
+        "outputTokens": 18148,
+        "costUsd": 1.535019,
+        "cacheHitRate": 0.9119773192537571,
+        "wallTimeMinutes": 7.54325,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 1123579,
+        "input": 1105431,
+        "output": 18148
+      }
+    },
+    {
+      "id": "codex-gpt5.5-medium",
+      "runRef": "app/codex-gpt5.5-medium",
+      "harness": "codex",
+      "model": "gpt5.5",
+      "effort": "medium",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 6,
+        "total": 8.049999999999999,
+        "holisticMedianRank": 6,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.5-medium",
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "effort": "medium",
+        "tokens": 1943345,
+        "inputTokens": 1915663,
+        "outputTokens": 27682,
+        "costUsd": 2.347655,
+        "cacheHitRate": 0.9351122822751183,
+        "wallTimeMinutes": 10.05005,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 1943345,
+        "input": 1915663,
+        "output": 27682
+      }
+    },
+    {
+      "id": "codex-gpt5.5-xhigh",
+      "runRef": "app/codex-gpt5.5-xhigh",
+      "harness": "codex",
+      "model": "gpt5.5",
+      "effort": "xhigh",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 2,
+        "total": 8.399999999999999,
+        "holisticMedianRank": 2,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 9,
+          "frontend-craft-interaction-responsiveness": 6
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.5-xhigh",
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "effort": "xhigh",
+        "tokens": 4770465,
+        "inputTokens": 4735446,
+        "outputTokens": 35019,
+        "costUsd": 5.30508,
+        "cacheHitRate": 0.9114579703791365,
+        "wallTimeMinutes": 20.359983333333332,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 4770465,
+        "input": 4735446,
+        "output": 35019
+      }
+    },
+    {
+      "id": "codex-gpt5.6-luna-high",
+      "runRef": "app/codex-gpt5.6-luna-high",
+      "harness": "codex",
+      "model": "gpt5.6-luna",
+      "effort": "high",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 16,
+        "total": 4.5,
+        "holisticMedianRank": 16,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 7,
+          "product-strategy-prd-gtm": 7,
+          "design-specification-coherence": 3,
+          "crypto-domain-correctness-risk-trust": 6,
+          "information-design-visual-execution": 2,
+          "frontend-craft-interaction-responsiveness": 2
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 2,
+            "max": 2,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 2,
+            "max": 2,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.6-luna-high",
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "effort": "high",
+        "tokens": 7671677,
+        "inputTokens": 7625541,
+        "outputTokens": 46136,
+        "costUsd": 1.463829,
+        "cacheHitRate": 0.9381524537078746,
+        "wallTimeMinutes": 18.1662,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 7671677,
+        "input": 7625541,
+        "output": 46136
+      }
+    },
+    {
+      "id": "codex-gpt5.6-luna-light",
+      "runRef": "app/codex-gpt5.6-luna-light",
+      "harness": "codex",
+      "model": "gpt5.6-luna",
+      "effort": "light",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.6-luna-light",
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "effort": "light",
+        "tokens": 647233,
+        "inputTokens": 634614,
+        "outputTokens": 12619,
+        "costUsd": 0.17096160000000002,
+        "cacheHitRate": 0.9443472725152613,
+        "wallTimeMinutes": 5.9066833333333335,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 647233,
+        "input": 634614,
+        "output": 12619
+      }
+    },
+    {
+      "id": "codex-gpt5.6-luna-medium",
+      "runRef": "app/codex-gpt5.6-luna-medium",
+      "harness": "codex",
+      "model": "gpt5.6-luna",
+      "effort": "medium",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.6-luna-medium",
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "effort": "medium",
+        "tokens": 986224,
+        "inputTokens": 963782,
+        "outputTokens": 22442,
+        "costUsd": 0.2947988,
+        "cacheHitRate": 0.9264833748710808,
+        "wallTimeMinutes": 8.696866666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 986224,
+        "input": 963782,
+        "output": 22442
+      }
+    },
+    {
+      "id": "codex-gpt5.6-luna-xhigh",
+      "runRef": "app/codex-gpt5.6-luna-xhigh",
+      "harness": "codex",
+      "model": "gpt5.6-luna",
+      "effort": "xhigh",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 7,
+        "total": 7.8999999999999995,
+        "holisticMedianRank": 7,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 9,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.6-luna-xhigh",
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "effort": "xhigh",
+        "tokens": 8674286,
+        "inputTokens": 8605863,
+        "outputTokens": 68423,
+        "costUsd": 1.4929194000000001,
+        "cacheHitRate": 0.9713638248714859,
+        "wallTimeMinutes": 23.698266666666665,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 8674286,
+        "input": 8605863,
+        "output": 68423
+      }
+    },
+    {
+      "id": "codex-gpt5.6-sol-high",
+      "runRef": "app/codex-gpt5.6-sol-high",
+      "harness": "codex",
+      "model": "gpt5.6-sol",
+      "effort": "high",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 3,
+        "total": 8.399999999999999,
+        "holisticMedianRank": 3,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 9,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 9,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.6-sol-high",
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "effort": "high",
+        "tokens": 9165715,
+        "inputTokens": 9112253,
+        "outputTokens": 53462,
+        "costUsd": 7.748293,
+        "cacheHitRate": 0.9612656716182046,
+        "wallTimeMinutes": 23.115583333333333,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 9165715,
+        "input": 9112253,
+        "output": 53462
+      }
+    },
+    {
+      "id": "codex-gpt5.6-sol-light",
+      "runRef": "app/codex-gpt5.6-sol-light",
+      "harness": "codex",
+      "model": "gpt5.6-sol",
+      "effort": "light",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.6-sol-light",
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "effort": "light",
+        "tokens": 2387905,
+        "inputTokens": 2360819,
+        "outputTokens": 27086,
+        "costUsd": 2.460643,
+        "cacheHitRate": 0.9559801069035788,
+        "wallTimeMinutes": 11.449216666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 2387905,
+        "input": 2360819,
+        "output": 27086
+      }
+    },
+    {
+      "id": "codex-gpt5.6-sol-medium",
+      "runRef": "app/codex-gpt5.6-sol-medium",
+      "harness": "codex",
+      "model": "gpt5.6-sol",
+      "effort": "medium",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 1,
+        "total": 8.549999999999999,
+        "holisticMedianRank": 1,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 9,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 9,
+          "frontend-craft-interaction-responsiveness": 6
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.6-sol-medium",
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "tokens": 4867399,
+        "inputTokens": 4815654,
+        "outputTokens": 51745,
+        "costUsd": 4.7679,
+        "cacheHitRate": 0.9627269733249108,
+        "wallTimeMinutes": 14.482233333333333,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 4867399,
+        "input": 4815654,
+        "output": 51745
+      }
+    },
+    {
+      "id": "codex-gpt5.6-sol-xhigh",
+      "runRef": "app/codex-gpt5.6-sol-xhigh",
+      "harness": "codex",
+      "model": "gpt5.6-sol",
+      "effort": "xhigh",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 4,
+        "total": 8.35,
+        "holisticMedianRank": 4,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 9,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 6
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.6-sol-xhigh",
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "effort": "xhigh",
+        "tokens": 12158348,
+        "inputTokens": 12060744,
+        "outputTokens": 97604,
+        "costUsd": 10.951775999999999,
+        "cacheHitRate": 0.963273244171338,
+        "wallTimeMinutes": 27.400233333333333,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 12158348,
+        "input": 12060744,
+        "output": 97604
+      }
+    },
+    {
+      "id": "codex-gpt5.6-terra-high",
+      "runRef": "app/codex-gpt5.6-terra-high",
+      "harness": "codex",
+      "model": "gpt5.6-terra",
+      "effort": "high",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.6-terra-high",
+        "harness": "codex",
+        "model": "gpt-5.6-terra",
+        "effort": "high",
+        "tokens": 2105404,
+        "inputTokens": 2084961,
+        "outputTokens": 20443,
+        "costUsd": 1.0492875000000002,
+        "cacheHitRate": 0.9528043929838496,
+        "wallTimeMinutes": 7.582066666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 2105404,
+        "input": 2084961,
+        "output": 20443
+      }
+    },
+    {
+      "id": "codex-gpt5.6-terra-light",
+      "runRef": "app/codex-gpt5.6-terra-light",
+      "harness": "codex",
+      "model": "gpt5.6-terra",
+      "effort": "light",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.6-terra-light",
+        "harness": "codex",
+        "model": "gpt-5.6-terra",
+        "effort": "light",
+        "tokens": 737483,
+        "inputTokens": 727186,
+        "outputTokens": 10297,
+        "costUsd": 0.427588,
+        "cacheHitRate": 0.9441765930587223,
+        "wallTimeMinutes": 4.815566666666666,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 737483,
+        "input": 727186,
+        "output": 10297
+      }
+    },
+    {
+      "id": "codex-gpt5.6-terra-medium",
+      "runRef": "app/codex-gpt5.6-terra-medium",
+      "harness": "codex",
+      "model": "gpt5.6-terra",
+      "effort": "medium",
+      "status": "finished",
+      "eligible": false,
+      "audit": {
+        "pass": false,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": null,
+      "cost": {
+        "id": "codex-gpt5.6-terra-medium",
+        "harness": "codex",
+        "model": "gpt-5.6-terra",
+        "effort": "medium",
+        "tokens": 1791497,
+        "inputTokens": 1779540,
+        "outputTokens": 11957,
+        "costUsd": 0.8133570000000001,
+        "cacheHitRate": 0.9527675691470829,
+        "wallTimeMinutes": 5.537583333333333,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 1791497,
+        "input": 1779540,
+        "output": 11957
+      }
+    },
+    {
+      "id": "codex-gpt5.6-terra-xhigh",
+      "runRef": "app/codex-gpt5.6-terra-xhigh",
+      "harness": "codex",
+      "model": "gpt5.6-terra",
+      "effort": "xhigh",
+      "status": "finished",
+      "eligible": true,
+      "audit": {
+        "pass": true,
+        "status": "complete",
+        "render": null,
+        "build": null
+      },
+      "score": {
+        "rank": 11,
+        "total": 7.699999999999999,
+        "holisticMedianRank": 11,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      "cost": {
+        "id": "codex-gpt5.6-terra-xhigh",
+        "harness": "codex",
+        "model": "gpt-5.6-terra",
+        "effort": "xhigh",
+        "tokens": 3446005,
+        "inputTokens": 3411207,
+        "outputTokens": 34798,
+        "costUsd": 1.8954914999999999,
+        "cacheHitRate": 0.9321556856561328,
+        "wallTimeMinutes": 12.463333333333333,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 3446005,
+        "input": 3411207,
+        "output": 34798
+      }
+    }
+  ],
+  "judging": {
+    "judgeIds": [
+      "judge-codex-gpt5.6-luna-high"
+    ],
+    "judgeCounts": {
+      "total": 1,
+      "ai": 1,
+      "human": 0
+    },
+    "aggregateSourceDigest": "65fb666d4646d74be296faa0682627ca0e6e8f4b48e34fa848096e7bf81bebd3",
+    "identityBlinded": true,
+    "evidenceSourceDigest": "f3409b24627d7e17e842ce5dd8f4ed60bcc3107ac2d90f7590e15190035b03c4",
+    "runs": [
+      {
+        "runId": "codex-gpt5.6-sol-medium",
+        "rank": 1,
+        "total": 8.549999999999999,
+        "holisticMedianRank": 1,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 9,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 9,
+          "frontend-craft-interaction-responsiveness": 6
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.5-xhigh",
+        "rank": 2,
+        "total": 8.399999999999999,
+        "holisticMedianRank": 2,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 9,
+          "frontend-craft-interaction-responsiveness": 6
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.6-sol-high",
+        "rank": 3,
+        "total": 8.399999999999999,
+        "holisticMedianRank": 3,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 9,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 9,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.6-sol-xhigh",
+        "rank": 4,
+        "total": 8.35,
+        "holisticMedianRank": 4,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 9,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 6
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.5-high",
+        "rank": 5,
+        "total": 8.35,
+        "holisticMedianRank": 5,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 7
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.5-medium",
+        "rank": 6,
+        "total": 8.049999999999999,
+        "holisticMedianRank": 6,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 9,
+          "design-specification-coherence": 9,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.6-luna-xhigh",
+        "rank": 7,
+        "total": 7.8999999999999995,
+        "holisticMedianRank": 7,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 9,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.4mini-light",
+        "rank": 8,
+        "total": 7.85,
+        "holisticMedianRank": 8,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 9,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.4-light",
+        "rank": 9,
+        "total": 7.7,
+        "holisticMedianRank": 10,
+        "scoreHolisticDisagreement": 1,
+        "dimensions": {
+          "research-rigor-and-synthesis": 7,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 8,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 7
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.4-medium",
+        "rank": 10,
+        "total": 7.699999999999999,
+        "holisticMedianRank": 9,
+        "scoreHolisticDisagreement": 1,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.6-terra-xhigh",
+        "rank": 11,
+        "total": 7.699999999999999,
+        "holisticMedianRank": 11,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 8,
+          "crypto-domain-correctness-risk-trust": 9,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "claude-fable5-high",
+        "rank": 12,
+        "total": 7.550000000000001,
+        "holisticMedianRank": 12,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 7,
+          "crypto-domain-correctness-risk-trust": 8,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 6
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.5-light",
+        "rank": 13,
+        "total": 7.25,
+        "holisticMedianRank": 13,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 7,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 7,
+          "crypto-domain-correctness-risk-trust": 8,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 5
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 5,
+            "max": 5,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.4-high",
+        "rank": 14,
+        "total": 7.1,
+        "holisticMedianRank": 14,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 6,
+          "crypto-domain-correctness-risk-trust": 8,
+          "information-design-visual-execution": 8,
+          "frontend-craft-interaction-responsiveness": 4
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "claude-haiku4.5",
+        "rank": 15,
+        "total": 6.55,
+        "holisticMedianRank": 15,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 8,
+          "product-strategy-prd-gtm": 8,
+          "design-specification-coherence": 6,
+          "crypto-domain-correctness-risk-trust": 7,
+          "information-design-visual-execution": 6,
+          "frontend-craft-interaction-responsiveness": 4
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          }
+        }
+      },
+      {
+        "runId": "codex-gpt5.6-luna-high",
+        "rank": 16,
+        "total": 4.5,
+        "holisticMedianRank": 16,
+        "scoreHolisticDisagreement": 0,
+        "dimensions": {
+          "research-rigor-and-synthesis": 7,
+          "product-strategy-prd-gtm": 7,
+          "design-specification-coherence": 3,
+          "crypto-domain-correctness-risk-trust": 6,
+          "information-design-visual-execution": 2,
+          "frontend-craft-interaction-responsiveness": 2
+        },
+        "dispersion": {
+          "research-rigor-and-synthesis": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "product-strategy-prd-gtm": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "design-specification-coherence": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "crypto-domain-correctness-risk-trust": {
+            "min": 6,
+            "max": 6,
+            "range": 0
+          },
+          "information-design-visual-execution": {
+            "min": 2,
+            "max": 2,
+            "range": 0
+          },
+          "frontend-craft-interaction-responsiveness": {
+            "min": 2,
+            "max": 2,
+            "range": 0
+          }
+        }
+      }
+    ]
+  },
+  "accounting": {
+    "source": "benchmark/costs/accounting.json",
+    "status": "complete",
+    "sourceDigest": "691b9d0fd63857d7a67b3988725549ecc7b99123d632f2c85842792eea19608f",
+    "scopes": {
+      "benchmarkScope": {
+        "threadCount": 47,
+        "tokens": 133281098,
+        "costUsd": null,
+        "knownTokenThreads": 47,
+        "knownCostThreads": 30
+      },
+      "judgeScope": {
+        "threadCount": 1,
+        "tokens": 19795612,
+        "costUsd": 3.2275724,
+        "knownTokenThreads": 1,
+        "knownCostThreads": 1
+      },
+      "identifiedScopes": {},
+      "nonIdentifiedScope": {
+        "threadCount": 0,
+        "tokens": 0,
+        "costUsd": 0,
+        "knownTokenThreads": 0,
+        "knownCostThreads": 0
+      },
+      "benchmarkAndJudgeScope": {
+        "threadCount": 48,
+        "tokens": 153076710,
+        "costUsd": null,
+        "knownTokenThreads": 48,
+        "knownCostThreads": 31
+      }
+    },
+    "total": {
+      "threadCount": 48,
+      "tokens": 153076710,
+      "costUsd": null,
+      "knownTokenThreads": 48,
+      "knownCostThreads": 31
+    },
+    "reconciliation": {
+      "threadCount": 48,
+      "classifiedThreadCount": 48,
+      "tokensDelta": 0,
+      "costDeltaUsd": 0,
+      "pass": true
+    },
+    "pricing": {
+      "tokenUsage": "48/48 threads",
+      "pricing": "31/48 threads",
+      "threadAttribution": "transcript-derived"
+    }
+  },
+  "metadataCoverage": {
+    "writtenArtifacts": "complete",
+    "desktopScreenshots": "complete",
+    "mobileScreenshots": "complete",
+    "runtime": "measured",
+    "interactionProbes": "unavailable",
+    "tokenCounts": "48/48 threads",
+    "pricing": "31/48 threads",
+    "externalDeployment": "unavailable"
+  },
+  "publishTargets": {
+    "reportMarkdown": "benchmark/cycles/cycle-1/report/report.md",
+    "reportHtml": "benchmark/cycles/cycle-1/report/report.html",
+    "current": "benchmark/current.json",
+    "website": "unavailable",
+    "externalDeployment": "not performed"
+  }
+}

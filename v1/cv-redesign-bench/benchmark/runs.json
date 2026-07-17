@@ -1,1 +1,1001 @@
-[]
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": 2,
+  "artifactId": "runs:cv-redesign-bench-v1",
+  "status": "complete",
+  "runs": [
+    {
+      "id": "claude-fable5-high",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "be8e17d6bb6a74521bb3a3c277fbd7ea49ee3b338d51b9101e425a3e7d398241",
+      "promptVariables": {
+        "RUN_ID": "claude-fable5-high"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/claude-fable5-high",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "claude-fable5-high"
+      },
+      "tokens": 10926938,
+      "costUsd": 18.083403999999998,
+      "wallTimeMinutes": 23.16433333333333,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "claude-haiku4.5",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "bcd6b2e255be043e4adb56a1523a05aaa02d3b515106ff90dc5e0fa069f53fc5",
+      "promptVariables": {
+        "RUN_ID": "claude-haiku4.5"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/claude-haiku4.5",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "claude-haiku4.5"
+      }
+    },
+    {
+      "id": "claude-opus4.8-high",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "285454055b7624573db3263ffd25cb16bf94515ee768cb11b886d3a346e1f18a",
+      "promptVariables": {
+        "RUN_ID": "claude-opus4.8-high"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T15:21:53+01:00",
+      "finishedAt": "2026-07-17T15:21:53+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/claude-opus4.8-high",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "claude-opus4.8-high"
+      }
+    },
+    {
+      "id": "claude-opus4.8-low",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "10efd781f4628ddfccb579e6415147383ac9bab89759b8fcea7946066a2b4aa9",
+      "promptVariables": {
+        "RUN_ID": "claude-opus4.8-low"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/claude-opus4.8-low",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "claude-opus4.8-low"
+      }
+    },
+    {
+      "id": "claude-opus4.8-medium",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "51b626145863b40712cadf09fc85d9c0f47b39f30b57301692894cf4e6556ecc",
+      "promptVariables": {
+        "RUN_ID": "claude-opus4.8-medium"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/claude-opus4.8-medium",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "claude-opus4.8-medium"
+      }
+    },
+    {
+      "id": "claude-sonnet5-high",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "5148f33fd3b34f5a043ee59ff2b2b86985cfa57c602bc7b6a3fcf8fdb3a18bc2",
+      "promptVariables": {
+        "RUN_ID": "claude-sonnet5-high"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/claude-sonnet5-high",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "claude-sonnet5-high"
+      }
+    },
+    {
+      "id": "claude-sonnet5-low",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "e93cad07a4faf5bac521902f35e824c7cd43f9ae1ebac74be41ad66ee75cfe52",
+      "promptVariables": {
+        "RUN_ID": "claude-sonnet5-low"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/claude-sonnet5-low",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "claude-sonnet5-low"
+      }
+    },
+    {
+      "id": "claude-sonnet5-medium",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "19aee062c0e5bf0488c8a359741ffecf7d6d58f21c576be0012f70f05e1d2fc3",
+      "promptVariables": {
+        "RUN_ID": "claude-sonnet5-medium"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/claude-sonnet5-medium",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "claude-sonnet5-medium"
+      }
+    },
+    {
+      "id": "claude-sonnet5-xhigh",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "2ab181673764626918185f29d8c026fb03cde6adb2f731662872557435d8803e",
+      "promptVariables": {
+        "RUN_ID": "claude-sonnet5-xhigh"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/claude-sonnet5-xhigh",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "claude-sonnet5-xhigh"
+      }
+    },
+    {
+      "id": "codex-5.6-sol-ultra",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "20571ac39fdf428d1d9b7cc7cbc6799776a1b8162b85fc6879baaf8a027739b9",
+      "promptVariables": {
+        "RUN_ID": "codex-5.6-sol-ultra"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-5.6-sol-ultra",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-5.6-sol-ultra"
+      },
+      "tokens": 13744082,
+      "costUsd": 13.754676,
+      "wallTimeMinutes": 25.790566666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4-high",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "be116b26f2c52b18001c09815f42719a0f55bff969c35eba8e4ad818323fee03",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4-high"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.4-high",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.4-high"
+      },
+      "tokens": 6140580,
+      "costUsd": 2.9992435,
+      "wallTimeMinutes": 17.43705,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4-light",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "fb0ee2be70a6827a08766947c4d30ab60a36d7a4d1e6bf749632a385cd855906",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4-light"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.4-light",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.4-light"
+      },
+      "tokens": 1689268,
+      "costUsd": 1.0463865,
+      "wallTimeMinutes": 8.5024,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4-medium",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "3d897f117e2cf21ced904a8b70ecb902a8bcf68e70dcc8d7023dc563f735e0d3",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4-medium"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.4-medium",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.4-medium"
+      },
+      "tokens": 4623108,
+      "costUsd": 2.258342,
+      "wallTimeMinutes": 14.601666666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4-xhigh",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "844dfae6574a2865cc7f10d4454798274dc9cf067160c917729cc877b0018dcb",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4-xhigh"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.4-xhigh",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.4-xhigh"
+      },
+      "tokens": 10170971,
+      "costUsd": 4.884181,
+      "wallTimeMinutes": 28.167083333333334,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4mini-high",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "fa40660f05a096d27917f164c890d588bee64b12fb5a19dc5532f10aab24711f",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4mini-high"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.4mini-high",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.4mini-high"
+      },
+      "tokens": 23639556,
+      "costUsd": 3.46173825,
+      "wallTimeMinutes": 55.32601666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4mini-light",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "64d027b6f2cf1c7add006bc66fd6571f51dd935551116d06bc7ff54464b0d734",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4mini-light"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.4mini-light",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.4mini-light"
+      },
+      "tokens": 2058800,
+      "costUsd": 0.3874188,
+      "wallTimeMinutes": 7.5575,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4mini-medium",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "86ef5efa2b1440f014e48fa406d5a4f2580cfa789376a5974d4bcf845feae12d",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4mini-medium"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.4mini-medium",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.4mini-medium"
+      },
+      "tokens": 6293774,
+      "costUsd": 1.05043815,
+      "wallTimeMinutes": 18.111883333333335,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4mini-xhigh",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "a371f71c183588e4325a5569b9dd90355ba3953ffd57b3fc0521b4ef436ac695",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4mini-xhigh"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.4mini-xhigh",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.4mini-xhigh"
+      },
+      "tokens": 26100546,
+      "costUsd": 3.61589325,
+      "wallTimeMinutes": 61.212833333333336,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.5-high",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "13e7d0dca5c33e6e1ffe5304e23403a892eeddedf5e22b947c657caec6ba9c7d",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.5-high"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.5-high",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.5-high"
+      },
+      "tokens": 7665724,
+      "costUsd": 6.322348,
+      "wallTimeMinutes": 16.04485,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.5-light",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "2d4c465a168f3dd69fed49142928c04846c240c2fe14a487d5b1d806d4182b8b",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.5-light"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.5-light",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.5-light"
+      },
+      "tokens": 2570541,
+      "costUsd": 2.549264,
+      "wallTimeMinutes": 8.169233333333333,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.5-medium",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "102123cd6f8150ff18ca24e43b418001d55b8c3c0cac8a0d3a86a779d151fc5a",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.5-medium"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.5-medium",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.5-medium"
+      },
+      "tokens": 1943215,
+      "costUsd": 2.7464419999999996,
+      "wallTimeMinutes": 10.83345,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.5-xhigh",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "59bcece2afd8d01e8e6c632ccd9504a41a2ac569da7536270e447d17b6b5c94f",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.5-xhigh"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.5-xhigh",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.5-xhigh"
+      },
+      "tokens": 11324641,
+      "costUsd": 9.633079,
+      "wallTimeMinutes": 26.247,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-luna-high",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "47e19d341d87895398e57e17e4bfe2c10ab7d6f8b3383ec7815c20965ce20264",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-luna-high"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-luna-high",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-luna-high"
+      },
+      "tokens": 15178421,
+      "costUsd": 2.2990644000000002,
+      "wallTimeMinutes": 24.66475,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-luna-light",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "3e907a74493a35e6fa6be9a9153dca270072db99afb99d133dd9ad3175443cd5",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-luna-light"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-luna-light",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-luna-light"
+      },
+      "tokens": 1358271,
+      "costUsd": 0.3087014,
+      "wallTimeMinutes": 6.3501,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-luna-medium",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "d08453810e3a1a9c7fedd5561f712b9a4cc67ffa50641006c7b1879e6476d058",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-luna-medium"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-luna-medium",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-luna-medium"
+      },
+      "tokens": 1585118,
+      "costUsd": 0.331218,
+      "wallTimeMinutes": 5.6371166666666666,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-luna-xhigh",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "c838e95a7fba827409392960f29a83e8f70e9b8d1899e232c6fee0906bbff239",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-luna-xhigh"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-luna-xhigh",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-luna-xhigh"
+      },
+      "tokens": 19332742,
+      "costUsd": 2.900323,
+      "wallTimeMinutes": 36.81551666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-sol-high",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "94a35ce52010dd9c57b8d4b4b267bc59114a128e013fc18338d7012181b63b3e",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-sol-high"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-sol-high",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-sol-high"
+      },
+      "tokens": 12540993,
+      "costUsd": 9.442852,
+      "wallTimeMinutes": 20.906883333333333,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-sol-light",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "c97e85f8bc92012d48ad835f04ebc791413309f3713513fa320d442db827fa08",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-sol-light"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-sol-light",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-sol-light"
+      },
+      "tokens": 1242878,
+      "costUsd": 1.668817,
+      "wallTimeMinutes": 9.589966666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-sol-medium",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "d8e9e5001d33ddb91eee8fce5398412fdef55e6fc602ebd3f86b45e5a374b532",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-sol-medium"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-sol-medium",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-sol-medium"
+      },
+      "tokens": 6492329,
+      "costUsd": 5.417393000000001,
+      "wallTimeMinutes": 14.051016666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-sol-xhigh",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "96ad7d91dd296d020c996234d16442a71080466142893d80b1bbd0304f39c6a9",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-sol-xhigh"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-sol-xhigh",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-sol-xhigh"
+      },
+      "tokens": 19263666,
+      "costUsd": 13.919398000000001,
+      "wallTimeMinutes": 26.6306,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-terra-high",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "f86b377c357009972218c546cb6836c467c159790e7f464e2fe65b249dae0dee",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-terra-high"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-terra-high",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-terra-high"
+      },
+      "tokens": 2032272,
+      "costUsd": 1.187278,
+      "wallTimeMinutes": 7.118733333333333,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-terra-light",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "80f237faab235cf24bcb63c9902e8172be6891474e0be5360990bc9a1b8231cc",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-terra-light"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-terra-light",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-terra-light"
+      },
+      "tokens": 1223940,
+      "costUsd": 0.6408085,
+      "wallTimeMinutes": 5.263366666666666,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-terra-medium",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "585c59773b79c71de8ca8cc77f85fe370425734148839ecfc94a295493877969",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-terra-medium"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-terra-medium",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-terra-medium"
+      },
+      "tokens": 1962119,
+      "costUsd": 1.0029595,
+      "wallTimeMinutes": 6.612416666666666,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-terra-ultra",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "8530c6a18901cf12834d506fb24a29634c9fce97cb1a0bd99b419d2cc8b99d0d",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-terra-ultra"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-terra-ultra",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-terra-ultra"
+      },
+      "tokens": 30281310,
+      "costUsd": 13.564407,
+      "wallTimeMinutes": 53.20138333333333,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-terra-xhigh",
+      "harness": "unknown",
+      "harnessVersion": null,
+      "model": "unknown (legacy route)",
+      "provider": null,
+      "effort": null,
+      "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+      "runRef": "f243146",
+      "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+      "promptInstanceSha": "3a2942c9f81855bab9f89f3c24feac16d94a6044f0e2b1020bc976ad9fa7987a",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-terra-xhigh"
+      },
+      "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "status": "complete",
+      "metadata": {
+        "target": "app/codex-gpt5.6-terra-xhigh",
+        "legacyReconstruction": true,
+        "provenanceStatus": "route output existed before v2 ledger initialization",
+        "routeId": "codex-gpt5.6-terra-xhigh"
+      },
+      "tokens": 19093755,
+      "costUsd": 6.810114499999999,
+      "wallTimeMinutes": 31.00885,
+      "accountingSource": "benchmark/costs/accounting.json"
+    }
+  ],
+  "provenance": {
+    "producer": "legacy-run-registration",
+    "method": "measured",
+    "sources": [
+      "app/",
+      "PROMPT.md",
+      "ref/RJ_CV.pdf",
+      "ref/RJ_CV_max.pdf"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "current:cv-redesign-bench-v1",
+  "status": "complete",
+  "benchmarkId": "cv-redesign-bench-v1",
+  "cycleId": "cycle-1",
+  "releaseType": "interim",
+  "publicationSequence": 1,
+  "reviewSourceDigest": "628ffd3d4da86b9862f1a00cd25e1873665b174824d7d60d52fcd8cc86d03e77",
+  "updatedAt": "2026-07-17T15:02:58.127Z"
+}

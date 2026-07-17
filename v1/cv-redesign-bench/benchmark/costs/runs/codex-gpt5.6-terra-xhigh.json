@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-gpt5.6-terra-xhigh",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "id": "codex-gpt5.6-terra-xhigh",
+  "harness": "unknown",
+  "model": "gpt-5.6-terra",
+  "effort": null,
+  "tokens": 19093755,
+  "inputTokens": 19029293,
+  "outputTokens": 64462,
+  "costUsd": 6.810114499999999,
+  "cacheHitRate": 0.9746388370813356,
+  "wallTimeMinutes": 31.00885,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "codex:ca0277e0781704d5789c5624"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-45-019f6c04-3ef2-7111-987b-28365663267d.jsonl"
+    ]
+  }
+}

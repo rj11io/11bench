@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "judge:cycle-1:judge-codex-gpt5.6-luna-high",
+  "status": "complete",
+  "generatedAt": "2026-07-17T14:52:00.000Z",
+  "judgeId": "judge-codex-gpt5.6-luna-high",
+  "judgeType": "ai",
+  "judgeModel": "codex-gpt5.6-luna-high",
+  "cycleId": "cycle-1",
+  "rubricSha": "1f74da0a57a531bbe8cc958ae8c39c9db3f9d8c4766d32cedacd4382129bd7a6",
+  "evidenceSha": "f3409b24627d7e17e842ce5dd8f4ed60bcc3107ac2d90f7590e15190035b03c4",
+  "judgePromptTemplateSha": "f2e9df4dcd9a7c67338e39bc56cee0edf0702fe1426643194921de747e915c0b",
+  "judgePromptInstanceSha": "8c67f88885032dce17047aa440f0a1eb4d80d75a1b54bd5c528649ff8498ded8",
+  "judgePromptVariables": {
+    "CYCLE_ID": "cycle-1",
+    "JUDGE_ID": "judge-codex-gpt5.6-luna-high",
+    "JUDGE_TYPE": "ai"
+  },
+  "identityBlinded": true,
+  "runs": [
+    {
+      "anonymizedAs": "run-01",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 8, "justification": "Extensive, structured research covers treasury users, competitors, data semantics, risk, and GTM with explicit decision links." },
+        "product-strategy-prd-gtm": { "score": 8, "justification": "The PRD has a focused treasury-runway wedge, non-goals, calculations, permissions, metrics, pricing, and launch motion." },
+        "design-specification-coherence": { "score": 7, "justification": "The design specification is detailed and states-aware, but the visible remediation console does not faithfully realize the treasury-runway product described in the artifacts." },
+        "crypto-domain-correctness-risk-trust": { "score": 8, "justification": "The artifacts explicitly address provenance, freshness, wallet permissions, volatility, compliance, and demo limitations." },
+        "information-design-visual-execution": { "score": 8, "justification": "Desktop evidence presents a distinctive, scannable remediation queue with strong hierarchy, ownership, severity, and action context." },
+        "frontend-craft-interaction-responsiveness": { "score": 6, "justification": "Desktop craft is polished, but the mobile capture clips the navigation and leaves large empty areas; interaction probes were unavailable and a shared hydration warning remains." }
+      }
+    },
+    {
+      "anonymizedAs": "run-02",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 8, "justification": "Research connects DeFi user jobs to protocol conventions, risk, data freshness, wallet permissions, visualization, and monetization." },
+        "product-strategy-prd-gtm": { "score": 8, "justification": "Yield discovery is a focused wedge with comparison and portfolio workflows, acceptance criteria, data assumptions, metrics, and a credible GTM outline." },
+        "design-specification-coherence": { "score": 6, "justification": "The written design is specific about yield comparison and risk journeys, while the captured interface reads as a different security-triage product." },
+        "crypto-domain-correctness-risk-trust": { "score": 7, "justification": "The documents handle APY, impermanent loss, gas, protocol risk, provenance, and permissions responsibly, though the implemented surface offers limited evidence of those semantics." },
+        "information-design-visual-execution": { "score": 6, "justification": "The desktop dashboard has a coherent triage hierarchy and useful severity treatment, but it does not expose the richer yield-comparison information promised by the artifacts." },
+        "frontend-craft-interaction-responsiveness": { "score": 4, "justification": "Desktop renders a credible dashboard, but the mobile capture is largely blank/dark and interaction probes were unavailable; the shared hydration warning is retained." }
+      }
+    },
+    {
+      "anonymizedAs": "run-03",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 8, "justification": "The research has a clear treasury wedge, source log, segment reasoning, product implications, and explicit decisions for the demo." },
+        "product-strategy-prd-gtm": { "score": 8, "justification": "The PRD defines users, workflows, scope, non-goals, requirements, and risk-aware treasury operations with a plausible product thesis." },
+        "design-specification-coherence": { "score": 6, "justification": "The written design is thoughtful about attack-path and treasury states, but the visible exposure-operations UI diverges materially from the Helm treasury narrative." },
+        "crypto-domain-correctness-risk-trust": { "score": 8, "justification": "Bridge provenance, depeg drills, wallet risk, freshness, and evidence-linked decisions are treated as first-class concerns." },
+        "information-design-visual-execution": { "score": 8, "justification": "The desktop surface is a polished light operations console with a clear queue, path context, risk states, and strong scan hierarchy." },
+        "frontend-craft-interaction-responsiveness": { "score": 4, "justification": "The desktop presentation is refined, but the 375px capture is effectively blank and therefore fails the required responsive proof; interaction probes were unavailable." }
+      }
+    },
+    {
+      "anonymizedAs": "run-04",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 7, "justification": "Research is concise but covers treasury jobs, provenance, security, compliance, visualization conventions, competitors, and wedge selection." },
+        "product-strategy-prd-gtm": { "score": 8, "justification": "The PRD is focused on payout readiness and treasury control, with detailed requirements, data model, risk controls, metrics, pricing, and GTM." },
+        "design-specification-coherence": { "score": 8, "justification": "The design specifies payout, hold, and liquidity journeys plus states, responsive behavior, accessibility, and an implementation differentiator that maps well to the interface." },
+        "crypto-domain-correctness-risk-trust": { "score": 8, "justification": "The product treats wallet permissions, compliance holds, liquidity readiness, provenance, and demo recommendation limits credibly." },
+        "information-design-visual-execution": { "score": 8, "justification": "The warm three-column exposure console has strong hierarchy, dense but legible cards, actionable filters, and useful explainability." },
+        "frontend-craft-interaction-responsiveness": { "score": 7, "justification": "Desktop and mobile are both visibly usable with a polished responsive system, though stateful interaction depth was not probed and a shared hydration warning remains." }
+      }
+    },
+    {
+      "anonymizedAs": "run-05",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 8, "justification": "Research is well sourced and connects stablecoin adoption, approvals, reserves, sanctions, wallet safety, visualization, and GTM to decisions." },
+        "product-strategy-prd-gtm": { "score": 8, "justification": "The PRD defines a sharp stablecoin treasury thesis, roles, scope, workflows, acceptance criteria, calculations, controls, and commercial path." },
+        "design-specification-coherence": { "score": 8, "justification": "The design covers command, exposure, control, incident, empty, and volatile states with coherent hierarchy and implementation targets." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "Issuer, chain, venue, wallet, approval, reserve, sanctions, and transaction-clarity semantics are unusually explicit and responsibly framed." },
+        "information-design-visual-execution": { "score": 8, "justification": "The dark exposure command center is visually strong, with clear risk grouping, queue/detail relationships, and a disciplined visual language." },
+        "frontend-craft-interaction-responsiveness": { "score": 5, "justification": "Desktop craft is convincing, but the mobile evidence is largely blank/failed to demonstrate the specified adaptation; interaction probes were unavailable." }
+      }
+    },
+    {
+      "anonymizedAs": "run-06",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 9, "justification": "The research uses a broad source set spanning regulation, custody, screening, wallet data, market data, and accounting, then derives product implications." },
+        "product-strategy-prd-gtm": { "score": 8, "justification": "The PRD is focused and operationally detailed, with users, scope, workflows, requirements, assumptions, metrics, and adoption framing." },
+        "design-specification-coherence": { "score": 8, "justification": "The design specifies executive scan, transfer review, wallet drill-down, responsive behavior, accessibility, and empty/error states that align with the cockpit concept." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "Wallet, transfer, provenance, risk, compliance, data freshness, and permission semantics are grounded in the cited domain research." },
+        "information-design-visual-execution": { "score": 8, "justification": "The desktop exposure command presents strong charts, a queue/detail workflow, and clear risk signals without becoming a generic chart wall." },
+        "frontend-craft-interaction-responsiveness": { "score": 5, "justification": "The desktop interface is polished, but the mobile capture collapses into an extremely narrow stacked layout with severe loss of usability." }
+      }
+    },
+    {
+      "anonymizedAs": "run-07",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 8, "justification": "The research covers a stablecoin treasury wedge, sources, user segments, data models, uncertainty, controls, compliance, visualization, and GTM." },
+        "product-strategy-prd-gtm": { "score": 9, "justification": "The PRD has a differentiated payout-readiness thesis, precise requirements and acceptance criteria, calculations, evidence-linked actions, and a credible go-to-market plan." },
+        "design-specification-coherence": { "score": 9, "justification": "The design is decisive about readiness, exposure drill-down, evidence review, provenance, states, responsive behavior, and accessibility, with close implementation fit." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "The evidence model clearly communicates stablecoin risk, liquidity routes, freshness, provenance, permissions, and the boundary between demo and live data." },
+        "information-design-visual-execution": { "score": 8, "justification": "The light command surface is highly scannable, with an effective queue/detail composition, strong grouping, and restrained risk color." },
+        "frontend-craft-interaction-responsiveness": { "score": 7, "justification": "The captured product is polished and demonstrates a purposeful desktop system with a credible mobile adaptation, though interaction probes were unavailable and a shared hydration warning remains." }
+      }
+    },
+    {
+      "anonymizedAs": "run-08",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 7, "justification": "The research establishes a stablecoin operations wedge and covers sources, users, category, data, risk, trust, and GTM, but synthesis is less deep than the strongest entries." },
+        "product-strategy-prd-gtm": { "score": 8, "justification": "The PRD is focused and complete across users, workflows, requirements, data assumptions, controls, activation, pricing, risks, and roadmap." },
+        "design-specification-coherence": { "score": 7, "justification": "The design includes journeys, hierarchy, visual choices, responsive and accessibility requirements, but the captured mobile composition is weaker than the written plan." },
+        "crypto-domain-correctness-risk-trust": { "score": 8, "justification": "Stablecoin exposure, source status, wallet permissions, provenance, risk semantics, and compliance are handled credibly in the artifacts." },
+        "information-design-visual-execution": { "score": 8, "justification": "The desktop Breachline-style console has clean typography, strong queue/detail hierarchy, and a production-like exposure workflow." },
+        "frontend-craft-interaction-responsiveness": { "score": 5, "justification": "Desktop execution is polished, but mobile evidence compresses the multi-pane layout into a narrow vertical presentation with clipping." }
+      }
+    },
+    {
+      "anonymizedAs": "run-09",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 8, "justification": "Research connects stablecoin treasury decisions to users, category gaps, data models, provenance, risk, compliance, visualization, and GTM." },
+        "product-strategy-prd-gtm": { "score": 9, "justification": "The PRD is unusually complete on scope, workflows, acceptance criteria, source assumptions, permissions, metrics, packaging, GTM, and risks." },
+        "design-specification-coherence": { "score": 9, "justification": "The design has complete journeys and states, clear drill-down and filtering rules, semantic visual choices, accessibility, and strong implementation proof." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "It gives clear treatment to stablecoin risk, wallet and permission controls, compliance, freshness, provenance, calculations, and uncertainty." },
+        "information-design-visual-execution": { "score": 8, "justification": "The Patchline-like desktop console is polished and information-dense, with a clear queue, detail, owner, and next-action model." },
+        "frontend-craft-interaction-responsiveness": { "score": 5, "justification": "The desktop is convincing, but the mobile capture narrows into a clipped stacked layout that undercuts the responsive specification; interactions were not probed." }
+      }
+    },
+    {
+      "anonymizedAs": "run-10",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 8, "justification": "The research has an explicit control-room decision, source ledger, segment and category analysis, domain model, trust semantics, visualization findings, and GTM." },
+        "product-strategy-prd-gtm": { "score": 9, "justification": "The PRD is sharply scoped with detailed requirements, workflows, calculations, demo/live assumptions, metrics, packaging, GTM, and a risk roadmap." },
+        "design-specification-coherence": { "score": 9, "justification": "The design covers five journeys, state behavior, semantic visualization, responsive and accessibility rules, and the implementation clearly expresses the control-room thesis." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "Depeg, exposure, evidence, provenance, units, uncertainty, permissions, compliance, and demo limitations are consistently and responsibly represented." },
+        "information-design-visual-execution": { "score": 9, "justification": "The desktop command center is distinctive and production-like, making complex exposure data fast to scan through excellent hierarchy and semantic detail." },
+        "frontend-craft-interaction-responsiveness": { "score": 6, "justification": "The product renders with rich desktop detail and a long-form mobile view, but mobile remains cramped and interaction probes were unavailable." }
+      }
+    },
+    {
+      "anonymizedAs": "run-11",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 7, "justification": "The written research covers treasury users, category conventions, data, risk, trust, visualization, and positioning with a coherent decision narrative." },
+        "product-strategy-prd-gtm": { "score": 7, "justification": "The PRD has a credible treasury-control thesis, scope, workflow, data, trust, metrics, and launch outline, but it is not reflected in the captured product." },
+        "design-specification-coherence": { "score": 3, "justification": "The written design describes a multi-view treasury control room, while the available implementation is only an archived placeholder card." },
+        "crypto-domain-correctness-risk-trust": { "score": 6, "justification": "The documents discuss provenance, wallet permissions, risk, and demo honesty, but the placeholder provides no implemented crypto semantics to verify." },
+        "information-design-visual-execution": { "score": 2, "justification": "The captured desktop and mobile surfaces are a minimal centered placeholder with no dashboard hierarchy, data visualization, or decision workflow." },
+        "frontend-craft-interaction-responsiveness": { "score": 2, "justification": "The route is visually unfinished and does not demonstrate the specified interaction or responsive product behavior." }
+      }
+    },
+    {
+      "anonymizedAs": "run-12",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 8, "justification": "The research provides a strong treasury-control decision, structured users and jobs, category comparison, data/provenance rules, risk semantics, and source-linked decisions." },
+        "product-strategy-prd-gtm": { "score": 8, "justification": "The PRD distinguishes demo from production scope and provides workflows, acceptance criteria, calculations, permissions, metrics, and commercial assumptions." },
+        "design-specification-coherence": { "score": 8, "justification": "The design specifies morning brief, risk investigation, stress, position inspection, hierarchy, charts, and evidence states with good alignment to the desktop UI." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "Runway, treasury mix, evidence ledger, freshness, provenance, wallet and compliance concerns are expressed with unusually good trust framing." },
+        "information-design-visual-execution": { "score": 9, "justification": "The Clearline-like desktop workspace is a highly polished, distinctive dark console with strong queue, chart, and exposure-detail hierarchy." },
+        "frontend-craft-interaction-responsiveness": { "score": 5, "justification": "Desktop execution is excellent, but the mobile capture is effectively blank and does not prove the written responsive design." }
+      }
+    },
+    {
+      "anonymizedAs": "run-13",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 9, "justification": "Research is comprehensive and decision-oriented, with segment evidence, competitor conventions, explicit data entities, valuation rules, risk model, and trust semantics." },
+        "product-strategy-prd-gtm": { "score": 9, "justification": "The PRD is sharply differentiated around treasury readiness and exposure control, with four concrete workflows, requirements, metrics, GTM, and risk planning." },
+        "design-specification-coherence": { "score": 9, "justification": "The design is decisive across command, stress, controls, sources, journeys, provenance, responsive navigation, accessibility, and implementation coverage." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "Asset, chain, wallet, valuation, freshness, liquidity, permissions, provenance, and stress-risk semantics are all explicitly modeled." },
+        "information-design-visual-execution": { "score": 9, "justification": "The dark lime-accent operations console is distinctive and highly legible, combining exposure graph, queue, status, and next-step detail effectively." },
+        "frontend-craft-interaction-responsiveness": { "score": 5, "justification": "Desktop craft is excellent, but the mobile capture is severely clipped into a narrow left-column view, weakening the otherwise strong specification." }
+      }
+    },
+    {
+      "anonymizedAs": "run-14",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 9, "justification": "The research is deep and cross-checked across treasury users, providers, data entities, calculations, provenance, risk, security, regulation, and design implications." },
+        "product-strategy-prd-gtm": { "score": 9, "justification": "The PRD has a focused decision-cockpit thesis, explicit scope and non-goals, workflows, acceptance criteria, assumptions, metrics, packaging, and GTM." },
+        "design-specification-coherence": { "score": 9, "justification": "The design covers daily review, stress, drill-down, controls, visual semantics, units, provenance, interactions, and a coherent implemented light command surface." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "Risk semantics, concentration, liquidity trajectory, source freshness, units, provenance, permissions, and uncertainty are clearly specified and surfaced." },
+        "information-design-visual-execution": { "score": 9, "justification": "The light purple command center is production-quality, with excellent decision queue/detail hierarchy, exposure matrices, coverage rails, and restrained visual encoding." },
+        "frontend-craft-interaction-responsiveness": { "score": 6, "justification": "The desktop implementation is polished, but the mobile evidence is materially narrower and less usable than the design promise; interaction probes were unavailable." }
+      }
+    },
+    {
+      "anonymizedAs": "run-15",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 9, "justification": "The research is exceptionally thorough on users, entities, canonicalization, finality, pricing, liquidity, coverage, stablecoin semantics, and uncertainty." },
+        "product-strategy-prd-gtm": { "score": 9, "justification": "The PRD is highly production-ready with a differentiated readiness thesis, detailed scope, decision loop, requirements, success metrics, packaging, GTM, and risks." },
+        "design-specification-coherence": { "score": 9, "justification": "The design specifies desktop/mobile shells, four journeys, normal/volatile/risk/error/empty/loading states, hierarchy, and provenance with strong artifact coherence." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "Canonical asset identity, chain coverage, finality, price and liquidity calculations, stablecoin risk, provenance, and source outages are handled with exceptional clarity." },
+        "information-design-visual-execution": { "score": 8, "justification": "The desktop command interface is polished and information-dense with clear exposure prioritization, although the visual system is somewhat similar to peer treasury consoles." },
+        "frontend-craft-interaction-responsiveness": { "score": 6, "justification": "Desktop craft and state coverage are strong, but the mobile capture is cramped/narrow and interaction probes were unavailable." }
+      }
+    },
+    {
+      "anonymizedAs": "run-16",
+      "dimensions": {
+        "research-rigor-and-synthesis": { "score": 8, "justification": "Research clearly synthesizes stablecoin settlement users, category conventions, data and risk semantics, source limits, and a product decision." },
+        "product-strategy-prd-gtm": { "score": 8, "justification": "The PRD is focused on settlement readiness with precise workflows, non-goals, data assumptions, permissions, analytics, launch, pricing, and risks." },
+        "design-specification-coherence": { "score": 8, "justification": "The design specifies a payment-readiness journey, hierarchy, provenance, filters, drill-down, responsive behavior, and demo differentiator that fit the interface." },
+        "crypto-domain-correctness-risk-trust": { "score": 9, "justification": "Stablecoin settlement, route readiness, freshness, provenance, permissions, compliance, reconciliation, and demo boundaries are described responsibly." },
+        "information-design-visual-execution": { "score": 8, "justification": "The warm exposure-operations dashboard is polished with clear decision queue, owner/action detail, and strong information hierarchy." },
+        "frontend-craft-interaction-responsiveness": { "score": 5, "justification": "The desktop surface is convincing, but the mobile capture collapses into a very narrow column layout and does not demonstrate the specified responsive quality." }
+      }
+    }
+  ],
+  "overallRanking": [
+    "run-14",
+    "run-10",
+    "run-13",
+    "run-15",
+    "run-07",
+    "run-09",
+    "run-12",
+    "run-06",
+    "run-05",
+    "run-04",
+    "run-16",
+    "run-01",
+    "run-08",
+    "run-03",
+    "run-02",
+    "run-11"
+  ],
+  "metadata": {
+    "effort": "high",
+    "interactionProbes": "unavailable",
+    "sharedRuntimeWarning": "A React hydration warning was observed during capture; per-route attribution was not isolated.",
+    "scoringNote": "Scores are comparative within the frozen interim cohort and rely only on anonymized evidence and the frozen rubric."
+  }
+}

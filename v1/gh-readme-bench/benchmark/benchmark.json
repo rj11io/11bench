@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "benchmark-config:gh-readme-bench:v1",
+  "status": "complete",
+  "benchmarkId": "gh-readme-bench-v1",
+  "mode": "isolated",
+  "runStrategy": "folder",
+  "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+  "dependencyPolicy": {
+    "mode": "frozen",
+    "allow": []
+  },
+  "contentMode": "external",
+  "evidenceSurfaces": [
+    "research.md",
+    "content.md",
+    "README.md",
+    "desktop-1440x900",
+    "mobile-375x812"
+  ],
+  "canonicalUrls": {},
+  "protectedPaths": [
+    "ref/",
+    "benchmark/",
+    "PROMPT.md",
+    "JUDGE.md",
+    "README.md",
+    "www/"
+  ],
+  "objective": "Research and create a truthful, captivating GitHub profile README from the frozen concise and extended CV PDFs.",
+  "skillTags": [
+    "source-extraction",
+    "research",
+    "editorial-judgment",
+    "information-design",
+    "github-markdown",
+    "accessibility"
+  ],
+  "notes": "Initialized from the existing run-folder cohort and frozen v1 prompt/rubric. Legacy runs have no pre-existing 11ai audit or evidence bundle."
+}

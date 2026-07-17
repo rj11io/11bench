@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": 2,
+  "artifactId": "rubric:cv-redesign-bench-v1",
+  "status": "complete",
+  "version": "v1",
+  "frozenAt": "2026-07-16T00:00:00.000Z",
+  "rubricSha": "d951b3466a8b5ef6723b506f78f2d37eaff8b98e960a787347d5e7d84024d664",
+  "dimensions": [
+    {
+      "id": "source-extraction-and-inference-discipline",
+      "name": "Source extraction and inference discipline",
+      "weight": 20,
+      "definition": "How accurately and transparently does the run recover information from both PDFs?",
+      "anchors": {
+        "1": "Misses major roles or facts, introduces unsupported claims, or provides no traceable distinction between evidence and invention.",
+        "5": "Captures the main career history but misses details, handles conflicts loosely, or leaves editorial inference under-documented.",
+        "10": "Reconciles both PDFs comprehensively, preserves factual accuracy, clearly labels uncertainty and inference, and makes every material omission or merge auditable."
+      },
+      "surfaces": ["content", "desktop-1440x900", "print-a4"]
+    },
+    {
+      "id": "research-quality-and-translation",
+      "name": "Research quality and translation",
+      "weight": 15,
+      "definition": "How meaningfully does current, credible research inform the result?",
+      "anchors": {
+        "1": "No meaningful research, fabricated or weak sources, or generic notes that do not influence the result.",
+        "5": "Credible research covers common CV practices and a plausible style, but the connection to concrete decisions is uneven.",
+        "10": "Current, credible, well-synthesized research directly informs content, hierarchy, typography, accessibility, ATS, and print decisions."
+      },
+      "surfaces": ["research", "desktop-1440x900", "print-a4"]
+    },
+    {
+      "id": "content-strategy-and-improvement",
+      "name": "Content strategy and improvement",
+      "weight": 15,
+      "definition": "How effectively does editing prioritize truthful, role-appropriate content within two pages?",
+      "anchors": {
+        "1": "Transcription without prioritization, damaging omissions, inflated claims, or writing that obscures the candidate's value.",
+        "5": "Clearer and shorter than the sources with a reasonable section order, but impact and differentiation are inconsistent.",
+        "10": "Sharp, truthful, role-appropriate editing creates a compelling senior narrative, preserves necessary evidence, and uses the two pages with exceptional judgment."
+      },
+      "surfaces": ["content", "desktop-1440x900", "print-a4"]
+    },
+    {
+      "id": "visual-hierarchy-and-typography",
+      "name": "Visual hierarchy and typography",
+      "weight": 20,
+      "definition": "How effectively do hierarchy, typography, rhythm, and density support effortless scanning?",
+      "anchors": {
+        "1": "Weak reading order, poor legibility, generic component styling, or decoration that competes with the content.",
+        "5": "Coherent and professional with serviceable typography, but some sections are flat, dense, or visually conventional.",
+        "10": "A distinctive yet appropriate direction creates effortless scanning, excellent rhythm, controlled density, and clear emphasis across the entire CV."
+      },
+      "surfaces": ["mobile-375x812", "desktop-1440x900", "print-a4"]
+    },
+    {
+      "id": "responsive-and-exact-two-page-print-execution",
+      "name": "Responsive and exact two-page print execution",
+      "weight": 20,
+      "definition": "How well do mobile, desktop, and exact two-page A4 print surfaces function as purpose-designed outputs?",
+      "anchors": {
+        "1": "Mobile or desktop breaks, print is clipped or unreadable, or the PDF is not exactly two A4 pages.",
+        "5": "All surfaces function and print reaches two pages, but one surface feels compressed, accidental, or only minimally adapted.",
+        "10": "Mobile, desktop, and both A4 pages feel purpose-designed; page breaks, continuation, links, contrast, and information density are controlled with no artifacts or overflow."
+      },
+      "surfaces": ["mobile-375x812", "desktop-1440x900", "print-a4"]
+    },
+    {
+      "id": "craft-accessibility-and-coherence",
+      "name": "Craft, accessibility, and coherence",
+      "weight": 10,
+      "definition": "How polished, accessible, coherent, and complete are the implementation and supporting artifacts?",
+      "anchors": {
+        "1": "Visible bugs, console errors, inaccessible interactions, broken links, inconsistent artifacts, or unfinished details.",
+        "5": "Solid implementation with minor roughness or small disagreements between research, content, rationale, and output.",
+        "10": "Polished down to interaction, semantics, print controls, link behavior, and micro-detail; every artifact describes the same deliberate result."
+      },
+      "surfaces": ["research", "content", "design", "mobile-375x812", "desktop-1440x900", "print-a4"]
+    }
+  ],
+  "provenance": {
+    "producer": "11ai-benchmark-initialize",
+    "method": "reported",
+    "sources": ["benchmark/rubric.md"]
+  }
+}

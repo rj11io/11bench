@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": 2,
+  "artifactId": "benchmark-config:cv-redesign-bench-v1",
+  "status": "complete",
+  "benchmarkId": "cv-redesign-bench-v1",
+  "mode": "single-app",
+  "runStrategy": "folder",
+  "baselineRef": "b06ef932570be33df85cb966487e324d0953d951",
+  "dependencyPolicy": {
+    "mode": "frozen",
+    "allow": []
+  },
+  "contentMode": "static",
+  "evidenceSurfaces": ["mobile-375x812", "desktop-1440x900", "print-a4"],
+  "protectedPaths": [
+    "ref/",
+    "benchmark/",
+    "components/ui/",
+    "lib/",
+    "hooks/",
+    "app/globals.css",
+    "app/layout.tsx",
+    "package.json",
+    "package-lock.json"
+  ],
+  "canonicalUrls": {
+    "sourceConcise": "ref/RJ_CV.pdf",
+    "sourceExtended": "ref/RJ_CV_max.pdf"
+  },
+  "legacyReconstruction": {
+    "enabled": true,
+    "note": "Route outputs predate v2 ledger initialization; provenance not present in the legacy campaign is recorded as unavailable rather than inferred."
+  }
+}

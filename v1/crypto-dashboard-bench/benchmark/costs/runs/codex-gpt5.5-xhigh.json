@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-gpt5.5-xhigh",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "id": "codex-gpt5.5-xhigh",
+  "harness": "codex",
+  "model": "gpt-5.5",
+  "effort": "xhigh",
+  "tokens": 4770465,
+  "inputTokens": 4735446,
+  "outputTokens": 35019,
+  "costUsd": 5.30508,
+  "cacheHitRate": 0.9114579703791365,
+  "wallTimeMinutes": 20.359983333333332,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "codex:4d0ff974fe9530a2d65374f2"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T21-10-48-019f6c8d-9df9-7623-8c53-bd29188c2e9e.jsonl"
+    ]
+  }
+}

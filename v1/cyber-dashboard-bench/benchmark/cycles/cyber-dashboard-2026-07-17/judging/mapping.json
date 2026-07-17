@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "mapping:cyber-dashboard-2026-07-17",
+  "status": "complete",
+  "cycleId": "cyber-dashboard-2026-07-17",
+  "shuffleSeed": "cyber-dashboard-2026-07-17:shuffle:v1",
+  "anonymizationMethod": "deterministic-shuffle-of-eligible-run-ids",
+  "entries": [
+    {
+      "anonymizedAs": "run-01",
+      "runId": "codex-gpt5.6-terra-xhigh"
+    },
+    {
+      "anonymizedAs": "run-02",
+      "runId": "codex-gpt5.4-light"
+    },
+    {
+      "anonymizedAs": "run-03",
+      "runId": "codex-gpt5.4-high"
+    },
+    {
+      "anonymizedAs": "run-04",
+      "runId": "codex-gpt5.4-medium"
+    },
+    {
+      "anonymizedAs": "run-05",
+      "runId": "codex-gpt5.6-terra-medium"
+    },
+    {
+      "anonymizedAs": "run-06",
+      "runId": "codex-gpt5.4mini-medium"
+    },
+    {
+      "anonymizedAs": "run-07",
+      "runId": "codex-gpt5.6-luna-xhigh"
+    },
+    {
+      "anonymizedAs": "run-08",
+      "runId": "codex-gpt5.6-terra-light"
+    },
+    {
+      "anonymizedAs": "run-09",
+      "runId": "codex-gpt5.5-medium"
+    },
+    {
+      "anonymizedAs": "run-10",
+      "runId": "codex-gpt5.5-light"
+    },
+    {
+      "anonymizedAs": "run-11",
+      "runId": "claude-haiku4.5"
+    },
+    {
+      "anonymizedAs": "run-12",
+      "runId": "codex-gpt5.6-sol-xhigh"
+    },
+    {
+      "anonymizedAs": "run-13",
+      "runId": "codex-gpt5.4mini-xhigh"
+    },
+    {
+      "anonymizedAs": "run-14",
+      "runId": "codex-gpt5.6-luna-high"
+    },
+    {
+      "anonymizedAs": "run-15",
+      "runId": "codex-gpt5.6-luna-light"
+    },
+    {
+      "anonymizedAs": "run-16",
+      "runId": "codex-gpt5.6-sol-medium"
+    },
+    {
+      "anonymizedAs": "run-17",
+      "runId": "claude-fable5-high"
+    },
+    {
+      "anonymizedAs": "run-18",
+      "runId": "codex-gpt5.4-xhigh"
+    },
+    {
+      "anonymizedAs": "run-19",
+      "runId": "codex-gpt5.5-xhigh"
+    },
+    {
+      "anonymizedAs": "run-20",
+      "runId": "codex-gpt5.6-terra-high"
+    },
+    {
+      "anonymizedAs": "run-21",
+      "runId": "codex-gpt5.6-luna-medium"
+    },
+    {
+      "anonymizedAs": "run-22",
+      "runId": "codex-gpt5.5-high"
+    },
+    {
+      "anonymizedAs": "run-23",
+      "runId": "codex-gpt5.6-sol-light"
+    },
+    {
+      "anonymizedAs": "run-24",
+      "runId": "codex-gpt5.6-sol-high"
+    },
+    {
+      "anonymizedAs": "run-25",
+      "runId": "codex-gpt5.4mini-light"
+    }
+  ],
+  "sourceDigest": "fe9dc368d31943203e415423d23c228f3f2762f640ec5fdc44bba72a531af126",
+  "provenance": {
+    "producer": "11ai-benchmark-judge",
+    "method": "derived",
+    "sources": [
+      "benchmark/cycles/cyber-dashboard-2026-07-17/cycle.json"
+    ]
+  }
+}

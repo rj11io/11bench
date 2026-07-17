@@ -1,11 +1,11 @@
-import { formatDate, formatUsd, type RunCost } from "@/lib/bench"
+import { formatDate, formatTokens, formatUsd, type RunCost } from "@/lib/bench"
 
 /**
  * Measured run costs, most expensive first, with a relative cost bar so
  * the spread between runs reads at a glance.
  */
 export function RunTable({ runs }: { runs: RunCost[] }) {
-  const maxCost = Math.max(...runs.map((run) => run.costUsd), 0)
+  const maxCost = Math.max(...runs.map((run) => run.costUsd ?? 0), 0)
 
   return (
     <div className="border-border overflow-x-auto rounded-lg border">
@@ -17,6 +17,7 @@ export function RunTable({ runs }: { runs: RunCost[] }) {
             <th className="px-3 py-2 font-medium">Ran</th>
             <th className="px-3 py-2 text-right font-medium">Wall</th>
             <th className="px-3 py-2 text-right font-medium">Cache hit</th>
+            <th className="px-3 py-2 text-right font-medium">Tokens</th>
             <th className="px-3 py-2 text-right font-medium">Cost</th>
             <th className="w-24 px-3 py-2" aria-hidden="true" />
           </tr>
@@ -43,6 +44,9 @@ export function RunTable({ runs }: { runs: RunCost[] }) {
                   ? `${Math.round(run.cacheHitRate * 100)}%`
                   : "—"}
               </td>
+              <td className="text-muted-foreground px-3 py-2 text-right font-mono text-xs whitespace-nowrap tabular-nums">
+                {formatTokens(run.tokens)}
+              </td>
               <td className="text-foreground px-3 py-2 text-right font-mono text-xs whitespace-nowrap tabular-nums">
                 {formatUsd(run.costUsd)}
               </td>
@@ -51,7 +55,7 @@ export function RunTable({ runs }: { runs: RunCost[] }) {
                   <div
                     className="bg-foreground/70 h-full rounded-full"
                     style={{
-                      width: `${maxCost > 0 ? Math.max((run.costUsd / maxCost) * 100, 2) : 0}%`,
+                      width: `${maxCost > 0 && run.costUsd != null ? Math.max((run.costUsd / maxCost) * 100, 2) : 0}%`,
                     }}
                   />
                 </div>

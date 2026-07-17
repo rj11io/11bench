@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "judging-aggregate:cycle-1",
+  "status": "complete",
+  "generatedAt": "2026-07-17T14:57:54.934Z",
+  "sourceDigest": "65fb666d4646d74be296faa0682627ca0e6e8f4b48e34fa848096e7bf81bebd3",
+  "cycleId": "cycle-1",
+  "rubricSha": "1f74da0a57a531bbe8cc958ae8c39c9db3f9d8c4766d32cedacd4382129bd7a6",
+  "evidenceSha": "f3409b24627d7e17e842ce5dd8f4ed60bcc3107ac2d90f7590e15190035b03c4",
+  "algorithmVersion": "median-weighted+borda-v1",
+  "judgeIds": [
+    "judge-codex-gpt5.6-luna-high"
+  ],
+  "judgeCounts": {
+    "total": 1,
+    "ai": 1,
+    "human": 0
+  },
+  "runs": [
+    {
+      "anonymizedAs": "run-14",
+      "dimensions": {
+        "research-rigor-and-synthesis": 9,
+        "product-strategy-prd-gtm": 9,
+        "design-specification-coherence": 9,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 9,
+        "frontend-craft-interaction-responsiveness": 6
+      },
+      "total": 8.549999999999999,
+      "holisticMedianRank": 1,
+      "holisticBorda": 15,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        }
+      },
+      "rank": 1,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-10",
+      "dimensions": {
+        "research-rigor-and-synthesis": 8,
+        "product-strategy-prd-gtm": 9,
+        "design-specification-coherence": 9,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 9,
+        "frontend-craft-interaction-responsiveness": 6
+      },
+      "total": 8.399999999999999,
+      "holisticMedianRank": 2,
+      "holisticBorda": 14,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        }
+      },
+      "rank": 2,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-13",
+      "dimensions": {
+        "research-rigor-and-synthesis": 9,
+        "product-strategy-prd-gtm": 9,
+        "design-specification-coherence": 9,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 9,
+        "frontend-craft-interaction-responsiveness": 5
+      },
+      "total": 8.399999999999999,
+      "holisticMedianRank": 3,
+      "holisticBorda": 13,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 5,
+          "max": 5,
+          "range": 0
+        }
+      },
+      "rank": 3,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-15",
+      "dimensions": {
+        "research-rigor-and-synthesis": 9,
+        "product-strategy-prd-gtm": 9,
+        "design-specification-coherence": 9,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 6
+      },
+      "total": 8.35,
+      "holisticMedianRank": 4,
+      "holisticBorda": 12,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        }
+      },
+      "rank": 4,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-07",
+      "dimensions": {
+        "research-rigor-and-synthesis": 8,
+        "product-strategy-prd-gtm": 9,
+        "design-specification-coherence": 9,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 7
+      },
+      "total": 8.35,
+      "holisticMedianRank": 5,
+      "holisticBorda": 11,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        }
+      },
+      "rank": 5,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-09",
+      "dimensions": {
+        "research-rigor-and-synthesis": 8,
+        "product-strategy-prd-gtm": 9,
+        "design-specification-coherence": 9,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 5
+      },
+      "total": 8.049999999999999,
+      "holisticMedianRank": 6,
+      "holisticBorda": 10,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 5,
+          "max": 5,
+          "range": 0
+        }
+      },
+      "rank": 6,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-12",
+      "dimensions": {
+        "research-rigor-and-synthesis": 8,
+        "product-strategy-prd-gtm": 8,
+        "design-specification-coherence": 8,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 9,
+        "frontend-craft-interaction-responsiveness": 5
+      },
+      "total": 7.8999999999999995,
+      "holisticMedianRank": 7,
+      "holisticBorda": 9,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 5,
+          "max": 5,
+          "range": 0
+        }
+      },
+      "rank": 7,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-06",
+      "dimensions": {
+        "research-rigor-and-synthesis": 9,
+        "product-strategy-prd-gtm": 8,
+        "design-specification-coherence": 8,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 5
+      },
+      "total": 7.85,
+      "holisticMedianRank": 8,
+      "holisticBorda": 8,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 5,
+          "max": 5,
+          "range": 0
+        }
+      },
+      "rank": 8,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-04",
+      "dimensions": {
+        "research-rigor-and-synthesis": 7,
+        "product-strategy-prd-gtm": 8,
+        "design-specification-coherence": 8,
+        "crypto-domain-correctness-risk-trust": 8,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 7
+      },
+      "total": 7.7,
+      "holisticMedianRank": 10,
+      "holisticBorda": 6,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        }
+      },
+      "rank": 9,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "run-05",
+      "dimensions": {
+        "research-rigor-and-synthesis": 8,
+        "product-strategy-prd-gtm": 8,
+        "design-specification-coherence": 8,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 5
+      },
+      "total": 7.699999999999999,
+      "holisticMedianRank": 9,
+      "holisticBorda": 7,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 5,
+          "max": 5,
+          "range": 0
+        }
+      },
+      "rank": 10,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "run-16",
+      "dimensions": {
+        "research-rigor-and-synthesis": 8,
+        "product-strategy-prd-gtm": 8,
+        "design-specification-coherence": 8,
+        "crypto-domain-correctness-risk-trust": 9,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 5
+      },
+      "total": 7.699999999999999,
+      "holisticMedianRank": 11,
+      "holisticBorda": 5,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 5,
+          "max": 5,
+          "range": 0
+        }
+      },
+      "rank": 11,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-01",
+      "dimensions": {
+        "research-rigor-and-synthesis": 8,
+        "product-strategy-prd-gtm": 8,
+        "design-specification-coherence": 7,
+        "crypto-domain-correctness-risk-trust": 8,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 6
+      },
+      "total": 7.550000000000001,
+      "holisticMedianRank": 12,
+      "holisticBorda": 4,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        }
+      },
+      "rank": 12,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-08",
+      "dimensions": {
+        "research-rigor-and-synthesis": 7,
+        "product-strategy-prd-gtm": 8,
+        "design-specification-coherence": 7,
+        "crypto-domain-correctness-risk-trust": 8,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 5
+      },
+      "total": 7.25,
+      "holisticMedianRank": 13,
+      "holisticBorda": 3,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 5,
+          "max": 5,
+          "range": 0
+        }
+      },
+      "rank": 13,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-03",
+      "dimensions": {
+        "research-rigor-and-synthesis": 8,
+        "product-strategy-prd-gtm": 8,
+        "design-specification-coherence": 6,
+        "crypto-domain-correctness-risk-trust": 8,
+        "information-design-visual-execution": 8,
+        "frontend-craft-interaction-responsiveness": 4
+      },
+      "total": 7.1,
+      "holisticMedianRank": 14,
+      "holisticBorda": 2,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        }
+      },
+      "rank": 14,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-02",
+      "dimensions": {
+        "research-rigor-and-synthesis": 8,
+        "product-strategy-prd-gtm": 8,
+        "design-specification-coherence": 6,
+        "crypto-domain-correctness-risk-trust": 7,
+        "information-design-visual-execution": 6,
+        "frontend-craft-interaction-responsiveness": 4
+      },
+      "total": 6.55,
+      "holisticMedianRank": 15,
+      "holisticBorda": 1,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        }
+      },
+      "rank": 15,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-11",
+      "dimensions": {
+        "research-rigor-and-synthesis": 7,
+        "product-strategy-prd-gtm": 7,
+        "design-specification-coherence": 3,
+        "crypto-domain-correctness-risk-trust": 6,
+        "information-design-visual-execution": 2,
+        "frontend-craft-interaction-responsiveness": 2
+      },
+      "total": 4.5,
+      "holisticMedianRank": 16,
+      "holisticBorda": 0,
+      "dispersion": {
+        "research-rigor-and-synthesis": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "product-strategy-prd-gtm": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "design-specification-coherence": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "crypto-domain-correctness-risk-trust": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "information-design-visual-execution": {
+          "min": 2,
+          "max": 2,
+          "range": 0
+        },
+        "frontend-craft-interaction-responsiveness": {
+          "min": 2,
+          "max": 2,
+          "range": 0
+        }
+      },
+      "rank": 16,
+      "scoreHolisticDisagreement": 0
+    }
+  ],
+  "provenance": {
+    "producer": "aggregate-judges.mjs",
+    "method": "derived",
+    "sources": [
+      "judge-codex-gpt5.6-luna-high.json"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "benchmark-config:cyber-dashboard-bench",
+  "status": "complete",
+  "benchmarkId": "cyber-dashboard-bench-v1",
+  "mode": "single-app",
+  "runStrategy": "folder",
+  "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+  "dependencyPolicy": {
+    "mode": "frozen",
+    "allow": []
+  },
+  "contentMode": "static",
+  "evidenceSurfaces": [
+    "desktop-1440x900",
+    "mobile-375x812"
+  ],
+  "canonicalUrls": {
+    "runRoute": "/{runId}"
+  },
+  "provenance": {
+    "producer": "11ai-benchmark-initialize",
+    "method": "inferred",
+    "sources": ["PROMPT.md", "benchmark/rubric.md", "package.json"]
+  }
+}

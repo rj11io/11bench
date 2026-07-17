@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-gpt5.4mini-xhigh",
+  "status": "complete",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "id": "codex-gpt5.4mini-xhigh",
+  "harness": "recovered-existing-run",
+  "model": "gpt-5.4-mini",
+  "effort": "xhigh",
+  "tokens": 6309639,
+  "inputTokens": 6180051,
+  "outputTokens": 129588,
+  "costUsd": 1.51378425,
+  "cacheHitRate": 0.888018561659119,
+  "wallTimeMinutes": 41.58305,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "codex:eae92214178c76282559f721"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T20-06-35-019f6c52-d301-7e61-b8e3-49507dd3790c.jsonl"
+    ]
+  }
+}

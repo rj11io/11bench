@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "judge:gh-readme-bench-v1:cycle-1:judge-codex-gpt5.6-luna-high",
+  "status": "complete",
+  "judgeId": "judge-codex-gpt5.6-luna-high",
+  "judgeType": "ai",
+  "judgeModel": "judge-codex-gpt5.6-luna-high",
+  "cycleId": "cycle-1",
+  "rubricSha": "3db7e9862b8c44307a7054647e1df033128553d22aa7e77a359becea216cbc69",
+  "evidenceSha": "80dca2e7bcea763d8471339f3d5389053ee3b15d821881493f5592c10cd3798f",
+  "judgePromptInstanceSha": "8c67f88885032dce17047aa440f0a1eb4d80d75a1b54bd5c528649ff8498ded8",
+  "judgePromptVariables": {
+    "CYCLE_ID": "cycle-1",
+    "JUDGE_ID": "judge-codex-gpt5.6-luna-high",
+    "JUDGE_TYPE": "ai"
+  },
+  "identityBlinded": true,
+  "runs": [
+    {
+      "anonymizedAs": "candidate-01",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Content is comprehensive and mostly distinguishes source-backed claims, but the research includes weakly supported UX/eye-tracking assertions and the README adds a few overclaims."
+        },
+        "research-quality-github-understanding": {
+          "score": 6,
+          "justification": "Broad CV coverage and a useful claim inventory, though some research reasoning is speculative rather than tied to a cited source."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Clear sections and a personable hook, but the presentation remains closer to a polished CV than a sharply edited personal narrative."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 7,
+          "justification": "Readable Markdown with useful links and restrained local assets; the layout is competent but not especially distinctive."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 7,
+          "justification": "Logical headings and scannable sections, with some density from the breadth of material."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 8,
+          "justification": "Generally trustworthy and maintainable, with clear contact paths and local assets; unsupported-sounding claims reduce confidence."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-02",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Research extracts the main source facts and builds a coherent selection, with less explicit reconciliation than the strongest entries."
+        },
+        "research-quality-github-understanding": {
+          "score": 7,
+          "justification": "Good GitHub-oriented interpretation and project framing, though the evidence trail is comparatively light."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Strong through-line and warm origin story; current work is prioritized effectively."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 7,
+          "justification": "Clean, compatible Markdown and useful links; creative system is modest rather than memorable."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Good current-first hierarchy and readable section lengths."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 8,
+          "justification": "Stable and professional overall, with no major structural or privacy concern visible."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-03",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Content is careful and well selected, with a credible separation between current work and background."
+        },
+        "research-quality-github-understanding": {
+          "score": 8,
+          "justification": "Research shows solid source understanding and useful omission/selection reasoning."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Distinctive voice, clear public-building theme, and a convincing personal arc."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 7,
+          "justification": "Compatible Markdown with a coherent visual accent; execution is polished but restrained."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Strong headings and compact flow make the README easy to scan."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 8,
+          "justification": "Good link and asset hygiene with a maintainable, accessible structure."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-04",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Source coverage is broad and the selected claims generally track the evidence, though the page could state uncertainty more explicitly."
+        },
+        "research-quality-github-understanding": {
+          "score": 8,
+          "justification": "Research demonstrates good understanding of the technical and career material."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Editorial structure is thoughtful and the work-fit explanation adds personality beyond job titles."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 7,
+          "justification": "Markdown is robust and readable, but the creative treatment is less distinctive than the top tier."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Many useful sections create a clear map, though the page is somewhat long."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 8,
+          "justification": "Professional and maintainable with clear navigation and no salient trust defect."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-05",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Selected facts are sensible and source-aligned, but the research record is thinner and less explicit about reconciliation."
+        },
+        "research-quality-github-understanding": {
+          "score": 7,
+          "justification": "Shows a good grasp of the candidate's product/engineering profile with limited supporting detail."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Concise, direct voice and a useful current-work framing; personal narrative is present but brief."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 7,
+          "justification": "Solid GitHub-compatible Markdown with restrained creative execution."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Simple hierarchy is easy to scan, though it leaves less depth than stronger entries."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 8,
+          "justification": "Clean contact and link structure; maintainability is good."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-06",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Research is unusually complete: it reconciles source material, audits claims, and makes disciplined omissions visible."
+        },
+        "research-quality-github-understanding": {
+          "score": 9,
+          "justification": "Strong GitHub-specific understanding turns the evidence into a focused public-work profile."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 9,
+          "justification": "Excellent current-first editing, distinctive voice, and a human origin story that supports the professional narrative."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 9,
+          "justification": "Polished local visual treatment, strong links, and compatible Markdown make the page feel authored rather than templated."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 9,
+          "justification": "Desktop and mobile surfaces show excellent hierarchy, rhythm, and scanability."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "High trust and maintainability: local assets, clear paths, and careful claims support a durable README."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-07",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Content is selective and accurate-looking, with a clear project and experience inventory."
+        },
+        "research-quality-github-understanding": {
+          "score": 8,
+          "justification": "Research is concise but demonstrates good GitHub/profile understanding and useful prioritization."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Clear, approachable voice with a compact narrative around current work and selected projects."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 8,
+          "justification": "Good use of compatible Markdown and a local visual; execution is polished without excess."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Strong hierarchy, readable details sections, and good scanability on both surfaces."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "Links and assets are well handled and the structure is resilient."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-08",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 4,
+          "justification": "Most source selection is coherent, but the visible malformed project/domain URLs materially weaken source fidelity."
+        },
+        "research-quality-github-understanding": {
+          "score": 7,
+          "justification": "Research shows useful product understanding, but link verification appears to have failed."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 7,
+          "justification": "Clear current-work framing and a personable profile voice."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 7,
+          "justification": "Readable Markdown and a reasonably structured layout, though table-heavy presentation is less robust."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 6,
+          "justification": "Useful hierarchy, but narrow-width table behavior and dense sections reduce the rendered experience."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 3,
+          "justification": "Malformed repeated-domain links are a major trust and maintainability defect."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-09",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 4,
+          "justification": "Core claims are coherent, but the same malformed project/domain URLs make the evidence-to-link handoff unreliable."
+        },
+        "research-quality-github-understanding": {
+          "score": 7,
+          "justification": "Shows reasonable GitHub and project understanding, with less depth than the strongest research artifacts."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 7,
+          "justification": "Compact, thoughtful narrative with a clear work-behind-the-work angle."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 6,
+          "justification": "Compatible overall, but less distinctive and less robust than the better local-asset entries."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 7,
+          "justification": "Readable and compact, though the hierarchy provides less navigational help."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 3,
+          "justification": "Broken-looking links are a serious trust issue despite otherwise simple maintainability."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-10",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Research and content are careful, factual, and well prioritized around current focus and selected experience."
+        },
+        "research-quality-github-understanding": {
+          "score": 8,
+          "justification": "Good understanding of what makes a GitHub README useful without overloading it."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Direct, professional voice with a credible origin story and clear CTA."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 7,
+          "justification": "Clean Markdown and useful collapsible detail; creative treatment is understated."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Excellent scanability and current-first hierarchy, though visually plain."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 8,
+          "justification": "Strong link hygiene and maintainable structure."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-11",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Very detailed source reconciliation with concrete projects, roles, and a clear claim trail."
+        },
+        "research-quality-github-understanding": {
+          "score": 9,
+          "justification": "Exceptional technical/profile understanding and specificity across current work and career evidence."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 9,
+          "justification": "Strong narrative thread and CTA, though the amount of material makes the voice feel slightly CV-like."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 8,
+          "justification": "Good Markdown and local structure; the Mermaid enhancement is not available in the local renderer and falls back to code-like presentation."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Clear headings and details blocks, but the long page and diagram fallback add density."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "Trustworthy and carefully linked, with good accessibility fundamentals despite the rendering caveat."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-12",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Content is well selected and source-aligned, with enough detail to support the profile without overclaiming."
+        },
+        "research-quality-github-understanding": {
+          "score": 8,
+          "justification": "Research shows solid understanding of the candidate's technical surface and GitHub audience."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Clean, calm voice with an effective build/current-work framing."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 8,
+          "justification": "Robust text-first Markdown and restrained creative choices work well on GitHub."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 9,
+          "justification": "Especially strong hierarchy and compact mobile reading experience."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "Clear links, simple assets, and maintainable structure support trust."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-13",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 4,
+          "justification": "Underlying content is coherent, but visible malformed repeated-domain URLs substantially reduce source fidelity."
+        },
+        "research-quality-github-understanding": {
+          "score": 7,
+          "justification": "Research has good technical selection and project context, but link integrity is not controlled."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 7,
+          "justification": "Strong current-work framing and a credible engineering voice."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 7,
+          "justification": "Local visual helps, but the external-link defects and moderate complexity weaken execution."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 6,
+          "justification": "Readable structure with some density and reduced confidence from broken destinations."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 3,
+          "justification": "Malformed URLs are a major trust/maintenance defect."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-14",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 4,
+          "justification": "Source selection is generally sensible, but malformed external URLs are a material fidelity failure."
+        },
+        "research-quality-github-understanding": {
+          "score": 7,
+          "justification": "Good profile understanding and useful career compression, with limited visible research depth."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 7,
+          "justification": "Clear, approachable voice and a concise origin story."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 6,
+          "justification": "Readable Markdown with moderate creative treatment; link defects lower compatibility confidence."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 7,
+          "justification": "Simple hierarchy scans well, though it is less complete than stronger profiles."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 3,
+          "justification": "Broken-looking links create a major trust and maintenance penalty."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-15",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Research includes a strong claim audit and disciplined selection of current work, projects, and background."
+        },
+        "research-quality-github-understanding": {
+          "score": 9,
+          "justification": "Demonstrates excellent understanding of GitHub as both portfolio and working surface."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 9,
+          "justification": "Distinctive voice, excellent through-line, and a human story that supports the professional positioning."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 9,
+          "justification": "Local light/dark visual treatment and clean Markdown produce a polished, GitHub-compatible result."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 9,
+          "justification": "Very strong desktop/mobile hierarchy with compact, readable sections and a clear CTA."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "High trust: local assets, clear links, and careful factual framing are maintainable."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-16",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Detailed content tracks the source material closely and preserves useful current and legacy context."
+        },
+        "research-quality-github-understanding": {
+          "score": 8,
+          "justification": "Strong technical and career understanding, with specific projects and tool choices."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 9,
+          "justification": "Good voice and clear explanation of what the author gets pulled into, though the page is long."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 9,
+          "justification": "Strong local banner, useful links, and compatible Markdown support a polished result."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Desktop/mobile hierarchy is good, but the breadth creates some density."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "Trustworthy and maintainable with local assets and explicit project links."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-17",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Content is mostly source-aligned and covers useful work/background material, though selection is less sharply edited."
+        },
+        "research-quality-github-understanding": {
+          "score": 7,
+          "justification": "Reasonable GitHub understanding, but project evidence and links are less developed."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 7,
+          "justification": "Competent professional voice with some personal motivation; narrative focus is weaker."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 6,
+          "justification": "Raw HTML and Markdown tables create compatibility and responsive-risk concerns."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 6,
+          "justification": "Tables and dense project presentation reduce scanability on narrow surfaces."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 7,
+          "justification": "Mostly maintainable, but mixed table/HTML structure and hidden contact details weaken accessibility."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-18",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Claims and project selection are broadly coherent, but the presentation leans on decorative/tool signals more than evidence nuance."
+        },
+        "research-quality-github-understanding": {
+          "score": 7,
+          "justification": "Good technical vocabulary and project understanding, with less disciplined research exposition."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Clear current-work and origin-story framing with a personable voice."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 7,
+          "justification": "Console SVG and badge treatment are distinctive, but external shields introduce fragility and visual noise."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 7,
+          "justification": "Table/badge density competes with the main narrative, especially on constrained layouts."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 6,
+          "justification": "External dynamic badges and decorative dependencies reduce resilience and maintainability."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-19",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Content is carefully selected, with a credible current signal, project list, and origin story."
+        },
+        "research-quality-github-understanding": {
+          "score": 8,
+          "justification": "Research reflects strong understanding of the GitHub audience and avoids unnecessary biography."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 9,
+          "justification": "Excellent compact narrative voice and a clear personal thread."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 8,
+          "justification": "Text diagrams and clean Markdown are creative yet compatible, though less visually rich than local-asset leaders."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 9,
+          "justification": "Very strong scanability and section rhythm across the rendered surfaces."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "Good links, low dependency surface, and maintainable structure."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-20",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Research is thoughtful and the README compresses a substantial career into source-aware selected evidence."
+        },
+        "research-quality-github-understanding": {
+          "score": 8,
+          "justification": "Strong product/engineering understanding with useful current-work and role framing."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 9,
+          "justification": "Distinctive personal thread and clear editorial point of view."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 8,
+          "justification": "Local static visual and text diagram are effective, though many inline code pills add noise."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Good hierarchy overall, with some density in the role/tool sections."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 8,
+          "justification": "Mostly trustworthy and maintainable; the HTML/code-pill styling should be kept restrained."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-21",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Research and content are exceptionally disciplined, connecting current work, projects, roles, and origin evidence without overclaiming."
+        },
+        "research-quality-github-understanding": {
+          "score": 9,
+          "justification": "Excellent understanding of GitHub as a public build log, portfolio, and contact surface."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 9,
+          "justification": "Strongest overall editorial voice: concise, specific, human, and clearly current-first."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 9,
+          "justification": "Polished local signal visual, excellent links, and robust Markdown deliver a distinctive compatible README."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 9,
+          "justification": "Desktop and clean mobile viewport show outstanding hierarchy, rhythm, and scanability."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "High trust and maintainability with local assets, clear destinations, and accessible structure."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-22",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Careful source selection and a strong research trail support the current/open-work narrative."
+        },
+        "research-quality-github-understanding": {
+          "score": 9,
+          "justification": "Excellent technical understanding expressed through concrete projects, working practices, and selected evidence."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 9,
+          "justification": "Memorable, concise voice with a clear point of view and a useful origin section."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 9,
+          "justification": "Responsive local product-loop visuals and compatible Markdown are unusually effective."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 9,
+          "justification": "Mobile and desktop hierarchy are excellent; the visual loop stacks well and supports the reading path."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "Strong local-asset and link hygiene; slogans are slightly stylized but not misleading."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-23",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 8,
+          "justification": "Core current-work claims are clear, but the content and research leave less supporting detail than the stronger entries."
+        },
+        "research-quality-github-understanding": {
+          "score": 6,
+          "justification": "Understands the basic GitHub profile use case but provides limited project/background evidence."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 7,
+          "justification": "Clear and direct voice with an effective concise CTA, though the personal arc is thin."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 6,
+          "justification": "Simple, compatible Markdown with little visual differentiation."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 8,
+          "justification": "Very readable because it is short, but the sparse structure gives less information scent."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 8,
+          "justification": "Clean and maintainable with clear contact paths."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-24",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Strong source organization and detailed project mapping; most claims are tied to concrete evidence."
+        },
+        "research-quality-github-understanding": {
+          "score": 8,
+          "justification": "Very good technical/profile understanding and useful synthesis across projects and roles."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Thoughtful voice and a clear explanation of where judgment came from, though more analytical than personal."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 8,
+          "justification": "Ambitious project table and Mermaid diagram add structure, but both introduce compatibility contingencies."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 7,
+          "justification": "Clear information architecture, yet the table and diagram can be dense on narrow screens."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 8,
+          "justification": "Generally trustworthy and maintainable, with no major link issue; rendering support is the main caveat."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-25",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 7,
+          "justification": "Interesting and substantial selection, but several vivid claims appear more specific or stronger than the source warrants."
+        },
+        "research-quality-github-understanding": {
+          "score": 7,
+          "justification": "Shows strong technical range and project awareness, with a less rigorous visible claim audit."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 8,
+          "justification": "Memorable voice and a strong timeline/personal arc, though the page sometimes reads as a compressed CV."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 8,
+          "justification": "Attractive local light/dark banner and inventive timeline treatment; tables, pills, and emoji add fragility."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 7,
+          "justification": "Good desktop storytelling, but density and tables reduce mobile/narrow clarity."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 6,
+          "justification": "Visual polish is offset by over-specific claims and a busier dependency/markup surface."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-26",
+      "dimensions": {
+        "source-extraction-inference-discipline": {
+          "score": 9,
+          "justification": "Research and content are highly disciplined, with strong current, project, and origin selections."
+        },
+        "research-quality-github-understanding": {
+          "score": 9,
+          "justification": "Excellent understanding of the technical/product profile and the public-work audience."
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "score": 9,
+          "justification": "Clear, human voice with a coherent product-engineering through-line and CTA."
+        },
+        "creative-execution-github-compatibility": {
+          "score": 9,
+          "justification": "Polished local visual, clean Markdown, and well-chosen links make the execution robust."
+        },
+        "information-hierarchy-rendered-experience": {
+          "score": 9,
+          "justification": "Excellent desktop/mobile hierarchy with strong scanability and section rhythm."
+        },
+        "trust-accessibility-maintainability": {
+          "score": 9,
+          "justification": "High trust and maintainability through local assets, simple structure, and careful claims."
+        }
+      }
+    }
+  ],
+  "overallRanking": [
+    "candidate-21",
+    "candidate-06",
+    "candidate-22",
+    "candidate-15",
+    "candidate-26",
+    "candidate-16",
+    "candidate-11",
+    "candidate-24",
+    "candidate-19",
+    "candidate-20",
+    "candidate-12",
+    "candidate-10",
+    "candidate-07",
+    "candidate-04",
+    "candidate-05",
+    "candidate-03",
+    "candidate-02",
+    "candidate-18",
+    "candidate-17",
+    "candidate-25",
+    "candidate-01",
+    "candidate-23",
+    "candidate-08",
+    "candidate-09",
+    "candidate-13",
+    "candidate-14"
+  ],
+  "metadata": {
+    "scoringScale": "1-10 per rubric dimension; independent holistic ranking supplied",
+    "effort": "high",
+    "visibleEvidenceOnly": true,
+    "rubricDimensions": [
+      "source-extraction-inference-discipline",
+      "research-quality-github-understanding",
+      "editorial-strategy-voice-personal-narrative",
+      "creative-execution-github-compatibility",
+      "information-hierarchy-rendered-experience",
+      "trust-accessibility-maintainability"
+    ],
+    "mobileSurface": "Clean 375x812 top-viewport captures used for visible scoring; retained full-page attempts duplicated content during browser stitching.",
+    "renderingCaveat": "Mermaid was not rendered by the local Markdown renderer; adjacent source/README evidence was scored and the enhancement received a compatibility deduction where relevant."
+  },
+  "limitations": [
+    "The browser backend duplicated document content during full-page mobile stitching; clean 375x812 top-viewport captures were used for visible mobile scoring.",
+    "Mermaid was treated as an optional enhancement because the local renderer did not execute Mermaid; surrounding Markdown and source evidence remained visible."
+  ],
+  "generatedAt": "2026-07-17T14:59:26.212Z",
+  "sourceDigest": "a601739bcaccf13d84eda8b06a671eccf46babf34452f667fc4ebcbf1c47b5bb"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-gpt5.6-sol-high",
+  "status": "complete",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "id": "codex-gpt5.6-sol-high",
+  "harness": "recovered-existing-run",
+  "model": "gpt-5.6-sol",
+  "effort": "high",
+  "tokens": 10153732,
+  "inputTokens": 10083276,
+  "outputTokens": 70456,
+  "costUsd": 9.224076,
+  "cacheHitRate": 0.9544072779521259,
+  "wallTimeMinutes": 20.996216666666665,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "codex:02262a0ba233de2704d7589f"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T20-50-49-019f6c7b-51fd-7520-a345-a6f9b7e66e1a.jsonl"
+    ]
+  }
+}

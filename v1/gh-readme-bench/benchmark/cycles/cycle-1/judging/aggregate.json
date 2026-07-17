@@ -1,0 +1,1276 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "judging-aggregate:cycle-1",
+  "status": "complete",
+  "generatedAt": "2026-07-17T14:59:31.579Z",
+  "sourceDigest": "558ccd2ed62c5243fef3cce4a2aaed2f62daa52a84b88f342819cf00992da231",
+  "cycleId": "cycle-1",
+  "rubricSha": "3db7e9862b8c44307a7054647e1df033128553d22aa7e77a359becea216cbc69",
+  "evidenceSha": "80dca2e7bcea763d8471339f3d5389053ee3b15d821881493f5592c10cd3798f",
+  "algorithmVersion": "median-weighted+borda-v1",
+  "judgeIds": [
+    "judge-codex-gpt5.6-luna-high"
+  ],
+  "judgeCounts": {
+    "total": 1,
+    "ai": 1,
+    "human": 0
+  },
+  "runs": [
+    {
+      "anonymizedAs": "candidate-21",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 9,
+        "editorial-strategy-voice-personal-narrative": 9,
+        "creative-execution-github-compatibility": 9,
+        "information-hierarchy-rendered-experience": 9,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 9,
+      "holisticMedianRank": 1,
+      "holisticBorda": 25,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 1,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-06",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 9,
+        "editorial-strategy-voice-personal-narrative": 9,
+        "creative-execution-github-compatibility": 9,
+        "information-hierarchy-rendered-experience": 9,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 9,
+      "holisticMedianRank": 2,
+      "holisticBorda": 24,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 2,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-22",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 9,
+        "editorial-strategy-voice-personal-narrative": 9,
+        "creative-execution-github-compatibility": 9,
+        "information-hierarchy-rendered-experience": 9,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 9,
+      "holisticMedianRank": 3,
+      "holisticBorda": 23,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 3,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-15",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 9,
+        "editorial-strategy-voice-personal-narrative": 9,
+        "creative-execution-github-compatibility": 9,
+        "information-hierarchy-rendered-experience": 9,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 9,
+      "holisticMedianRank": 4,
+      "holisticBorda": 22,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 4,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-26",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 9,
+        "editorial-strategy-voice-personal-narrative": 9,
+        "creative-execution-github-compatibility": 9,
+        "information-hierarchy-rendered-experience": 9,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 9,
+      "holisticMedianRank": 5,
+      "holisticBorda": 21,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 5,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-16",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 8,
+        "editorial-strategy-voice-personal-narrative": 9,
+        "creative-execution-github-compatibility": 9,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 8.7,
+      "holisticMedianRank": 6,
+      "holisticBorda": 20,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 6,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-11",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 9,
+        "editorial-strategy-voice-personal-narrative": 9,
+        "creative-execution-github-compatibility": 8,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 8.65,
+      "holisticMedianRank": 7,
+      "holisticBorda": 19,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 7,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-19",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 8,
+        "editorial-strategy-voice-personal-narrative": 9,
+        "creative-execution-github-compatibility": 8,
+        "information-hierarchy-rendered-experience": 9,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 8.65,
+      "holisticMedianRank": 9,
+      "holisticBorda": 17,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 8,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-20",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 8,
+        "editorial-strategy-voice-personal-narrative": 9,
+        "creative-execution-github-compatibility": 8,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 8
+      },
+      "total": 8.4,
+      "holisticMedianRank": 10,
+      "holisticBorda": 16,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 9,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-12",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 8,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 8,
+        "information-hierarchy-rendered-experience": 9,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 8.25,
+      "holisticMedianRank": 11,
+      "holisticBorda": 15,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 10,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-07",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 8,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 8,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 9
+      },
+      "total": 8.1,
+      "holisticMedianRank": 13,
+      "holisticBorda": 13,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 11,
+      "scoreHolisticDisagreement": 2
+    },
+    {
+      "anonymizedAs": "candidate-24",
+      "dimensions": {
+        "source-extraction-inference-discipline": 9,
+        "research-quality-github-understanding": 8,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 8,
+        "information-hierarchy-rendered-experience": 7,
+        "trust-accessibility-maintainability": 8
+      },
+      "total": 8.049999999999999,
+      "holisticMedianRank": 8,
+      "holisticBorda": 18,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 12,
+      "scoreHolisticDisagreement": 4
+    },
+    {
+      "anonymizedAs": "candidate-10",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 8,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 7,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 8
+      },
+      "total": 7.800000000000001,
+      "holisticMedianRank": 12,
+      "holisticBorda": 14,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 13,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-04",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 8,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 7,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 8
+      },
+      "total": 7.800000000000001,
+      "holisticMedianRank": 14,
+      "holisticBorda": 12,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 14,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-03",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 8,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 7,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 8
+      },
+      "total": 7.800000000000001,
+      "holisticMedianRank": 16,
+      "holisticBorda": 10,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 15,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-05",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 7,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 7,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 8
+      },
+      "total": 7.65,
+      "holisticMedianRank": 15,
+      "holisticBorda": 11,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 16,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-02",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 7,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 7,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 8
+      },
+      "total": 7.65,
+      "holisticMedianRank": 17,
+      "holisticBorda": 9,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 17,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-01",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 6,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 7,
+        "information-hierarchy-rendered-experience": 7,
+        "trust-accessibility-maintainability": 8
+      },
+      "total": 7.35,
+      "holisticMedianRank": 21,
+      "holisticBorda": 5,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 18,
+      "scoreHolisticDisagreement": 3
+    },
+    {
+      "anonymizedAs": "candidate-18",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 7,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 7,
+        "information-hierarchy-rendered-experience": 7,
+        "trust-accessibility-maintainability": 6
+      },
+      "total": 7.3,
+      "holisticMedianRank": 18,
+      "holisticBorda": 8,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        }
+      },
+      "rank": 19,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-25",
+      "dimensions": {
+        "source-extraction-inference-discipline": 7,
+        "research-quality-github-understanding": 7,
+        "editorial-strategy-voice-personal-narrative": 8,
+        "creative-execution-github-compatibility": 8,
+        "information-hierarchy-rendered-experience": 7,
+        "trust-accessibility-maintainability": 6
+      },
+      "total": 7.3,
+      "holisticMedianRank": 20,
+      "holisticBorda": 6,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        }
+      },
+      "rank": 20,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-23",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 6,
+        "editorial-strategy-voice-personal-narrative": 7,
+        "creative-execution-github-compatibility": 6,
+        "information-hierarchy-rendered-experience": 8,
+        "trust-accessibility-maintainability": 8
+      },
+      "total": 7.1,
+      "holisticMedianRank": 22,
+      "holisticBorda": 4,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 21,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-17",
+      "dimensions": {
+        "source-extraction-inference-discipline": 8,
+        "research-quality-github-understanding": 7,
+        "editorial-strategy-voice-personal-narrative": 7,
+        "creative-execution-github-compatibility": 6,
+        "information-hierarchy-rendered-experience": 6,
+        "trust-accessibility-maintainability": 7
+      },
+      "total": 6.850000000000001,
+      "holisticMedianRank": 19,
+      "holisticBorda": 7,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        }
+      },
+      "rank": 22,
+      "scoreHolisticDisagreement": 3
+    },
+    {
+      "anonymizedAs": "candidate-08",
+      "dimensions": {
+        "source-extraction-inference-discipline": 4,
+        "research-quality-github-understanding": 7,
+        "editorial-strategy-voice-personal-narrative": 7,
+        "creative-execution-github-compatibility": 7,
+        "information-hierarchy-rendered-experience": 6,
+        "trust-accessibility-maintainability": 3
+      },
+      "total": 5.8500000000000005,
+      "holisticMedianRank": 23,
+      "holisticBorda": 3,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        }
+      },
+      "rank": 23,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-13",
+      "dimensions": {
+        "source-extraction-inference-discipline": 4,
+        "research-quality-github-understanding": 7,
+        "editorial-strategy-voice-personal-narrative": 7,
+        "creative-execution-github-compatibility": 7,
+        "information-hierarchy-rendered-experience": 6,
+        "trust-accessibility-maintainability": 3
+      },
+      "total": 5.8500000000000005,
+      "holisticMedianRank": 25,
+      "holisticBorda": 1,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        }
+      },
+      "rank": 24,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-09",
+      "dimensions": {
+        "source-extraction-inference-discipline": 4,
+        "research-quality-github-understanding": 7,
+        "editorial-strategy-voice-personal-narrative": 7,
+        "creative-execution-github-compatibility": 6,
+        "information-hierarchy-rendered-experience": 7,
+        "trust-accessibility-maintainability": 3
+      },
+      "total": 5.8,
+      "holisticMedianRank": 24,
+      "holisticBorda": 2,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        }
+      },
+      "rank": 25,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "candidate-14",
+      "dimensions": {
+        "source-extraction-inference-discipline": 4,
+        "research-quality-github-understanding": 7,
+        "editorial-strategy-voice-personal-narrative": 7,
+        "creative-execution-github-compatibility": 6,
+        "information-hierarchy-rendered-experience": 7,
+        "trust-accessibility-maintainability": 3
+      },
+      "total": 5.8,
+      "holisticMedianRank": 26,
+      "holisticBorda": 0,
+      "dispersion": {
+        "source-extraction-inference-discipline": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "research-quality-github-understanding": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "editorial-strategy-voice-personal-narrative": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "creative-execution-github-compatibility": {
+          "min": 6,
+          "max": 6,
+          "range": 0
+        },
+        "information-hierarchy-rendered-experience": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "trust-accessibility-maintainability": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        }
+      },
+      "rank": 26,
+      "scoreHolisticDisagreement": 0
+    }
+  ],
+  "provenance": {
+    "producer": "aggregate-judges.mjs",
+    "method": "derived",
+    "sources": [
+      "judge-codex-gpt5.6-luna-high.json"
+    ]
+  }
+}

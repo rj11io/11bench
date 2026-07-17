@@ -1,0 +1,757 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "judge:cyber-dashboard-2026-07-17-v2:judge-codex-gpt5.6-luna-high",
+  "status": "complete",
+  "judgeId": "judge-codex-gpt5.6-luna-high",
+  "judgeType": "ai",
+  "judgeModel": "judge-codex-gpt5.6-luna-high",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "rubricSha": "b8a1a2619d2e13f8f590ca16e6ad50f185dd0b9f53062a539056ebbe2fbe1a44",
+  "evidenceSha": "58ebb83752f2adf63fe1d69e972e96be7155714756dd55d005ee9b4dc50c7777",
+  "judgePromptTemplateSha": "f2e9df4dcd9a7c67338e39bc56cee0edf0702fe1426643194921de747e915c0b",
+  "judgePromptInstanceSha": "3f0d693d0655e52fa3eecee4338bee84225a7d98dc679a03249a6179e2d3dcec",
+  "judgePromptVariables": {
+    "CYCLE_ID": "cyber-dashboard-2026-07-17-v2",
+    "JUDGE_ID": "judge-codex-gpt5.6-luna-high",
+    "JUDGE_TYPE": "ai"
+  },
+  "identityBlinded": true,
+  "runs": [
+    {
+      "anonymizedAs": "run-01",
+      "dimensions": {
+        "research-rigor": {
+          "score": 9,
+          "justification": "The written artifacts are source-linked, synthesize the exposure-management wedge, and turn findings into product decisions."
+        },
+        "product-strategy": {
+          "score": 9,
+          "justification": "The PRD is a crisp, coherent BreakChain-style thesis with a ranked queue, rationale, owner, and closure loop."
+        },
+        "design-coherence": {
+          "score": 9,
+          "justification": "The design spec mirrors the core triage journey with queue, rationale, attack path, remediation, and metrics zones."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The visible UI makes KEV, attack path, asset criticality, owner, due time, and audit context first-class."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The queue/detail split and rationale panel make the next decision easy to scan, though the mobile capture remains wide."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Strong visual system and content density; mobile remains a wide canvas with clipped content."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-02",
+      "dimensions": {
+        "research-rigor": {
+          "score": 9,
+          "justification": "The research compares relevant categories and connects exploitability, ownership, and remediation evidence to the proposed workflow."
+        },
+        "product-strategy": {
+          "score": 9,
+          "justification": "The PRD covers users, positioning, score inputs, handoff, exceptions, and executive/operator needs."
+        },
+        "design-coherence": {
+          "score": 8,
+          "justification": "The design clearly maps scan–narrow–inspect–act into a single command-center hierarchy and responsive workspace."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The visible UI exposes exploitability, reachability, criticality, compensating controls, owner, and exception states."
+        },
+        "information-design": {
+          "score": 8,
+          "justification": "The left workspace plus prioritized queue and selected detail create a clear operational hierarchy, with some mobile width pressure."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Polished visual system and responsive intent, but the mobile capture shows wide panels rather than a fully reflowed experience."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-03",
+      "dimensions": {
+        "research-rigor": {
+          "score": 10,
+          "justification": "The research is unusually extensive and triangulates authoritative cyber sources into explicit product decisions."
+        },
+        "product-strategy": {
+          "score": 10,
+          "justification": "The PRD is complete and unusually explicit about fix packages, ownership, validation, and auditability."
+        },
+        "design-coherence": {
+          "score": 9,
+          "justification": "The design specifies a dense workbench with queue, detail, evidence, fix brief, and validation journey."
+        },
+        "cybersecurity-fitness": {
+          "score": 10,
+          "justification": "The visible queue shows KEV/EPSS/CVSS, blast radius, attack path, owner, and fix validation context."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The ranked fix queue and large detail pane communicate priority and rationale well, but mobile composition is desktop-like."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Crisp high-contrast UI and rich content, though the mobile evidence is visibly cropped horizontally."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-04",
+      "dimensions": {
+        "research-rigor": {
+          "score": 4,
+          "justification": "The written material is a short set of notes with limited evidence and little depth behind the product choice."
+        },
+        "product-strategy": {
+          "score": 4,
+          "justification": "The PRD is compact and plausible but lacks the depth and specificity of the stronger definitions."
+        },
+        "design-coherence": {
+          "score": 3,
+          "justification": "The design is a short outline with limited state, interaction, and responsive detail."
+        },
+        "cybersecurity-fitness": {
+          "score": 1,
+          "justification": "The captured route is only an archived placeholder, so no cybersecurity workflow is visible."
+        },
+        "information-design": {
+          "score": 1,
+          "justification": "The placeholder has no information architecture beyond a centered archival message."
+        },
+        "frontend-craft": {
+          "score": 1,
+          "justification": "Only a minimal placeholder renders, with no product craft to assess."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-05",
+      "dimensions": {
+        "research-rigor": {
+          "score": 9,
+          "justification": "The research is source-led and makes a clear attack-path and owner-accountability decision."
+        },
+        "product-strategy": {
+          "score": 9,
+          "justification": "The PRD makes the choke-point promise, user jobs, scope, and verifiable remediation outcome concrete."
+        },
+        "design-coherence": {
+          "score": 9,
+          "justification": "The design tightly translates attack-path operations into a scannable queue, detail, remediation plan, and proof."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The UI makes validated paths, KEV context, critical targets, owner SLA, and remediation proof tangible."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The queue, selected path, remediation plan, and proof sections form an unusually coherent information hierarchy."
+        },
+        "frontend-craft": {
+          "score": 9,
+          "justification": "Highly polished typography, color, cards, and charts; the mobile view preserves the desktop canvas more than it reflows."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-06",
+      "dimensions": {
+        "research-rigor": {
+          "score": 10,
+          "justification": "The research is exceptionally detailed, decision-oriented, and grounded in a broad source log."
+        },
+        "product-strategy": {
+          "score": 10,
+          "justification": "The PRD is exceptionally complete, with detailed users, requirements, data model, workflow, and measurement."
+        },
+        "design-coherence": {
+          "score": 10,
+          "justification": "The design is exceptionally thorough about hierarchy, navigation, journeys, object states, and responsive behavior."
+        },
+        "cybersecurity-fitness": {
+          "score": 10,
+          "justification": "The UI presents critical targets, reachable paths, missions, control context, and evidence freshness with high confidence."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The command, mission, coverage, and breach-path hierarchy is clear and information-rich, though mobile is a cropped desktop composition."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Exceptional craft and cohesive dark/green system; mobile has a persistent wide-shell/crop tradeoff."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-07",
+      "dimensions": {
+        "research-rigor": {
+          "score": 4,
+          "justification": "The written material is a thin set of notes, so the underlying product rationale is only lightly established."
+        },
+        "product-strategy": {
+          "score": 4,
+          "justification": "The PRD is concise but underdeveloped, with limited functional and product-operating detail."
+        },
+        "design-coherence": {
+          "score": 3,
+          "justification": "The design is a short outline with limited state, interaction, and responsive detail."
+        },
+        "cybersecurity-fitness": {
+          "score": 1,
+          "justification": "The captured route is only an archived placeholder, so no cybersecurity workflow is visible."
+        },
+        "information-design": {
+          "score": 1,
+          "justification": "The placeholder has no meaningful information architecture beyond a centered archival message."
+        },
+        "frontend-craft": {
+          "score": 1,
+          "justification": "Only a minimal placeholder renders, with no product craft to assess."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-08",
+      "dimensions": {
+        "research-rigor": {
+          "score": 9,
+          "justification": "The research is broad, well organized, and directly connects category evidence to the proposed operating model."
+        },
+        "product-strategy": {
+          "score": 9,
+          "justification": "The PRD gives Clearline a clear user/problem wedge, scope, requirements, trust model, and GTM logic."
+        },
+        "design-coherence": {
+          "score": 9,
+          "justification": "The design is specific about desktop/mobile shell, hierarchy, workflows, states, and visual direction."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The UI exposes active exploit signal, reachability, asset criticality, owner, evidence, and remediation actions."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The navigation, focus queue, decision detail, evidence, and owner controls form a strong operating model."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Polished shell, color, typography, and dense content; mobile retains some desktop-width behavior."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-09",
+      "dimensions": {
+        "research-rigor": {
+          "score": 9,
+          "justification": "The research provides a strong source log and translates market/workflow findings into concrete requirements."
+        },
+        "product-strategy": {
+          "score": 9,
+          "justification": "The PRD is strong on differentiated promise, score explainability, owner handoff, evidence, and closure."
+        },
+        "design-coherence": {
+          "score": 9,
+          "justification": "The design connects the queue, detail, score rationale, evidence, and owner backlog into a coherent operating surface."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The UI visibly combines active exploitation, internet reachability, critical assets, owner coverage, and risk reasons."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The dense dashboard keeps queue, detail, trend, signal mix, and owner backlog legible with clear hierarchy."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Very strong dark visual language and dense dashboard craft, with readable cards and charts."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-10",
+      "dimensions": {
+        "research-rigor": {
+          "score": 8,
+          "justification": "The brief cites relevant prioritization signals and turns them into a focused remediation workflow."
+        },
+        "product-strategy": {
+          "score": 8,
+          "justification": "The PRD defines a focused triage/remediation product with useful scope and trust boundaries."
+        },
+        "design-coherence": {
+          "score": 8,
+          "justification": "The design gives triage, owner handoff, evidence, and exception states a clear interaction model."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The UI shows KEV, EPSS, criticality, exploit evidence, owner, due date, and recommended next step."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The triage queue, score rationale, affected surface, and next action read cleanly as one decision flow."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Clean, mature visual system with strong hierarchy and actionable controls; mobile is still wide."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-11",
+      "dimensions": {
+        "research-rigor": {
+          "score": 8,
+          "justification": "The research identifies noise, exploitability, and workflow needs, but is less deep than the strongest submissions."
+        },
+        "product-strategy": {
+          "score": 8,
+          "justification": "The PRD presents a coherent exposure-operations product but leaves less detail around edge cases and delivery."
+        },
+        "design-coherence": {
+          "score": 8,
+          "justification": "The design is coherent and actionable, though less detailed about edge states and responsive behavior than the leaders."
+        },
+        "cybersecurity-fitness": {
+          "score": 8,
+          "justification": "The UI presents decisions, modeled breach paths, critical assets, graph coverage, and action status."
+        },
+        "information-design": {
+          "score": 8,
+          "justification": "The mission-control hierarchy is strong, but the mobile view exposes a wide multi-panel composition."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Cohesive purple/neutral visual system with strong cards and navigation, but mobile cropping reduces refinement."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-12",
+      "dimensions": {
+        "research-rigor": {
+          "score": 3,
+          "justification": "The written material is brief and does not establish a substantial research basis."
+        },
+        "product-strategy": {
+          "score": 3,
+          "justification": "The PRD is too brief to fully specify a reliable product beyond the headline workflow."
+        },
+        "design-coherence": {
+          "score": 3,
+          "justification": "The design is a short outline without enough state or interaction detail."
+        },
+        "cybersecurity-fitness": {
+          "score": 1,
+          "justification": "The captured route is only an archived placeholder, so no cybersecurity workflow is visible."
+        },
+        "information-design": {
+          "score": 1,
+          "justification": "The placeholder has no meaningful information architecture beyond a centered archival message."
+        },
+        "frontend-craft": {
+          "score": 1,
+          "justification": "Only a minimal placeholder renders, with no product craft to assess."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-13",
+      "dimensions": {
+        "research-rigor": {
+          "score": 9,
+          "justification": "The research is deep, source-rich, and specific about exposure decisions, evidence, and owners."
+        },
+        "product-strategy": {
+          "score": 9,
+          "justification": "The PRD is complete and operationally credible, covering decisions, evidence, owners, verification, and reporting."
+        },
+        "design-coherence": {
+          "score": 9,
+          "justification": "The design is detailed and maps decision queue, attack-path graph, evidence, policy choices, and owner action."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The UI strongly surfaces KEV, reachability, Tier-0 impact, evidence freshness, decision formula, and safe breakpoint."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The queue, decision detail, evidence, break-point choices, and action bar create excellent scan-to-act flow."
+        },
+        "frontend-craft": {
+          "score": 9,
+          "justification": "Excellent visual polish, hierarchy, charts, graph treatment, and action controls across the desktop surface."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-14",
+      "dimensions": {
+        "research-rigor": {
+          "score": 4,
+          "justification": "The written material is brief and does not establish a substantial research basis."
+        },
+        "product-strategy": {
+          "score": 4,
+          "justification": "The PRD is compact and under-specified for a production-quality exposure workflow."
+        },
+        "design-coherence": {
+          "score": 3,
+          "justification": "The design is a short outline without enough state or interaction detail."
+        },
+        "cybersecurity-fitness": {
+          "score": 1,
+          "justification": "The captured route is only an archived placeholder, so no cybersecurity workflow is visible."
+        },
+        "information-design": {
+          "score": 1,
+          "justification": "The placeholder has no meaningful information architecture beyond a centered archival message."
+        },
+        "frontend-craft": {
+          "score": 1,
+          "justification": "Only a minimal placeholder renders, with no product craft to assess."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-15",
+      "dimensions": {
+        "research-rigor": {
+          "score": 9,
+          "justification": "The research is comprehensive and clearly frames remediation operations, users, and trust requirements."
+        },
+        "product-strategy": {
+          "score": 9,
+          "justification": "The PRD has a strong owner-ready-fix thesis, clear users, scope, and governed remediation states."
+        },
+        "design-coherence": {
+          "score": 9,
+          "justification": "The design is a credible operating surface with queue, detail, risk movement, exceptions, and audit navigation."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The UI makes active exposure packs, KEV/public-path/SLA urgency, affected assets, evidence, attack path, and verification visible."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The dashboard establishes a clear command → detail → remediation flow, with useful charts and queue organization."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Strong dark operational aesthetic and chart craft; the mobile evidence shows a wide layout and clipped copy."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-16",
+      "dimensions": {
+        "research-rigor": {
+          "score": 9,
+          "justification": "The research is substantial, source-rich, and tightly connected to attack-path operations."
+        },
+        "product-strategy": {
+          "score": 9,
+          "justification": "The PRD is highly coherent: it connects campaign creation, ownership, blast-radius reduction, and proof of closure."
+        },
+        "design-coherence": {
+          "score": 9,
+          "justification": "The design is excellent at translating campaigns into overview, queue, selected-path, activity, and verification surfaces."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The UI makes attack-path missions, choke points, crown-jewel paths, owners, SLA, and audit timeline explicit."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The overview, missions, owners, audit, choke points, entry points, and next actions are well prioritized."
+        },
+        "frontend-craft": {
+          "score": 9,
+          "justification": "Excellent cream/navy system, strong typography, card composition, charts, and workflow affordances."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-17",
+      "dimensions": {
+        "research-rigor": {
+          "score": 8,
+          "justification": "The written artifacts make a credible campaign-based product case with useful workflow implications."
+        },
+        "product-strategy": {
+          "score": 8,
+          "justification": "The PRD gives the campaign model a solid thesis, users, scope, and workflow."
+        },
+        "design-coherence": {
+          "score": 8,
+          "justification": "The design is strong on three-column explainability, execution state, owner handoff, and proof target."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The UI combines KEV-backed paths, explainability factors, owners, campaigns, validation, and proof targets."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The three-column operate/explain/execute layout is highly legible and task-oriented."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "High craft and differentiation with a confident cream palette, clear cards, and campaign controls."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-18",
+      "dimensions": {
+        "research-rigor": {
+          "score": 8,
+          "justification": "The research is detailed and covers prioritization, remediation operations, trust, and accessibility."
+        },
+        "product-strategy": {
+          "score": 8,
+          "justification": "The PRD is substantial and covers queue normalization, requirements, data model, integrations, and trust."
+        },
+        "design-coherence": {
+          "score": 7,
+          "justification": "The design is detailed and thoughtfully covers queue hierarchy, visualizations, interaction states, and accessibility."
+        },
+        "cybersecurity-fitness": {
+          "score": 8,
+          "justification": "The queue includes KEV/EPSS/internet-facing signals, severity, owners, SLA, and clear remediation intent."
+        },
+        "information-design": {
+          "score": 8,
+          "justification": "The table is efficient for queue scanning and SLA comparison, though the detail drill-down is not visible."
+        },
+        "frontend-craft": {
+          "score": 7,
+          "justification": "Cohesive dark table UI with clear severity tokens, but the very wide table compromises small-screen craft."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-19",
+      "dimensions": {
+        "research-rigor": {
+          "score": 7,
+          "justification": "The research is reasonably grounded in exploit-aware triage, though less differentiated and less deep than the leaders."
+        },
+        "product-strategy": {
+          "score": 7,
+          "justification": "The PRD is focused and sensible, but thinner on product depth and operating detail than the leaders."
+        },
+        "design-coherence": {
+          "score": 7,
+          "justification": "The design is clear about a focused queue/detail workflow but has less depth and polish guidance."
+        },
+        "cybersecurity-fitness": {
+          "score": 8,
+          "justification": "The UI presents exploit-aware prioritization, overdue KEV, owners, and reason codes, but the detail surface is less complete."
+        },
+        "information-design": {
+          "score": 8,
+          "justification": "The high-attention summary and ranked queue are clear, but the right-side detail is partially off-canvas."
+        },
+        "frontend-craft": {
+          "score": 7,
+          "justification": "Professional, restrained queue presentation with useful state tokens, but desktop width dominates mobile."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-20",
+      "dimensions": {
+        "research-rigor": {
+          "score": 8,
+          "justification": "The research clearly articulates path-to-owner remediation and supporting workflow evidence."
+        },
+        "product-strategy": {
+          "score": 8,
+          "justification": "The PRD clearly specifies path-to-owner work, scope, acceptance, and auditability."
+        },
+        "design-coherence": {
+          "score": 8,
+          "justification": "The design clearly describes queue, selected path, owner action, evidence, and verification states."
+        },
+        "cybersecurity-fitness": {
+          "score": 8,
+          "justification": "The UI shows verified paths, urgent decisions, ownership, evidence, and a path-to-owner operating model."
+        },
+        "information-design": {
+          "score": 8,
+          "justification": "The queue and selected-path panel tell a coherent operational story, with some desktop-width dependency on mobile."
+        },
+        "frontend-craft": {
+          "score": 7,
+          "justification": "Strong brand and clean operational UI; the mobile evidence retains wide content and clips secondary columns."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-21",
+      "dimensions": {
+        "research-rigor": {
+          "score": 8,
+          "justification": "The research is well sourced and converts exploitability, evidence, and mobilization into the core product."
+        },
+        "product-strategy": {
+          "score": 8,
+          "justification": "The PRD is focused on explainable scoring, owner mobilization, evidence graph, and validation."
+        },
+        "design-coherence": {
+          "score": 8,
+          "justification": "The design specifies exposure queue, mobilization, graph, metrics, and validation in a focused workflow."
+        },
+        "cybersecurity-fitness": {
+          "score": 8,
+          "justification": "The UI combines exploitability, evidence graph, owner mobilization, remediation state, and validation criteria."
+        },
+        "information-design": {
+          "score": 8,
+          "justification": "The queue, evidence graph, mobilization, metrics, and validation panels form a strong task model."
+        },
+        "frontend-craft": {
+          "score": 7,
+          "justification": "Polished green/neutral system with actionable queue, mobilization, graph, and chart surfaces."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-22",
+      "dimensions": {
+        "research-rigor": {
+          "score": 9,
+          "justification": "The research is thorough and specific about attack-path remediation, campaigns, ownership, and verification."
+        },
+        "product-strategy": {
+          "score": 9,
+          "justification": "The PRD is a strong end-to-end definition of attack-path campaigns, handoff, progress, and verification."
+        },
+        "design-coherence": {
+          "score": 9,
+          "justification": "The design is strong and specific about queue, choke point, campaign, activity, and verification states."
+        },
+        "cybersecurity-fitness": {
+          "score": 9,
+          "justification": "The UI exposes choke points, crown-jewel paths, exploit signals, campaign progress, owners, and verification activity."
+        },
+        "information-design": {
+          "score": 9,
+          "justification": "The campaign-based layout clearly connects ranked paths to execution, progress, and audit history."
+        },
+        "frontend-craft": {
+          "score": 8,
+          "justification": "Strong visual design and hierarchy; the dark canvas is dense but remains coherent across the long page."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-23",
+      "dimensions": {
+        "research-rigor": {
+          "score": 3,
+          "justification": "The written material is short and provides limited research depth."
+        },
+        "product-strategy": {
+          "score": 3,
+          "justification": "The PRD is too short to establish a robust product definition."
+        },
+        "design-coherence": {
+          "score": 3,
+          "justification": "The design is brief and leaves substantial interaction detail implicit."
+        },
+        "cybersecurity-fitness": {
+          "score": 1,
+          "justification": "The captured route is only an archived placeholder, so no cybersecurity workflow is visible."
+        },
+        "information-design": {
+          "score": 1,
+          "justification": "The placeholder has no meaningful information architecture beyond a centered archival message."
+        },
+        "frontend-craft": {
+          "score": 1,
+          "justification": "Only a minimal placeholder renders, with no product craft to assess."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "run-24",
+      "dimensions": {
+        "research-rigor": {
+          "score": 8,
+          "justification": "The research is extensive and carefully defines an evidence-backed remediation-operations wedge."
+        },
+        "product-strategy": {
+          "score": 8,
+          "justification": "The PRD is detailed and coherent, with a differentiated remediation brief, users, workflow, and proof model."
+        },
+        "design-coherence": {
+          "score": 7,
+          "justification": "The design is thoughtful about overview, work queue, evidence drawer, proof packet, and meaningful navigation."
+        },
+        "cybersecurity-fitness": {
+          "score": 1,
+          "justification": "The visible page is blank/dark in the captured surface, so no usable cybersecurity workflow can be credited."
+        },
+        "information-design": {
+          "score": 1,
+          "justification": "The captured page is blank/dark, so no information hierarchy can be credited."
+        },
+        "frontend-craft": {
+          "score": 1,
+          "justification": "The captured surface is blank/dark and provides no usable frontend evidence."
+        }
+      }
+    }
+  ],
+  "overallRanking": [
+    "run-06",
+    "run-16",
+    "run-13",
+    "run-05",
+    "run-08",
+    "run-22",
+    "run-09",
+    "run-15",
+    "run-17",
+    "run-01",
+    "run-02",
+    "run-03",
+    "run-10",
+    "run-11",
+    "run-20",
+    "run-21",
+    "run-18",
+    "run-19",
+    "run-12",
+    "run-04",
+    "run-07",
+    "run-14",
+    "run-23",
+    "run-24"
+  ],
+  "provenance": {
+    "producer": "11ai-benchmark-judge",
+    "method": "inferred",
+    "sources": [
+      "benchmark/rubric.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/judging/evidence.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/judging/prompts/judge-codex-gpt5.6-luna-high.md"
+    ],
+    "evidenceReviewed": [
+      "desktop-1440x900",
+      "mobile-375x812"
+    ],
+    "notes": "Independent anonymized review of all eligible runs; no model/provider/run identity was used."
+  }
+}

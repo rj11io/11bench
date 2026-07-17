@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cycle:cv-redesign-bench-v1:cycle-1",
+  "status": "published",
+  "cycleId": "cycle-1",
+  "benchmarkId": "cv-redesign-bench-v1",
+  "releaseType": "interim",
+  "publicationSequence": 1,
+  "previousCycleId": null,
+  "runIds": [
+    "codex-gpt5.5-high",
+    "codex-gpt5.6-luna-high"
+  ],
+  "promptTemplateSha": "8839f1df52ff346358462052ce9cc83225a3fe7dd536c55c3057e2c536aabda7",
+  "contentSha": "b5f5b0df9fe083663d87f2f26d40da51ef8db032402086ee72360451d2d0afbe",
+  "rubricSha": "d951b3466a8b5ef6723b506f78f2d37eaff8b98e960a787347d5e7d84024d664",
+  "rubricVersion": "v1",
+  "evidenceSurfaces": [
+    "mobile-375x812",
+    "desktop-1440x900",
+    "print-a4"
+  ],
+  "coverageSnapshot": {
+    "planned": 0,
+    "complete": 0,
+    "timeGated": 0,
+    "failed": 0,
+    "excluded": 0,
+    "includedRunIds": [
+      "codex-gpt5.5-high",
+      "codex-gpt5.6-luna-high"
+    ],
+    "targetIds": [],
+    "waiver": null
+  },
+  "sourceDigest": "296361298bafb27cea63a0e32da4a7fff6fca57ea536ff87b92d3f41f75ab034",
+  "createdAt": "2026-07-17T14:55:45.754Z",
+  "reviewedAt": "2026-07-17T15:02:58.127Z",
+  "publishedAt": "2026-07-17T15:02:58.127Z"
+}

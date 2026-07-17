@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "audit:codex-gpt5.4-high",
+  "status": "complete",
+  "sourceDigest": "fc944d47a3e25776673cbe4237e2a635eca0ecf89ad89bc0cd3d2da8c1da0f55",
+  "runId": "codex-gpt5.4-high",
+  "pass": false,
+  "checks": [
+    {
+      "name": "scope-isolation",
+      "status": "pass",
+      "required": true,
+      "detail": "All committed route files for this legacy output are under its own app/<run-id>/ folder; operator-owned benchmark metadata is excluded from the route diff.",
+      "evidence": [
+        "git diff b06ef932570be33df85cb966487e324d0953d951 -- app/codex-gpt5.4-high"
+      ]
+    },
+    {
+      "name": "dependencies",
+      "status": "pass",
+      "required": true,
+      "detail": "package.json and package-lock.json were unchanged by the route output; frozen dependency policy satisfied.",
+      "evidence": [
+        "package.json",
+        "package-lock.json"
+      ]
+    },
+    {
+      "name": "source-integrity",
+      "status": "pass",
+      "required": true,
+      "detail": "Both frozen reference PDFs remain byte-identical to the reference manifest.",
+      "evidence": [
+        "benchmark/reference-manifest.json",
+        "ref/RJ_CV.pdf",
+        "ref/RJ_CV_max.pdf"
+      ]
+    },
+    {
+      "name": "protected-baseline",
+      "status": "pass",
+      "required": true,
+      "detail": "No protected baseline file was changed within the route output.",
+      "evidence": [
+        "AGENTS.md"
+      ]
+    },
+    {
+      "name": "repo-health",
+      "status": "pass",
+      "required": true,
+      "detail": "Shared repository checks passed: npm run typecheck, npm run lint, and npm run build.",
+      "evidence": [
+        "npm run typecheck",
+        "npm run lint",
+        "npm run build"
+      ]
+    },
+    {
+      "name": "runtime-rendering",
+      "status": "pass",
+      "required": true,
+      "detail": "HTTP 200 route capture completed without navigation failures or horizontal overflow.",
+      "evidence": [
+        "benchmark/screenshots/pre-cycle/manifest.json",
+        "http://localhost:3000/codex-gpt5.4-high"
+      ]
+    },
+    {
+      "name": "process-artifacts",
+      "status": "pass",
+      "required": true,
+      "detail": "Required route artifacts present: research.md, content.md, design.md, page.tsx; missing: ",
+      "evidence": [
+        "app/codex-gpt5.4-high/research.md",
+        "app/codex-gpt5.4-high/content.md",
+        "app/codex-gpt5.4-high/design.md",
+        "app/codex-gpt5.4-high/page.tsx"
+      ]
+    },
+    {
+      "name": "download-pdf-control",
+      "status": "pass",
+      "required": false,
+      "detail": "Source scan checked for the visible Download PDF control and print action.",
+      "evidence": [
+        "app/codex-gpt5.4-high"
+      ]
+    },
+    {
+      "name": "exact-a4-print",
+      "status": "inconclusive",
+      "required": true,
+      "detail": "No route-matched PDF artifact was available; exact two-page A4 output cannot be established.",
+      "evidence": []
+    }
+  ],
+  "environment": {
+    "browser": "Codex In-app Browser",
+    "node": "v24.16.0",
+    "route": "http://localhost:3000/codex-gpt5.4-high",
+    "viewportEvidence": [
+      375,
+      812,
+      1440,
+      900
+    ],
+    "legacyReconstruction": true
+  },
+  "runtime": {
+    "httpStatus": 200,
+    "mobile": {
+      "path": "screenshots/codex-gpt5.4-high/mobile.png",
+      "bytes": 225479,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "capturedAt": "2026-07-17T14:48:23.389Z",
+      "metrics": {
+        "bodyChildren": 21,
+        "buttonCount": 1,
+        "headingCount": 19,
+        "linkCount": 16,
+        "printFunction": false,
+        "scrollHeight": 4897,
+        "scrollWidth": 375,
+        "title": "Ricardo Jorge | AI Product Engineer",
+        "viewportWidth": 375
+      }
+    },
+    "desktop": {
+      "path": "screenshots/codex-gpt5.4-high/desktop.png",
+      "bytes": 174152,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "capturedAt": "2026-07-17T14:48:24.559Z",
+      "metrics": {
+        "bodyChildren": 21,
+        "buttonCount": 1,
+        "headingCount": 19,
+        "linkCount": 16,
+        "printFunction": false,
+        "scrollHeight": 3159,
+        "scrollWidth": 1440,
+        "title": "Ricardo Jorge | AI Product Engineer",
+        "viewportWidth": 1440
+      }
+    },
+    "consoleWarnings": [
+      "[Vercel Web Analytics] Failed to load script from /_vercel/insights/script.js"
+    ]
+  },
+  "metadataCoverage": {
+    "runProvenance": "measured from existing git route output; original harness transcript unavailable",
+    "printEvidence": "unavailable"
+  },
+  "provenance": {
+    "producer": "legacy-route-audit",
+    "method": "measured",
+    "sources": [
+      "benchmark/runs.json",
+      "benchmark/screenshots/pre-cycle/manifest.json",
+      "app/codex-gpt5.4-high"
+    ]
+  }
+}

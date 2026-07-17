@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "audit:gh-readme-bench-v1:codex-gpt5.4-medium",
+  "status": "complete",
+  "sourceDigest": "c94e7c4f57af310eeab8dea516e74590d797fec5d325ae7cebed2eb50c68caa7",
+  "generatedAt": "2026-07-17T14:40:05.297Z",
+  "runId": "codex-gpt5.4-medium",
+  "pass": true,
+  "configSha": "a49e61fe7153b5aaf40a46d089fc326fa9d41c008c6f7748871ed66a4387a4d6",
+  "rubricSha": "3db7e9862b8c44307a7054647e1df033128553d22aa7e77a359becea216cbc69",
+  "promptTemplateSha": "736f7932cfc78ac9732880edd5e732a67e086ad326d892537b01db1304ede431",
+  "promptInstanceSha": "23746758641208bee68feb9765f43569e4a00bfb9e8b83e6ca5f6ca9e6a42b8b",
+  "contentSha": "34da32e10971c7e00ffe47eae63fa5c9e65c5f325b94bc3f721aa268e2bac86e",
+  "checks": [
+    {
+      "name": "required-artifacts",
+      "status": "pass",
+      "required": true,
+      "detail": "research.md, content.md, and README.md are present.",
+      "evidence": [
+        "runs/codex-gpt5.4-medium/README.md",
+        "runs/codex-gpt5.4-medium/content.md",
+        "runs/codex-gpt5.4-medium/research.md"
+      ]
+    },
+    {
+      "name": "frozen-input-integrity",
+      "status": "pass",
+      "required": true,
+      "detail": "The registered prompt template hash and frozen CV reference manifest are present; PDF bytes match the manifest.",
+      "evidence": [
+        "PROMPT.md",
+        "benchmark/reference-manifest.json",
+        "ref/RJ_CV.pdf",
+        "ref/RJ_CV_max.pdf"
+      ]
+    },
+    {
+      "name": "folder-isolation",
+      "status": "warning",
+      "required": false,
+      "detail": "Legacy run is represented by a folder runRef; no pre-run baseline diff artifact exists in the legacy cohort.",
+      "evidence": [
+        "runs/codex-gpt5.4-medium"
+      ]
+    },
+    {
+      "name": "dependency-policy",
+      "status": "not-applicable",
+      "required": false,
+      "detail": "README benchmark run has no per-run package manifest or dependency surface.",
+      "evidence": []
+    },
+    {
+      "name": "markdown-parse",
+      "status": "pass",
+      "required": true,
+      "detail": "README.md parses as GitHub-compatible Markdown without a parser exception.",
+      "evidence": [
+        "runs/codex-gpt5.4-medium/README.md"
+      ]
+    },
+    {
+      "name": "link-and-asset-structure",
+      "status": "pass",
+      "required": true,
+      "detail": "Links use valid URL schemes or resolve to local assets.",
+      "evidence": []
+    },
+    {
+      "name": "privacy-scan",
+      "status": "pass",
+      "required": false,
+      "detail": "No obvious tracking-pixel markup found by the static scan.",
+      "evidence": []
+    },
+    {
+      "name": "desktop-render",
+      "status": "pass",
+      "required": true,
+      "detail": "Captured at 1440×900 with the common local Markdown renderer.",
+      "evidence": [
+        "cycles/cycle-1/judging/evidence/candidate-04-desktop.png"
+      ]
+    },
+    {
+      "name": "mobile-render",
+      "status": "pass",
+      "required": true,
+      "detail": "Captured at 375×812; clean top-viewport capture used because full-page stitching duplicated the document in this browser backend.",
+      "evidence": [
+        "cycles/cycle-1/judging/evidence/candidate-04-mobile-viewport.png"
+      ]
+    }
+  ],
+  "environment": {
+    "os": "macOS",
+    "browser": "Codex In-app Browser",
+    "renderer": "marked + GitHub-like static CSS",
+    "desktopViewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "mobileViewport": {
+      "width": 375,
+      "height": 812
+    }
+  },
+  "runtime": {
+    "desktop": {
+      "status": "captured",
+      "path": "cycles/cycle-1/judging/evidence/candidate-04-desktop.png",
+      "sha256": "257c745d566183831b519e1401b84fe33bcb21fe3d643ed10185af0f9110dbce"
+    },
+    "mobile": {
+      "status": "captured",
+      "path": "cycles/cycle-1/judging/evidence/candidate-04-mobile-viewport.png",
+      "sha256": "5a47f7eb3277e39eb8f13dcc34ed6c8071b587008448fc32c00227f48aaaffef",
+      "fullPageAttempt": {
+        "path": "cycles/cycle-1/judging/evidence/candidate-04-mobile.png",
+        "status": "captured-with-stitching-duplication",
+        "sha256": "2d13b29dc0708a8ada3e8814c4cbdfb4af44ac1806c3694fdcea7781eaead4a5"
+      }
+    },
+    "consoleMessages": []
+  },
+  "metadataCoverage": {
+    "legacyBaselineDiff": "unavailable",
+    "runFolder": "measured",
+    "promptHashes": "measured",
+    "contentHash": "measured",
+    "renderScreenshots": "measured",
+    "mobileRender": "complete-top-viewport",
+    "mobileFullPageAttempt": "captured-with-stitching-duplication"
+  },
+  "provenance": {
+    "producer": "11ai-benchmark-compliance-auditor",
+    "method": "measured",
+    "sources": [
+      "benchmark/runs.json",
+      "runs/codex-gpt5.4-medium/README.md",
+      "runs/codex-gpt5.4-medium/content.md",
+      "runs/codex-gpt5.4-medium/research.md",
+      "benchmark/reference-manifest.json"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "current:crypto-dashboard-bench-v1",
+  "status": "complete",
+  "benchmarkId": "crypto-dashboard-bench-v1",
+  "cycleId": "cycle-1",
+  "releaseType": "interim",
+  "publicationSequence": 1,
+  "reviewSourceDigest": "fda470bf622b40c539da168c362c89def0a83cd422bc6f20ee6eb989aab64eba",
+  "updatedAt": "2026-07-17T15:05:51.992Z"
+}

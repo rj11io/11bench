@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "audit:crypto-dashboard-bench-v1:codex-gpt5.5-light",
+  "status": "complete",
+  "sourceDigest": "7326f09c245a432c3ad55a0eec89da298e3a9588539b300491dc432187697996",
+  "runId": "codex-gpt5.5-light",
+  "pass": true,
+  "benchmarkId": "crypto-dashboard-bench-v1",
+  "configSha": "7dd860f2e9ab02eb0e8e4a2a54b78d450427be3cc0de233b2356f5a9905a8774",
+  "promptTemplateSha": "7dd860f2e9ab02eb0e8e4a2a54b78d450427be3cc0de233b2356f5a9905a8774",
+  "promptInstanceSha": "ac7c3b27d4081950aefa0f735af45cffdc0cec5cd3f4b1b632e20e26aaa6a247",
+  "contentSha": "d6afc5db23a32b8041807ece1b996ab5d867c3f21e7940b53e35dbb409b9b9f7",
+  "auditedAt": "2026-07-17T14:44:27.983Z",
+  "checks": [
+    {
+      "name": "run-anchor",
+      "status": "pass",
+      "required": true,
+      "detail": "Ledger entry, frozen prompt hashes, and content hash are present.",
+      "evidence": [
+        "benchmark/runs.json",
+        "benchmark/prompts/codex-gpt5.5-light.md"
+      ]
+    },
+    {
+      "name": "scope-isolation",
+      "status": "warning",
+      "required": false,
+      "detail": "Existing single-app cohort has no per-run branch/worktree ref; run folder and shared baseline are recorded for review.",
+      "evidence": [
+        "app/codex-gpt5.5-light"
+      ]
+    },
+    {
+      "name": "dependency-policy",
+      "status": "pass",
+      "required": true,
+      "detail": "No dependency or lockfile additions were found in the existing cohort state.",
+      "evidence": [
+        "package.json",
+        "package-lock.json"
+      ]
+    },
+    {
+      "name": "content-integrity",
+      "status": "not-applicable",
+      "required": false,
+      "detail": "Benchmark content mode is fixtures; there is no shared static content manifest to mutate.",
+      "evidence": []
+    },
+    {
+      "name": "protected-baseline",
+      "status": "pass",
+      "required": true,
+      "detail": "The configured protected baseline paths are unchanged relative to the recorded cohort baseline.",
+      "evidence": [
+        "benchmark/benchmark.json"
+      ]
+    },
+    {
+      "name": "repository-health",
+      "status": "warning",
+      "required": false,
+      "detail": "Typecheck and lint pass. The shared Next.js build has pre-existing CSS-module purity errors in excluded routes; this is recorded as a warning for the interim cohort.",
+      "evidence": [
+        "npm run typecheck",
+        "npm run lint",
+        "npm run build"
+      ]
+    },
+    {
+      "name": "rendering",
+      "status": "pass",
+      "required": true,
+      "detail": "Route returned HTTP 200 from the local Next.js dev server; global console errors are isolated to excluded routes.",
+      "evidence": [
+        "http://127.0.0.1:3000/codex-gpt5.5-light"
+      ]
+    },
+    {
+      "name": "interaction-probes",
+      "status": "warning",
+      "required": false,
+      "detail": "Static responsive captures were collected; no benchmark-specific interaction script was configured.",
+      "evidence": []
+    },
+    {
+      "name": "style-leakage",
+      "status": "warning",
+      "required": false,
+      "detail": "No separate leakage probe was configured; retained for reviewer visibility.",
+      "evidence": []
+    }
+  ],
+  "environment": {
+    "runtime": "Next.js 16.2.6",
+    "node": "v24.16.0",
+    "os": "darwin",
+    "devServer": "http://127.0.0.1:3000",
+    "captureViewport": "1440x900 and 375x812"
+  },
+  "runtime": {
+    "httpStatus": 200,
+    "route": "/codex-gpt5.5-light",
+    "buildCommand": "npm run build",
+    "buildStatus": "shared-warning",
+    "typecheck": "pass",
+    "lint": "pass"
+  },
+  "metadataCoverage": {
+    "provider": "unavailable",
+    "harnessVersion": "unavailable",
+    "isolationRef": "unavailable",
+    "evidence": "captured"
+  }
+}

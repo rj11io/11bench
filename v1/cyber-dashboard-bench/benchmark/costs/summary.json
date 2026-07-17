@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-summary:cyber-dashboard-bench-v1:cyber-dashboard-2026-07-17-v2",
+  "status": "complete",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "scopes": {
+    "benchmarkScope": {
+      "threadCount": 47,
+      "tokens": 121201649,
+      "costUsd": null,
+      "knownTokenThreads": 47,
+      "knownCostThreads": 30
+    },
+    "judgeScope": {
+      "threadCount": 1,
+      "tokens": 17459449,
+      "costUsd": 3.8042824000000004,
+      "knownTokenThreads": 1,
+      "knownCostThreads": 1
+    },
+    "identifiedScopes": {},
+    "nonIdentifiedScope": {
+      "threadCount": 0,
+      "tokens": 0,
+      "costUsd": 0,
+      "knownTokenThreads": 0,
+      "knownCostThreads": 0
+    },
+    "benchmarkAndJudgeScope": {
+      "threadCount": 48,
+      "tokens": 138661098,
+      "costUsd": null,
+      "knownTokenThreads": 48,
+      "knownCostThreads": 31
+    }
+  },
+  "total": {
+    "threadCount": 48,
+    "tokens": 138661098,
+    "costUsd": null,
+    "knownTokenThreads": 48,
+    "knownCostThreads": 31
+  },
+  "reconciliation": {
+    "threadCount": 48,
+    "classifiedThreadCount": 48,
+    "tokensDelta": 0,
+    "costDeltaUsd": 0,
+    "pass": true
+  },
+  "runs": [
+    {
+      "id": "claude-fable5-high",
+      "harness": "recovered-existing-run",
+      "model": "claude-fable-5",
+      "effort": "high",
+      "tokens": 25888056,
+      "inputTokens": 25766984,
+      "outputTokens": 121072,
+      "costUsd": 36.633948000000004,
+      "cacheHitRate": 0.9999011137663608,
+      "wallTimeMinutes": 42.351333333333336,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "claude-haiku4.5",
+      "harness": "recovered-existing-run",
+      "model": "claude-haiku-4-5",
+      "effort": null,
+      "tokens": null,
+      "inputTokens": null,
+      "outputTokens": null,
+      "costUsd": null,
+      "cacheHitRate": null,
+      "wallTimeMinutes": null,
+      "method": "unavailable",
+      "sourceCount": 0
+    },
+    {
+      "id": "codex-gpt5.4-high",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.4",
+      "effort": "high",
+      "tokens": 1551439,
+      "inputTokens": 1508028,
+      "outputTokens": 43411,
+      "costUsd": 1.407603,
+      "cacheHitRate": 0.8881744901288305,
+      "wallTimeMinutes": 14.144266666666667,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.4-light",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.4",
+      "effort": "light",
+      "tokens": 507461,
+      "inputTokens": 486828,
+      "outputTokens": 20633,
+      "costUsd": 0.657381,
+      "cacheHitRate": 0.7935122877073628,
+      "wallTimeMinutes": 6.872283333333334,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.4-medium",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.4",
+      "effort": "medium",
+      "tokens": 868899,
+      "inputTokens": 835395,
+      "outputTokens": 33504,
+      "costUsd": 1.0977675,
+      "cacheHitRate": 0.7944505293902884,
+      "wallTimeMinutes": 11.23435,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.4-xhigh",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.4",
+      "effort": "xhigh",
+      "tokens": 7976653,
+      "inputTokens": 7892211,
+      "outputTokens": 84442,
+      "costUsd": 3.9106935,
+      "cacheHitRate": 0.9622124902641351,
+      "wallTimeMinutes": 29.4326,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.4mini-high",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.4-mini",
+      "effort": "high",
+      "tokens": 6205320,
+      "inputTokens": 6130552,
+      "outputTokens": 74768,
+      "costUsd": 0.9299027999999999,
+      "cacheHitRate": 0.967701440261823,
+      "wallTimeMinutes": 19.529166666666665,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.4mini-light",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.4-mini",
+      "effort": "light",
+      "tokens": 857046,
+      "inputTokens": 834424,
+      "outputTokens": 22622,
+      "costUsd": 0.27470819999999996,
+      "cacheHitRate": 0.8041187693546686,
+      "wallTimeMinutes": 6.362016666666666,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.4mini-medium",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.4-mini",
+      "effort": "medium",
+      "tokens": 2418556,
+      "inputTokens": 2366982,
+      "outputTokens": 51574,
+      "costUsd": 0.6278571000000001,
+      "cacheHitRate": 0.8633982007467738,
+      "wallTimeMinutes": 13.576883333333333,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.4mini-xhigh",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.4-mini",
+      "effort": "xhigh",
+      "tokens": 6309639,
+      "inputTokens": 6180051,
+      "outputTokens": 129588,
+      "costUsd": 1.51378425,
+      "cacheHitRate": 0.888018561659119,
+      "wallTimeMinutes": 41.58305,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.5-high",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.5",
+      "effort": "high",
+      "tokens": 4104413,
+      "inputTokens": 4066725,
+      "outputTokens": 37688,
+      "costUsd": 4.868553,
+      "cacheHitRate": 0.9068565000092211,
+      "wallTimeMinutes": 15.57245,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.5-light",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.5",
+      "effort": "light",
+      "tokens": 978083,
+      "inputTokens": 959535,
+      "outputTokens": 18548,
+      "costUsd": 1.2996510000000001,
+      "cacheHitRate": 0.9389881557212608,
+      "wallTimeMinutes": 7.200333333333333,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.5-medium",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.5",
+      "effort": "medium",
+      "tokens": 2609319,
+      "inputTokens": 2582082,
+      "outputTokens": 27237,
+      "costUsd": 2.6015040000000003,
+      "cacheHitRate": 0.9575404654073728,
+      "wallTimeMinutes": 10.625816666666667,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.5-xhigh",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.5",
+      "effort": "xhigh",
+      "tokens": 5258154,
+      "inputTokens": 5210300,
+      "outputTokens": 47854,
+      "costUsd": 5.965456,
+      "cacheHitRate": 0.9179110607834482,
+      "wallTimeMinutes": 19.51171666666667,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-luna-high",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-luna",
+      "effort": "high",
+      "tokens": 8590941,
+      "inputTokens": 8525401,
+      "outputTokens": 65540,
+      "costUsd": 1.4446954,
+      "cacheHitRate": 0.9740754716405715,
+      "wallTimeMinutes": 22.89155,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-luna-light",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-luna",
+      "effort": "light",
+      "tokens": 649183,
+      "inputTokens": 629245,
+      "outputTokens": 19938,
+      "costUsd": 0.2438362,
+      "cacheHitRate": 0.8917861882096798,
+      "wallTimeMinutes": 6.94175,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-luna-medium",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-luna",
+      "effort": "medium",
+      "tokens": 1565677,
+      "inputTokens": 1541765,
+      "outputTokens": 23912,
+      "costUsd": 0.3931538,
+      "cacheHitRate": 0.9311717414781111,
+      "wallTimeMinutes": 8.998516666666667,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-luna-xhigh",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh",
+      "tokens": 7637625,
+      "inputTokens": 7565889,
+      "outputTokens": 71736,
+      "costUsd": 1.8695082000000003,
+      "cacheHitRate": 0.8997689498220236,
+      "wallTimeMinutes": 25.010533333333335,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-sol-high",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-sol",
+      "effort": "high",
+      "tokens": 10153732,
+      "inputTokens": 10083276,
+      "outputTokens": 70456,
+      "costUsd": 9.224076,
+      "cacheHitRate": 0.9544072779521259,
+      "wallTimeMinutes": 20.996216666666665,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-sol-light",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-sol",
+      "effort": "light",
+      "tokens": 1219639,
+      "inputTokens": 1198059,
+      "outputTokens": 21580,
+      "costUsd": 1.612671,
+      "cacheHitRate": 0.932067619374338,
+      "wallTimeMinutes": 8.099966666666667,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-sol-medium",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "tokens": 4767639,
+      "inputTokens": 4716866,
+      "outputTokens": 50773,
+      "costUsd": 5.251648,
+      "cacheHitRate": 0.9354550245862401,
+      "wallTimeMinutes": 16.551516666666668,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-sol-xhigh",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh",
+      "tokens": 10157975,
+      "inputTokens": 10067586,
+      "outputTokens": 90389,
+      "costUsd": 9.879552,
+      "cacheHitRate": 0.9528941694662454,
+      "wallTimeMinutes": 32.46875,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-terra-high",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-terra",
+      "effort": "high",
+      "tokens": 985881,
+      "inputTokens": 969724,
+      "outputTokens": 16157,
+      "costUsd": 0.646057,
+      "cacheHitRate": 0.9260861853475835,
+      "wallTimeMinutes": 5.73315,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-terra-light",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-terra",
+      "effort": "light",
+      "tokens": 604831,
+      "inputTokens": 593478,
+      "outputTokens": 11353,
+      "costUsd": 0.43459800000000004,
+      "cacheHitRate": 0.9131795955368185,
+      "wallTimeMinutes": 4.238816666666667,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-terra-medium",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "tokens": 766230,
+      "inputTokens": 750431,
+      "outputTokens": 15799,
+      "costUsd": 0.5734144999999999,
+      "cacheHitRate": 0.9118599844622624,
+      "wallTimeMinutes": 5.5477,
+      "method": "measured",
+      "sourceCount": 1
+    },
+    {
+      "id": "codex-gpt5.6-terra-xhigh",
+      "harness": "recovered-existing-run",
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh",
+      "tokens": 2413448,
+      "inputTokens": 2371085,
+      "outputTokens": 42363,
+      "costUsd": 1.4557655,
+      "cacheHitRate": 0.9573473747250731,
+      "wallTimeMinutes": 14.552516666666667,
+      "method": "measured",
+      "sourceCount": 1
+    }
+  ],
+  "operations": [
+    {
+      "threadId": "codex:2c8b7c61545ba10b7578debb",
+      "model": "codex-auto-review",
+      "tokens": 39982,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:fc7fdea37674dc29c88edf17",
+      "model": "codex-auto-review",
+      "tokens": 37527,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:e534b536329e2f79000646ac",
+      "model": "codex-auto-review",
+      "tokens": 64717,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:c0b6c247b8383612af9044f9",
+      "model": "codex-auto-review",
+      "tokens": 99594,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:f3997ea08b2b33c77c64a232",
+      "model": "codex-auto-review",
+      "tokens": 122733,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:3380c868489b412f067af34a",
+      "model": "codex-auto-review",
+      "tokens": 52109,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:73c0596a518d4fe158a6621b",
+      "model": "codex-auto-review",
+      "tokens": 52994,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:4f6adeee6bc76fc7ec91e967",
+      "model": "codex-auto-review",
+      "tokens": 36808,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:5f6d0bea5cf7162e5ccbe73f",
+      "model": "codex-auto-review",
+      "tokens": 35702,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:e614915dfb81959983130715",
+      "model": "codex-auto-review",
+      "tokens": 79868,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:a9d846cf1df29620f020820e",
+      "model": "codex-auto-review",
+      "tokens": 376107,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:a023374220959c96c769fdbf",
+      "model": "codex-auto-review",
+      "tokens": 42191,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:4d213d89ee5c5f59ae308a69",
+      "model": "codex-auto-review",
+      "tokens": 38395,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:41ab172a35882818c596d27c",
+      "model": "codex-auto-review",
+      "tokens": 19945,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:54da7437064067eec9b08dfd",
+      "model": "codex-auto-review",
+      "tokens": 243383,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:7e76db38d4627cc15fa90660",
+      "model": "codex-auto-review",
+      "tokens": 474063,
+      "costUsd": null
+    },
+    {
+      "threadId": "codex:60e28f3698b3444fa8939d0c",
+      "model": "codex-auto-review",
+      "tokens": 454406,
+      "costUsd": null
+    },
+    {
+      "threadId": "claude:9e330a25dfc8f6ba7bee5815",
+      "model": "claude-haiku-4-5-20251001",
+      "tokens": 165406,
+      "costUsd": 0.0536281
+    },
+    {
+      "threadId": "claude:2ffcaa58e63c4823763ca428",
+      "model": "claude-haiku-4-5-20251001",
+      "tokens": 163910,
+      "costUsd": 0.09352990000000001
+    },
+    {
+      "threadId": "claude:6e9bde7d19698e6f4a90a459",
+      "model": "claude-haiku-4-5-20251001",
+      "tokens": 165575,
+      "costUsd": 0.052225400000000005
+    },
+    {
+      "threadId": "claude:5d0ff560225b72ae8b9ac75a",
+      "model": "claude-haiku-4-5-20251001",
+      "tokens": 107143,
+      "costUsd": 0.042880800000000004
+    },
+    {
+      "threadId": "claude:69a9e20859930780ca8ba8c4",
+      "model": "claude-haiku-4-5-20251001",
+      "tokens": 3283252,
+      "costUsd": 0.6699833000000001
+    }
+  ],
+  "metadataCoverage": {
+    "tokenUsage": "48/48 threads",
+    "pricing": "31/48 threads",
+    "threadAttribution": "transcript-derived"
+  },
+  "provenance": {
+    "source": "benchmark/costs/accounting.json"
+  },
+  "costSummary": {
+    "benchmarkRunsUsd": 94.81778495,
+    "judgeUsd": 3.8042824000000004,
+    "pricedOperationsUsd": 0.9122475000000001,
+    "knownCostUsd": 99.53431485000002,
+    "unknownCostThreads": 17
+  }
+}

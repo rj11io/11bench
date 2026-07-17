@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-gpt5.6-luna-high",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "id": "codex-gpt5.6-luna-high",
+  "harness": "unknown",
+  "model": "gpt-5.6-luna",
+  "effort": null,
+  "tokens": 15178421,
+  "inputTokens": 15125244,
+  "outputTokens": 53177,
+  "costUsd": 2.2990644000000002,
+  "cacheHitRate": 0.9656587358194023,
+  "wallTimeMinutes": 24.66475,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "codex:006c48117bd8c4a0b712e955"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-37-05-019f6c00-e39a-7231-b04d-5e2bd5706448.jsonl"
+    ]
+  }
+}

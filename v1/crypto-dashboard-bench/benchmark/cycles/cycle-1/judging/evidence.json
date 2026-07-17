@@ -1,0 +1,1021 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "evidence:crypto-dashboard-bench-v1:cycle-1",
+  "status": "complete",
+  "sourceDigest": "f3409b24627d7e17e842ce5dd8f4ed60bcc3107ac2d90f7590e15190035b03c4",
+  "cycleId": "cycle-1",
+  "runs": [
+    {
+      "anonymizedAs": "run-01",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-01/desktop.png",
+          "sha256": "bf9884dffc466c979974db7e56430a9c4c38c80f8d70f3859b3655c28b3a25f3",
+          "bytes": 161514,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-01/mobile.png",
+          "sha256": "d4446f6cc0fcacb4ba653d3c08956a82e607cd4e0e0beca4b8ac69c03e4223fe",
+          "bytes": 68971,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-01/research.md",
+          "sha256": "05a8023b3bb4fd5077215cabf75e9f28d52868fa6cc1ecb25fad7d4962ec332a",
+          "bytes": 17603
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-01/prd.md",
+          "sha256": "470693e07a865ecd7d47d0469841839e05d0c593290b2a91130ad1f27948b1b8",
+          "bytes": 12856
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-01/design.md",
+          "sha256": "609c18ce7a6779ff67bc7a43ddb94e7d4f1075dda0de64d7a3e99ab31e6619cb",
+          "bytes": 9879
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-02",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-02/desktop.png",
+          "sha256": "53e8ecf7718a72ce826402a817bd27f92c5b62b997acce472c5b0d5cb2cee597",
+          "bytes": 74876,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-02/mobile.png",
+          "sha256": "9591c3268d73e4f50c832b725f1f77f5fe3eeee6a594b7670895f8dbc78ed01d",
+          "bytes": 40058,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-02/research.md",
+          "sha256": "1c1300a1f4ecea96945c4f39c7c9147791a3279643a442a6e2e1e93187cfa009",
+          "bytes": 10160
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-02/prd.md",
+          "sha256": "f15a69830919d2ae5ca200eddef319c929a08dd243972324783aaa69453590b7",
+          "bytes": 11615
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-02/design.md",
+          "sha256": "6189405888e5eb815fb256cb54982e9dcc39a5002e3c3fb5ae132a2f11667621",
+          "bytes": 14334
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-03",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-03/desktop.png",
+          "sha256": "b27aa0a14f128e14bd7232d23584bfb5f5c43ea249a5ecfc1f8e8d6030d39700",
+          "bytes": 497699,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-03/mobile.png",
+          "sha256": "22c12b2778f0a012251caa5c2cf5bb2da8a012775a35b75078a522c41a725d21",
+          "bytes": 26682,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-03/research.md",
+          "sha256": "b21842e751c35d63d76377507eabd41890727054c03059f7a58ea755014f08be",
+          "bytes": 13134
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-03/prd.md",
+          "sha256": "7d82bfbf9261fde5fe6bc1936ed8446b8b8375b5ebb6f3b584a097b7fbf3b127",
+          "bytes": 12586
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-03/design.md",
+          "sha256": "164cd82f77fa4828598c86a81881ab5bbd567075c4d419f522b2249a4357b6a3",
+          "bytes": 6670
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-04",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-04/desktop.png",
+          "sha256": "1d45b1e4c4a8a3efea195d1c2dab31dd3de2abe0242af06f17d8d00374b5601b",
+          "bytes": 283149,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-04/mobile.png",
+          "sha256": "be218cbcf5bd29c55dfe55bca09c3a636d09ce1a454316386e579ce96c497476",
+          "bytes": 178442,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-04/research.md",
+          "sha256": "62c98dca598635cc85d4c4b3798df29ecde3d983b80f62b23479ef6c15c380e8",
+          "bytes": 8548
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-04/prd.md",
+          "sha256": "425b3f8a7965f20fc278fe99d1ec29104bdc87cd914907b8b5ad34e536631bf7",
+          "bytes": 9710
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-04/design.md",
+          "sha256": "bdd18901cf3f364042a3137c0f3dc32b725535d944ea72c823db8fdceb353c83",
+          "bytes": 4804
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-05",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-05/desktop.png",
+          "sha256": "abe9b2fa54cb315785990eec916504887cae5b7faae9fe4bd5955fd0fb679a0d",
+          "bytes": 268010,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-05/mobile.png",
+          "sha256": "3f9e8ae8c494bd45b754b85ea592d798596ad04f35a111cfa84f5cdd9bcea954",
+          "bytes": 18985,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-05/research.md",
+          "sha256": "e34c110a0a167fdaa947fe710fbe8a047262e054b3c24564a1f553d8ddb78f9a",
+          "bytes": 15263
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-05/prd.md",
+          "sha256": "a4accaf61c2a1ba516e3f9d9c4a902f30c746b3332eb3ba4dd5b60410c033815",
+          "bytes": 11244
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-05/design.md",
+          "sha256": "53d3e40ae5abb5278fcd6a5bbff0bcc3c00ca85c5a9344d5abd84450de59bea0",
+          "bytes": 6774
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-06",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-06/desktop.png",
+          "sha256": "9ba1a7fbec702e34e424032e438564274858dffdbdafd76ebd5a3ee138c0987f",
+          "bytes": 287851,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-06/mobile.png",
+          "sha256": "009638e0529c3494181b7a2dd234089692a5ccfeb68f7d1645db251484622cc6",
+          "bytes": 148458,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-06/research.md",
+          "sha256": "dc89fd51506a9be35a855b6f88bc88646f1ed0111051b53e67d6c1a6389030cf",
+          "bytes": 12767
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-06/prd.md",
+          "sha256": "98ead280e59be91eef199db46e4a1d6aa5260fe14cf95c34f948a8fbacdbe50c",
+          "bytes": 8137
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-06/design.md",
+          "sha256": "7547dbcec4286641439db1424d3ce63f331064eda23d5decdc8b7f544dfeedde",
+          "bytes": 4416
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-07",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-07/desktop.png",
+          "sha256": "36f397ae8d4adf535adaa90095c5231aac6850ab0f97cd46f52b78d4fff28929",
+          "bytes": 241514,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-07/mobile.png",
+          "sha256": "d8bd9f803bf8f8c93a5c0fbd26236d66340fa7f49c3f7d9c84e26b52226a9b98",
+          "bytes": 151756,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-07/research.md",
+          "sha256": "b0d579ef0b6df4579dcaf63380fe7b631f8bc6d39e5b61265222792f24c67e39",
+          "bytes": 17702
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-07/prd.md",
+          "sha256": "1aa8a2e2922eb1d724312f485507b44c223ef9faf944050d15021c4e0daf783e",
+          "bytes": 13419
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-07/design.md",
+          "sha256": "e8c8f45083a8a2990528d9ae057aff77eb38ccf6e77aad5f2c027839240d17fd",
+          "bytes": 6396
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-08",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-08/desktop.png",
+          "sha256": "10d154e147ce9b5e0cc5a394d80a02e0e907a38ff0b8b5733c620d8e7b684e04",
+          "bytes": 232724,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-08/mobile.png",
+          "sha256": "2241ca4b83b7112ceada4d55ad5dc779cab27c738cfbbb45b197a115af012375",
+          "bytes": 131942,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-08/research.md",
+          "sha256": "1f26ec0e7ae20d32f302e257d56b8411f514ea56405871be44237283442104ea",
+          "bytes": 8863
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-08/prd.md",
+          "sha256": "00a1a4b732e2a4124fe15d63598be8e50eb5b9611bcf1a6a6db99f083ce02b69",
+          "bytes": 8045
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-08/design.md",
+          "sha256": "51070a28e161d2328374e5364393097e933dd31c1e9e9af43f594f82298b2ede",
+          "bytes": 4183
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-09",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-09/desktop.png",
+          "sha256": "43bd7325d2a5c97ba6fe894d201f8e5a479bc84f06d14d44258c5c554f96de9c",
+          "bytes": 192449,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-09/mobile.png",
+          "sha256": "2a40a78051af9230520bf11ba534a114c63affac659a046aa5902e82b0b83c86",
+          "bytes": 115996,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-09/research.md",
+          "sha256": "def4b767f67940e4761c277d65bbd3be1328c132647b68897e502ae695ac20a9",
+          "bytes": 13232
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-09/prd.md",
+          "sha256": "d425c093b8f0d2491c9204d5a7b49f9374beaaa7e9e80c9c7d2dade5db7f2b52",
+          "bytes": 11408
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-09/design.md",
+          "sha256": "56a84275b3a4398e3344c8f407f117d6b8c3ba673c1c4fc83031935f5358139f",
+          "bytes": 6345
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-10",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-10/desktop.png",
+          "sha256": "dceb8a4608feec14889aa4496fbd91fdd9306a3b95a0d8d34981db8a5d547f59",
+          "bytes": 264606,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-10/mobile.png",
+          "sha256": "a5197065d6c698353d4c1e0af21cf0da6681ecb30819180b9e0c117837ab3ba3",
+          "bytes": 266247,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-10/research.md",
+          "sha256": "465524afc959387b370f179d28a60f3e506845afa0e17c2a84bf42d612221da7",
+          "bytes": 15788
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-10/prd.md",
+          "sha256": "92619fcf8512177e4014f2c5e52e65dc3799b3284820c744718fcd258bebc9f0",
+          "bytes": 11546
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-10/design.md",
+          "sha256": "cf017ca6e1f0abc968bdbe59194eb2d9cbef209ebf73b39b790e7b6c50fae666",
+          "bytes": 7530
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-11",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-11/desktop.png",
+          "sha256": "06d557db2272a3a2d94a948f5289daf9c5b68d9509da8843e3021d0b71f24beb",
+          "bytes": 20087,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-11/mobile.png",
+          "sha256": "ca8f142cdc70e31aed139d2bcdb1571225a1a12f75b18aaab592ba3897a97b11",
+          "bytes": 13537,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-11/research.md",
+          "sha256": "18325d1c8aad55f9802ed3ce5d83ea9b2a0b19a615fe287759b4e26c2e0ebe70",
+          "bytes": 11509
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-11/prd.md",
+          "sha256": "9b384d5316db3558b143c8dcb8e9165f716a906fa23685ecb4e9f31c3a394c57",
+          "bytes": 9079
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-11/design.md",
+          "sha256": "ff686f3e7cfe5308708de024f96cbb975350a31b0d7d6210b1923c5864eb8030",
+          "bytes": 5320
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-12",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-12/desktop.png",
+          "sha256": "2a8f0e798f7b5e1ca34bf59b34e4551225d034ccbf909c359b6b5286b603e891",
+          "bytes": 180443,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-12/mobile.png",
+          "sha256": "bc6e0a47b227c96695d4a2f21efc2e19ed5cb5f156f49595cee45fdbd27ac390",
+          "bytes": 12286,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-12/research.md",
+          "sha256": "068f8193d6121a3477f697ea884d84daae3637cde6469573e62976f0bad5df59",
+          "bytes": 17221
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-12/prd.md",
+          "sha256": "d6e838bbdd77cb3d4713616295df4a22ce8b815d29de851211cceb0b31be27b7",
+          "bytes": 13978
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-12/design.md",
+          "sha256": "3bfd79ca3ab80b9da02a8e543b29a12728090e34dba8a5934fb125afdd4eb1d0",
+          "bytes": 8509
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-13",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-13/desktop.png",
+          "sha256": "1651ff07369753de4bdddff53739493262c815cad498816a57098f919745de94",
+          "bytes": 247457,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-13/mobile.png",
+          "sha256": "fa3533867c2469978240bc4e5d1b4c16d4ad13db1a48621c6c8ca6839324cdc5",
+          "bytes": 78009,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-13/research.md",
+          "sha256": "f6421f0fc6e6f6385b929e3432c5c99239c2cff341b935b8a0e052747765d938",
+          "bytes": 26528
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-13/prd.md",
+          "sha256": "92b4b6eab2651efb781015fd8ec92eca639e6947ce8529f0da781dab44844f89",
+          "bytes": 21391
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-13/design.md",
+          "sha256": "96862f0fa463f74aaaceabad39382364898e38cd386e5d1ac83b4163ddf840fa",
+          "bytes": 11294
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-14",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-14/desktop.png",
+          "sha256": "978f703a6a6f70e1bb91ee7db1f68bae94735a403b4256a3df5f46e60b65069a",
+          "bytes": 176692,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-14/mobile.png",
+          "sha256": "b3c0e29c3ae06f2c9b09192381d2a0a269adbc603cae3465e5265115ba608765",
+          "bytes": 28378,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-14/research.md",
+          "sha256": "979bc5f294f4d589864d34981d03748485cd9dbfbaa585387e718ceec4204580",
+          "bytes": 19133
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-14/prd.md",
+          "sha256": "0c831e89456451c09c19d22052e6f408d76644241983a707c3d66efe1335ffb9",
+          "bytes": 14068
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-14/design.md",
+          "sha256": "423f3753914cc6fe410450ede046b97a97b580b412a21a9d0c2a1ace05a393d8",
+          "bytes": 8013
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-15",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-15/desktop.png",
+          "sha256": "f400cfb7932f1cf1047944ecbc766ef0cdc85f610f6b9fa1af3eff2d8aa82c7c",
+          "bytes": 123639,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-15/mobile.png",
+          "sha256": "5590e023f766925f87d9e3979fcad0ebc6367fec887e4fb53bdc36b72c0f9208",
+          "bytes": 8713,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-15/research.md",
+          "sha256": "df02198502d0a3154b7f7e3a3bd5091dc37ec7a415ac466e4e3a8f78b2d06689",
+          "bytes": 38465
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-15/prd.md",
+          "sha256": "3035e63cf02044f0c1d3e8bfa5613ce9436176865881659aadd630d1ac161a7f",
+          "bytes": 25085
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-15/design.md",
+          "sha256": "ab92c9f63d985f53166d6b5fa2bcec0e8b6146ba17605c88173a051b6cbc9015",
+          "bytes": 15173
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    },
+    {
+      "anonymizedAs": "run-16",
+      "surfaces": {
+        "desktop": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-16/desktop.png",
+          "sha256": "51f148c1c8342b5bb00bdaf11d5b9da80a0a53cdd6e6a115c6174d06fe8e9e5d",
+          "bytes": 155895,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "mobile": {
+          "kind": "screenshot",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-16/mobile.png",
+          "sha256": "5ce32df674281318b5ab51ac7fb8923e73091b5d683b4f57efc35870011f0169",
+          "bytes": 45618,
+          "viewport": {
+            "width": 375,
+            "height": 812
+          }
+        },
+        "research.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-16/research.md",
+          "sha256": "397569ed8061dc8eaa42eb7d0b6d406547734c5b5b159e3f1753af0f6f5ef9ca",
+          "bytes": 14241
+        },
+        "prd.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-16/prd.md",
+          "sha256": "146cd3a46a32bc4a1eed98514bc1316feea9a12bc54fb9b2b267ee999b81d841",
+          "bytes": 14194
+        },
+        "design.md": {
+          "kind": "markdown",
+          "path": "benchmark/cycles/cycle-1/judging/evidence/run-16/design.md",
+          "sha256": "90a705cb3c6df07f212490c5b4d97d92ff0a62ea2f1a8ae593096d018eb6a636",
+          "bytes": 7811
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "routeStatus": "available",
+        "consoleErrors": [
+          {
+            "category": "react-hydration",
+            "detail": "Minified React error #418 was observed during the dev capture session; per-route attribution was not isolated.",
+            "count": 1
+          }
+        ],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      "metadataCoverage": {
+        "desktop": "measured",
+        "mobile": "measured",
+        "writtenArtifacts": "measured",
+        "interactions": "unavailable"
+      }
+    }
+  ],
+  "captureEnvironment": {
+    "browser": "Codex In-app Browser",
+    "browserRuntime": "browser-client",
+    "os": "darwin",
+    "devServer": "http://127.0.0.1:3001 (temporary copy with excluded routes removed)",
+    "capturedAt": "2026-07-17T14:46:33.692Z",
+    "surfaces": [
+      "desktop-1440x900-fullpage",
+      "mobile-375x812-fullpage",
+      "research.md",
+      "prd.md",
+      "design.md"
+    ],
+    "identityBlinded": true,
+    "excludedRuns": 10,
+    "sharedRuntimeWarnings": [
+      "The original workspace build has ten excluded route-local CSS-module compilation failures.",
+      "A React hydration warning was observed in the temporary capture session and is retained for judge visibility."
+    ]
+  }
+}

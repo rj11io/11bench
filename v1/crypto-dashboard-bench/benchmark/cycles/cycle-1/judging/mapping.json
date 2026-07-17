@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "cycleId": "cycle-1",
+  "anonymizationMethod": "stable lexical assignment over sorted eligible run IDs",
+  "seed": "cycle-1:sorted-run-ids",
+  "mapping": {
+    "claude-fable5-high": "run-01",
+    "claude-haiku4.5": "run-02",
+    "codex-gpt5.4-high": "run-03",
+    "codex-gpt5.4-light": "run-04",
+    "codex-gpt5.4-medium": "run-05",
+    "codex-gpt5.4mini-light": "run-06",
+    "codex-gpt5.5-high": "run-07",
+    "codex-gpt5.5-light": "run-08",
+    "codex-gpt5.5-medium": "run-09",
+    "codex-gpt5.5-xhigh": "run-10",
+    "codex-gpt5.6-luna-high": "run-11",
+    "codex-gpt5.6-luna-xhigh": "run-12",
+    "codex-gpt5.6-sol-high": "run-13",
+    "codex-gpt5.6-sol-medium": "run-14",
+    "codex-gpt5.6-sol-xhigh": "run-15",
+    "codex-gpt5.6-terra-xhigh": "run-16"
+  },
+  "excludedRunIds": [
+    "codex-gpt5.4-xhigh",
+    "codex-gpt5.4mini-high",
+    "codex-gpt5.4mini-medium",
+    "codex-gpt5.4mini-xhigh",
+    "codex-gpt5.6-luna-light",
+    "codex-gpt5.6-luna-medium",
+    "codex-gpt5.6-sol-light",
+    "codex-gpt5.6-terra-high",
+    "codex-gpt5.6-terra-light",
+    "codex-gpt5.6-terra-medium"
+  ],
+  "artifactId": "mapping:crypto-dashboard-bench-v1:cycle-1",
+  "status": "complete",
+  "sourceDigest": "2b763eae7343db50815f6c6f2d9cb05e014ce22de8473368dec0740e37f3ac9b"
+}

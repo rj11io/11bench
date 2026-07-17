@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-gpt5.6-terra-high",
+  "status": "complete",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "id": "codex-gpt5.6-terra-high",
+  "harness": "recovered-existing-run",
+  "model": "gpt-5.6-terra",
+  "effort": "high",
+  "tokens": 985881,
+  "inputTokens": 969724,
+  "outputTokens": 16157,
+  "costUsd": 0.646057,
+  "cacheHitRate": 0.9260861853475835,
+  "wallTimeMinutes": 5.73315,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "codex:985a0586318d4ae17b1fae3b"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T20-38-18-019f6c6f-dd0c-7ee0-9e4e-5f9107b601d2.jsonl"
+    ]
+  }
+}

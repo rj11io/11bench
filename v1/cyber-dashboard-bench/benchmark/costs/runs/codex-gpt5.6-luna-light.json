@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-gpt5.6-luna-light",
+  "status": "complete",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "id": "codex-gpt5.6-luna-light",
+  "harness": "recovered-existing-run",
+  "model": "gpt-5.6-luna",
+  "effort": "light",
+  "tokens": 649183,
+  "inputTokens": 629245,
+  "outputTokens": 19938,
+  "costUsd": 0.2438362,
+  "cacheHitRate": 0.8917861882096798,
+  "wallTimeMinutes": 6.94175,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "codex:733cce49175687bf47cb3368"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T20-26-24-019f6c64-f73e-7972-bcd5-37ca72ab601f.jsonl"
+    ]
+  }
+}

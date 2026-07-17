@@ -1,0 +1,3630 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "threads:cv-redesign-bench-v1:cycle-1",
+  "status": "complete",
+  "generatedAt": "2026-07-17T15:50:57.089Z",
+  "sourceDigest": "0fe1aa8d424841712c7082c2cc4507acc5f312ffdb7037eae3eccb6deedb14b1",
+  "threads": [
+    {
+      "harness": "codex",
+      "model": "gpt-5.4-mini",
+      "effort": "low",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-17-03-019f6bee-8cb3-7991-a68f-26a5153bb47d.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-17-03-019f6bee-8cb3-7991-a68f-26a5153bb47d.jsonl",
+      "startedAt": "2026-07-16T17:17:17.836Z",
+      "finishedAt": "2026-07-16T17:24:51.286Z",
+      "rawUsage": {
+        "input_tokens": 2037592,
+        "cached_input_tokens": 1831424,
+        "output_tokens": 21208,
+        "reasoning_output_tokens": 4655,
+        "total_tokens": 2058800
+      },
+      "tokens": {
+        "inputTotal": 2037592,
+        "inputUncached": 206168,
+        "cachedInputRead": 1831424,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 21208,
+        "reasoningOutput": 4655,
+        "nonReasoningOutput": 16553,
+        "providerTotal": 2058800
+      },
+      "method": "measured",
+      "threadId": "codex:fc5a24e6e5e9fe915651a2dc",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.4mini-light",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-17-03-019f6bee-8cb3-7991-a68f-26a5153bb47d.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.154626,
+        "cachedInputReadUsd": 0.1373568,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.095436,
+        "totalUsd": 0.3874188
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 0.75,
+          "cachedInput": 0.075,
+          "output": 4.5
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.4-mini",
+      "effort": "medium",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-18-10-019f6bef-918f-75a0-b615-f4efa6089aa9.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-18-10-019f6bef-918f-75a0-b615-f4efa6089aa9.jsonl",
+      "startedAt": "2026-07-16T17:18:10.549Z",
+      "finishedAt": "2026-07-16T17:36:17.262Z",
+      "rawUsage": {
+        "input_tokens": 6240819,
+        "cached_input_tokens": 5731072,
+        "output_tokens": 52955,
+        "reasoning_output_tokens": 8780,
+        "total_tokens": 6293774
+      },
+      "tokens": {
+        "inputTotal": 6240819,
+        "inputUncached": 509747,
+        "cachedInputRead": 5731072,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 52955,
+        "reasoningOutput": 8780,
+        "nonReasoningOutput": 44175,
+        "providerTotal": 6293774
+      },
+      "method": "measured",
+      "threadId": "codex:2f59d66c9aa94ba52df40033",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.4mini-medium",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-18-10-019f6bef-918f-75a0-b615-f4efa6089aa9.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.38231025,
+        "cachedInputReadUsd": 0.42983039999999995,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.2382975,
+        "totalUsd": 1.05043815
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 0.75,
+          "cachedInput": 0.075,
+          "output": 4.5
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.4-mini",
+      "effort": "high",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-18-33-019f6bef-ec9a-7c12-9743-40b722684fae.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-18-33-019f6bef-ec9a-7c12-9743-40b722684fae.jsonl",
+      "startedAt": "2026-07-16T17:18:33.896Z",
+      "finishedAt": "2026-07-16T18:13:53.457Z",
+      "rawUsage": {
+        "input_tokens": 23474545,
+        "cached_input_tokens": 22054400,
+        "output_tokens": 165011,
+        "reasoning_output_tokens": 31740,
+        "total_tokens": 23639556
+      },
+      "tokens": {
+        "inputTotal": 23474545,
+        "inputUncached": 1420145,
+        "cachedInputRead": 22054400,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 165011,
+        "reasoningOutput": 31740,
+        "nonReasoningOutput": 133271,
+        "providerTotal": 23639556
+      },
+      "method": "measured",
+      "threadId": "codex:716479b02934c154128fbb36",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.4mini-high",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-18-33-019f6bef-ec9a-7c12-9743-40b722684fae.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 1.06510875,
+        "cachedInputReadUsd": 1.65408,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.7425495,
+        "totalUsd": 3.46173825
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 0.75,
+          "cachedInput": 0.075,
+          "output": 4.5
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.4-mini",
+      "effort": "xhigh",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-19-01-019f6bf0-5914-7292-a9cb-1a26cad1699a.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-19-01-019f6bf0-5914-7292-a9cb-1a26cad1699a.jsonl",
+      "startedAt": "2026-07-16T17:19:04.116Z",
+      "finishedAt": "2026-07-16T18:20:16.886Z",
+      "rawUsage": {
+        "input_tokens": 25899329,
+        "cached_input_tokens": 24761600,
+        "output_tokens": 201217,
+        "reasoning_output_tokens": 31355,
+        "total_tokens": 26100546
+      },
+      "tokens": {
+        "inputTotal": 25899329,
+        "inputUncached": 1137729,
+        "cachedInputRead": 24761600,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 201217,
+        "reasoningOutput": 31355,
+        "nonReasoningOutput": 169862,
+        "providerTotal": 26100546
+      },
+      "method": "measured",
+      "threadId": "codex:6e1db485b3dc601582174999",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.4mini-xhigh",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-19-01-019f6bf0-5914-7292-a9cb-1a26cad1699a.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.85329675,
+        "cachedInputReadUsd": 1.85712,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.9054765,
+        "totalUsd": 3.61589325
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 0.75,
+          "cachedInput": 0.075,
+          "output": 4.5
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.4",
+      "effort": "low",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-19-30-019f6bf0-cbf4-70b2-86c3-e6ef13ab0d9b.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-19-30-019f6bf0-cbf4-70b2-86c3-e6ef13ab0d9b.jsonl",
+      "startedAt": "2026-07-16T17:19:50.555Z",
+      "finishedAt": "2026-07-16T17:28:20.699Z",
+      "rawUsage": {
+        "input_tokens": 1668843,
+        "cached_input_tokens": 1525376,
+        "output_tokens": 20425,
+        "reasoning_output_tokens": 1855,
+        "total_tokens": 1689268
+      },
+      "tokens": {
+        "inputTotal": 1668843,
+        "inputUncached": 143467,
+        "cachedInputRead": 1525376,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 20425,
+        "reasoningOutput": 1855,
+        "nonReasoningOutput": 18570,
+        "providerTotal": 1689268
+      },
+      "method": "measured",
+      "threadId": "codex:90c5aac5ff266d3aa030f42a",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.4-light",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-19-30-019f6bf0-cbf4-70b2-86c3-e6ef13ab0d9b.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.3586675,
+        "cachedInputReadUsd": 0.381344,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.306375,
+        "totalUsd": 1.0463865
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.4",
+      "effort": "medium",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-20-29-019f6bf1-b1af-70a1-b5c7-c7ea3927c87a.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-20-29-019f6bf1-b1af-70a1-b5c7-c7ea3927c87a.jsonl",
+      "startedAt": "2026-07-16T17:20:29.854Z",
+      "finishedAt": "2026-07-16T17:35:05.954Z",
+      "rawUsage": {
+        "input_tokens": 4592780,
+        "cached_input_tokens": 4301568,
+        "output_tokens": 30328,
+        "reasoning_output_tokens": 7137,
+        "total_tokens": 4623108
+      },
+      "tokens": {
+        "inputTotal": 4592780,
+        "inputUncached": 291212,
+        "cachedInputRead": 4301568,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 30328,
+        "reasoningOutput": 7137,
+        "nonReasoningOutput": 23191,
+        "providerTotal": 4623108
+      },
+      "method": "measured",
+      "threadId": "codex:7899e0429c83d6408442c045",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.4-medium",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-20-29-019f6bf1-b1af-70a1-b5c7-c7ea3927c87a.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.72803,
+        "cachedInputReadUsd": 1.075392,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.45492,
+        "totalUsd": 2.258342
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.4",
+      "effort": "high",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-20-54-019f6bf2-1407-7743-bd21-199f0b992c7f.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-20-54-019f6bf2-1407-7743-bd21-199f0b992c7f.jsonl",
+      "startedAt": "2026-07-16T17:20:55.010Z",
+      "finishedAt": "2026-07-16T17:38:21.233Z",
+      "rawUsage": {
+        "input_tokens": 6094537,
+        "cached_input_tokens": 5745664,
+        "output_tokens": 46043,
+        "reasoning_output_tokens": 8344,
+        "total_tokens": 6140580
+      },
+      "tokens": {
+        "inputTotal": 6094537,
+        "inputUncached": 348873,
+        "cachedInputRead": 5745664,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 46043,
+        "reasoningOutput": 8344,
+        "nonReasoningOutput": 37699,
+        "providerTotal": 6140580
+      },
+      "method": "measured",
+      "threadId": "codex:67625c67d5e32c49391a9cc2",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.4-high",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-20-54-019f6bf2-1407-7743-bd21-199f0b992c7f.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.8721825,
+        "cachedInputReadUsd": 1.436416,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.690645,
+        "totalUsd": 2.9992435
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.4",
+      "effort": "xhigh",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-21-24-019f6bf2-88bd-74c0-9d3c-2544db5eaf7b.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-21-24-019f6bf2-88bd-74c0-9d3c-2544db5eaf7b.jsonl",
+      "startedAt": "2026-07-16T17:21:24.898Z",
+      "finishedAt": "2026-07-16T17:49:34.923Z",
+      "rawUsage": {
+        "input_tokens": 10112512,
+        "cached_input_tokens": 9455104,
+        "output_tokens": 58459,
+        "reasoning_output_tokens": 11587,
+        "total_tokens": 10170971
+      },
+      "tokens": {
+        "inputTotal": 10112512,
+        "inputUncached": 657408,
+        "cachedInputRead": 9455104,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 58459,
+        "reasoningOutput": 11587,
+        "nonReasoningOutput": 46872,
+        "providerTotal": 10170971
+      },
+      "method": "measured",
+      "threadId": "codex:38458cfeb7f195d49eeff237",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.4-xhigh",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-21-24-019f6bf2-88bd-74c0-9d3c-2544db5eaf7b.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 1.64352,
+        "cachedInputReadUsd": 2.363776,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.876885,
+        "totalUsd": 4.884181
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.5",
+      "effort": "low",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-25-20-019f6bf6-22d4-7933-81ce-9e50ba4184d4.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-25-20-019f6bf6-22d4-7933-81ce-9e50ba4184d4.jsonl",
+      "startedAt": "2026-07-16T17:25:20.947Z",
+      "finishedAt": "2026-07-16T17:33:31.101Z",
+      "rawUsage": {
+        "input_tokens": 2550310,
+        "cached_input_tokens": 2402048,
+        "output_tokens": 20231,
+        "reasoning_output_tokens": 1173,
+        "total_tokens": 2570541
+      },
+      "tokens": {
+        "inputTotal": 2550310,
+        "inputUncached": 148262,
+        "cachedInputRead": 2402048,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 20231,
+        "reasoningOutput": 1173,
+        "nonReasoningOutput": 19058,
+        "providerTotal": 2570541
+      },
+      "method": "measured",
+      "threadId": "codex:bc050c825d7252c44a0909be",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.5-light",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-25-20-019f6bf6-22d4-7933-81ce-9e50ba4184d4.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.74131,
+        "cachedInputReadUsd": 1.201024,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.60693,
+        "totalUsd": 2.549264
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.5",
+      "effort": "medium",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-34-11-019f6bfe-3b1c-74f2-9a66-e6eb1da7c122.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-34-11-019f6bfe-3b1c-74f2-9a66-e6eb1da7c122.jsonl",
+      "startedAt": "2026-07-16T17:34:11.549Z",
+      "finishedAt": "2026-07-16T17:45:01.556Z",
+      "rawUsage": {
+        "input_tokens": 1921144,
+        "cached_input_tokens": 1671424,
+        "output_tokens": 22071,
+        "reasoning_output_tokens": 2026,
+        "total_tokens": 1943215
+      },
+      "tokens": {
+        "inputTotal": 1921144,
+        "inputUncached": 249720,
+        "cachedInputRead": 1671424,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 22071,
+        "reasoningOutput": 2026,
+        "nonReasoningOutput": 20045,
+        "providerTotal": 1943215
+      },
+      "method": "measured",
+      "threadId": "codex:509ab6886b3a02353ea41c15",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.5-medium",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-34-11-019f6bfe-3b1c-74f2-9a66-e6eb1da7c122.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 1.2486,
+        "cachedInputReadUsd": 0.835712,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.66213,
+        "totalUsd": 2.7464419999999996
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.5",
+      "effort": "high",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-34-37-019f6bfe-a351-7540-a90d-2491eed908b8.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-34-37-019f6bfe-a351-7540-a90d-2491eed908b8.jsonl",
+      "startedAt": "2026-07-16T17:34:38.137Z",
+      "finishedAt": "2026-07-16T17:50:40.828Z",
+      "rawUsage": {
+        "input_tokens": 7632188,
+        "cached_input_tokens": 7298816,
+        "output_tokens": 33536,
+        "reasoning_output_tokens": 6262,
+        "total_tokens": 7665724
+      },
+      "tokens": {
+        "inputTotal": 7632188,
+        "inputUncached": 333372,
+        "cachedInputRead": 7298816,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 33536,
+        "reasoningOutput": 6262,
+        "nonReasoningOutput": 27274,
+        "providerTotal": 7665724
+      },
+      "method": "measured",
+      "threadId": "codex:ed7392ec55cd11cd515bf6e3",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.5-high",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-34-37-019f6bfe-a351-7540-a90d-2491eed908b8.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 1.66686,
+        "cachedInputReadUsd": 3.649408,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 1.00608,
+        "totalUsd": 6.322348
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.5",
+      "effort": "xhigh",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-35-00-019f6bfe-fc94-7fc1-8965-6db87a226d58.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-35-00-019f6bfe-fc94-7fc1-8965-6db87a226d58.jsonl",
+      "startedAt": "2026-07-16T17:35:01.090Z",
+      "finishedAt": "2026-07-16T18:01:15.910Z",
+      "rawUsage": {
+        "input_tokens": 11273471,
+        "cached_input_tokens": 10726528,
+        "output_tokens": 51170,
+        "reasoning_output_tokens": 10641,
+        "total_tokens": 11324641
+      },
+      "tokens": {
+        "inputTotal": 11273471,
+        "inputUncached": 546943,
+        "cachedInputRead": 10726528,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 51170,
+        "reasoningOutput": 10641,
+        "nonReasoningOutput": 40529,
+        "providerTotal": 11324641
+      },
+      "method": "measured",
+      "threadId": "codex:5a21eea0cdb66bf08a1a40f5",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.5-xhigh",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-35-00-019f6bfe-fc94-7fc1-8965-6db87a226d58.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 2.734715,
+        "cachedInputReadUsd": 5.363264,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 1.5351,
+        "totalUsd": 9.633079
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-luna",
+      "effort": "low",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-35-57-019f6bff-d89b-7032-9459-275dd0c7f519.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-35-57-019f6bff-d89b-7032-9459-275dd0c7f519.jsonl",
+      "startedAt": "2026-07-16T17:35:57.369Z",
+      "finishedAt": "2026-07-16T17:42:18.375Z",
+      "rawUsage": {
+        "input_tokens": 1341287,
+        "cached_input_tokens": 1260544,
+        "output_tokens": 16984,
+        "reasoning_output_tokens": 874,
+        "total_tokens": 1358271
+      },
+      "tokens": {
+        "inputTotal": 1341287,
+        "inputUncached": 80743,
+        "cachedInputRead": 1260544,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 16984,
+        "reasoningOutput": 874,
+        "nonReasoningOutput": 16110,
+        "providerTotal": 1358271
+      },
+      "method": "measured",
+      "threadId": "codex:0ad1a36f4edf81d816ac6568",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-luna-light",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-35-57-019f6bff-d89b-7032-9459-275dd0c7f519.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.080743,
+        "cachedInputReadUsd": 0.1260544,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.101904,
+        "totalUsd": 0.3087014
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 1,
+          "cachedInput": 0.1,
+          "output": 6
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-luna",
+      "effort": "medium",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-36-36-019f6c00-738e-7cc0-ab27-418dd30071be.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-36-36-019f6c00-738e-7cc0-ab27-418dd30071be.jsonl",
+      "startedAt": "2026-07-16T17:36:37.023Z",
+      "finishedAt": "2026-07-16T17:42:15.250Z",
+      "rawUsage": {
+        "input_tokens": 1570938,
+        "cached_input_tokens": 1472000,
+        "output_tokens": 14180,
+        "reasoning_output_tokens": 1887,
+        "total_tokens": 1585118
+      },
+      "tokens": {
+        "inputTotal": 1570938,
+        "inputUncached": 98938,
+        "cachedInputRead": 1472000,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 14180,
+        "reasoningOutput": 1887,
+        "nonReasoningOutput": 12293,
+        "providerTotal": 1585118
+      },
+      "method": "measured",
+      "threadId": "codex:157da38b8e3676b1480a849d",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-luna-medium",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-36-36-019f6c00-738e-7cc0-ab27-418dd30071be.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.098938,
+        "cachedInputReadUsd": 0.1472,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.08508,
+        "totalUsd": 0.331218
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 1,
+          "cachedInput": 0.1,
+          "output": 6
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-luna",
+      "effort": "high",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-37-05-019f6c00-e39a-7231-b04d-5e2bd5706448.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-37-05-019f6c00-e39a-7231-b04d-5e2bd5706448.jsonl",
+      "startedAt": "2026-07-16T17:37:05.673Z",
+      "finishedAt": "2026-07-16T18:01:45.558Z",
+      "rawUsage": {
+        "input_tokens": 15125244,
+        "cached_input_tokens": 14605824,
+        "output_tokens": 53177,
+        "reasoning_output_tokens": 12013,
+        "total_tokens": 15178421
+      },
+      "tokens": {
+        "inputTotal": 15125244,
+        "inputUncached": 519420,
+        "cachedInputRead": 14605824,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 53177,
+        "reasoningOutput": 12013,
+        "nonReasoningOutput": 41164,
+        "providerTotal": 15178421
+      },
+      "method": "measured",
+      "threadId": "codex:006c48117bd8c4a0b712e955",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-luna-high",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-37-05-019f6c00-e39a-7231-b04d-5e2bd5706448.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.51942,
+        "cachedInputReadUsd": 1.4605824,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.319062,
+        "totalUsd": 2.2990644000000002
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 1,
+          "cachedInput": 0.1,
+          "output": 6
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-luna",
+      "effort": "xhigh",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-37-23-019f6c01-2a00-7e63-86a5-e47f1ed213ef.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-37-23-019f6c01-2a00-7e63-86a5-e47f1ed213ef.jsonl",
+      "startedAt": "2026-07-16T17:37:23.778Z",
+      "finishedAt": "2026-07-16T18:14:12.709Z",
+      "rawUsage": {
+        "input_tokens": 19253773,
+        "cached_input_tokens": 18696960,
+        "output_tokens": 78969,
+        "reasoning_output_tokens": 25755,
+        "total_tokens": 19332742
+      },
+      "tokens": {
+        "inputTotal": 19253773,
+        "inputUncached": 556813,
+        "cachedInputRead": 18696960,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 78969,
+        "reasoningOutput": 25755,
+        "nonReasoningOutput": 53214,
+        "providerTotal": 19332742
+      },
+      "method": "measured",
+      "threadId": "codex:c7d666691081fe7bf6cde043",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-luna-xhigh",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-37-23-019f6c01-2a00-7e63-86a5-e47f1ed213ef.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.556813,
+        "cachedInputReadUsd": 1.869696,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.473814,
+        "totalUsd": 2.900323
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 1,
+          "cachedInput": 0.1,
+          "output": 6
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "low",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-39-39-019f6c03-3c02-7422-b506-4a6cf500f836.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-39-39-019f6c03-3c02-7422-b506-4a6cf500f836.jsonl",
+      "startedAt": "2026-07-16T17:39:39.467Z",
+      "finishedAt": "2026-07-16T17:44:55.269Z",
+      "rawUsage": {
+        "input_tokens": 1212223,
+        "cached_input_tokens": 1140224,
+        "output_tokens": 11717,
+        "reasoning_output_tokens": 790,
+        "total_tokens": 1223940
+      },
+      "tokens": {
+        "inputTotal": 1212223,
+        "inputUncached": 71999,
+        "cachedInputRead": 1140224,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 11717,
+        "reasoningOutput": 790,
+        "nonReasoningOutput": 10927,
+        "providerTotal": 1223940
+      },
+      "method": "measured",
+      "threadId": "codex:3bcf780ebb4c79dbfbd54460",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-terra-light",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-39-39-019f6c03-3c02-7422-b506-4a6cf500f836.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.1799975,
+        "cachedInputReadUsd": 0.285056,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.175755,
+        "totalUsd": 0.6408085
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-02-019f6c03-9630-7ec3-bffd-bfd2af35ed30.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-02-019f6c03-9630-7ec3-bffd-bfd2af35ed30.jsonl",
+      "startedAt": "2026-07-16T17:40:02.573Z",
+      "finishedAt": "2026-07-16T17:46:39.318Z",
+      "rawUsage": {
+        "input_tokens": 1948843,
+        "cached_input_tokens": 1808128,
+        "output_tokens": 13276,
+        "reasoning_output_tokens": 1259,
+        "total_tokens": 1962119
+      },
+      "tokens": {
+        "inputTotal": 1948843,
+        "inputUncached": 140715,
+        "cachedInputRead": 1808128,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 13276,
+        "reasoningOutput": 1259,
+        "nonReasoningOutput": 12017,
+        "providerTotal": 1962119
+      },
+      "method": "measured",
+      "threadId": "codex:b977d3938f159f7b24d113a7",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-terra-medium",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-02-019f6c03-9630-7ec3-bffd-bfd2af35ed30.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.3517875,
+        "cachedInputReadUsd": 0.452032,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.19914,
+        "totalUsd": 1.0029595
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "high",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-22-019f6c03-e696-73e3-898d-a9a0b2e87582.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-22-019f6c03-e696-73e3-898d-a9a0b2e87582.jsonl",
+      "startedAt": "2026-07-16T17:40:23.062Z",
+      "finishedAt": "2026-07-16T17:47:30.186Z",
+      "rawUsage": {
+        "input_tokens": 2015332,
+        "cached_input_tokens": 1824512,
+        "output_tokens": 16940,
+        "reasoning_output_tokens": 3085,
+        "total_tokens": 2032272
+      },
+      "tokens": {
+        "inputTotal": 2015332,
+        "inputUncached": 190820,
+        "cachedInputRead": 1824512,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 16940,
+        "reasoningOutput": 3085,
+        "nonReasoningOutput": 13855,
+        "providerTotal": 2032272
+      },
+      "method": "measured",
+      "threadId": "codex:7d59e727c053255a82850963",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-terra-high",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-22-019f6c03-e696-73e3-898d-a9a0b2e87582.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.47705,
+        "cachedInputReadUsd": 0.456128,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.2541,
+        "totalUsd": 1.187278
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "xhigh",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-45-019f6c04-3ef2-7111-987b-28365663267d.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-45-019f6c04-3ef2-7111-987b-28365663267d.jsonl",
+      "startedAt": "2026-07-16T17:40:45.668Z",
+      "finishedAt": "2026-07-16T18:11:46.199Z",
+      "rawUsage": {
+        "input_tokens": 19029293,
+        "cached_input_tokens": 18546688,
+        "output_tokens": 64462,
+        "reasoning_output_tokens": 17590,
+        "total_tokens": 19093755
+      },
+      "tokens": {
+        "inputTotal": 19029293,
+        "inputUncached": 482605,
+        "cachedInputRead": 18546688,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 64462,
+        "reasoningOutput": 17590,
+        "nonReasoningOutput": 46872,
+        "providerTotal": 19093755
+      },
+      "method": "measured",
+      "threadId": "codex:ca0277e0781704d5789c5624",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-terra-xhigh",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-45-019f6c04-3ef2-7111-987b-28365663267d.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 1.2065125,
+        "cachedInputReadUsd": 4.636672,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.96693,
+        "totalUsd": 6.810114499999999
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "low",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-00-019f6c06-4cf1-7233-8e95-552da0fcdc76.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-00-019f6c06-4cf1-7233-8e95-552da0fcdc76.jsonl",
+      "startedAt": "2026-07-16T17:43:00.394Z",
+      "finishedAt": "2026-07-16T17:52:35.792Z",
+      "rawUsage": {
+        "input_tokens": 1225451,
+        "cached_input_tokens": 1106944,
+        "output_tokens": 17427,
+        "reasoning_output_tokens": 698,
+        "total_tokens": 1242878
+      },
+      "tokens": {
+        "inputTotal": 1225451,
+        "inputUncached": 118507,
+        "cachedInputRead": 1106944,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 17427,
+        "reasoningOutput": 698,
+        "nonReasoningOutput": 16729,
+        "providerTotal": 1242878
+      },
+      "method": "measured",
+      "threadId": "codex:b2620354aaaa5455c9a85f0e",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-sol-light",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-00-019f6c06-4cf1-7233-8e95-552da0fcdc76.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.592535,
+        "cachedInputReadUsd": 0.553472,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.52281,
+        "totalUsd": 1.668817
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-21-019f6c06-9ecd-7e82-b515-03c890b6e5b3.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-21-019f6c06-9ecd-7e82-b515-03c890b6e5b3.jsonl",
+      "startedAt": "2026-07-16T17:43:21.652Z",
+      "finishedAt": "2026-07-16T17:57:24.713Z",
+      "rawUsage": {
+        "input_tokens": 6457765,
+        "cached_input_tokens": 6201856,
+        "output_tokens": 34564,
+        "reasoning_output_tokens": 4102,
+        "total_tokens": 6492329
+      },
+      "tokens": {
+        "inputTotal": 6457765,
+        "inputUncached": 255909,
+        "cachedInputRead": 6201856,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 34564,
+        "reasoningOutput": 4102,
+        "nonReasoningOutput": 30462,
+        "providerTotal": 6492329
+      },
+      "method": "measured",
+      "threadId": "codex:0f6704cbb6b1a68aafc00aff",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-sol-medium",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-21-019f6c06-9ecd-7e82-b515-03c890b6e5b3.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 1.279545,
+        "cachedInputReadUsd": 3.100928,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 1.03692,
+        "totalUsd": 5.417393000000001
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "high",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-49-019f6c07-0f3e-7d60-85c4-3c685f5743db.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-49-019f6c07-0f3e-7d60-85c4-3c685f5743db.jsonl",
+      "startedAt": "2026-07-16T17:43:50.118Z",
+      "finishedAt": "2026-07-16T18:04:44.531Z",
+      "rawUsage": {
+        "input_tokens": 12492170,
+        "cached_input_tokens": 12107264,
+        "output_tokens": 48823,
+        "reasoning_output_tokens": 10638,
+        "total_tokens": 12540993
+      },
+      "tokens": {
+        "inputTotal": 12492170,
+        "inputUncached": 384906,
+        "cachedInputRead": 12107264,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 48823,
+        "reasoningOutput": 10638,
+        "nonReasoningOutput": 38185,
+        "providerTotal": 12540993
+      },
+      "method": "measured",
+      "threadId": "codex:d94e5ee1ed5ae4dbeede990d",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-sol-high",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-49-019f6c07-0f3e-7d60-85c4-3c685f5743db.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 1.92453,
+        "cachedInputReadUsd": 6.053632,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 1.46469,
+        "totalUsd": 9.442852
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "xhigh",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-44-11-019f6c07-6544-7450-a837-3a595a210e95.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T18-44-11-019f6c07-6544-7450-a837-3a595a210e95.jsonl",
+      "startedAt": "2026-07-16T17:44:12.198Z",
+      "finishedAt": "2026-07-16T18:10:50.034Z",
+      "rawUsage": {
+        "input_tokens": 19215782,
+        "cached_input_tokens": 18576896,
+        "output_tokens": 47884,
+        "reasoning_output_tokens": 16597,
+        "total_tokens": 19263666
+      },
+      "tokens": {
+        "inputTotal": 19215782,
+        "inputUncached": 638886,
+        "cachedInputRead": 18576896,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 47884,
+        "reasoningOutput": 16597,
+        "nonReasoningOutput": 31287,
+        "providerTotal": 19263666
+      },
+      "method": "measured",
+      "threadId": "codex:17875e42aaaee3c8822f964b",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-sol-xhigh",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-44-11-019f6c07-6544-7450-a837-3a595a210e95.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 3.19443,
+        "cachedInputReadUsd": 9.288448,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 1.43652,
+        "totalUsd": 13.919398000000001
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "ultra",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-11-50-019f6c20-b517-73c3-a828-dca994832ead.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-11-50-019f6c20-b517-73c3-a828-dca994832ead.jsonl",
+      "startedAt": "2026-07-16T18:11:51.001Z",
+      "finishedAt": "2026-07-16T19:05:03.084Z",
+      "rawUsage": {
+        "input_tokens": 20510206,
+        "cached_input_tokens": 19682816,
+        "output_tokens": 87347,
+        "reasoning_output_tokens": 32352,
+        "total_tokens": 20597553
+      },
+      "tokens": {
+        "inputTotal": 20510206,
+        "inputUncached": 827390,
+        "cachedInputRead": 19682816,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 87347,
+        "reasoningOutput": 32352,
+        "nonReasoningOutput": 54995,
+        "providerTotal": 20597553
+      },
+      "method": "measured",
+      "threadId": "codex:6009bf27b0fcff2fcb37290d",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-terra-ultra",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-11-50-019f6c20-b517-73c3-a828-dca994832ead.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 2.068475,
+        "cachedInputReadUsd": 4.920704,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 1.310205,
+        "totalUsd": 8.299384
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "ultra",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-02-019f6c20-e4db-7d00-b9c0-45641c54227c.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-02-019f6c20-e4db-7d00-b9c0-45641c54227c.jsonl",
+      "startedAt": "2026-07-16T18:12:03.003Z",
+      "finishedAt": "2026-07-16T18:16:57.722Z",
+      "rawUsage": {
+        "input_tokens": 754547,
+        "cached_input_tokens": 636416,
+        "output_tokens": 10547,
+        "reasoning_output_tokens": 4430,
+        "total_tokens": 765094
+      },
+      "tokens": {
+        "inputTotal": 754547,
+        "inputUncached": 118131,
+        "cachedInputRead": 636416,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 10547,
+        "reasoningOutput": 4430,
+        "nonReasoningOutput": 6117,
+        "providerTotal": 765094
+      },
+      "method": "measured",
+      "threadId": "codex:cdfeea9a0ff1d5b0435a6edf",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-terra-ultra",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-02-019f6c20-e4db-7d00-b9c0-45641c54227c.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.2953275,
+        "cachedInputReadUsd": 0.159104,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.158205,
+        "totalUsd": 0.6126365
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "ultra",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-07-019f6c20-f6ac-7fe0-81c2-67ef59f848aa.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-07-019f6c20-f6ac-7fe0-81c2-67ef59f848aa.jsonl",
+      "startedAt": "2026-07-16T18:12:07.573Z",
+      "finishedAt": "2026-07-16T18:15:01.567Z",
+      "rawUsage": {
+        "input_tokens": 686477,
+        "cached_input_tokens": 585216,
+        "output_tokens": 8107,
+        "reasoning_output_tokens": 3640,
+        "total_tokens": 694584
+      },
+      "tokens": {
+        "inputTotal": 686477,
+        "inputUncached": 101261,
+        "cachedInputRead": 585216,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 8107,
+        "reasoningOutput": 3640,
+        "nonReasoningOutput": 4467,
+        "providerTotal": 694584
+      },
+      "method": "measured",
+      "threadId": "codex:aa8213bea6de59fc55477774",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-terra-ultra",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-07-019f6c20-f6ac-7fe0-81c2-67ef59f848aa.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.2531525,
+        "cachedInputReadUsd": 0.146304,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.121605,
+        "totalUsd": 0.5210615
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "ultra",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-10-019f6c21-01af-7800-9aa7-0fb71f704e16.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-10-019f6c21-01af-7800-9aa7-0fb71f704e16.jsonl",
+      "startedAt": "2026-07-16T18:12:10.388Z",
+      "finishedAt": "2026-07-16T18:56:43.785Z",
+      "rawUsage": {
+        "input_tokens": 890674,
+        "cached_input_tokens": 721152,
+        "output_tokens": 8029,
+        "reasoning_output_tokens": 3757,
+        "total_tokens": 898703
+      },
+      "tokens": {
+        "inputTotal": 890674,
+        "inputUncached": 169522,
+        "cachedInputRead": 721152,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 8029,
+        "reasoningOutput": 3757,
+        "nonReasoningOutput": 4272,
+        "providerTotal": 898703
+      },
+      "method": "measured",
+      "threadId": "codex:69c0a8cd8c6588d35f9b37c6",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-terra-ultra",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-10-019f6c21-01af-7800-9aa7-0fb71f704e16.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.423805,
+        "cachedInputReadUsd": 0.180288,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.120435,
+        "totalUsd": 0.724528
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "ultra",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-24-019f6c21-395f-7700-952e-93c78ed5721c.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-24-019f6c21-395f-7700-952e-93c78ed5721c.jsonl",
+      "startedAt": "2026-07-16T18:12:24.815Z",
+      "finishedAt": "2026-07-16T18:38:12.249Z",
+      "rawUsage": {
+        "input_tokens": 10062836,
+        "cached_input_tokens": 9558528,
+        "output_tokens": 52662,
+        "reasoning_output_tokens": 16366,
+        "total_tokens": 10115498
+      },
+      "tokens": {
+        "inputTotal": 10062836,
+        "inputUncached": 504308,
+        "cachedInputRead": 9558528,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 52662,
+        "reasoningOutput": 16366,
+        "nonReasoningOutput": 36296,
+        "providerTotal": 10115498
+      },
+      "method": "measured",
+      "threadId": "codex:f17aeb7d2a62bdf19a3d2229",
+      "classification": "benchmark-run",
+      "runId": "codex-5.6-sol-ultra",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-24-019f6c21-395f-7700-952e-93c78ed5721c.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 2.52154,
+        "cachedInputReadUsd": 4.779264,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 1.57986,
+        "totalUsd": 8.880664
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "ultra",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-50-019f6c21-9d39-7183-bc98-09c983eb3930.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-50-019f6c21-9d39-7183-bc98-09c983eb3930.jsonl",
+      "startedAt": "2026-07-16T18:12:50.197Z",
+      "finishedAt": "2026-07-16T18:21:00.483Z",
+      "rawUsage": {
+        "input_tokens": 795120,
+        "cached_input_tokens": 684032,
+        "output_tokens": 18597,
+        "reasoning_output_tokens": 9492,
+        "total_tokens": 813717
+      },
+      "tokens": {
+        "inputTotal": 795120,
+        "inputUncached": 111088,
+        "cachedInputRead": 684032,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 18597,
+        "reasoningOutput": 9492,
+        "nonReasoningOutput": 9105,
+        "providerTotal": 813717
+      },
+      "method": "measured",
+      "threadId": "codex:9c03b9cb85a718d363550b66",
+      "classification": "benchmark-run",
+      "runId": "codex-5.6-sol-ultra",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-50-019f6c21-9d39-7183-bc98-09c983eb3930.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.55544,
+        "cachedInputReadUsd": 0.342016,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.55791,
+        "totalUsd": 1.4553660000000002
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "ultra",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-53-019f6c21-aac8-7bc0-8fc7-dcda20b3d931.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-53-019f6c21-aac8-7bc0-8fc7-dcda20b3d931.jsonl",
+      "startedAt": "2026-07-16T18:12:53.679Z",
+      "finishedAt": "2026-07-16T18:18:07.492Z",
+      "rawUsage": {
+        "input_tokens": 1988519,
+        "cached_input_tokens": 1786368,
+        "output_tokens": 12724,
+        "reasoning_output_tokens": 7193,
+        "total_tokens": 2001243
+      },
+      "tokens": {
+        "inputTotal": 1988519,
+        "inputUncached": 202151,
+        "cachedInputRead": 1786368,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 12724,
+        "reasoningOutput": 7193,
+        "nonReasoningOutput": 5531,
+        "providerTotal": 2001243
+      },
+      "method": "measured",
+      "threadId": "codex:5f1a8ce16efa6c6a8e770e1e",
+      "classification": "benchmark-run",
+      "runId": "codex-5.6-sol-ultra",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-53-019f6c21-aac8-7bc0-8fc7-dcda20b3d931.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 1.010755,
+        "cachedInputReadUsd": 0.893184,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.38172,
+        "totalUsd": 2.285659
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "ultra",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-58-019f6c21-bca9-7a82-96d7-09507fe2d4d3.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-58-019f6c21-bca9-7a82-96d7-09507fe2d4d3.jsonl",
+      "startedAt": "2026-07-16T18:12:58.243Z",
+      "finishedAt": "2026-07-16T18:16:19.550Z",
+      "rawUsage": {
+        "input_tokens": 804125,
+        "cached_input_tokens": 705024,
+        "output_tokens": 9499,
+        "reasoning_output_tokens": 3744,
+        "total_tokens": 813624
+      },
+      "tokens": {
+        "inputTotal": 804125,
+        "inputUncached": 99101,
+        "cachedInputRead": 705024,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 9499,
+        "reasoningOutput": 3744,
+        "nonReasoningOutput": 5755,
+        "providerTotal": 813624
+      },
+      "method": "measured",
+      "threadId": "codex:32cf638729ec3d888a854d60",
+      "classification": "benchmark-run",
+      "runId": "codex-5.6-sol-ultra",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-58-019f6c21-bca9-7a82-96d7-09507fe2d4d3.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.495505,
+        "cachedInputReadUsd": 0.352512,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.28497,
+        "totalUsd": 1.132987
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 5,
+          "cachedInput": 0.5,
+          "output": 30
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "codex-auto-review",
+      "effort": "low",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-24-38-019f6c2c-6b1a-7351-99ef-d21bf5a142b4.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-24-38-019f6c2c-6b1a-7351-99ef-d21bf5a142b4.jsonl",
+      "startedAt": "2026-07-16T18:24:38.298Z",
+      "finishedAt": "2026-07-16T18:36:20.978Z",
+      "rawUsage": {
+        "input_tokens": 475200,
+        "cached_input_tokens": 415488,
+        "output_tokens": 1393,
+        "reasoning_output_tokens": 757,
+        "total_tokens": 476593
+      },
+      "tokens": {
+        "inputTotal": 475200,
+        "inputUncached": 59712,
+        "cachedInputRead": 415488,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 1393,
+        "reasoningOutput": 757,
+        "nonReasoningOutput": 636,
+        "providerTotal": 476593
+      },
+      "method": "measured",
+      "threadId": "codex:9538e8695e417099753c6ac7",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-24-38-019f6c2c-6b1a-7351-99ef-d21bf5a142b4.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "unavailable",
+        "pricing": "unavailable"
+      },
+      "cost": {
+        "inputUncachedUsd": null,
+        "cachedInputReadUsd": null,
+        "cacheWrite5mUsd": null,
+        "cacheWrite1hUsd": null,
+        "outputUsd": null,
+        "totalUsd": null
+      },
+      "pricing": null
+    },
+    {
+      "harness": "codex",
+      "model": "codex-auto-review",
+      "effort": "low",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-27-14-019f6c2e-cec1-7142-876e-11b99ad2b453.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-27-14-019f6c2e-cec1-7142-876e-11b99ad2b453.jsonl",
+      "startedAt": "2026-07-16T18:27:14.869Z",
+      "finishedAt": "2026-07-16T19:04:34.296Z",
+      "rawUsage": {
+        "input_tokens": 2103159,
+        "cached_input_tokens": 1816320,
+        "output_tokens": 2566,
+        "reasoning_output_tokens": 910,
+        "total_tokens": 2105725
+      },
+      "tokens": {
+        "inputTotal": 2103159,
+        "inputUncached": 286839,
+        "cachedInputRead": 1816320,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 2566,
+        "reasoningOutput": 910,
+        "nonReasoningOutput": 1656,
+        "providerTotal": 2105725
+      },
+      "method": "measured",
+      "threadId": "codex:5c2e8f6cf213cd034b1d3acb",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-27-14-019f6c2e-cec1-7142-876e-11b99ad2b453.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "unavailable",
+        "pricing": "unavailable"
+      },
+      "cost": {
+        "inputUncachedUsd": null,
+        "cachedInputReadUsd": null,
+        "cacheWrite5mUsd": null,
+        "cacheWrite1hUsd": null,
+        "outputUsd": null,
+        "totalUsd": null
+      },
+      "pricing": null
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "ultra",
+      "source": "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-35-01-019f6c35-ebfd-79f0-9181-71c31a02a133.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/16/rollout-2026-07-16T19-35-01-019f6c35-ebfd-79f0-9181-71c31a02a133.jsonl",
+      "startedAt": "2026-07-16T18:35:01.128Z",
+      "finishedAt": "2026-07-16T18:40:22.579Z",
+      "rawUsage": {
+        "input_tokens": 7272918,
+        "cached_input_tokens": 6916608,
+        "output_tokens": 52458,
+        "reasoning_output_tokens": 18858,
+        "total_tokens": 7325376
+      },
+      "tokens": {
+        "inputTotal": 7272918,
+        "inputUncached": 356310,
+        "cachedInputRead": 6916608,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 52458,
+        "reasoningOutput": 18858,
+        "nonReasoningOutput": 33600,
+        "providerTotal": 7325376
+      },
+      "method": "measured",
+      "threadId": "codex:1e962afa4d5db1d00d01098f",
+      "classification": "benchmark-run",
+      "runId": "codex-gpt5.6-terra-ultra",
+      "judgeId": null,
+      "sources": [
+        "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-35-01-019f6c35-ebfd-79f0-9181-71c31a02a133.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.890775,
+        "cachedInputReadUsd": 1.729152,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.78687,
+        "totalUsd": 3.406797
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 2.5,
+          "cachedInput": 0.25,
+          "output": 15
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.6-luna",
+      "effort": "high",
+      "source": "~/.codex/sessions/2026/07/17/rollout-2026-07-17T15-28-28-019f707a-8f03-7291-ba2b-db30af57e21d.jsonl",
+      "file": "/Users/ricardojorge/.codex/sessions/2026/07/17/rollout-2026-07-17T15-28-28-019f707a-8f03-7291-ba2b-db30af57e21d.jsonl",
+      "startedAt": "2026-07-17T14:28:28.619Z",
+      "finishedAt": "2026-07-17T15:19:15.884Z",
+      "rawUsage": {
+        "input_tokens": 18024074,
+        "cached_input_tokens": 17292032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 67661,
+        "reasoning_output_tokens": 24334,
+        "total_tokens": 18091735
+      },
+      "tokens": {
+        "inputTotal": 18024074,
+        "inputUncached": 732042,
+        "cachedInputRead": 17292032,
+        "cacheWrite5m": null,
+        "cacheWrite1h": null,
+        "outputTotal": 67661,
+        "reasoningOutput": 24334,
+        "nonReasoningOutput": 43327,
+        "providerTotal": 18091735
+      },
+      "method": "measured",
+      "threadId": "codex:22e134f9f328c134c685283a",
+      "classification": "judge",
+      "runId": null,
+      "judgeId": "judge-codex-gpt5.6-luna-high",
+      "sources": [
+        "~/.codex/sessions/2026/07/17/rollout-2026-07-17T15-28-28-019f707a-8f03-7291-ba2b-db30af57e21d.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.732042,
+        "cachedInputReadUsd": 1.7292032000000002,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.405966,
+        "totalUsd": 2.8672112
+      },
+      "pricing": {
+        "provider": "openai",
+        "per1M": {
+          "input": 1,
+          "cachedInput": 0.1,
+          "output": 6
+        },
+        "effectiveDate": "2026-07-09",
+        "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-haiku-4-5-20251001",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/31a2f6b9-680e-46f5-a50d-4e84f71ec9f1.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/31a2f6b9-680e-46f5-a50d-4e84f71ec9f1.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-16T19:42:32.198Z",
+      "finishedAt": "2026-07-16T19:51:27.184Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 466,
+        "cache_creation_input_tokens": 110551,
+        "cache_read_input_tokens": 4797684,
+        "output_tokens": 35214
+      },
+      "tokens": {
+        "inputTotal": 4908701,
+        "inputUncached": 466,
+        "cachedInputRead": 4797684,
+        "cacheWrite5m": 0,
+        "cacheWrite1h": 110551,
+        "outputTotal": 35214,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 35214,
+        "providerTotal": 4943915
+      },
+      "method": "measured",
+      "threadId": "claude:5b12f0d29631d55dbbc12f87",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/31a2f6b9-680e-46f5-a50d-4e84f71ec9f1.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.000466,
+        "cachedInputReadUsd": 0.47976840000000004,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0.221102,
+        "outputUsd": 0.17607,
+        "totalUsd": 0.8774064000000001
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 1,
+          "output": 5,
+          "cacheWrite5m": 1.25,
+          "cacheWrite1h": 2,
+          "cacheRead": 0.1
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-sonnet-5",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/4706e4fd-10d1-417b-84c1-0a746e826d35.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/4706e4fd-10d1-417b-84c1-0a746e826d35.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-16T19:45:11.491Z",
+      "finishedAt": "2026-07-16T20:13:15.771Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 279,
+        "cache_creation_input_tokens": 231038,
+        "cache_read_input_tokens": 23887870,
+        "output_tokens": 80094
+      },
+      "tokens": {
+        "inputTotal": 24119187,
+        "inputUncached": 279,
+        "cachedInputRead": 23887870,
+        "cacheWrite5m": 0,
+        "cacheWrite1h": 231038,
+        "outputTotal": 80094,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 80094,
+        "providerTotal": 24199281
+      },
+      "method": "measured",
+      "threadId": "claude:5c5565ff202e10a5a8fc1938",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/4706e4fd-10d1-417b-84c1-0a746e826d35.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.000837,
+        "cachedInputReadUsd": 7.166361,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 1.386228,
+        "outputUsd": 1.20141,
+        "totalUsd": 9.754836000000001
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 3,
+          "output": 15,
+          "cacheWrite5m": 3.75,
+          "cacheWrite1h": 6,
+          "cacheRead": 0.3
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-opus-4-8",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/56c90d01-4915-49c7-8d06-df40217e44a7.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/56c90d01-4915-49c7-8d06-df40217e44a7.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-16T20:42:28.207Z",
+      "finishedAt": "2026-07-17T00:57:39.503Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 2727,
+        "cache_creation_input_tokens": 279130,
+        "cache_read_input_tokens": 10068754,
+        "output_tokens": 66871
+      },
+      "tokens": {
+        "inputTotal": 10350611,
+        "inputUncached": 2727,
+        "cachedInputRead": 10068754,
+        "cacheWrite5m": 0,
+        "cacheWrite1h": 279130,
+        "outputTotal": 66871,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 66871,
+        "providerTotal": 10417482
+      },
+      "method": "measured",
+      "threadId": "claude:1f4f4bb01dafba274b42aeb7",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/56c90d01-4915-49c7-8d06-df40217e44a7.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.013635,
+        "cachedInputReadUsd": 5.034377,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 2.7913,
+        "outputUsd": 1.671775,
+        "totalUsd": 9.511087
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 5,
+          "output": 25,
+          "cacheWrite5m": 6.25,
+          "cacheWrite1h": 10,
+          "cacheRead": 0.5
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-sonnet-5",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/67931693-422f-4403-84fd-6a6844da0bad/subagents/agent-a582c62c0058ca0cc.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/67931693-422f-4403-84fd-6a6844da0bad/subagents/agent-a582c62c0058ca0cc.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-16T19:44:14.809Z",
+      "finishedAt": "2026-07-16T19:50:17.325Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 106,
+        "cache_creation_input_tokens": 109415,
+        "cache_read_input_tokens": 3293792,
+        "output_tokens": 13849
+      },
+      "tokens": {
+        "inputTotal": 3403313,
+        "inputUncached": 106,
+        "cachedInputRead": 3293792,
+        "cacheWrite5m": 109415,
+        "cacheWrite1h": 0,
+        "outputTotal": 13849,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 13849,
+        "providerTotal": 3417162
+      },
+      "method": "measured",
+      "threadId": "claude:18fd66475038bfc7281872ed",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/67931693-422f-4403-84fd-6a6844da0bad/subagents/agent-a582c62c0058ca0cc.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.000318,
+        "cachedInputReadUsd": 0.9881376,
+        "cacheWrite5mUsd": 0.41030625,
+        "cacheWrite1hUsd": 0,
+        "outputUsd": 0.207735,
+        "totalUsd": 1.60649685
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 3,
+          "output": 15,
+          "cacheWrite5m": 3.75,
+          "cacheWrite1h": 6,
+          "cacheRead": 0.3
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-sonnet-5",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/67931693-422f-4403-84fd-6a6844da0bad.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/67931693-422f-4403-84fd-6a6844da0bad.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-16T19:43:56.048Z",
+      "finishedAt": "2026-07-16T19:50:25.414Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 6,
+        "cache_creation_input_tokens": 64408,
+        "cache_read_input_tokens": 123541,
+        "output_tokens": 2571
+      },
+      "tokens": {
+        "inputTotal": 187955,
+        "inputUncached": 6,
+        "cachedInputRead": 123541,
+        "cacheWrite5m": 0,
+        "cacheWrite1h": 64408,
+        "outputTotal": 2571,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 2571,
+        "providerTotal": 190526
+      },
+      "method": "measured",
+      "threadId": "claude:a67478694da4b51a7ec34ce4",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/67931693-422f-4403-84fd-6a6844da0bad.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.000018,
+        "cachedInputReadUsd": 0.03706229999999999,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 0.386448,
+        "outputUsd": 0.038565,
+        "totalUsd": 0.46209330000000004
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 3,
+          "output": 15,
+          "cacheWrite5m": 3.75,
+          "cacheWrite1h": 6,
+          "cacheRead": 0.3
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-opus-4-8",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/8d49a15e-5df8-4f62-a633-5e188b44b479.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/8d49a15e-5df8-4f62-a633-5e188b44b479.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-17T13:40:30.487Z",
+      "finishedAt": "2026-07-17T14:07:07.561Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 1396,
+        "cache_creation_input_tokens": 212828,
+        "cache_read_input_tokens": 13158412,
+        "output_tokens": 80880
+      },
+      "tokens": {
+        "inputTotal": 13372636,
+        "inputUncached": 1396,
+        "cachedInputRead": 13158412,
+        "cacheWrite5m": 0,
+        "cacheWrite1h": 212828,
+        "outputTotal": 80880,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 80880,
+        "providerTotal": 13453516
+      },
+      "method": "measured",
+      "threadId": "claude:6f229c8607e0494b5c12d6e3",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/8d49a15e-5df8-4f62-a633-5e188b44b479.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.00698,
+        "cachedInputReadUsd": 6.579206,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 2.12828,
+        "outputUsd": 2.022,
+        "totalUsd": 10.736466000000002
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 5,
+          "output": 25,
+          "cacheWrite5m": 6.25,
+          "cacheWrite1h": 10,
+          "cacheRead": 0.5
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-opus-4-8",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/be7a543b-996f-43f3-b7b8-97af478e7f90.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/be7a543b-996f-43f3-b7b8-97af478e7f90.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-16T20:41:42.926Z",
+      "finishedAt": "2026-07-17T00:51:11.128Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 1165,
+        "cache_creation_input_tokens": 256774,
+        "cache_read_input_tokens": 6663941,
+        "output_tokens": 45202
+      },
+      "tokens": {
+        "inputTotal": 6921880,
+        "inputUncached": 1165,
+        "cachedInputRead": 6663941,
+        "cacheWrite5m": 0,
+        "cacheWrite1h": 256774,
+        "outputTotal": 45202,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 45202,
+        "providerTotal": 6967082
+      },
+      "method": "measured",
+      "threadId": "claude:8e518fb7f99cd21774701897",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/be7a543b-996f-43f3-b7b8-97af478e7f90.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.005825,
+        "cachedInputReadUsd": 3.3319705,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 2.56774,
+        "outputUsd": 1.13005,
+        "totalUsd": 7.035585500000001
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 5,
+          "output": 25,
+          "cacheWrite5m": 6.25,
+          "cacheWrite1h": 10,
+          "cacheRead": 0.5
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-sonnet-5",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/d376fb1a-918c-4421-85a6-94a2dea3e8b9.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/d376fb1a-918c-4421-85a6-94a2dea3e8b9.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-16T19:46:59.698Z",
+      "finishedAt": "2026-07-16T20:29:46.858Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 4470,
+        "cache_creation_input_tokens": 366912,
+        "cache_read_input_tokens": 45557216,
+        "output_tokens": 146647
+      },
+      "tokens": {
+        "inputTotal": 45928598,
+        "inputUncached": 4470,
+        "cachedInputRead": 45557216,
+        "cacheWrite5m": 0,
+        "cacheWrite1h": 366912,
+        "outputTotal": 146647,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 146647,
+        "providerTotal": 46075245
+      },
+      "method": "measured",
+      "threadId": "claude:241ae99f0a7857e23d977ff6",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/d376fb1a-918c-4421-85a6-94a2dea3e8b9.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.01341,
+        "cachedInputReadUsd": 13.667164799999998,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 2.201472,
+        "outputUsd": 2.199705,
+        "totalUsd": 18.0817518
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 3,
+          "output": 15,
+          "cacheWrite5m": 3.75,
+          "cacheWrite1h": 6,
+          "cacheRead": 0.3
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-sonnet-5",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/da1e31f9-1a12-44e2-a76d-9152828742fe.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/da1e31f9-1a12-44e2-a76d-9152828742fe.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-16T19:44:24.940Z",
+      "finishedAt": "2026-07-16T20:08:48.750Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 1531,
+        "cache_creation_input_tokens": 230941,
+        "cache_read_input_tokens": 18609982,
+        "output_tokens": 70024
+      },
+      "tokens": {
+        "inputTotal": 18842454,
+        "inputUncached": 1531,
+        "cachedInputRead": 18609982,
+        "cacheWrite5m": 0,
+        "cacheWrite1h": 230941,
+        "outputTotal": 70024,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 70024,
+        "providerTotal": 18912478
+      },
+      "method": "measured",
+      "threadId": "claude:5564792a24dbf5634c501bb0",
+      "classification": "benchmark-operation",
+      "runId": null,
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/da1e31f9-1a12-44e2-a76d-9152828742fe.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.004593,
+        "cachedInputReadUsd": 5.582994599999999,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 1.385646,
+        "outputUsd": 1.05036,
+        "totalUsd": 8.023593599999998
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 3,
+          "output": 15,
+          "cacheWrite5m": 3.75,
+          "cacheWrite1h": 6,
+          "cacheRead": 0.3
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    },
+    {
+      "harness": "claude",
+      "model": "claude-fable-5",
+      "effort": null,
+      "source": "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/f614bd2d-dd89-44b5-a586-4e95a6818361.jsonl",
+      "file": "/Users/ricardojorge/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/f614bd2d-dd89-44b5-a586-4e95a6818361.jsonl",
+      "threadSuffix": "",
+      "startedAt": "2026-07-17T00:48:15.644Z",
+      "finishedAt": "2026-07-17T01:11:25.504Z",
+      "rawUsage": {
+        "messages": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "input_tokens": 151,
+        "cache_creation_input_tokens": 209394,
+        "cache_read_input_tokens": 10652564,
+        "output_tokens": 64829
+      },
+      "tokens": {
+        "inputTotal": 10862109,
+        "inputUncached": 151,
+        "cachedInputRead": 10652564,
+        "cacheWrite5m": 0,
+        "cacheWrite1h": 209394,
+        "outputTotal": 64829,
+        "reasoningOutput": null,
+        "nonReasoningOutput": 64829,
+        "providerTotal": 10926938
+      },
+      "method": "measured",
+      "threadId": "claude:81431e443cc951af5e9aa1eb",
+      "classification": "benchmark-run",
+      "runId": "claude-fable5-high",
+      "judgeId": null,
+      "sources": [
+        "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/f614bd2d-dd89-44b5-a586-4e95a6818361.jsonl"
+      ],
+      "fieldProvenance": {
+        "tokens": "measured",
+        "cost": "derived",
+        "pricing": "reported"
+      },
+      "cost": {
+        "inputUncachedUsd": 0.00151,
+        "cachedInputReadUsd": 10.652564,
+        "cacheWrite5mUsd": 0,
+        "cacheWrite1hUsd": 4.18788,
+        "outputUsd": 3.24145,
+        "totalUsd": 18.083403999999998
+      },
+      "pricing": {
+        "provider": "anthropic",
+        "per1M": {
+          "input": 10,
+          "output": 50,
+          "cacheWrite5m": 12.5,
+          "cacheWrite1h": 20,
+          "cacheRead": 1
+        },
+        "effectiveDate": "2026-06-24",
+        "sourceUrl": "https://platform.claude.com/docs/en/pricing",
+        "verifiedAt": "2026-07-13"
+      }
+    }
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-17-03-019f6bee-8cb3-7991-a68f-26a5153bb47d.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-18-10-019f6bef-918f-75a0-b615-f4efa6089aa9.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-18-33-019f6bef-ec9a-7c12-9743-40b722684fae.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-19-01-019f6bf0-5914-7292-a9cb-1a26cad1699a.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-19-30-019f6bf0-cbf4-70b2-86c3-e6ef13ab0d9b.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-20-29-019f6bf1-b1af-70a1-b5c7-c7ea3927c87a.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-20-54-019f6bf2-1407-7743-bd21-199f0b992c7f.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-21-24-019f6bf2-88bd-74c0-9d3c-2544db5eaf7b.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-25-20-019f6bf6-22d4-7933-81ce-9e50ba4184d4.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-34-11-019f6bfe-3b1c-74f2-9a66-e6eb1da7c122.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-34-37-019f6bfe-a351-7540-a90d-2491eed908b8.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-35-00-019f6bfe-fc94-7fc1-8965-6db87a226d58.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-35-57-019f6bff-d89b-7032-9459-275dd0c7f519.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-36-36-019f6c00-738e-7cc0-ab27-418dd30071be.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-37-05-019f6c00-e39a-7231-b04d-5e2bd5706448.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-37-23-019f6c01-2a00-7e63-86a5-e47f1ed213ef.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-39-39-019f6c03-3c02-7422-b506-4a6cf500f836.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-02-019f6c03-9630-7ec3-bffd-bfd2af35ed30.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-22-019f6c03-e696-73e3-898d-a9a0b2e87582.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-40-45-019f6c04-3ef2-7111-987b-28365663267d.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-00-019f6c06-4cf1-7233-8e95-552da0fcdc76.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-21-019f6c06-9ecd-7e82-b515-03c890b6e5b3.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-49-019f6c07-0f3e-7d60-85c4-3c685f5743db.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-44-11-019f6c07-6544-7450-a837-3a595a210e95.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-11-50-019f6c20-b517-73c3-a828-dca994832ead.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-02-019f6c20-e4db-7d00-b9c0-45641c54227c.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-07-019f6c20-f6ac-7fe0-81c2-67ef59f848aa.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-10-019f6c21-01af-7800-9aa7-0fb71f704e16.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-24-019f6c21-395f-7700-952e-93c78ed5721c.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-50-019f6c21-9d39-7183-bc98-09c983eb3930.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-53-019f6c21-aac8-7bc0-8fc7-dcda20b3d931.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-58-019f6c21-bca9-7a82-96d7-09507fe2d4d3.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-24-38-019f6c2c-6b1a-7351-99ef-d21bf5a142b4.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-27-14-019f6c2e-cec1-7142-876e-11b99ad2b453.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-35-01-019f6c35-ebfd-79f0-9181-71c31a02a133.jsonl",
+      "~/.codex/sessions/2026/07/17/rollout-2026-07-17T15-28-28-019f707a-8f03-7291-ba2b-db30af57e21d.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/31a2f6b9-680e-46f5-a50d-4e84f71ec9f1.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/4706e4fd-10d1-417b-84c1-0a746e826d35.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/56c90d01-4915-49c7-8d06-df40217e44a7.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/67931693-422f-4403-84fd-6a6844da0bad/subagents/agent-a582c62c0058ca0cc.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/67931693-422f-4403-84fd-6a6844da0bad.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/8d49a15e-5df8-4f62-a633-5e188b44b479.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/be7a543b-996f-43f3-b7b8-97af478e7f90.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/d376fb1a-918c-4421-85a6-94a2dea3e8b9.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/da1e31f9-1a12-44e2-a76d-9152828742fe.jsonl",
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/f614bd2d-dd89-44b5-a586-4e95a6818361.jsonl"
+    ]
+  }
+}

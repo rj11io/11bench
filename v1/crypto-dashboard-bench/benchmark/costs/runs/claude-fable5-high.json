@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:claude-fable5-high",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "id": "claude-fable5-high",
+  "harness": "claude",
+  "model": "claude-fable-5",
+  "effort": "high",
+  "tokens": 28400138,
+  "inputTokens": 28273017,
+  "outputTokens": 127121,
+  "costUsd": 43.338413,
+  "cacheHitRate": 0.9999020620968749,
+  "wallTimeMinutes": 450.9133166666667,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "claude:b2d27c32eeef943a35459b33"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-crypto-dashboard-bench/bd433385-ffc7-4f53-a42e-5ea7a812a7b5.jsonl"
+    ]
+  }
+}

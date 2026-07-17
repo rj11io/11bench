@@ -5,6 +5,7 @@ import { GitHubIcon } from "@/components/site/github-icon"
 import { TerminalBlock } from "@/components/site/terminal-block"
 import {
   formatUsd,
+  formatTokens,
   getBenchmarks,
   getRepoMeta,
   getRepoPitch,
@@ -19,12 +20,15 @@ export default function Page() {
 
   const allRuns = benchmarks
     .flatMap((benchmark) => benchmark.runs)
-    .sort((a, b) => b.costUsd - a.costUsd)
+    .filter((run) => run.costUsd != null)
+    .sort((a, b) => (b.costUsd ?? 0) - (a.costUsd ?? 0))
   const priciest = allRuns[0]
   const cheapest = allRuns[allRuns.length - 1]
+  const priciestCost = priciest?.costUsd ?? 0
+  const cheapestCost = cheapest?.costUsd ?? 0
   const spread =
-    priciest && cheapest && cheapest.costUsd > 0
-      ? Math.round(priciest.costUsd / cheapest.costUsd)
+    priciest && cheapest && cheapestCost > 0
+      ? Math.round(priciestCost / cheapestCost)
       : null
   const cacheRates = allRuns
     .map((run) => run.cacheHitRate)
@@ -41,6 +45,7 @@ export default function Page() {
             meta.version ? `v${meta.version}` : null,
             `${totals.benchmarks} ${totals.benchmarks === 1 ? "benchmark" : "benchmarks"}`,
             `${totals.runs} measured runs`,
+            totals.runTokens > 0 ? `${formatTokens(totals.runTokens)} tokens` : null,
             totals.runCostUsd > 0 ? `${formatUsd(totals.runCostUsd)} spent` : null,
           ]
             .filter((stat): stat is string => stat != null)
@@ -161,6 +166,11 @@ export default function Page() {
                         {formatUsd(benchmark.totalRunCostUsd)} spent
                       </span>
                     ) : null}
+                    {benchmark.totalRunTokens != null ? (
+                      <span className="border-border rounded-full border px-2 py-0.5">
+                        {formatTokens(benchmark.totalRunTokens)} tokens
+                      </span>
+                    ) : null}
                   </>
                 ) : (
                   <span className="border-border rounded-full border px-2 py-0.5">
@@ -223,7 +233,7 @@ export default function Page() {
                       <div
                         className="bg-foreground/70 h-full rounded-full"
                         style={{
-                          width: `${Math.max((run.costUsd / priciest.costUsd) * 100, 2)}%`,
+                          width: `${Math.max(((run.costUsd ?? 0) / priciestCost) * 100, 2)}%`,
                         }}
                       />
                     </div>

@@ -1,1 +1,844 @@
-[]
+{
+  "schemaVersion": 2,
+  "artifactId": "runs:cyber-dashboard-bench",
+  "status": "complete",
+  "runs": [
+    {
+      "id": "claude-fable5-high",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "claude-fable5",
+      "provider": "anthropic",
+      "effort": "high",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/claude-fable5-high",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "cf7b7ac9aa87520c0d344950a6c253eeade10702a7d59f3c87ae339766f53c4e",
+      "promptVariables": {
+        "RUN_ID": "claude-fable5-high"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/claude-fable5-high",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 25888056,
+      "costUsd": 36.633948000000004,
+      "wallTimeMinutes": 42.351333333333336,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "claude-haiku4.5",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "claude-haiku4.5",
+      "provider": "anthropic",
+      "effort": null,
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/claude-haiku4.5",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "201a055bb3288c847a855abedd4c486e188b5d081235730e264cc6847ae8e0a2",
+      "promptVariables": {
+        "RUN_ID": "claude-haiku4.5"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/claude-haiku4.5",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      }
+    },
+    {
+      "id": "codex-gpt5.4-high",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.4",
+      "provider": "openai",
+      "effort": "high",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.4-high",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "db2e9b601ba7934c7bb5975bcf58bd005820d20f898777073d53c225b363398e",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4-high"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.4-high",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 1551439,
+      "costUsd": 1.407603,
+      "wallTimeMinutes": 14.144266666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4-light",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.4",
+      "provider": "openai",
+      "effort": "light",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.4-light",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "2af1c63863c69c7c33dc299562af039a38b0681e808f0eda781e5c762ede0a66",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4-light"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.4-light",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 507461,
+      "costUsd": 0.657381,
+      "wallTimeMinutes": 6.872283333333334,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4-medium",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.4",
+      "provider": "openai",
+      "effort": "medium",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.4-medium",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "77ee4853bda846a94b2c584892744ceff95c52fcfd79ee86bf49467d90b8d024",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4-medium"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.4-medium",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 868899,
+      "costUsd": 1.0977675,
+      "wallTimeMinutes": 11.23435,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4-xhigh",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.4",
+      "provider": "openai",
+      "effort": "xhigh",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.4-xhigh",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "db7eb38ebcd74cc8097cbb7e5f6a66afcceb882197145bf842967efc33c7d3d4",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4-xhigh"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.4-xhigh",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 7976653,
+      "costUsd": 3.9106935,
+      "wallTimeMinutes": 29.4326,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4mini-high",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.4mini",
+      "provider": "openai",
+      "effort": "high",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.4mini-high",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "0ace6920285e92d22c5941aa1d407cbcdb556c07c5924dc8880fb2f11933fd33",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4mini-high"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.4mini-high",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 6205320,
+      "costUsd": 0.9299027999999999,
+      "wallTimeMinutes": 19.529166666666665,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4mini-light",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.4mini",
+      "provider": "openai",
+      "effort": "light",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.4mini-light",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "e5881c4149a57cc161f245da06baeca47a84c04d3d9f3ee230e6d3eae362d7b9",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4mini-light"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.4mini-light",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 857046,
+      "costUsd": 0.27470819999999996,
+      "wallTimeMinutes": 6.362016666666666,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4mini-medium",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.4mini",
+      "provider": "openai",
+      "effort": "medium",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.4mini-medium",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "e8b6e9db579314f43f997d49d78bb4895a24ee717a55682e10370e8990ba7179",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4mini-medium"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.4mini-medium",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 2418556,
+      "costUsd": 0.6278571000000001,
+      "wallTimeMinutes": 13.576883333333333,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.4mini-xhigh",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.4mini",
+      "provider": "openai",
+      "effort": "xhigh",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.4mini-xhigh",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "3f091657c85ca27034d3d4fcc6b5995a88ed5fdaec9276db26499c84a68340a4",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.4mini-xhigh"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.4mini-xhigh",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 6309639,
+      "costUsd": 1.51378425,
+      "wallTimeMinutes": 41.58305,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.5-high",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.5",
+      "provider": "openai",
+      "effort": "high",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.5-high",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "08dd2dc5cccd0f97bd3a330ad921c8d194e039bb4984820f0dbea0475066851e",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.5-high"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.5-high",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 4104413,
+      "costUsd": 4.868553,
+      "wallTimeMinutes": 15.57245,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.5-light",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.5",
+      "provider": "openai",
+      "effort": "light",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.5-light",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "ac17fe419f496524b7460abd37af04a041119eeb0b2d05d49baf8c0f47ee6063",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.5-light"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.5-light",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 978083,
+      "costUsd": 1.2996510000000001,
+      "wallTimeMinutes": 7.200333333333333,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.5-medium",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.5",
+      "provider": "openai",
+      "effort": "medium",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.5-medium",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "284af59bef618b94142358386e5989f405cf86451f90070a7e86bb7cbd2d48b5",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.5-medium"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.5-medium",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 2609319,
+      "costUsd": 2.6015040000000003,
+      "wallTimeMinutes": 10.625816666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.5-xhigh",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.5",
+      "provider": "openai",
+      "effort": "xhigh",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.5-xhigh",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "cd1d384fb7d5f7730fe6f692d684e23cd8c91e8773898d8fac25133e905224ce",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.5-xhigh"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.5-xhigh",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 5258154,
+      "costUsd": 5.965456,
+      "wallTimeMinutes": 19.51171666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-luna-high",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-luna",
+      "provider": "openai",
+      "effort": "high",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-luna-high",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "19d7ae0b6f77d49aeb96b25a0ea0981b0889aa0558583d2977ec03af16f79c2d",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-luna-high"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-luna-high",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 8590941,
+      "costUsd": 1.4446954,
+      "wallTimeMinutes": 22.89155,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-luna-light",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-luna",
+      "provider": "openai",
+      "effort": "light",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-luna-light",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "80037f64c7cc73ada2a17c6fc814b2f2d369fd33a0e00c97b2bc0606b5f1c8fc",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-luna-light"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-luna-light",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 649183,
+      "costUsd": 0.2438362,
+      "wallTimeMinutes": 6.94175,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-luna-medium",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-luna",
+      "provider": "openai",
+      "effort": "medium",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-luna-medium",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "ed23edebebd29f77fed505bd5ad1b1be8b5030e1ee4ca162bda619c4ade09816",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-luna-medium"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-luna-medium",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 1565677,
+      "costUsd": 0.3931538,
+      "wallTimeMinutes": 8.998516666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-luna-xhigh",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-luna",
+      "provider": "openai",
+      "effort": "xhigh",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-luna-xhigh",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "fa955ecea9494a98533429c3709fd606b2612fe55f91b4d7b8b5dc2755171088",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-luna-xhigh"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-luna-xhigh",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 7637625,
+      "costUsd": 1.8695082000000003,
+      "wallTimeMinutes": 25.010533333333335,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-sol-high",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-sol",
+      "provider": "openai",
+      "effort": "high",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-sol-high",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "49f81e2a0d163d9a7802a525d5342a79b82c0b015adabfea7fd7d0cf205d5801",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-sol-high"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-sol-high",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 10153732,
+      "costUsd": 9.224076,
+      "wallTimeMinutes": 20.996216666666665,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-sol-light",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-sol",
+      "provider": "openai",
+      "effort": "light",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-sol-light",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "33bda060c11af6d50c851c4bc55ca3702ef5336454e56cf67d48ac8407dcc1bb",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-sol-light"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-sol-light",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 1219639,
+      "costUsd": 1.612671,
+      "wallTimeMinutes": 8.099966666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-sol-medium",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-sol",
+      "provider": "openai",
+      "effort": "medium",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-sol-medium",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "88c4ac9ce2fd8804a326b7de83df0eed02a135b40d5ded1c6d4a72273012b591",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-sol-medium"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-sol-medium",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 4767639,
+      "costUsd": 5.251648,
+      "wallTimeMinutes": 16.551516666666668,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-sol-xhigh",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-sol",
+      "provider": "openai",
+      "effort": "xhigh",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-sol-xhigh",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "2f5b3038ee13efe4a062220172046a8f01fd228483f5cbee3ce93003a4ced429",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-sol-xhigh"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-sol-xhigh",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 10157975,
+      "costUsd": 9.879552,
+      "wallTimeMinutes": 32.46875,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-terra-high",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-terra",
+      "provider": "openai",
+      "effort": "high",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-terra-high",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "4020cbae516b5afdafea5c26e6e9c3250ce29d874c4628a4f4a4598779190624",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-terra-high"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-terra-high",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 985881,
+      "costUsd": 0.646057,
+      "wallTimeMinutes": 5.73315,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-terra-light",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-terra",
+      "provider": "openai",
+      "effort": "light",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-terra-light",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "d3b5cfe11d3cbb594d46222e988ba4d8de96e45ca98b293f85e5e677e2fa43ba",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-terra-light"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-terra-light",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 604831,
+      "costUsd": 0.43459800000000004,
+      "wallTimeMinutes": 4.238816666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-terra-medium",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-terra",
+      "provider": "openai",
+      "effort": "medium",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-terra-medium",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "4ad3c6da94bae9f93b41509a3e9aa30c859b30e5156ea60cc3936cebae50e17d",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-terra-medium"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-terra-medium",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 766230,
+      "costUsd": 0.5734144999999999,
+      "wallTimeMinutes": 5.5477,
+      "accountingSource": "benchmark/costs/accounting.json"
+    },
+    {
+      "id": "codex-gpt5.6-terra-xhigh",
+      "status": "complete",
+      "harness": "recovered-existing-run",
+      "harnessVersion": null,
+      "model": "codex-gpt5.6-terra",
+      "provider": "openai",
+      "effort": "xhigh",
+      "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+      "runRef": "app/codex-gpt5.6-terra-xhigh",
+      "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+      "promptInstanceSha": "893076dd6da8301329de186defac495205bad2e9f33e18ca9d866e8c25803786",
+      "promptVariables": {
+        "RUN_ID": "codex-gpt5.6-terra-xhigh"
+      },
+      "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+      "startedAt": "2026-07-17T10:41:45+01:00",
+      "finishedAt": "2026-07-17T10:41:45+01:00",
+      "metadata": {
+        "recoveredFrom": "app/codex-gpt5.6-terra-xhigh",
+        "provenance": "inferred-from-committed-run-folder",
+        "requiredArtifacts": [
+          "research.md",
+          "prd.md",
+          "design.md"
+        ]
+      },
+      "tokens": 2413448,
+      "costUsd": 1.4557655,
+      "wallTimeMinutes": 14.552516666666667,
+      "accountingSource": "benchmark/costs/accounting.json"
+    }
+  ],
+  "provenance": {
+    "producer": "11ai-benchmark-initialize",
+    "method": "inferred",
+    "sources": [
+      "PROMPT.md",
+      "app/*",
+      "git history"
+    ]
+  }
+}

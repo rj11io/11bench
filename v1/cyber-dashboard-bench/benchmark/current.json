@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "current:cyber-dashboard-bench-v1",
+  "status": "complete",
+  "benchmarkId": "cyber-dashboard-bench-v1",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "releaseType": "interim",
+  "publicationSequence": 2,
+  "reviewSourceDigest": "b9e55f9a25cf102dddd18464b2c01dbc3b3bcbe653898ecbbb2ce7cf2b4f7dec",
+  "updatedAt": "2026-07-17T15:01:54.257Z"
+}

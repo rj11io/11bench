@@ -10,8 +10,9 @@ import path from "node:path"
 export type RunCost = {
   id: string
   harness: string
-  costUsd: number
-  tokens: number
+  model?: string | null
+  costUsd: number | null
+  tokens: number | null
   cacheHitRate: number | null
   wallTimeMinutes: number | null
   ranAt: string | null
@@ -26,6 +27,7 @@ export type Benchmark = {
   githubPath: string
   runs: RunCost[]
   totalRunCostUsd: number | null
+  totalRunTokens: number | null
 }
 
 export type RepoMeta = {
@@ -119,8 +121,8 @@ function parseDeployedUrl(readme: string): string | null {
 }
 
 type SummaryRun = {
-  costUsd?: number
-  tokens?: number
+  costUsd?: number | null
+  tokens?: number | null
   kind?: string
   harness?: string
   cacheHitRate?: number
@@ -139,21 +141,25 @@ function parseRuns(benchmarkDir: string): RunCost[] {
   )
   if (!raw) return []
   try {
-    const summary = JSON.parse(raw) as { runs?: Record<string, SummaryRun> }
-    return Object.entries(summary.runs ?? {})
-      .filter(([, run]) => run.kind === "benchmark-run")
+    const summary = JSON.parse(raw) as { runs?: Record<string, SummaryRun> | Array<SummaryRun & { id: string }> }
+    const entries = Array.isArray(summary.runs)
+      ? summary.runs.map((run) => [run.id, run] as const)
+      : Object.entries(summary.runs ?? {})
+    return entries
+      .filter(([, run]) => !((run as SummaryRun).kind) || (run as SummaryRun).kind === "benchmark-run")
       .map(([id, run]) => ({
         id,
         harness: run.harness ?? "unknown",
-        costUsd: typeof run.costUsd === "number" ? run.costUsd : 0,
-        tokens: typeof run.tokens === "number" ? run.tokens : 0,
+        model: (run as SummaryRun & { model?: string | null }).model ?? null,
+        costUsd: typeof run.costUsd === "number" ? run.costUsd : null,
+        tokens: typeof run.tokens === "number" ? run.tokens : null,
         cacheHitRate:
           typeof run.cacheHitRate === "number" ? run.cacheHitRate : null,
         wallTimeMinutes:
           typeof run.wallTimeMinutes === "number" ? run.wallTimeMinutes : null,
         ranAt: typeof run.ranAt === "string" ? run.ranAt : null,
       }))
-      .sort((a, b) => b.costUsd - a.costUsd)
+      .sort((a, b) => (b.costUsd ?? -1) - (a.costUsd ?? -1))
   } catch {
     return []
   }
@@ -190,9 +196,12 @@ export function getBenchmarks(): Benchmark[] {
           githubPath: `v1/${entry.name}`,
           runs,
           totalRunCostUsd:
-            runs.length > 0
-              ? runs.reduce((sum, run) => sum + run.costUsd, 0)
+            runs.some((run) => run.costUsd != null)
+              ? runs.reduce((sum, run) => sum + (run.costUsd ?? 0), 0)
               : null,
+          totalRunTokens: runs.some((run) => run.tokens != null)
+            ? runs.reduce((sum, run) => sum + (run.tokens ?? 0), 0)
+            : null,
         },
       ]
     })
@@ -207,6 +216,7 @@ export type Totals = {
   benchmarks: number
   runs: number
   runCostUsd: number
+  runTokens: number
 }
 
 export function getTotals(): Totals {
@@ -215,12 +225,20 @@ export function getTotals(): Totals {
   return {
     benchmarks: benchmarks.length,
     runs: runs.length,
-    runCostUsd: runs.reduce((sum, run) => sum + run.costUsd, 0),
+    runCostUsd: runs.reduce((sum, run) => sum + (run.costUsd ?? 0), 0),
+    runTokens: runs.reduce((sum, run) => sum + (run.tokens ?? 0), 0),
   }
 }
 
-export function formatUsd(value: number): string {
-  return `$${value.toFixed(2)}`
+export function formatUsd(value: number | null): string {
+  return value == null ? "—" : `$${value.toFixed(2)}`
+}
+
+export function formatTokens(value: number | null): string {
+  if (value == null) return "—"
+  if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(2)}M`
+  if (value >= 1_000) return `${Math.round(value / 1_000)}k`
+  return value.toLocaleString("en-US")
 }
 
 export function formatDate(iso: string | null): string {

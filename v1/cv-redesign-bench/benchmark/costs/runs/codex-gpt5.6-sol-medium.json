@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-gpt5.6-sol-medium",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "id": "codex-gpt5.6-sol-medium",
+  "harness": "unknown",
+  "model": "gpt-5.6-sol",
+  "effort": null,
+  "tokens": 6492329,
+  "inputTokens": 6457765,
+  "outputTokens": 34564,
+  "costUsd": 5.417393000000001,
+  "cacheHitRate": 0.960371893371778,
+  "wallTimeMinutes": 14.051016666666667,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "codex:0f6704cbb6b1a68aafc00aff"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T18-43-21-019f6c06-9ecd-7e82-b515-03c890b6e5b3.jsonl"
+    ]
+  }
+}

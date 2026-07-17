@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "run-plan:crypto-dashboard-bench-v1",
+  "status": "complete",
+  "benchmarkId": "crypto-dashboard-bench-v1",
+  "campaignStatus": "open",
+  "closurePolicy": "manual",
+  "campaignRevision": 1,
+  "targets": [],
+  "latestInterimCycleId": "cycle-1",
+  "finalCycleId": null,
+  "hardClosedAt": null,
+  "hardCloseWaiver": null,
+  "provenance": {
+    "producer": "finalize-cycle.mjs",
+    "method": "reported",
+    "sources": []
+  }
+}

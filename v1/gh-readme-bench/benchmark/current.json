@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "current:gh-readme-bench-v1",
+  "status": "complete",
+  "benchmarkId": "gh-readme-bench-v1",
+  "cycleId": "cycle-1",
+  "releaseType": "interim",
+  "publicationSequence": 1,
+  "reviewSourceDigest": "566c2aa6824fc33244da180001d8f0800639a7e6262f47d8b8b90d1d3345d287",
+  "updatedAt": "2026-07-17T15:06:09.417Z"
+}

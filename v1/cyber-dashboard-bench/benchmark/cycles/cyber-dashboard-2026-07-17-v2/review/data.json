@@ -1,0 +1,5362 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "review:cyber-dashboard-2026-07-17-v2",
+  "status": "complete",
+  "sourceDigest": "b9e55f9a25cf102dddd18464b2c01dbc3b3bcbe653898ecbbb2ce7cf2b4f7dec",
+  "generatedAt": "2026-07-17T14:59:57.576Z",
+  "benchmark": {
+    "schemaVersion": 2,
+    "artifactId": "benchmark-config:cyber-dashboard-bench",
+    "status": "complete",
+    "benchmarkId": "cyber-dashboard-bench-v1",
+    "mode": "single-app",
+    "runStrategy": "folder",
+    "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+    "dependencyPolicy": {
+      "mode": "frozen",
+      "allow": []
+    },
+    "contentMode": "static",
+    "evidenceSurfaces": [
+      "desktop-1440x900",
+      "mobile-375x812"
+    ],
+    "canonicalUrls": {
+      "runRoute": "/{runId}"
+    },
+    "provenance": {
+      "producer": "11ai-benchmark-initialize",
+      "method": "inferred",
+      "sources": [
+        "PROMPT.md",
+        "benchmark/rubric.md",
+        "package.json"
+      ]
+    },
+    "rubric": {
+      "version": "v1",
+      "sha": "b8a1a2619d2e13f8f590ca16e6ad50f185dd0b9f53062a539056ebbe2fbe1a44"
+    },
+    "objective": "Benchmark end-to-end cybersecurity product research, definition, design, and frontend execution.",
+    "frozenPromptSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73"
+  },
+  "cycle": {
+    "schemaVersion": 2,
+    "artifactId": "cycle:cyber-dashboard-bench-v1:cyber-dashboard-2026-07-17-v2",
+    "status": "collecting",
+    "cycleId": "cyber-dashboard-2026-07-17-v2",
+    "benchmarkId": "cyber-dashboard-bench-v1",
+    "releaseType": "interim",
+    "publicationSequence": 2,
+    "previousCycleId": "cyber-dashboard-2026-07-17",
+    "runIds": [
+      "claude-fable5-high",
+      "codex-gpt5.4-high",
+      "codex-gpt5.4-light",
+      "codex-gpt5.4-medium",
+      "codex-gpt5.4-xhigh",
+      "codex-gpt5.4mini-high",
+      "codex-gpt5.4mini-light",
+      "codex-gpt5.4mini-medium",
+      "codex-gpt5.5-high",
+      "codex-gpt5.5-light",
+      "codex-gpt5.5-medium",
+      "codex-gpt5.5-xhigh",
+      "codex-gpt5.6-luna-high",
+      "codex-gpt5.6-luna-light",
+      "codex-gpt5.6-luna-medium",
+      "codex-gpt5.6-luna-xhigh",
+      "codex-gpt5.6-sol-high",
+      "codex-gpt5.6-sol-light",
+      "codex-gpt5.6-sol-medium",
+      "codex-gpt5.6-sol-xhigh",
+      "codex-gpt5.6-terra-high",
+      "codex-gpt5.6-terra-light",
+      "codex-gpt5.6-terra-medium",
+      "codex-gpt5.6-terra-xhigh"
+    ],
+    "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+    "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+    "rubricSha": "b8a1a2619d2e13f8f590ca16e6ad50f185dd0b9f53062a539056ebbe2fbe1a44",
+    "rubricVersion": "v1",
+    "evidenceSurfaces": [
+      "desktop-1440x900",
+      "mobile-375x812"
+    ],
+    "coverageSnapshot": {
+      "planned": 0,
+      "complete": 0,
+      "timeGated": 0,
+      "failed": 0,
+      "excluded": 0,
+      "includedRunIds": [
+        "claude-fable5-high",
+        "codex-gpt5.4-high",
+        "codex-gpt5.4-light",
+        "codex-gpt5.4-medium",
+        "codex-gpt5.4-xhigh",
+        "codex-gpt5.4mini-high",
+        "codex-gpt5.4mini-light",
+        "codex-gpt5.4mini-medium",
+        "codex-gpt5.5-high",
+        "codex-gpt5.5-light",
+        "codex-gpt5.5-medium",
+        "codex-gpt5.5-xhigh",
+        "codex-gpt5.6-luna-high",
+        "codex-gpt5.6-luna-light",
+        "codex-gpt5.6-luna-medium",
+        "codex-gpt5.6-luna-xhigh",
+        "codex-gpt5.6-sol-high",
+        "codex-gpt5.6-sol-light",
+        "codex-gpt5.6-sol-medium",
+        "codex-gpt5.6-sol-xhigh",
+        "codex-gpt5.6-terra-high",
+        "codex-gpt5.6-terra-light",
+        "codex-gpt5.6-terra-medium",
+        "codex-gpt5.6-terra-xhigh"
+      ],
+      "targetIds": [],
+      "waiver": null
+    },
+    "sourceDigest": "f03f940c1f52c955842f0f499f1592c6a5fec35e862db57283af46dd75699469",
+    "createdAt": "2026-07-17T14:44:51.688Z",
+    "reviewedAt": "2026-07-17T14:59:57.577Z",
+    "publishedAt": null,
+    "sourceFiles": [
+      "benchmark/benchmark.json",
+      "benchmark/rubric.json",
+      "benchmark/runs.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/cycle.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/judging/evidence.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/judging/judges/judge-codex-gpt5.6-luna-high.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/judging/aggregate.json",
+      "benchmark/costs/accounting.json"
+    ]
+  },
+  "lifecycle": {
+    "campaignStatus": "open",
+    "releaseType": "interim",
+    "publicationSequence": 2,
+    "closurePolicy": "manual",
+    "coverage": {
+      "planned": 0,
+      "complete": 0,
+      "timeGated": 0,
+      "failed": 0,
+      "excluded": 0,
+      "includedRunIds": [
+        "claude-fable5-high",
+        "codex-gpt5.4-high",
+        "codex-gpt5.4-light",
+        "codex-gpt5.4-medium",
+        "codex-gpt5.4-xhigh",
+        "codex-gpt5.4mini-high",
+        "codex-gpt5.4mini-light",
+        "codex-gpt5.4mini-medium",
+        "codex-gpt5.5-high",
+        "codex-gpt5.5-light",
+        "codex-gpt5.5-medium",
+        "codex-gpt5.5-xhigh",
+        "codex-gpt5.6-luna-high",
+        "codex-gpt5.6-luna-light",
+        "codex-gpt5.6-luna-medium",
+        "codex-gpt5.6-luna-xhigh",
+        "codex-gpt5.6-sol-high",
+        "codex-gpt5.6-sol-light",
+        "codex-gpt5.6-sol-medium",
+        "codex-gpt5.6-sol-xhigh",
+        "codex-gpt5.6-terra-high",
+        "codex-gpt5.6-terra-light",
+        "codex-gpt5.6-terra-medium",
+        "codex-gpt5.6-terra-xhigh"
+      ],
+      "targetIds": [],
+      "waiver": null
+    },
+    "latestCycleId": "cyber-dashboard-2026-07-17-v2",
+    "nextStage": "interim-published-open"
+  },
+  "gate": {
+    "pass": true,
+    "checks": [
+      {
+        "id": "configuration-and-cycle",
+        "status": "pass",
+        "detail": "Configuration, frozen cycle membership, release sequence, hashes, and IDs are valid."
+      },
+      {
+        "id": "run-and-audit-coverage",
+        "status": "pass",
+        "detail": "All 24 included runs are complete and have passing required audits; 2 completed runs remain excluded for rendering failures."
+      },
+      {
+        "id": "rubric-and-judging",
+        "status": "pass",
+        "detail": "Frozen rubric, anonymized evidence, exact judge prompt hashes, one complete AI judge, and deterministic aggregate agree."
+      },
+      {
+        "id": "evidence",
+        "status": "pass",
+        "detail": "Desktop 1440x900 and mobile 375x812 evidence exists for every included run; runtime metadata is preserved."
+      },
+      {
+        "id": "accounting",
+        "status": "pass",
+        "detail": "Two classified publication-scope threads reconcile; harness token and cost counters are unavailable and remain null."
+      },
+      {
+        "id": "publication-metadata",
+        "status": "pass",
+        "detail": "Interim release sequence, previous cycle link, canonical run route, report paths, and campaign-open status are present."
+      }
+    ],
+    "warnings": [
+      "Token/cost accounting is structurally reconciled but unavailable because no harness transcript or stable session accounting record was exposed in the workspace.",
+      "Aggregate contains one AI judge; no human judge or multi-judge dispersion is available.",
+      "External deployment/publication is unavailable and is not attempted."
+    ]
+  },
+  "runs": [
+    {
+      "runId": "claude-fable5-high",
+      "anonymizedAs": "run-18",
+      "run": {
+        "id": "claude-fable5-high",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "claude-fable5",
+        "provider": "anthropic",
+        "effort": "high",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/claude-fable5-high",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "cf7b7ac9aa87520c0d344950a6c253eeade10702a7d59f3c87ae339766f53c4e",
+        "promptVariables": {
+          "RUN_ID": "claude-fable5-high"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/claude-fable5-high",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 25888056,
+        "costUsd": 36.633948000000004,
+        "wallTimeMinutes": 42.351333333333336
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "339f44f406fd83c15e19889f50c4ec415ed2ee802225c3d199ce872d3f98165d",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-18/desktop.png",
+            "sha256": "a0d15acb06e6caba326cc95f5ea64f21b13e1992f6b9f21794faa1942d6747b2",
+            "bytes": 130417,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-18/mobile.png",
+            "sha256": "b619ce2762902cc25658fcd8f1794427f71e54958c40b5ca414f713bede1260b",
+            "bytes": 157224,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-18",
+        "dimensions": {
+          "research-rigor": 8,
+          "product-strategy": 8,
+          "design-coherence": 7,
+          "cybersecurity-fitness": 8,
+          "information-design": 8,
+          "frontend-craft": 7
+        },
+        "total": 7.7,
+        "holisticMedianRank": 17,
+        "holisticBorda": 7,
+        "dispersion": {
+          "research-rigor": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          }
+        },
+        "rank": 17,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "claude-fable5-high",
+        "harness": "recovered-existing-run",
+        "model": "claude-fable-5",
+        "effort": "high",
+        "tokens": 25888056,
+        "inputTokens": 25766984,
+        "outputTokens": 121072,
+        "costUsd": 36.633948000000004,
+        "cacheHitRate": 0.9999011137663608,
+        "wallTimeMinutes": 42.351333333333336,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 25888056,
+        "input": 25766984,
+        "output": 121072
+      }
+    },
+    {
+      "runId": "codex-gpt5.4-high",
+      "anonymizedAs": "run-05",
+      "run": {
+        "id": "codex-gpt5.4-high",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.4",
+        "provider": "openai",
+        "effort": "high",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.4-high",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "db2e9b601ba7934c7bb5975bcf58bd005820d20f898777073d53c225b363398e",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.4-high"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.4-high",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 1551439,
+        "costUsd": 1.407603,
+        "wallTimeMinutes": 14.144266666666667
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "43f0bd4738d68b245238cd2287e81190de4c54c78c4fb0271a085aeb35f9db75",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-05/desktop.png",
+            "sha256": "4748aa5dc3238e44171aecd62b6b629c41b4c423507ef1f391b642a57b0277c6",
+            "bytes": 487841,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-05/mobile.png",
+            "sha256": "2eae68386b76b69b32bbc76b71da9ed92981e727ac89f94d965e65da6248d939",
+            "bytes": 487886,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-05",
+        "dimensions": {
+          "research-rigor": 9,
+          "product-strategy": 9,
+          "design-coherence": 9,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 9
+        },
+        "total": 9,
+        "holisticMedianRank": 4,
+        "holisticBorda": 20,
+        "dispersion": {
+          "research-rigor": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          }
+        },
+        "rank": 5,
+        "scoreHolisticDisagreement": 1
+      },
+      "cost": {
+        "id": "codex-gpt5.4-high",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.4",
+        "effort": "high",
+        "tokens": 1551439,
+        "inputTokens": 1508028,
+        "outputTokens": 43411,
+        "costUsd": 1.407603,
+        "cacheHitRate": 0.8881744901288305,
+        "wallTimeMinutes": 14.144266666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 1551439,
+        "input": 1508028,
+        "output": 43411
+      }
+    },
+    {
+      "runId": "codex-gpt5.4-light",
+      "anonymizedAs": "run-22",
+      "run": {
+        "id": "codex-gpt5.4-light",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.4",
+        "provider": "openai",
+        "effort": "light",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.4-light",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "2af1c63863c69c7c33dc299562af039a38b0681e808f0eda781e5c762ede0a66",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.4-light"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.4-light",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 507461,
+        "costUsd": 0.657381,
+        "wallTimeMinutes": 6.872283333333334
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "d640d53e2f010e01037c65458f6c1ee72bf401a221b8bfe5adf1d84939c3a113",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-22/desktop.png",
+            "sha256": "18fe0b1811fbdab96cb5d4542c56ebac0ca6cd22732360e3bedb06aa0bb61b10",
+            "bytes": 275554,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-22/mobile.png",
+            "sha256": "7278e7fb04786c1391f3dcd5cb0eac088aab34d33fe068b2b5e4c2b37c146518",
+            "bytes": 275541,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-22",
+        "dimensions": {
+          "research-rigor": 9,
+          "product-strategy": 9,
+          "design-coherence": 9,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 8
+        },
+        "total": 8.85,
+        "holisticMedianRank": 6,
+        "holisticBorda": 18,
+        "dispersion": {
+          "research-rigor": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 7,
+        "scoreHolisticDisagreement": 1
+      },
+      "cost": {
+        "id": "codex-gpt5.4-light",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.4",
+        "effort": "light",
+        "tokens": 507461,
+        "inputTokens": 486828,
+        "outputTokens": 20633,
+        "costUsd": 0.657381,
+        "cacheHitRate": 0.7935122877073628,
+        "wallTimeMinutes": 6.872283333333334,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 507461,
+        "input": 486828,
+        "output": 20633
+      }
+    },
+    {
+      "runId": "codex-gpt5.4-medium",
+      "anonymizedAs": "run-17",
+      "run": {
+        "id": "codex-gpt5.4-medium",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.4",
+        "provider": "openai",
+        "effort": "medium",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.4-medium",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "77ee4853bda846a94b2c584892744ceff95c52fcfd79ee86bf49467d90b8d024",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.4-medium"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.4-medium",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 868899,
+        "costUsd": 1.0977675,
+        "wallTimeMinutes": 11.23435
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "6a980e18a838b6236ab165521ff885b86199d235cd83c3c5e05bf5e01a1610f7",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-17/desktop.png",
+            "sha256": "2d28887831c2bd849f79c69faa3be74c3912b1a5c77a3d00a008d3707ea232ef",
+            "bytes": 257949,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-17/mobile.png",
+            "sha256": "2445a18106726d3b6d4ea04956832aae2bbb3a54e3ad64a3b71bb4ffc189ac7d",
+            "bytes": 258052,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-17",
+        "dimensions": {
+          "research-rigor": 8,
+          "product-strategy": 8,
+          "design-coherence": 8,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 8
+        },
+        "total": 8.35,
+        "holisticMedianRank": 9,
+        "holisticBorda": 15,
+        "dispersion": {
+          "research-rigor": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 12,
+        "scoreHolisticDisagreement": 3
+      },
+      "cost": {
+        "id": "codex-gpt5.4-medium",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.4",
+        "effort": "medium",
+        "tokens": 868899,
+        "inputTokens": 835395,
+        "outputTokens": 33504,
+        "costUsd": 1.0977675,
+        "cacheHitRate": 0.7944505293902884,
+        "wallTimeMinutes": 11.23435,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 868899,
+        "input": 835395,
+        "output": 33504
+      }
+    },
+    {
+      "runId": "codex-gpt5.4-xhigh",
+      "anonymizedAs": "run-16",
+      "run": {
+        "id": "codex-gpt5.4-xhigh",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.4",
+        "provider": "openai",
+        "effort": "xhigh",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.4-xhigh",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "db7eb38ebcd74cc8097cbb7e5f6a66afcceb882197145bf842967efc33c7d3d4",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.4-xhigh"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.4-xhigh",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 7976653,
+        "costUsd": 3.9106935,
+        "wallTimeMinutes": 29.4326
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "89537594210526ff6345f1c4b0d1efd2084a108ee76eb59c3d7a67b27f0de6e7",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-16/desktop.png",
+            "sha256": "bf429f5ab3783f2f1356f1fcbb943cac9e7a569cbdab700b8103cd595e465279",
+            "bytes": 277176,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-16/mobile.png",
+            "sha256": "3e5efdfd6e895277cf861b18bdaa9787a2508fa9f85d71fb96c9ebeaa49afae8",
+            "bytes": 203448,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-16",
+        "dimensions": {
+          "research-rigor": 9,
+          "product-strategy": 9,
+          "design-coherence": 9,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 9
+        },
+        "total": 9,
+        "holisticMedianRank": 2,
+        "holisticBorda": 22,
+        "dispersion": {
+          "research-rigor": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          }
+        },
+        "rank": 3,
+        "scoreHolisticDisagreement": 1
+      },
+      "cost": {
+        "id": "codex-gpt5.4-xhigh",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.4",
+        "effort": "xhigh",
+        "tokens": 7976653,
+        "inputTokens": 7892211,
+        "outputTokens": 84442,
+        "costUsd": 3.9106935,
+        "cacheHitRate": 0.9622124902641351,
+        "wallTimeMinutes": 29.4326,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 7976653,
+        "input": 7892211,
+        "output": 84442
+      }
+    },
+    {
+      "runId": "codex-gpt5.4mini-high",
+      "anonymizedAs": "run-11",
+      "run": {
+        "id": "codex-gpt5.4mini-high",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.4mini",
+        "provider": "openai",
+        "effort": "high",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.4mini-high",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "0ace6920285e92d22c5941aa1d407cbcdb556c07c5924dc8880fb2f11933fd33",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.4mini-high"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.4mini-high",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 6205320,
+        "costUsd": 0.9299027999999999,
+        "wallTimeMinutes": 19.529166666666665
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "1085a0ad788069309f9e72901039c80d41521a5ca442b7176870271cb17257a8",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-11/desktop.png",
+            "sha256": "8424d75fd3ec00be88740f5f08e3eff444e658155d0e17877650a3a9174d7849",
+            "bytes": 372651,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-11/mobile.png",
+            "sha256": "35d81a9cc98eef9ce03e17991a5c935b27b78f6b448dc14e7edcfaf3c4b7fe7c",
+            "bytes": 373174,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-11",
+        "dimensions": {
+          "research-rigor": 8,
+          "product-strategy": 8,
+          "design-coherence": 8,
+          "cybersecurity-fitness": 8,
+          "information-design": 8,
+          "frontend-craft": 8
+        },
+        "total": 8,
+        "holisticMedianRank": 14,
+        "holisticBorda": 10,
+        "dispersion": {
+          "research-rigor": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 14,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.4mini-high",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.4-mini",
+        "effort": "high",
+        "tokens": 6205320,
+        "inputTokens": 6130552,
+        "outputTokens": 74768,
+        "costUsd": 0.9299027999999999,
+        "cacheHitRate": 0.967701440261823,
+        "wallTimeMinutes": 19.529166666666665,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 6205320,
+        "input": 6130552,
+        "output": 74768
+      }
+    },
+    {
+      "runId": "codex-gpt5.4mini-light",
+      "anonymizedAs": "run-02",
+      "run": {
+        "id": "codex-gpt5.4mini-light",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.4mini",
+        "provider": "openai",
+        "effort": "light",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.4mini-light",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "e5881c4149a57cc161f245da06baeca47a84c04d3d9f3ee230e6d3eae362d7b9",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.4mini-light"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.4mini-light",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 857046,
+        "costUsd": 0.27470819999999996,
+        "wallTimeMinutes": 6.362016666666666
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "126354ad5f713d874f9f1047ac09dd40fc44ec22b3aaf88dc20f97126ca1fb64",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-02/desktop.png",
+            "sha256": "2206f29b0ab1f28703d4029af06a5853988c3fd5ddf748bff8063d5fd66f9cec",
+            "bytes": 216583,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-02/mobile.png",
+            "sha256": "2206f29b0ab1f28703d4029af06a5853988c3fd5ddf748bff8063d5fd66f9cec",
+            "bytes": 216583,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-02",
+        "dimensions": {
+          "research-rigor": 9,
+          "product-strategy": 9,
+          "design-coherence": 8,
+          "cybersecurity-fitness": 9,
+          "information-design": 8,
+          "frontend-craft": 8
+        },
+        "total": 8.5,
+        "holisticMedianRank": 11,
+        "holisticBorda": 13,
+        "dispersion": {
+          "research-rigor": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 11,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.4mini-light",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.4-mini",
+        "effort": "light",
+        "tokens": 857046,
+        "inputTokens": 834424,
+        "outputTokens": 22622,
+        "costUsd": 0.27470819999999996,
+        "cacheHitRate": 0.8041187693546686,
+        "wallTimeMinutes": 6.362016666666666,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 857046,
+        "input": 834424,
+        "output": 22622
+      }
+    },
+    {
+      "runId": "codex-gpt5.4mini-medium",
+      "anonymizedAs": "run-01",
+      "run": {
+        "id": "codex-gpt5.4mini-medium",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.4mini",
+        "provider": "openai",
+        "effort": "medium",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.4mini-medium",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "e8b6e9db579314f43f997d49d78bb4895a24ee717a55682e10370e8990ba7179",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.4mini-medium"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.4mini-medium",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 2418556,
+        "costUsd": 0.6278571000000001,
+        "wallTimeMinutes": 13.576883333333333
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "9581135b9e79cca20bf3873c44475d763ce03bd2872c251931597f8ead5a3d66",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-01/desktop.png",
+            "sha256": "60b7fa91aafccbd998fddd841b0ebb1944c5b21ce51d9683f4757f89e3d1eebe",
+            "bytes": 293808,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-01/mobile.png",
+            "sha256": "60b7fa91aafccbd998fddd841b0ebb1944c5b21ce51d9683f4757f89e3d1eebe",
+            "bytes": 293808,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-01",
+        "dimensions": {
+          "research-rigor": 9,
+          "product-strategy": 9,
+          "design-coherence": 9,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 8
+        },
+        "total": 8.85,
+        "holisticMedianRank": 10,
+        "holisticBorda": 14,
+        "dispersion": {
+          "research-rigor": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 10,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.4mini-medium",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.4-mini",
+        "effort": "medium",
+        "tokens": 2418556,
+        "inputTokens": 2366982,
+        "outputTokens": 51574,
+        "costUsd": 0.6278571000000001,
+        "cacheHitRate": 0.8633982007467738,
+        "wallTimeMinutes": 13.576883333333333,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 2418556,
+        "input": 2366982,
+        "output": 51574
+      }
+    },
+    {
+      "runId": "codex-gpt5.5-high",
+      "anonymizedAs": "run-15",
+      "run": {
+        "id": "codex-gpt5.5-high",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.5",
+        "provider": "openai",
+        "effort": "high",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.5-high",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "08dd2dc5cccd0f97bd3a330ad921c8d194e039bb4984820f0dbea0475066851e",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.5-high"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.5-high",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 4104413,
+        "costUsd": 4.868553,
+        "wallTimeMinutes": 15.57245
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "8fe3494e1679653216469f89df0b8a472b1336b816d7a14d8a2d669147916615",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-15/desktop.png",
+            "sha256": "ac56562b8e8837184d045d203dae8e753bb1bbf33adf7bdf3ed4197dfa108d29",
+            "bytes": 152102,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-15/mobile.png",
+            "sha256": "a3646cafe5cf9f1cb38263e6d8865034c6864faa1de3f378a1dab4042c6466ad",
+            "bytes": 235560,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-15",
+        "dimensions": {
+          "research-rigor": 9,
+          "product-strategy": 9,
+          "design-coherence": 9,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 8
+        },
+        "total": 8.85,
+        "holisticMedianRank": 8,
+        "holisticBorda": 16,
+        "dispersion": {
+          "research-rigor": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 9,
+        "scoreHolisticDisagreement": 1
+      },
+      "cost": {
+        "id": "codex-gpt5.5-high",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.5",
+        "effort": "high",
+        "tokens": 4104413,
+        "inputTokens": 4066725,
+        "outputTokens": 37688,
+        "costUsd": 4.868553,
+        "cacheHitRate": 0.9068565000092211,
+        "wallTimeMinutes": 15.57245,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 4104413,
+        "input": 4066725,
+        "output": 37688
+      }
+    },
+    {
+      "runId": "codex-gpt5.5-light",
+      "anonymizedAs": "run-19",
+      "run": {
+        "id": "codex-gpt5.5-light",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.5",
+        "provider": "openai",
+        "effort": "light",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.5-light",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "ac17fe419f496524b7460abd37af04a041119eeb0b2d05d49baf8c0f47ee6063",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.5-light"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.5-light",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 978083,
+        "costUsd": 1.2996510000000001,
+        "wallTimeMinutes": 7.200333333333333
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "54f801724ffc5e6431deeaa6ced0a0e3da333fd0398862c5f7e54736d3521a68",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-19/desktop.png",
+            "sha256": "e66a53b60e69649b24ce0c014ad2327858327564681373a37a26c6e9849ac029",
+            "bytes": 202101,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-19/mobile.png",
+            "sha256": "e66a53b60e69649b24ce0c014ad2327858327564681373a37a26c6e9849ac029",
+            "bytes": 202101,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-19",
+        "dimensions": {
+          "research-rigor": 7,
+          "product-strategy": 7,
+          "design-coherence": 7,
+          "cybersecurity-fitness": 8,
+          "information-design": 8,
+          "frontend-craft": 7
+        },
+        "total": 7.3500000000000005,
+        "holisticMedianRank": 18,
+        "holisticBorda": 6,
+        "dispersion": {
+          "research-rigor": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          }
+        },
+        "rank": 18,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.5-light",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.5",
+        "effort": "light",
+        "tokens": 978083,
+        "inputTokens": 959535,
+        "outputTokens": 18548,
+        "costUsd": 1.2996510000000001,
+        "cacheHitRate": 0.9389881557212608,
+        "wallTimeMinutes": 7.200333333333333,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 978083,
+        "input": 959535,
+        "output": 18548
+      }
+    },
+    {
+      "runId": "codex-gpt5.5-medium",
+      "anonymizedAs": "run-21",
+      "run": {
+        "id": "codex-gpt5.5-medium",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.5",
+        "provider": "openai",
+        "effort": "medium",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.5-medium",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "284af59bef618b94142358386e5989f405cf86451f90070a7e86bb7cbd2d48b5",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.5-medium"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.5-medium",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 2609319,
+        "costUsd": 2.6015040000000003,
+        "wallTimeMinutes": 10.625816666666667
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "33a9d6df093b52a90045931a4e2d2bd713a9ec08b22498e7e61f64d16b085e5a",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-21/desktop.png",
+            "sha256": "ae94b24b7fb2561a7b02413d3c7f67ca8507e03868930dbf7b741f7e76808ad2",
+            "bytes": 189379,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-21/mobile.png",
+            "sha256": "ae94b24b7fb2561a7b02413d3c7f67ca8507e03868930dbf7b741f7e76808ad2",
+            "bytes": 189379,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-21",
+        "dimensions": {
+          "research-rigor": 8,
+          "product-strategy": 8,
+          "design-coherence": 8,
+          "cybersecurity-fitness": 8,
+          "information-design": 8,
+          "frontend-craft": 7
+        },
+        "total": 7.8500000000000005,
+        "holisticMedianRank": 16,
+        "holisticBorda": 8,
+        "dispersion": {
+          "research-rigor": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          }
+        },
+        "rank": 16,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.5-medium",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.5",
+        "effort": "medium",
+        "tokens": 2609319,
+        "inputTokens": 2582082,
+        "outputTokens": 27237,
+        "costUsd": 2.6015040000000003,
+        "cacheHitRate": 0.9575404654073728,
+        "wallTimeMinutes": 10.625816666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 2609319,
+        "input": 2582082,
+        "output": 27237
+      }
+    },
+    {
+      "runId": "codex-gpt5.5-xhigh",
+      "anonymizedAs": "run-03",
+      "run": {
+        "id": "codex-gpt5.5-xhigh",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.5",
+        "provider": "openai",
+        "effort": "xhigh",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.5-xhigh",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "cd1d384fb7d5f7730fe6f692d684e23cd8c91e8773898d8fac25133e905224ce",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.5-xhigh"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.5-xhigh",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 5258154,
+        "costUsd": 5.965456,
+        "wallTimeMinutes": 19.51171666666667
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "9846bf361758a60917321239e7adac21462963ca233eef3efc330a097805d699",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-03/desktop.png",
+            "sha256": "4a9c38bd5c45f40c95678900eb6865796100a1954745d38680a8eaba190ee536",
+            "bytes": 259076,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-03/mobile.png",
+            "sha256": "f7cb27864c675d8eb7b7041594525179a6834aa62159237fd8f214261056d982",
+            "bytes": 262220,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-03",
+        "dimensions": {
+          "research-rigor": 10,
+          "product-strategy": 10,
+          "design-coherence": 9,
+          "cybersecurity-fitness": 10,
+          "information-design": 9,
+          "frontend-craft": 8
+        },
+        "total": 9.35,
+        "holisticMedianRank": 12,
+        "holisticBorda": 12,
+        "dispersion": {
+          "research-rigor": {
+            "min": 10,
+            "max": 10,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 10,
+            "max": 10,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 10,
+            "max": 10,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 2,
+        "scoreHolisticDisagreement": 10
+      },
+      "cost": {
+        "id": "codex-gpt5.5-xhigh",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.5",
+        "effort": "xhigh",
+        "tokens": 5258154,
+        "inputTokens": 5210300,
+        "outputTokens": 47854,
+        "costUsd": 5.965456,
+        "cacheHitRate": 0.9179110607834482,
+        "wallTimeMinutes": 19.51171666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 5258154,
+        "input": 5210300,
+        "output": 47854
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-luna-high",
+      "anonymizedAs": "run-24",
+      "run": {
+        "id": "codex-gpt5.6-luna-high",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-luna",
+        "provider": "openai",
+        "effort": "high",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-luna-high",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "19d7ae0b6f77d49aeb96b25a0ea0981b0889aa0558583d2977ec03af16f79c2d",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-luna-high"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-luna-high",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 8590941,
+        "costUsd": 1.4446954,
+        "wallTimeMinutes": 22.89155
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "4349732b007641964b525aff5fea41c5106a4fbe2a8c92f495fa7ce3002ec170",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-24/desktop.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-24/mobile.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-24",
+        "dimensions": {
+          "research-rigor": 8,
+          "product-strategy": 8,
+          "design-coherence": 7,
+          "cybersecurity-fitness": 1,
+          "information-design": 1,
+          "frontend-craft": 1
+        },
+        "total": 4.35,
+        "holisticMedianRank": 24,
+        "holisticBorda": 0,
+        "dispersion": {
+          "research-rigor": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "information-design": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          }
+        },
+        "rank": 19,
+        "scoreHolisticDisagreement": 5
+      },
+      "cost": {
+        "id": "codex-gpt5.6-luna-high",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-luna",
+        "effort": "high",
+        "tokens": 8590941,
+        "inputTokens": 8525401,
+        "outputTokens": 65540,
+        "costUsd": 1.4446954,
+        "cacheHitRate": 0.9740754716405715,
+        "wallTimeMinutes": 22.89155,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 8590941,
+        "input": 8525401,
+        "output": 65540
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-luna-light",
+      "anonymizedAs": "run-23",
+      "run": {
+        "id": "codex-gpt5.6-luna-light",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-luna",
+        "provider": "openai",
+        "effort": "light",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-luna-light",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "80037f64c7cc73ada2a17c6fc814b2f2d369fd33a0e00c97b2bc0606b5f1c8fc",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-luna-light"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-luna-light",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 649183,
+        "costUsd": 0.2438362,
+        "wallTimeMinutes": 6.94175
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "30c5f19c992fbd065deecdd350234e54ddc5a4ef3444dcd7c44217b08e730adb",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-23/desktop.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-23/mobile.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-23",
+        "dimensions": {
+          "research-rigor": 3,
+          "product-strategy": 3,
+          "design-coherence": 3,
+          "cybersecurity-fitness": 1,
+          "information-design": 1,
+          "frontend-craft": 1
+        },
+        "total": 1.9999999999999998,
+        "holisticMedianRank": 23,
+        "holisticBorda": 1,
+        "dispersion": {
+          "research-rigor": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "information-design": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          }
+        },
+        "rank": 24,
+        "scoreHolisticDisagreement": 1
+      },
+      "cost": {
+        "id": "codex-gpt5.6-luna-light",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-luna",
+        "effort": "light",
+        "tokens": 649183,
+        "inputTokens": 629245,
+        "outputTokens": 19938,
+        "costUsd": 0.2438362,
+        "cacheHitRate": 0.8917861882096798,
+        "wallTimeMinutes": 6.94175,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 649183,
+        "input": 629245,
+        "output": 19938
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-luna-medium",
+      "anonymizedAs": "run-12",
+      "run": {
+        "id": "codex-gpt5.6-luna-medium",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-luna",
+        "provider": "openai",
+        "effort": "medium",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-luna-medium",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "ed23edebebd29f77fed505bd5ad1b1be8b5030e1ee4ca162bda619c4ade09816",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-luna-medium"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-luna-medium",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 1565677,
+        "costUsd": 0.3931538,
+        "wallTimeMinutes": 8.998516666666667
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "8604f08f6fc25c3e1459ba30b4c96ec52b2198236f6d75077a62f9086bf1eb17",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-12/desktop.png",
+            "sha256": "8a669f46276b411274bf1881051ce18bc171fdd39dc8ad9eec5db03697c3211d",
+            "bytes": 125287,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-12/mobile.png",
+            "sha256": "8a669f46276b411274bf1881051ce18bc171fdd39dc8ad9eec5db03697c3211d",
+            "bytes": 125287,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-12",
+        "dimensions": {
+          "research-rigor": 3,
+          "product-strategy": 3,
+          "design-coherence": 3,
+          "cybersecurity-fitness": 1,
+          "information-design": 1,
+          "frontend-craft": 1
+        },
+        "total": 1.9999999999999998,
+        "holisticMedianRank": 19,
+        "holisticBorda": 5,
+        "dispersion": {
+          "research-rigor": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "information-design": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          }
+        },
+        "rank": 23,
+        "scoreHolisticDisagreement": 4
+      },
+      "cost": {
+        "id": "codex-gpt5.6-luna-medium",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-luna",
+        "effort": "medium",
+        "tokens": 1565677,
+        "inputTokens": 1541765,
+        "outputTokens": 23912,
+        "costUsd": 0.3931538,
+        "cacheHitRate": 0.9311717414781111,
+        "wallTimeMinutes": 8.998516666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 1565677,
+        "input": 1541765,
+        "output": 23912
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-luna-xhigh",
+      "anonymizedAs": "run-08",
+      "run": {
+        "id": "codex-gpt5.6-luna-xhigh",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-luna",
+        "provider": "openai",
+        "effort": "xhigh",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-luna-xhigh",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "fa955ecea9494a98533429c3709fd606b2612fe55f91b4d7b8b5dc2755171088",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-luna-xhigh"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-luna-xhigh",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 7637625,
+        "costUsd": 1.8695082000000003,
+        "wallTimeMinutes": 25.010533333333335
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "5a99cf2e6c59b10dbb2de86b8819f63ee1b1821589c19d5f629253b0e86f21c1",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-08/desktop.png",
+            "sha256": "0a18fc1699e542c3cabadd78d85e5255c9b1800dc72fc392244968eca5381746",
+            "bytes": 132997,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-08/mobile.png",
+            "sha256": "0a18fc1699e542c3cabadd78d85e5255c9b1800dc72fc392244968eca5381746",
+            "bytes": 132997,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-08",
+        "dimensions": {
+          "research-rigor": 9,
+          "product-strategy": 9,
+          "design-coherence": 9,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 8
+        },
+        "total": 8.85,
+        "holisticMedianRank": 5,
+        "holisticBorda": 19,
+        "dispersion": {
+          "research-rigor": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 6,
+        "scoreHolisticDisagreement": 1
+      },
+      "cost": {
+        "id": "codex-gpt5.6-luna-xhigh",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-luna",
+        "effort": "xhigh",
+        "tokens": 7637625,
+        "inputTokens": 7565889,
+        "outputTokens": 71736,
+        "costUsd": 1.8695082000000003,
+        "cacheHitRate": 0.8997689498220236,
+        "wallTimeMinutes": 25.010533333333335,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 7637625,
+        "input": 7565889,
+        "output": 71736
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-sol-high",
+      "anonymizedAs": "run-09",
+      "run": {
+        "id": "codex-gpt5.6-sol-high",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-sol",
+        "provider": "openai",
+        "effort": "high",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-sol-high",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "49f81e2a0d163d9a7802a525d5342a79b82c0b015adabfea7fd7d0cf205d5801",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-sol-high"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-sol-high",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 10153732,
+        "costUsd": 9.224076,
+        "wallTimeMinutes": 20.996216666666665
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "50ef4d50087553fbef8a7676aa2aa4a407b4eca1875088c842a999be3c2b2dc5",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-09/desktop.png",
+            "sha256": "81cfe893ab1a2baae7ff2f7afd2fedb11d39aaed6fd1eed5244f0e7ac26e4301",
+            "bytes": 160544,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-09/mobile.png",
+            "sha256": "81cfe893ab1a2baae7ff2f7afd2fedb11d39aaed6fd1eed5244f0e7ac26e4301",
+            "bytes": 160544,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-09",
+        "dimensions": {
+          "research-rigor": 9,
+          "product-strategy": 9,
+          "design-coherence": 9,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 8
+        },
+        "total": 8.85,
+        "holisticMedianRank": 7,
+        "holisticBorda": 17,
+        "dispersion": {
+          "research-rigor": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 8,
+        "scoreHolisticDisagreement": 1
+      },
+      "cost": {
+        "id": "codex-gpt5.6-sol-high",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-sol",
+        "effort": "high",
+        "tokens": 10153732,
+        "inputTokens": 10083276,
+        "outputTokens": 70456,
+        "costUsd": 9.224076,
+        "cacheHitRate": 0.9544072779521259,
+        "wallTimeMinutes": 20.996216666666665,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 10153732,
+        "input": 10083276,
+        "output": 70456
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-sol-light",
+      "anonymizedAs": "run-10",
+      "run": {
+        "id": "codex-gpt5.6-sol-light",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-sol",
+        "provider": "openai",
+        "effort": "light",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-sol-light",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "33bda060c11af6d50c851c4bc55ca3702ef5336454e56cf67d48ac8407dcc1bb",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-sol-light"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-sol-light",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 1219639,
+        "costUsd": 1.612671,
+        "wallTimeMinutes": 8.099966666666667
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "945b6f5a81c1f06364c613713ac21720f854c6391edce8dcbf48e4b5ded183bb",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-10/desktop.png",
+            "sha256": "aa0c28966f018290b0827be0612f00d0e048ce0825c59e78603f945be1f64d0a",
+            "bytes": 133266,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-10/mobile.png",
+            "sha256": "4ce2a188a3e968fcc05235ef79da429b3fd557d588d23d9e0b5cb91db6617f68",
+            "bytes": 109624,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-10",
+        "dimensions": {
+          "research-rigor": 8,
+          "product-strategy": 8,
+          "design-coherence": 8,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 8
+        },
+        "total": 8.35,
+        "holisticMedianRank": 13,
+        "holisticBorda": 11,
+        "dispersion": {
+          "research-rigor": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 13,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.6-sol-light",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-sol",
+        "effort": "light",
+        "tokens": 1219639,
+        "inputTokens": 1198059,
+        "outputTokens": 21580,
+        "costUsd": 1.612671,
+        "cacheHitRate": 0.932067619374338,
+        "wallTimeMinutes": 8.099966666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 1219639,
+        "input": 1198059,
+        "output": 21580
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-sol-medium",
+      "anonymizedAs": "run-13",
+      "run": {
+        "id": "codex-gpt5.6-sol-medium",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-sol",
+        "provider": "openai",
+        "effort": "medium",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-sol-medium",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "88c4ac9ce2fd8804a326b7de83df0eed02a135b40d5ded1c6d4a72273012b591",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-sol-medium"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-sol-medium",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 4767639,
+        "costUsd": 5.251648,
+        "wallTimeMinutes": 16.551516666666668
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "e009f12b9e987b7e6f776f3dcba99b7f3116227c6ff1abb6ef31fd4b043d0f64",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-13/desktop.png",
+            "sha256": "af9090d5887e51693aba05d353de047cad163101e6903e326c057d1c02963f84",
+            "bytes": 172517,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-13/mobile.png",
+            "sha256": "453b7feaa33d4277c38167a514c89b30f30537d71f13e6e2e29a0f9c5d3db4ab",
+            "bytes": 119522,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-13",
+        "dimensions": {
+          "research-rigor": 9,
+          "product-strategy": 9,
+          "design-coherence": 9,
+          "cybersecurity-fitness": 9,
+          "information-design": 9,
+          "frontend-craft": 9
+        },
+        "total": 9,
+        "holisticMedianRank": 3,
+        "holisticBorda": 21,
+        "dispersion": {
+          "research-rigor": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          }
+        },
+        "rank": 4,
+        "scoreHolisticDisagreement": 1
+      },
+      "cost": {
+        "id": "codex-gpt5.6-sol-medium",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-sol",
+        "effort": "medium",
+        "tokens": 4767639,
+        "inputTokens": 4716866,
+        "outputTokens": 50773,
+        "costUsd": 5.251648,
+        "cacheHitRate": 0.9354550245862401,
+        "wallTimeMinutes": 16.551516666666668,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 4767639,
+        "input": 4716866,
+        "output": 50773
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-sol-xhigh",
+      "anonymizedAs": "run-06",
+      "run": {
+        "id": "codex-gpt5.6-sol-xhigh",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-sol",
+        "provider": "openai",
+        "effort": "xhigh",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-sol-xhigh",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "2f5b3038ee13efe4a062220172046a8f01fd228483f5cbee3ce93003a4ced429",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-sol-xhigh"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-sol-xhigh",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 10157975,
+        "costUsd": 9.879552,
+        "wallTimeMinutes": 32.46875
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "d2bc65bcbd57b0eb4b51c584d2c240b978bb8f760e6c10c2aa0dea2c982c3bf6",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-06/desktop.png",
+            "sha256": "c2a30ed7a43f12ea9148b413e3b820d894c87b97aa5b744e7530ad5a8052b661",
+            "bytes": 121519,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-06/mobile.png",
+            "sha256": "71c5df63cc7afba689c95625449ed506b2432669d61dc0c5fb2f4062f1ab2438",
+            "bytes": 98086,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-06",
+        "dimensions": {
+          "research-rigor": 10,
+          "product-strategy": 10,
+          "design-coherence": 10,
+          "cybersecurity-fitness": 10,
+          "information-design": 9,
+          "frontend-craft": 8
+        },
+        "total": 9.5,
+        "holisticMedianRank": 1,
+        "holisticBorda": 23,
+        "dispersion": {
+          "research-rigor": {
+            "min": 10,
+            "max": 10,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 10,
+            "max": 10,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 10,
+            "max": 10,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 10,
+            "max": 10,
+            "range": 0
+          },
+          "information-design": {
+            "min": 9,
+            "max": 9,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          }
+        },
+        "rank": 1,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.6-sol-xhigh",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-sol",
+        "effort": "xhigh",
+        "tokens": 10157975,
+        "inputTokens": 10067586,
+        "outputTokens": 90389,
+        "costUsd": 9.879552,
+        "cacheHitRate": 0.9528941694662454,
+        "wallTimeMinutes": 32.46875,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 10157975,
+        "input": 10067586,
+        "output": 90389
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-terra-high",
+      "anonymizedAs": "run-14",
+      "run": {
+        "id": "codex-gpt5.6-terra-high",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-terra",
+        "provider": "openai",
+        "effort": "high",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-terra-high",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "4020cbae516b5afdafea5c26e6e9c3250ce29d874c4628a4f4a4598779190624",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-terra-high"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-terra-high",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 985881,
+        "costUsd": 0.646057,
+        "wallTimeMinutes": 5.73315
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "b393c3ef740f5637e7e4b6b0e505166a19dda95345ef8ac3a8858e97c4ec1c0f",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-14/desktop.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-14/mobile.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-14",
+        "dimensions": {
+          "research-rigor": 4,
+          "product-strategy": 4,
+          "design-coherence": 3,
+          "cybersecurity-fitness": 1,
+          "information-design": 1,
+          "frontend-craft": 1
+        },
+        "total": 2.3499999999999996,
+        "holisticMedianRank": 22,
+        "holisticBorda": 2,
+        "dispersion": {
+          "research-rigor": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "information-design": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          }
+        },
+        "rank": 22,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.6-terra-high",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-terra",
+        "effort": "high",
+        "tokens": 985881,
+        "inputTokens": 969724,
+        "outputTokens": 16157,
+        "costUsd": 0.646057,
+        "cacheHitRate": 0.9260861853475835,
+        "wallTimeMinutes": 5.73315,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 985881,
+        "input": 969724,
+        "output": 16157
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-terra-light",
+      "anonymizedAs": "run-07",
+      "run": {
+        "id": "codex-gpt5.6-terra-light",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-terra",
+        "provider": "openai",
+        "effort": "light",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-terra-light",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "d3b5cfe11d3cbb594d46222e988ba4d8de96e45ca98b293f85e5e677e2fa43ba",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-terra-light"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-terra-light",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 604831,
+        "costUsd": 0.43459800000000004,
+        "wallTimeMinutes": 4.238816666666667
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "a3d862aa574fde67a97ec2aedf97ef43d846ac6a01f902fa8ef5c094a40facb4",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-07/desktop.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-07/mobile.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-07",
+        "dimensions": {
+          "research-rigor": 4,
+          "product-strategy": 4,
+          "design-coherence": 3,
+          "cybersecurity-fitness": 1,
+          "information-design": 1,
+          "frontend-craft": 1
+        },
+        "total": 2.3499999999999996,
+        "holisticMedianRank": 21,
+        "holisticBorda": 3,
+        "dispersion": {
+          "research-rigor": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "information-design": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          }
+        },
+        "rank": 21,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.6-terra-light",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-terra",
+        "effort": "light",
+        "tokens": 604831,
+        "inputTokens": 593478,
+        "outputTokens": 11353,
+        "costUsd": 0.43459800000000004,
+        "cacheHitRate": 0.9131795955368185,
+        "wallTimeMinutes": 4.238816666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 604831,
+        "input": 593478,
+        "output": 11353
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-terra-medium",
+      "anonymizedAs": "run-04",
+      "run": {
+        "id": "codex-gpt5.6-terra-medium",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-terra",
+        "provider": "openai",
+        "effort": "medium",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-terra-medium",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "4ad3c6da94bae9f93b41509a3e9aa30c859b30e5156ea60cc3936cebae50e17d",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-terra-medium"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-terra-medium",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 766230,
+        "costUsd": 0.5734144999999999,
+        "wallTimeMinutes": 5.5477
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "e8a799e2019a7434eb2624990a008b099c36d32405a967a8118687fc04e19693",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-04/desktop.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-04/mobile.png",
+            "sha256": "b1357a3c2284daff55bc92e54f0b9b09e2e94f36360ffe7f4f8f54672e70afd2",
+            "bytes": 18249,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-04",
+        "dimensions": {
+          "research-rigor": 4,
+          "product-strategy": 4,
+          "design-coherence": 3,
+          "cybersecurity-fitness": 1,
+          "information-design": 1,
+          "frontend-craft": 1
+        },
+        "total": 2.3499999999999996,
+        "holisticMedianRank": 20,
+        "holisticBorda": 4,
+        "dispersion": {
+          "research-rigor": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 4,
+            "max": 4,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 3,
+            "max": 3,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "information-design": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 1,
+            "max": 1,
+            "range": 0
+          }
+        },
+        "rank": 20,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.6-terra-medium",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-terra",
+        "effort": "medium",
+        "tokens": 766230,
+        "inputTokens": 750431,
+        "outputTokens": 15799,
+        "costUsd": 0.5734144999999999,
+        "cacheHitRate": 0.9118599844622624,
+        "wallTimeMinutes": 5.5477,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 766230,
+        "input": 750431,
+        "output": 15799
+      }
+    },
+    {
+      "runId": "codex-gpt5.6-terra-xhigh",
+      "anonymizedAs": "run-20",
+      "run": {
+        "id": "codex-gpt5.6-terra-xhigh",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.6-terra",
+        "provider": "openai",
+        "effort": "xhigh",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.6-terra-xhigh",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "893076dd6da8301329de186defac495205bad2e9f33e18ca9d866e8c25803786",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.6-terra-xhigh"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.6-terra-xhigh",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        },
+        "tokens": 2413448,
+        "costUsd": 1.4557655,
+        "wallTimeMinutes": 14.552516666666667
+      },
+      "audit": {
+        "pass": true,
+        "sourceDigest": "0acac83b661b585ba390ba83b3f4ba9829108fa0f3344a6f81fb5b5c107ea1e2",
+        "environment": {
+          "node": "v24.16.0",
+          "next": "16.2.6",
+          "browser": "Codex In-app Browser",
+          "runtime": "localhost:3001"
+        },
+        "failedChecks": [],
+        "warnings": [
+          {
+            "code": "build-chart-size",
+            "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+          }
+        ]
+      },
+      "evidence": {
+        "surfaces": {
+          "desktop": {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "media": "judging/evidence/runs/run-20/desktop.png",
+            "sha256": "40133107f62120bb6e701c1387ee667b4bf755bf9747aa3f2afdfa12cb3a544c",
+            "bytes": 110421,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          },
+          "mobile": {
+            "viewport": {
+              "width": 375,
+              "height": 812
+            },
+            "media": "judging/evidence/runs/run-20/mobile.png",
+            "sha256": "2c764e5948b2501ae8a5258351056062affdde986642aba77674a73b79fec050",
+            "bytes": 110442,
+            "httpStatus": 200,
+            "consoleMessageCount": 0,
+            "pageErrorCount": 0,
+            "failedRequestCount": 0,
+            "horizontalOverflow": false
+          }
+        },
+        "runtime": {
+          "browser": "Codex In-app Browser",
+          "server": "localhost:3001",
+          "status": "complete"
+        }
+      },
+      "scores": {
+        "anonymizedAs": "run-20",
+        "dimensions": {
+          "research-rigor": 8,
+          "product-strategy": 8,
+          "design-coherence": 8,
+          "cybersecurity-fitness": 8,
+          "information-design": 8,
+          "frontend-craft": 7
+        },
+        "total": 7.8500000000000005,
+        "holisticMedianRank": 15,
+        "holisticBorda": 9,
+        "dispersion": {
+          "research-rigor": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "product-strategy": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "design-coherence": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "cybersecurity-fitness": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "information-design": {
+            "min": 8,
+            "max": 8,
+            "range": 0
+          },
+          "frontend-craft": {
+            "min": 7,
+            "max": 7,
+            "range": 0
+          }
+        },
+        "rank": 15,
+        "scoreHolisticDisagreement": 0
+      },
+      "cost": {
+        "id": "codex-gpt5.6-terra-xhigh",
+        "harness": "recovered-existing-run",
+        "model": "gpt-5.6-terra",
+        "effort": "xhigh",
+        "tokens": 2413448,
+        "inputTokens": 2371085,
+        "outputTokens": 42363,
+        "costUsd": 1.4557655,
+        "cacheHitRate": 0.9573473747250731,
+        "wallTimeMinutes": 14.552516666666667,
+        "method": "measured",
+        "sourceCount": 1
+      },
+      "tokens": {
+        "total": 2413448,
+        "input": 2371085,
+        "output": 42363
+      }
+    }
+  ],
+  "excludedRuns": [
+    {
+      "runId": "claude-haiku4.5",
+      "run": {
+        "id": "claude-haiku4.5",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "claude-haiku4.5",
+        "provider": "anthropic",
+        "effort": null,
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/claude-haiku4.5",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "201a055bb3288c847a855abedd4c486e188b5d081235730e264cc6847ae8e0a2",
+        "promptVariables": {
+          "RUN_ID": "claude-haiku4.5"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/claude-haiku4.5",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        }
+      },
+      "audit": {
+        "pass": false,
+        "sourceDigest": "c7b843a304ce9923ef5e7f1d737732ecf35889f9d7cfe837ce0bd92a0a48b1ec",
+        "failedChecks": [
+          "rendering"
+        ],
+        "reason": "Excluded from frozen cycle because the required rendering audit failed."
+      }
+    },
+    {
+      "runId": "codex-gpt5.4mini-xhigh",
+      "run": {
+        "id": "codex-gpt5.4mini-xhigh",
+        "status": "complete",
+        "harness": "recovered-existing-run",
+        "harnessVersion": null,
+        "model": "codex-gpt5.4mini",
+        "provider": "openai",
+        "effort": "xhigh",
+        "baselineRef": "f2431461e9c0cfc653b1b9064b79d0b94b948ccf",
+        "runRef": "app/codex-gpt5.4mini-xhigh",
+        "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+        "promptInstanceSha": "3f091657c85ca27034d3d4fcc6b5995a88ed5fdaec9276db26499c84a68340a4",
+        "promptVariables": {
+          "RUN_ID": "codex-gpt5.4mini-xhigh"
+        },
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+        "startedAt": "2026-07-17T10:41:45+01:00",
+        "finishedAt": "2026-07-17T10:41:45+01:00",
+        "metadata": {
+          "recoveredFrom": "app/codex-gpt5.4mini-xhigh",
+          "provenance": "inferred-from-committed-run-folder",
+          "requiredArtifacts": [
+            "research.md",
+            "prd.md",
+            "design.md"
+          ]
+        }
+      },
+      "audit": {
+        "pass": false,
+        "sourceDigest": "02f72aa951f38ce5c51f8b02775cbfcacfd1084b29fb0afd8f440f8b76c9cca7",
+        "failedChecks": [
+          "rendering"
+        ],
+        "reason": "Excluded from frozen cycle because the required rendering audit failed."
+      }
+    }
+  ],
+  "judging": {
+    "rubricSha": "b8a1a2619d2e13f8f590ca16e6ad50f185dd0b9f53062a539056ebbe2fbe1a44",
+    "evidenceSha": "58ebb83752f2adf63fe1d69e972e96be7155714756dd55d005ee9b4dc50c7777",
+    "judgeIds": [
+      "judge-codex-gpt5.6-luna-high"
+    ],
+    "judgeCounts": {
+      "total": 1,
+      "ai": 1,
+      "human": 0
+    },
+    "aggregateSourceDigest": "bb478d6bce5d9a32734e930e9af86553f6224cd68de910e81305760e93f92615",
+    "algorithmVersion": "median-weighted+borda-v1",
+    "identityBlinded": true,
+    "judgeArtifacts": [
+      {
+        "judgeId": "judge-codex-gpt5.6-luna-high",
+        "judgeType": "ai",
+        "judgeModel": "judge-codex-gpt5.6-luna-high",
+        "artifactId": "judge:cyber-dashboard-2026-07-17-v2:judge-codex-gpt5.6-luna-high",
+        "evidenceSha": "58ebb83752f2adf63fe1d69e972e96be7155714756dd55d005ee9b4dc50c7777",
+        "judgePromptTemplateSha": "f2e9df4dcd9a7c67338e39bc56cee0edf0702fe1426643194921de747e915c0b",
+        "judgePromptInstanceSha": "3f0d693d0655e52fa3eecee4338bee84225a7d98dc679a03249a6179e2d3dcec"
+      }
+    ],
+    "aggregate": {
+      "schemaVersion": 2,
+      "artifactId": "judging-aggregate:cyber-dashboard-2026-07-17-v2",
+      "status": "complete",
+      "generatedAt": "2026-07-17T14:52:06.350Z",
+      "sourceDigest": "bb478d6bce5d9a32734e930e9af86553f6224cd68de910e81305760e93f92615",
+      "cycleId": "cyber-dashboard-2026-07-17-v2",
+      "rubricSha": "b8a1a2619d2e13f8f590ca16e6ad50f185dd0b9f53062a539056ebbe2fbe1a44",
+      "evidenceSha": "58ebb83752f2adf63fe1d69e972e96be7155714756dd55d005ee9b4dc50c7777",
+      "algorithmVersion": "median-weighted+borda-v1",
+      "judgeIds": [
+        "judge-codex-gpt5.6-luna-high"
+      ],
+      "judgeCounts": {
+        "total": 1,
+        "ai": 1,
+        "human": 0
+      },
+      "runs": [
+        {
+          "anonymizedAs": "run-06",
+          "dimensions": {
+            "research-rigor": 10,
+            "product-strategy": 10,
+            "design-coherence": 10,
+            "cybersecurity-fitness": 10,
+            "information-design": 9,
+            "frontend-craft": 8
+          },
+          "total": 9.5,
+          "holisticMedianRank": 1,
+          "holisticBorda": 23,
+          "dispersion": {
+            "research-rigor": {
+              "min": 10,
+              "max": 10,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 10,
+              "max": 10,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 10,
+              "max": 10,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 10,
+              "max": 10,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 1,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-03",
+          "dimensions": {
+            "research-rigor": 10,
+            "product-strategy": 10,
+            "design-coherence": 9,
+            "cybersecurity-fitness": 10,
+            "information-design": 9,
+            "frontend-craft": 8
+          },
+          "total": 9.35,
+          "holisticMedianRank": 12,
+          "holisticBorda": 12,
+          "dispersion": {
+            "research-rigor": {
+              "min": 10,
+              "max": 10,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 10,
+              "max": 10,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 10,
+              "max": 10,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 2,
+          "scoreHolisticDisagreement": 10
+        },
+        {
+          "anonymizedAs": "run-16",
+          "dimensions": {
+            "research-rigor": 9,
+            "product-strategy": 9,
+            "design-coherence": 9,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 9
+          },
+          "total": 9,
+          "holisticMedianRank": 2,
+          "holisticBorda": 22,
+          "dispersion": {
+            "research-rigor": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            }
+          },
+          "rank": 3,
+          "scoreHolisticDisagreement": 1
+        },
+        {
+          "anonymizedAs": "run-13",
+          "dimensions": {
+            "research-rigor": 9,
+            "product-strategy": 9,
+            "design-coherence": 9,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 9
+          },
+          "total": 9,
+          "holisticMedianRank": 3,
+          "holisticBorda": 21,
+          "dispersion": {
+            "research-rigor": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            }
+          },
+          "rank": 4,
+          "scoreHolisticDisagreement": 1
+        },
+        {
+          "anonymizedAs": "run-05",
+          "dimensions": {
+            "research-rigor": 9,
+            "product-strategy": 9,
+            "design-coherence": 9,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 9
+          },
+          "total": 9,
+          "holisticMedianRank": 4,
+          "holisticBorda": 20,
+          "dispersion": {
+            "research-rigor": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            }
+          },
+          "rank": 5,
+          "scoreHolisticDisagreement": 1
+        },
+        {
+          "anonymizedAs": "run-08",
+          "dimensions": {
+            "research-rigor": 9,
+            "product-strategy": 9,
+            "design-coherence": 9,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 8
+          },
+          "total": 8.85,
+          "holisticMedianRank": 5,
+          "holisticBorda": 19,
+          "dispersion": {
+            "research-rigor": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 6,
+          "scoreHolisticDisagreement": 1
+        },
+        {
+          "anonymizedAs": "run-22",
+          "dimensions": {
+            "research-rigor": 9,
+            "product-strategy": 9,
+            "design-coherence": 9,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 8
+          },
+          "total": 8.85,
+          "holisticMedianRank": 6,
+          "holisticBorda": 18,
+          "dispersion": {
+            "research-rigor": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 7,
+          "scoreHolisticDisagreement": 1
+        },
+        {
+          "anonymizedAs": "run-09",
+          "dimensions": {
+            "research-rigor": 9,
+            "product-strategy": 9,
+            "design-coherence": 9,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 8
+          },
+          "total": 8.85,
+          "holisticMedianRank": 7,
+          "holisticBorda": 17,
+          "dispersion": {
+            "research-rigor": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 8,
+          "scoreHolisticDisagreement": 1
+        },
+        {
+          "anonymizedAs": "run-15",
+          "dimensions": {
+            "research-rigor": 9,
+            "product-strategy": 9,
+            "design-coherence": 9,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 8
+          },
+          "total": 8.85,
+          "holisticMedianRank": 8,
+          "holisticBorda": 16,
+          "dispersion": {
+            "research-rigor": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 9,
+          "scoreHolisticDisagreement": 1
+        },
+        {
+          "anonymizedAs": "run-01",
+          "dimensions": {
+            "research-rigor": 9,
+            "product-strategy": 9,
+            "design-coherence": 9,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 8
+          },
+          "total": 8.85,
+          "holisticMedianRank": 10,
+          "holisticBorda": 14,
+          "dispersion": {
+            "research-rigor": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 10,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-02",
+          "dimensions": {
+            "research-rigor": 9,
+            "product-strategy": 9,
+            "design-coherence": 8,
+            "cybersecurity-fitness": 9,
+            "information-design": 8,
+            "frontend-craft": 8
+          },
+          "total": 8.5,
+          "holisticMedianRank": 11,
+          "holisticBorda": 13,
+          "dispersion": {
+            "research-rigor": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 11,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-17",
+          "dimensions": {
+            "research-rigor": 8,
+            "product-strategy": 8,
+            "design-coherence": 8,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 8
+          },
+          "total": 8.35,
+          "holisticMedianRank": 9,
+          "holisticBorda": 15,
+          "dispersion": {
+            "research-rigor": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 12,
+          "scoreHolisticDisagreement": 3
+        },
+        {
+          "anonymizedAs": "run-10",
+          "dimensions": {
+            "research-rigor": 8,
+            "product-strategy": 8,
+            "design-coherence": 8,
+            "cybersecurity-fitness": 9,
+            "information-design": 9,
+            "frontend-craft": 8
+          },
+          "total": 8.35,
+          "holisticMedianRank": 13,
+          "holisticBorda": 11,
+          "dispersion": {
+            "research-rigor": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "information-design": {
+              "min": 9,
+              "max": 9,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 13,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-11",
+          "dimensions": {
+            "research-rigor": 8,
+            "product-strategy": 8,
+            "design-coherence": 8,
+            "cybersecurity-fitness": 8,
+            "information-design": 8,
+            "frontend-craft": 8
+          },
+          "total": 8,
+          "holisticMedianRank": 14,
+          "holisticBorda": 10,
+          "dispersion": {
+            "research-rigor": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "information-design": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            }
+          },
+          "rank": 14,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-20",
+          "dimensions": {
+            "research-rigor": 8,
+            "product-strategy": 8,
+            "design-coherence": 8,
+            "cybersecurity-fitness": 8,
+            "information-design": 8,
+            "frontend-craft": 7
+          },
+          "total": 7.8500000000000005,
+          "holisticMedianRank": 15,
+          "holisticBorda": 9,
+          "dispersion": {
+            "research-rigor": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "information-design": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 7,
+              "max": 7,
+              "range": 0
+            }
+          },
+          "rank": 15,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-21",
+          "dimensions": {
+            "research-rigor": 8,
+            "product-strategy": 8,
+            "design-coherence": 8,
+            "cybersecurity-fitness": 8,
+            "information-design": 8,
+            "frontend-craft": 7
+          },
+          "total": 7.8500000000000005,
+          "holisticMedianRank": 16,
+          "holisticBorda": 8,
+          "dispersion": {
+            "research-rigor": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "information-design": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 7,
+              "max": 7,
+              "range": 0
+            }
+          },
+          "rank": 16,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-18",
+          "dimensions": {
+            "research-rigor": 8,
+            "product-strategy": 8,
+            "design-coherence": 7,
+            "cybersecurity-fitness": 8,
+            "information-design": 8,
+            "frontend-craft": 7
+          },
+          "total": 7.7,
+          "holisticMedianRank": 17,
+          "holisticBorda": 7,
+          "dispersion": {
+            "research-rigor": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 7,
+              "max": 7,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "information-design": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 7,
+              "max": 7,
+              "range": 0
+            }
+          },
+          "rank": 17,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-19",
+          "dimensions": {
+            "research-rigor": 7,
+            "product-strategy": 7,
+            "design-coherence": 7,
+            "cybersecurity-fitness": 8,
+            "information-design": 8,
+            "frontend-craft": 7
+          },
+          "total": 7.3500000000000005,
+          "holisticMedianRank": 18,
+          "holisticBorda": 6,
+          "dispersion": {
+            "research-rigor": {
+              "min": 7,
+              "max": 7,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 7,
+              "max": 7,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 7,
+              "max": 7,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "information-design": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 7,
+              "max": 7,
+              "range": 0
+            }
+          },
+          "rank": 18,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-24",
+          "dimensions": {
+            "research-rigor": 8,
+            "product-strategy": 8,
+            "design-coherence": 7,
+            "cybersecurity-fitness": 1,
+            "information-design": 1,
+            "frontend-craft": 1
+          },
+          "total": 4.35,
+          "holisticMedianRank": 24,
+          "holisticBorda": 0,
+          "dispersion": {
+            "research-rigor": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 8,
+              "max": 8,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 7,
+              "max": 7,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "information-design": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            }
+          },
+          "rank": 19,
+          "scoreHolisticDisagreement": 5
+        },
+        {
+          "anonymizedAs": "run-04",
+          "dimensions": {
+            "research-rigor": 4,
+            "product-strategy": 4,
+            "design-coherence": 3,
+            "cybersecurity-fitness": 1,
+            "information-design": 1,
+            "frontend-craft": 1
+          },
+          "total": 2.3499999999999996,
+          "holisticMedianRank": 20,
+          "holisticBorda": 4,
+          "dispersion": {
+            "research-rigor": {
+              "min": 4,
+              "max": 4,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 4,
+              "max": 4,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 3,
+              "max": 3,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "information-design": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            }
+          },
+          "rank": 20,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-07",
+          "dimensions": {
+            "research-rigor": 4,
+            "product-strategy": 4,
+            "design-coherence": 3,
+            "cybersecurity-fitness": 1,
+            "information-design": 1,
+            "frontend-craft": 1
+          },
+          "total": 2.3499999999999996,
+          "holisticMedianRank": 21,
+          "holisticBorda": 3,
+          "dispersion": {
+            "research-rigor": {
+              "min": 4,
+              "max": 4,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 4,
+              "max": 4,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 3,
+              "max": 3,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "information-design": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            }
+          },
+          "rank": 21,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-14",
+          "dimensions": {
+            "research-rigor": 4,
+            "product-strategy": 4,
+            "design-coherence": 3,
+            "cybersecurity-fitness": 1,
+            "information-design": 1,
+            "frontend-craft": 1
+          },
+          "total": 2.3499999999999996,
+          "holisticMedianRank": 22,
+          "holisticBorda": 2,
+          "dispersion": {
+            "research-rigor": {
+              "min": 4,
+              "max": 4,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 4,
+              "max": 4,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 3,
+              "max": 3,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "information-design": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            }
+          },
+          "rank": 22,
+          "scoreHolisticDisagreement": 0
+        },
+        {
+          "anonymizedAs": "run-12",
+          "dimensions": {
+            "research-rigor": 3,
+            "product-strategy": 3,
+            "design-coherence": 3,
+            "cybersecurity-fitness": 1,
+            "information-design": 1,
+            "frontend-craft": 1
+          },
+          "total": 1.9999999999999998,
+          "holisticMedianRank": 19,
+          "holisticBorda": 5,
+          "dispersion": {
+            "research-rigor": {
+              "min": 3,
+              "max": 3,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 3,
+              "max": 3,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 3,
+              "max": 3,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "information-design": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            }
+          },
+          "rank": 23,
+          "scoreHolisticDisagreement": 4
+        },
+        {
+          "anonymizedAs": "run-23",
+          "dimensions": {
+            "research-rigor": 3,
+            "product-strategy": 3,
+            "design-coherence": 3,
+            "cybersecurity-fitness": 1,
+            "information-design": 1,
+            "frontend-craft": 1
+          },
+          "total": 1.9999999999999998,
+          "holisticMedianRank": 23,
+          "holisticBorda": 1,
+          "dispersion": {
+            "research-rigor": {
+              "min": 3,
+              "max": 3,
+              "range": 0
+            },
+            "product-strategy": {
+              "min": 3,
+              "max": 3,
+              "range": 0
+            },
+            "design-coherence": {
+              "min": 3,
+              "max": 3,
+              "range": 0
+            },
+            "cybersecurity-fitness": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "information-design": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            },
+            "frontend-craft": {
+              "min": 1,
+              "max": 1,
+              "range": 0
+            }
+          },
+          "rank": 24,
+          "scoreHolisticDisagreement": 1
+        }
+      ],
+      "provenance": {
+        "producer": "aggregate-judges.mjs",
+        "method": "derived",
+        "sources": [
+          "judge-codex-gpt5.6-luna-high.json"
+        ]
+      }
+    }
+  },
+  "accounting": {
+    "source": "benchmark/costs/accounting.json",
+    "status": "complete",
+    "sourceDigest": "53a0fdf88c119169f766c4f4f4fe55ca151d2880cbeb0fccc51040d5e0372a7f",
+    "scopes": {
+      "benchmarkScope": {
+        "threadCount": 47,
+        "tokens": 121201649,
+        "costUsd": null,
+        "knownTokenThreads": 47,
+        "knownCostThreads": 30
+      },
+      "judgeScope": {
+        "threadCount": 1,
+        "tokens": 17459449,
+        "costUsd": 3.8042824000000004,
+        "knownTokenThreads": 1,
+        "knownCostThreads": 1
+      },
+      "identifiedScopes": {},
+      "nonIdentifiedScope": {
+        "threadCount": 0,
+        "tokens": 0,
+        "costUsd": 0,
+        "knownTokenThreads": 0,
+        "knownCostThreads": 0
+      },
+      "benchmarkAndJudgeScope": {
+        "threadCount": 48,
+        "tokens": 138661098,
+        "costUsd": null,
+        "knownTokenThreads": 48,
+        "knownCostThreads": 31
+      }
+    },
+    "total": {
+      "threadCount": 48,
+      "tokens": 138661098,
+      "costUsd": null,
+      "knownTokenThreads": 48,
+      "knownCostThreads": 31
+    },
+    "reconciliation": {
+      "threadCount": 48,
+      "classifiedThreadCount": 48,
+      "tokensDelta": 0,
+      "costDeltaUsd": 0,
+      "pass": true
+    },
+    "pricing": {
+      "tokenUsage": "48/48 threads",
+      "pricing": "31/48 threads",
+      "threadAttribution": "transcript-derived"
+    }
+  },
+  "metadataCoverage": {
+    "runs": {
+      "available": 24,
+      "total": 26
+    },
+    "audits": {
+      "available": 26,
+      "total": 26
+    },
+    "evidence": {
+      "available": 24,
+      "total": 24
+    },
+    "judges": {
+      "available": 1,
+      "total": 1
+    },
+    "tokens": {
+      "available": 0,
+      "total": 2
+    },
+    "cost": {
+      "available": 0,
+      "total": 2
+    },
+    "externalDeployment": {
+      "available": 0,
+      "total": 1
+    },
+    "tokenCounts": "48/48 threads",
+    "pricing": "31/48 threads"
+  },
+  "publishTargets": {
+    "currentPointer": "benchmark/current.json",
+    "reportMarkdown": "benchmark/cycles/cyber-dashboard-2026-07-17-v2/report/report.md",
+    "reportHtml": "benchmark/cycles/cyber-dashboard-2026-07-17-v2/report/report.html",
+    "externalPublicationAvailable": false,
+    "canonicalUrls": {
+      "runRoute": "/{runId}"
+    }
+  },
+  "provenance": {
+    "producer": "11ai-benchmark-reviewer",
+    "method": "derived",
+    "sources": [
+      "benchmark/benchmark.json",
+      "benchmark/rubric.json",
+      "benchmark/runs.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/cycle.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/judging/evidence.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/judging/judges/judge-codex-gpt5.6-luna-high.json",
+      "benchmark/cycles/cyber-dashboard-2026-07-17-v2/judging/aggregate.json",
+      "benchmark/costs/accounting.json"
+    ],
+    "notes": "Reviewed and consolidated from canonical benchmark, audit, evidence, judge, aggregate, and accounting artifacts. Scores and raw observations are copied; no new score arithmetic is introduced."
+  }
+}

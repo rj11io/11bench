@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:claude-sonnet5-medium",
+  "status": "unavailable",
+  "cycleId": "cycle-1",
+  "id": "claude-sonnet5-medium",
+  "harness": "unknown",
+  "model": "claude-sonnet-5",
+  "effort": null,
+  "tokens": null,
+  "inputTokens": null,
+  "outputTokens": null,
+  "costUsd": null,
+  "cacheHitRate": null,
+  "wallTimeMinutes": null,
+  "method": "unavailable",
+  "sourceCount": 0,
+  "sourceThreads": [],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "unavailable",
+    "sources": []
+  }
+}

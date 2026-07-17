@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "judging-aggregate:cycle-1",
+  "status": "complete",
+  "generatedAt": "2026-07-17T14:59:37.325Z",
+  "sourceDigest": "f7cb6db384c1b44df5483832151d067934a44ebac99598770927bd13c31249f5",
+  "cycleId": "cycle-1",
+  "rubricSha": "d951b3466a8b5ef6723b506f78f2d37eaff8b98e960a787347d5e7d84024d664",
+  "evidenceSha": "64836c4484297a737640dbd991cf4aa071177d83fe8aed1610a42c1174def32c",
+  "algorithmVersion": "median-weighted+borda-v1",
+  "judgeIds": [
+    "judge-codex-gpt5.6-luna-high"
+  ],
+  "judgeCounts": {
+    "total": 1,
+    "ai": 1,
+    "human": 0
+  },
+  "runs": [
+    {
+      "anonymizedAs": "candidate-b",
+      "dimensions": {
+        "source-extraction-and-inference-discipline": 10,
+        "research-quality-and-translation": 8,
+        "content-strategy-and-improvement": 8,
+        "visual-hierarchy-and-typography": 9,
+        "responsive-and-exact-two-page-print-execution": 9,
+        "craft-accessibility-and-coherence": 9
+      },
+      "total": 8.9,
+      "holisticMedianRank": 1,
+      "holisticBorda": 1,
+      "dispersion": {
+        "source-extraction-and-inference-discipline": {
+          "min": 10,
+          "max": 10,
+          "range": 0
+        },
+        "research-quality-and-translation": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "content-strategy-and-improvement": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "visual-hierarchy-and-typography": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "responsive-and-exact-two-page-print-execution": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "craft-accessibility-and-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 1,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "candidate-a",
+      "dimensions": {
+        "source-extraction-and-inference-discipline": 9,
+        "research-quality-and-translation": 9,
+        "content-strategy-and-improvement": 9,
+        "visual-hierarchy-and-typography": 8,
+        "responsive-and-exact-two-page-print-execution": 9,
+        "craft-accessibility-and-coherence": 8
+      },
+      "total": 8.7,
+      "holisticMedianRank": 2,
+      "holisticBorda": 0,
+      "dispersion": {
+        "source-extraction-and-inference-discipline": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "research-quality-and-translation": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "content-strategy-and-improvement": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "visual-hierarchy-and-typography": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "responsive-and-exact-two-page-print-execution": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "craft-accessibility-and-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 2,
+      "scoreHolisticDisagreement": 0
+    }
+  ],
+  "provenance": {
+    "producer": "aggregate-judges.mjs",
+    "method": "derived",
+    "sources": [
+      "judge-codex-gpt5.6-luna-high.json"
+    ]
+  }
+}

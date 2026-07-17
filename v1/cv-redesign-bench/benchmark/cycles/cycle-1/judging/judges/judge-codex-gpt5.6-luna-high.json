@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "judge:cv-redesign-bench-v1:cycle-1:judge-codex-gpt5.6-luna-high",
+  "status": "complete",
+  "judgeId": "judge-codex-gpt5.6-luna-high",
+  "judgeType": "ai",
+  "judgeModel": "gpt-5.6-luna",
+  "judgeProvider": "openai",
+  "judgeEffort": "high",
+  "cycleId": "cycle-1",
+  "rubricSha": "d951b3466a8b5ef6723b506f78f2d37eaff8b98e960a787347d5e7d84024d664",
+  "evidenceSha": "64836c4484297a737640dbd991cf4aa071177d83fe8aed1610a42c1174def32c",
+  "judgePromptTemplateSha": "f2e9df4dcd9a7c67338e39bc56cee0edf0702fe1426643194921de747e915c0b",
+  "judgePromptInstanceSha": "8c67f88885032dce17047aa440f0a1eb4d80d75a1b54bd5c528649ff8498ded8",
+  "judgePromptVariables": {
+    "CYCLE_ID": "cycle-1",
+    "JUDGE_ID": "judge-codex-gpt5.6-luna-high",
+    "JUDGE_TYPE": "ai"
+  },
+  "identityBlinded": true,
+  "runs": [
+    {
+      "anonymizedAs": "candidate-a",
+      "dimensions": {
+        "source-extraction-and-inference-discipline": {
+          "score": 9,
+          "justification": "The content artifact explicitly separates extracted facts from rewriting, reconciles both PDFs role by role, documents omissions, and flags uncertainties; it is unusually auditable."
+        },
+        "research-quality-and-translation": {
+          "score": 9,
+          "justification": "Research spans authoritative resume, scanning, typography, ATS, accessibility, and print sources, and each section records a concrete design or content decision changed by the finding."
+        },
+        "content-strategy-and-improvement": {
+          "score": 9,
+          "justification": "The content model builds a focused senior AI/product narrative, keeps the full chronology and public proof points, and explains truthful compression without adding metrics."
+        },
+        "visual-hierarchy-and-typography": {
+          "score": 8,
+          "justification": "The desktop evidence shows a clear editorial brief with strong labels, role/date rows, restrained accent, and a legible two-column hierarchy; it is polished but comparatively conventional."
+        },
+        "responsive-and-exact-two-page-print-execution": {
+          "score": 9,
+          "justification": "Mobile and desktop captures complete without overflow, and the visible A4 PDF evidence is exactly two A4 pages with deliberate page grouping and a print-only reset strategy."
+        },
+        "craft-accessibility-and-coherence": {
+          "score": 8,
+          "justification": "Semantic structure, underlined links, visible focus states, and a print control are documented and coherent; the runtime bundle retains a non-blocking Vercel Analytics warning."
+        }
+      }
+    },
+    {
+      "anonymizedAs": "candidate-b",
+      "dimensions": {
+        "source-extraction-and-inference-discipline": {
+          "score": 10,
+          "justification": "The artifact gives a comprehensive fact/inference boundary, source-by-source reconciliation, link uncertainty, unsupported-claim limits, and explicit two-page omission decisions."
+        },
+        "research-quality-and-translation": {
+          "score": 8,
+          "justification": "The research is credible and directly informs hierarchy, ATS, accessibility, type, and print, though it is narrower and less deeply synthesized than the other candidate research log."
+        },
+        "content-strategy-and-improvement": {
+          "score": 8,
+          "justification": "The canonical model is sharp and truthful, prioritizes recent roles, preserves earlier chronology and projects, and explains compression well; some early experience and source nuance are necessarily grouped."
+        },
+        "visual-hierarchy-and-typography": {
+          "score": 9,
+          "justification": "The signal/system direction is distinctive and controlled: high-contrast paper-on-ink framing, serif display type, mono metadata, numbered section rules, and excellent scan anchors create a memorable senior profile."
+        },
+        "responsive-and-exact-two-page-print-execution": {
+          "score": 9,
+          "justification": "The evidence shows a purposeful mobile collapse and desktop document, while the route-matched PDF is exactly two A4 pages; the print plan explicitly controls breaks, links, contrast, and continuation."
+        },
+        "craft-accessibility-and-coherence": {
+          "score": 9,
+          "justification": "Research, canonical content, design rationale, semantic HTML, focus behavior, real links, print controls, and the rendered system describe one coherent implementation; the only recorded issue is the shared analytics warning."
+        }
+      }
+    }
+  ],
+  "overallRanking": [
+    "candidate-b",
+    "candidate-a"
+  ],
+  "evaluation": {
+    "method": "Independent blind qualitative scoring against the frozen rubric and cycle evidence.",
+    "notes": [
+      "Both candidates have identical evidence coverage for the scored cohort.",
+      "The console warning is treated as non-blocking craft evidence."
+    ]
+  },
+  "provenance": {
+    "producer": "judge-codex-gpt5.6-luna-high",
+    "method": "reported",
+    "sources": [
+      "benchmark/rubric.json",
+      "benchmark/cycles/cycle-1/judging/evidence.json",
+      "benchmark/cycles/cycle-1/judging/prompts/judge-codex-gpt5.6-luna-high.json"
+    ]
+  }
+}

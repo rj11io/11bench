@@ -1,0 +1,2122 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "evidence:gh-readme-bench-v1:cycle-1",
+  "status": "complete",
+  "sourceDigest": "742428e141b3c94f9f7c917875bb31ad3a46fcfb31877db9d392659ae1ba2bf1",
+  "generatedAt": "2026-07-17T14:41:57.136Z",
+  "cycleId": "cycle-1",
+  "runs": [
+    {
+      "anonymizedAs": "candidate-01",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-01/research.md",
+          "sha256": "6a646cf675c0f9b8b29b8698d8162029c3568979bc7e362c083b73aeb14e3ef6",
+          "bytes": 12894
+        },
+        "content": {
+          "path": "judging/evidence/candidate-01/content.md",
+          "sha256": "4e9a6a7522c4bb121c85c4d6b11e7f5efc3ec2472158b13fb2394563775b50bd",
+          "bytes": 8166
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-01/README.md",
+          "sha256": "cd243c9361416d99edbf5e5e8346f249390ffb81117104886813dff24d894c88",
+          "bytes": 4559
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-01-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "963728b48bc7cb85562ebdf01ddb9949206028e8feca0e288cdafbe2b425b2cd",
+          "bytes": 328310
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-01-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "08120333d76f5728aab63635a36d024d4e5bebd0afbd40b2c6460a1b84a095e0",
+          "bytes": 60832
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-01-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "5a7ae506ed03acb6cb367c4e395bb26ff1dc3eb6fb89d700ced8ee9433c48043",
+          "bytes": 298831
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-02",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-02/research.md",
+          "sha256": "81b39901698d3f390ec282ed935977ea2e8488118121757bbd4ecf3e3704271d",
+          "bytes": 9198
+        },
+        "content": {
+          "path": "judging/evidence/candidate-02/content.md",
+          "sha256": "c3e75feda5b7fc6dcef9b055950cc177cfb109920b0052cde70155b29826a46d",
+          "bytes": 12084
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-02/README.md",
+          "sha256": "1b13ecf8500a685d52f2a577226ee88f4ba27488a46db5507c1a16d8be325555",
+          "bytes": 3941
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-02-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "8c3ef8eccba838a6d1d3de7e472cafb81c826890f9e11b9c0d7ab31aa1ef7ded",
+          "bytes": 221474
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-02-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "70c0d8ce94efefa4f81dc2e2c944ca0e6c8743b2ec1a9c3065f2a81d44ca7928",
+          "bytes": 56400
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-02-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "c4db9be61891f69b3558c97057a4b1f939d3614dcfb091584615657d4483f788",
+          "bytes": 238650
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-03",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-03/research.md",
+          "sha256": "42c20cc591aac584de9cc9b621c4a2cad55290a47181af078e715d0ae41a514b",
+          "bytes": 14077
+        },
+        "content": {
+          "path": "judging/evidence/candidate-03/content.md",
+          "sha256": "944847146461d9c9162eb96f007f13f2a9804c17c50694ef30ea5d215c206f8a",
+          "bytes": 12145
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-03/README.md",
+          "sha256": "b5af2ae7d958fbd1fc15371eb1af97612b3990fc121fca01b233daa088bb1df1",
+          "bytes": 4535
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-03-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "61883816a428ea19f0c8d8e48a7938c5d2cf36d1eeb0e330010f5c345f75add5",
+          "bytes": 192970
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-03-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "57215fed4e396118c0d7aee1d0b5c01a815fa52f290329cc624e09eabf478220",
+          "bytes": 60238
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-03-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "ab3d5d2ad38f81cb9ca972806ce3937ca64b6fefd85fc1076c65958d67a6c5cf",
+          "bytes": 220321
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-04",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-04/research.md",
+          "sha256": "2e6672327c65ae9eba03d76e613abcd00e30000c90474adeccce2c0a8bb5d174",
+          "bytes": 7987
+        },
+        "content": {
+          "path": "judging/evidence/candidate-04/content.md",
+          "sha256": "de1ac01c45011a7784e9e6aba0dd7647ee53f1b3d3a6e9f9a1e34481ce8fba32",
+          "bytes": 9242
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-04/README.md",
+          "sha256": "025606e419bcf3db1af3df7418ca3fcab60531c62970c9615b2837693dcd8bcd",
+          "bytes": 5119
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-04-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "257c745d566183831b519e1401b84fe33bcb21fe3d643ed10185af0f9110dbce",
+          "bytes": 174872
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-04-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "5a47f7eb3277e39eb8f13dcc34ed6c8071b587008448fc32c00227f48aaaffef",
+          "bytes": 47252
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-04-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "2d13b29dc0708a8ada3e8814c4cbdfb4af44ac1806c3694fdcea7781eaead4a5",
+          "bytes": 288722
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-05",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-05/research.md",
+          "sha256": "f28e1c5fc40fdba3baa429b9ba0e106d478061b03b744647d358b3a27fbd1c97",
+          "bytes": 10950
+        },
+        "content": {
+          "path": "judging/evidence/candidate-05/content.md",
+          "sha256": "7e2c879e7b98ea173c4fcfeac071361ee723e8bdd4f883522e49cd01704d7562",
+          "bytes": 13188
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-05/README.md",
+          "sha256": "dc5c4ecfb4c3da6d8745942bfe5d7f357160b3362cb805a78a279c821e32aae2",
+          "bytes": 3869
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-05-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "e0baf83735003798fe9fb8179b5945b099e2f88ef891ab6b9df1248fe47168a0",
+          "bytes": 158308
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-05-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "4a31ed87e0ab0b15d49060936a67fde949c81af4d2f8b433975c6607d7751f43",
+          "bytes": 49146
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-05-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "29838c71219d41281ed4d8fe29fc7439ff39ab5a69c7d190d5c7917f0456a832",
+          "bytes": 206193
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-06",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-06/research.md",
+          "sha256": "e862025485c59a139eda78cf2b7ffc2769eb58b473c94d5ad29914ad16070f8a",
+          "bytes": 14266
+        },
+        "content": {
+          "path": "judging/evidence/candidate-06/content.md",
+          "sha256": "ef896483e13d6b917592c09c8d09b251ccb9176d9db73f469978d3f3f9faca31",
+          "bytes": 13619
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-06/README.md",
+          "sha256": "e62a01725c0581e38cfeb659521d706291f4e92f8ca0a6c75a323d6a353b18d1",
+          "bytes": 4537
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-06-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "552edcc5c79b1a315e547d8af4ece8895d7798db3be0fd0489584575f5bc806e",
+          "bytes": 332993
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-06-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "f4ed8bef0c63b2f247dd1b3ff09afe6f2452a2231c3c2435a48abf9a2339392d",
+          "bytes": 55075
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-06-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "c5fd4e9045150eb6a2b5bc8dfebd25514f6b52fa23ec032caac1bdfb3edba5c9",
+          "bytes": 272901
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-07",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-07/research.md",
+          "sha256": "1c296b2fc4535b170e7b6d902822ea8c40588127db13ef135ed98c9ba19e1773",
+          "bytes": 9463
+        },
+        "content": {
+          "path": "judging/evidence/candidate-07/content.md",
+          "sha256": "85758d2c915054009d8e0ec93638fe8ad2886b3f8a7d9e1e18f3e211371532a7",
+          "bytes": 9019
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-07/README.md",
+          "sha256": "93a81e17769742b9831d38d68d2716dc7152101e092a40d1b934e9acca590656",
+          "bytes": 3976
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-07-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "600ba8385c368a2762fb99c4584ee88ecf5df12d969e8b1249930c4710d76a13",
+          "bytes": 56491
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-07-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "406447b767a64b22f4d287b4884863e43c742636e42d0f9352990cadf33ce026",
+          "bytes": 53327
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-07-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "1aad893f69678c557b2620b9250d67fc08d63a26e9cc59921b12be7859eb717c",
+          "bytes": 213417
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-08",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-08/research.md",
+          "sha256": "60b02af1ec54f10355b890b87cb1e52d968eab5af83897819637c2f9ecedf643",
+          "bytes": 5555
+        },
+        "content": {
+          "path": "judging/evidence/candidate-08/content.md",
+          "sha256": "f8ff172db57f083aabf19cbabec164c89ab6bc244b70661a468d228e9d621475",
+          "bytes": 4569
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-08/README.md",
+          "sha256": "6c7a106c3a3d9afa050c0c4cc07e0466b1c43bb2177089627a98aabe7aa27e75",
+          "bytes": 3682
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-08-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "a707edd51fe16654b58e780b9e89626f6b0e9837fa8718d15c3c430d9850ab75",
+          "bytes": 36671
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-08-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "4bbc8c3ce06a768c222c45e2bf2cf7cba1c69eb85263ac43f4400b74aa6cb2a1",
+          "bytes": 53502
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-08-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "02610263e40a44c23716e75c4eb749043bf88d0937a38e20f245710bcbb11e1e",
+          "bytes": 160527
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-09",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-09/research.md",
+          "sha256": "cae66fda58aad703f1fc6616d501998f1d524a354752d07b1e7ff728cdb7088d",
+          "bytes": 8176
+        },
+        "content": {
+          "path": "judging/evidence/candidate-09/content.md",
+          "sha256": "4f9456b09124bf75940a3fbe37bac551b60b3bee2cf5971df76f26296b5083dc",
+          "bytes": 8192
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-09/README.md",
+          "sha256": "1ebaac628c7b3e88cf5ed1f11e2f151bb6bb4d5fbc34efb6c8265251bdebdeb6",
+          "bytes": 3226
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-09-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "d7f8ea506ce07d59e2f5e95a0487d7458133ed122a5df957370d893ddec2b5dc",
+          "bytes": 35665
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-09-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "fedacdeec33d31808ac49e94736bdbfb3f0cffb29f3c36190f4afcc40f504781",
+          "bytes": 46216
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-09-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "cf8a60f170f33c79e7f101f5ebc8dbbe0ef6f15b547b131fc74a20a71e2b0d41",
+          "bytes": 190005
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-10",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-10/research.md",
+          "sha256": "16c3dc58abe10e73a21d70a6f0d5b36e76d879114aa4f00ecf9e6a1b5af72318",
+          "bytes": 11689
+        },
+        "content": {
+          "path": "judging/evidence/candidate-10/content.md",
+          "sha256": "1b11a6cce699fab665b5ef53fb090adee98af3cfed96b0f5dfb2670499179c16",
+          "bytes": 6952
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-10/README.md",
+          "sha256": "0b43c9e632208fc0043fd196e408c5b3c91f4b0e80e7dc5e993a4c80a879e423",
+          "bytes": 4364
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-10-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "c0c11a5ce0eaa3bff89db294e779515c6780355281f8dec3ebb4ceff072c4f6d",
+          "bytes": 45625
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-10-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "79e365067d6ca2ef7120e2e358c754b37b29a56361bce7c4185e62e74584886c",
+          "bytes": 50681
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-10-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "c1df7674f1778641038ae7cc3196334f77bc1b05b62127877c22e7ca58bbd5a2",
+          "bytes": 239962
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-11",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-11/research.md",
+          "sha256": "19e919407024d0e503bebe962821b1a2e5f0b165fcebbca88d8ef4a546a09d2f",
+          "bytes": 18859
+        },
+        "content": {
+          "path": "judging/evidence/candidate-11/content.md",
+          "sha256": "a65a6fa94736af1f6313197a92bd596ab213ac089f68e2f161093efcd6ad2536",
+          "bytes": 17579
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-11/README.md",
+          "sha256": "e645fbf056aad4dcc71b21d82dd85d6cabf044b50957991217088a159fc9f975",
+          "bytes": 6483
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-11-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "d4e6160c88b879ce3dda5a168de00c67ed4e79f0e4352bd8293692d447c1647d",
+          "bytes": 387823
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-11-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "ed938863e25b66d75dd595f974695cbc7f7b4715b30b2ba9bf2b0a6efa8c2838",
+          "bytes": 51034
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-11-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "5054b8a44874f3c3199bac769b4131ea7b3bd03458b6297dcb042e06a522fee8",
+          "bytes": 335241
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-12",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-12/research.md",
+          "sha256": "ce74075015935a36ce20ab2d8d8cb38677c2990bafcdcbb999776e810943b48b",
+          "bytes": 6859
+        },
+        "content": {
+          "path": "judging/evidence/candidate-12/content.md",
+          "sha256": "afbff9dd4a138ac81a92061e28b4d483dfb4768ae53dc57d8f9ec6a708ac04a9",
+          "bytes": 6794
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-12/README.md",
+          "sha256": "2cc643d9a0dda4af7f8e18a121451b6d8aee60b3e6f4031921b94b3afb8f3c9e",
+          "bytes": 3694
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-12-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "d9b0056c2e4209f2d91fcf8f6d8d2568ee068bdc961436e96e5cb1c3cb07e64b",
+          "bytes": 182521
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-12-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "a709d3101431d2d49c83e02e711109c0ffc8231951efc255db0f36f2c7d5ed8d",
+          "bytes": 47073
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-12-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "d74d91d306ca1716d080b007d08c9206932423fa377573730099be58b4d0c124",
+          "bytes": 211391
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-13",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-13/research.md",
+          "sha256": "f3441ddc57822064b53cc6d61ba840019e1faabea5d2c1b675c1dc9cf5d3db8d",
+          "bytes": 6125
+        },
+        "content": {
+          "path": "judging/evidence/candidate-13/content.md",
+          "sha256": "ab3eb2aaa318a0a491d4f4361670f466c6efebf19139687e75b105ec2cb023d2",
+          "bytes": 6916
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-13/README.md",
+          "sha256": "c74d313bd30c10da7aa670fd2b83a0359db7773a36820f95bb8c941ea37c3bbd",
+          "bytes": 3464
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-13-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "a86e76e2855ba66477c349b92cf9280a8e47604880432b9882befd204c136e23",
+          "bytes": 173380
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-13-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "6b7d2c26e19b9f24b1b2ab49225c6a7086ac828676d7f24586c3c371536ef510",
+          "bytes": 52745
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-13-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "2b6e5f36396da82fbf34faa757c9522ab00553fd2cc79e9ef16c7ce351f00668",
+          "bytes": 208189
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-14",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-14/research.md",
+          "sha256": "84bf715580cc9b36cba71d063b6ca92a97b233b8762944674833d662d9afbf92",
+          "bytes": 7666
+        },
+        "content": {
+          "path": "judging/evidence/candidate-14/content.md",
+          "sha256": "7ef6d049dacc7a1a051dff86073b2b5f2931df2855bd32a59c123973a52cbce0",
+          "bytes": 7087
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-14/README.md",
+          "sha256": "54d9019ea66010add51d8fe402f00b7bfb69f59fde93ee71a573a77294d118f1",
+          "bytes": 3402
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-14-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "880c531b890ade0645fe4ff3b54269456bea3c3aab95290cd71da6bb6d74812d",
+          "bytes": 45129
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-14-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "260f8ef3c708ea5f28629b9e34a596fe9f5725bdc1f63bbc0b7d8fc7f71031ef",
+          "bytes": 48003
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-14-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "44637c1b1412a56db0b849f01f5bbbc99f538bd13331149292a0ce0b56225026",
+          "bytes": 183880
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-15",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-15/research.md",
+          "sha256": "24c3a70588e1b832c6ae4aaa3bff6f65bb5565fa520b41f454e45b237ac8bf97",
+          "bytes": 10560
+        },
+        "content": {
+          "path": "judging/evidence/candidate-15/content.md",
+          "sha256": "07492c5f8bb3097dd002bf2917b23ffcbb972d9362975b0e56b9b1760ee9e4c9",
+          "bytes": 11370
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-15/README.md",
+          "sha256": "a4981a2090e972a90d009ac51c07464f588616cb6dd95132a64f4965c99aef9d",
+          "bytes": 4326
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-15-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "5c3c6ac1fc6b02bd887994497d28c4f51c7103924132162f24fd4d8802b15b54",
+          "bytes": 43339
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-15-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "7942a979dc137433ce5c488e26b4fc657b5df832f457bba58b7bc50f6f08ab88",
+          "bytes": 51037
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-15-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "085d555c8fb4427746a12090fab1c4516ddf14195e7be633c40a6bc0d2d46848",
+          "bytes": 187789
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-16",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-16/research.md",
+          "sha256": "8cd95b408e88dde5f73d5ba3d253f6b012deb3799124dc91a9102ad327475479",
+          "bytes": 9135
+        },
+        "content": {
+          "path": "judging/evidence/candidate-16/content.md",
+          "sha256": "637e8d624776fa65b01dcf9bf5f87219bf509a5c3356d8f06b789d61a223ca47",
+          "bytes": 10240
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-16/README.md",
+          "sha256": "ae6e57a41fb7764f27ed4299b6da12ac13bfb0a55953657f6d4bbd6005b056b6",
+          "bytes": 5548
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-16-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "202abbbb00f114b94da7c89d91e89e31d28cc350a8fb351f84ebebb0aa7fd07a",
+          "bytes": 353325
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-16-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "bfc16cfee35de2ada1c00ef9949c2bf23f63664fb63ca8f4cf4df8750f20815d",
+          "bytes": 64908
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-16-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "7b80cacb0d8af35f6ea29db0b13e0b8f25a2b6eb183644534a6ba45d23ad2955",
+          "bytes": 299410
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-17",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-17/research.md",
+          "sha256": "07d3b3f7a3d1b6dbdb983e9f676b8b087ac6708e7ded59fb8cfd287a76c9cf2f",
+          "bytes": 7757
+        },
+        "content": {
+          "path": "judging/evidence/candidate-17/content.md",
+          "sha256": "85c9e8ac3205e90e36f591cb7c6d5216397d590b7709d016c93d9e0673f051f3",
+          "bytes": 6400
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-17/README.md",
+          "sha256": "5ecd01c43f8929f44ef46bc614e7a0368b221c31789286be48af1b257e74b470",
+          "bytes": 3788
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-17-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "457545916524e27d8451cf14f70b4c00bca23cf363e06823a526701b3a56e01d",
+          "bytes": 57903
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-17-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "675eb69b1bb792c699ee21746cee8fa86ff1f30e5ad4993c1db91664b03aeb98",
+          "bytes": 53254
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-17-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "acd1fa6e81c0a6393bc4f7794d226dd7251d174dd2b31e1f646f9e7a127e3046",
+          "bytes": 213260
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-18",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-18/research.md",
+          "sha256": "adddd6d52f998edafad2b77b30098db7356eb747fcffc7e0e3d0ac8a417a96f0",
+          "bytes": 8405
+        },
+        "content": {
+          "path": "judging/evidence/candidate-18/content.md",
+          "sha256": "01408cd157d49bea1ba96c4df60bafdd3622d6dc0bb59c845f9f48b8638c3db3",
+          "bytes": 10707
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-18/README.md",
+          "sha256": "4d540ea5b3575fb4e7a81d3d0a02171ffa3f0c5c1e77d785dccfa5cfc33e4351",
+          "bytes": 4349
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-18-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "ece42a5fb05189b413324f9e2051ecdb0332cbac4e977df1a2c03147cb4a1038",
+          "bytes": 70436
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-18-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "72857bf637a66c52fedb3f7cc099b2ea0a9aa685f80f34d49fe75f7ed4b945ea",
+          "bytes": 50291
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-18-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "e62606b58edaa2b2d4b794f7dcff18821a5eca0047256dd221ff7e5a2aa249ef",
+          "bytes": 245270
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-19",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-19/research.md",
+          "sha256": "d57ed1f682cc01bbbd5dca746369dc6c08c9838763f13e474385e7f28235ad4c",
+          "bytes": 7977
+        },
+        "content": {
+          "path": "judging/evidence/candidate-19/content.md",
+          "sha256": "d567aeb67c83bb74f3d433fdc01f96e06ed94bdcd47dbf83df052c8b6a32ee4b",
+          "bytes": 9252
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-19/README.md",
+          "sha256": "753e84925731841bb8b876c8b0d38495e529ca45270236d6bc022dcbd7ef822f",
+          "bytes": 4138
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-19-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "478c55733ab787feb5765bb328deba263ede9a91da539e844ae3298b970962b5",
+          "bytes": 195578
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-19-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "33e85ba67779d77223a5bebb7ba78065105d1982ce6aa1fb8578b8dc7974f56a",
+          "bytes": 48157
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-19-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "b9c8cc552a250c24fdc5693eaeb786f5ea130691a8babb64d3139668697cc854",
+          "bytes": 219456
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-20",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-20/research.md",
+          "sha256": "640da7de3de278a14a6e6fa3229957641052d1cdd26d62e82bb2593636b9526f",
+          "bytes": 9452
+        },
+        "content": {
+          "path": "judging/evidence/candidate-20/content.md",
+          "sha256": "9cd33212a909c872ebdd21790a89e2b49a149c36cbb2c614f8ed7a4969a9c81f",
+          "bytes": 11047
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-20/README.md",
+          "sha256": "2460a637bf3b0080fedf884760cb5ae7cb45ef44d00bb1ece8e2bd45c79258c9",
+          "bytes": 3781
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-20-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "6c1b5ea4d6b5a592ae69963c040cefd2b3802a091d5af502a2d7d065cbb99415",
+          "bytes": 47162
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-20-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "d8de1cb74c0da0c094276c08dcb2bfb8f1083d58bf77d3c924b435380a60514b",
+          "bytes": 56728
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-20-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "9f2bdcd265f513dce1e4986ea22fcc2e857f4a770d40c8cda813e3cf16fb278d",
+          "bytes": 224539
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-21",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-21/research.md",
+          "sha256": "ba56165e4ee4043da9b6631339511eac7b9f6dc75ccb18b728ed553e171a7d8b",
+          "bytes": 10673
+        },
+        "content": {
+          "path": "judging/evidence/candidate-21/content.md",
+          "sha256": "ff153ea5e5a47670b57e49b45eb4fe38a388089903396485063d45f75ad6fe3c",
+          "bytes": 11716
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-21/README.md",
+          "sha256": "0d2bf7797d861096d22543a9823680fb46e51b8cec0610a608e404e3204f00eb",
+          "bytes": 4752
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-21-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "ad3674bd13b9d208952443762465e14d65fc22cb44953f4af3af88a2d0b61832",
+          "bytes": 308368
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-21-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "011c845ed1b1d42d8ae0a2f3ad0c0a96def29092c3d525a952f0d13eeeb53cba",
+          "bytes": 50818
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-21-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "8eec25a7e364ee78e4de02565ea30aad5f4a03dc660be48996e693e02187e7ac",
+          "bytes": 248671
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-22",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-22/research.md",
+          "sha256": "6bd99a0002e41bf9cf8bb81cfe271bddd21796c5a7eefee366b7a8fa722d9622",
+          "bytes": 15126
+        },
+        "content": {
+          "path": "judging/evidence/candidate-22/content.md",
+          "sha256": "0ad9688765c8b5ac52d4243c5599cd39a56faa143da8e8f90a35945ca94262a5",
+          "bytes": 15016
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-22/README.md",
+          "sha256": "954afaff1d95d94b226bd7679dbe34afacc0f3f7bea2674f34997f82181ee385",
+          "bytes": 4743
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-22-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "d785b03c958bce8b73e66cc78f83fc034df2f8919a107c26e5c5e492da00c708",
+          "bytes": 156168
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-22-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "a833b09ab61e65063e6f65c9447142468f696cce4050a15efcf262d3c406f4bb",
+          "bytes": 45766
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-22-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "a5838cd769741f687484d2f9a3f049ae6f13063de2316f1662a4940ba0a1462a",
+          "bytes": 231620
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-23",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-23/research.md",
+          "sha256": "6ff67bb2bd0f30ad816fd62b7c63084c93606bdbb94ba6fbf553e8755ccf39fb",
+          "bytes": 5804
+        },
+        "content": {
+          "path": "judging/evidence/candidate-23/content.md",
+          "sha256": "d33bda77b4f5137b265295ab9dd937afa195820c521975c53ca26504c8975fb6",
+          "bytes": 6247
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-23/README.md",
+          "sha256": "6068bd0df677524468b111590db302139e0b8891a899246469d648648b2f5bdd",
+          "bytes": 2774
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-23-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "457ce5aa1e31a5a25199e0eef2a6f41eac751ccea1568604773331b1ca129bdb",
+          "bytes": 125126
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-23-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "4a5a7e209d7b7fc4908f686f6aeafe79433c193cf0c978fd95df783f70f24e70",
+          "bytes": 51341
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-23-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "fd9f57de71dae150ceef9b90d766aa15e9a6e39f071b5f6e0a82ed147b2b87e3",
+          "bytes": 126368
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-24",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-24/research.md",
+          "sha256": "09890df1ff8788adfacbec0b1fee37516acc23765c9eb7260e60df1c89d1862f",
+          "bytes": 8343
+        },
+        "content": {
+          "path": "judging/evidence/candidate-24/content.md",
+          "sha256": "2802086e5a189f03bee941abf91e20d61e14274c92d8036d7ee8d08fb9be8213",
+          "bytes": 12968
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-24/README.md",
+          "sha256": "8982c154e5c5ce47db0f0a30c6e96fc0b265282de6372d3a3221cb4bf9f65183",
+          "bytes": 5496
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-24-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "875b10099631975b7b71854117731d58960e912b3c89fc5dd52b6e42f334e5b7",
+          "bytes": 208487
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-24-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "d059b903e673c72d515a57ec37d04e2f1b1b9dc49d2c06b4e2e74adb0409a9dc",
+          "bytes": 53964
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-24-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "ca30cb014ba954a66e6336be22f42fe54f5733f1f0f436f1f476c5dce44e4451",
+          "bytes": 248227
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-25",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-25/research.md",
+          "sha256": "400e94008e22b84af878b2cb4cc6f8f417842d6546fb9be9523bb2249d65387e",
+          "bytes": 8696
+        },
+        "content": {
+          "path": "judging/evidence/candidate-25/content.md",
+          "sha256": "c8d46e7ca8bca92d0921786ccb0248ff1227bc7fca9a34c56623db7399ea6d81",
+          "bytes": 12413
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-25/README.md",
+          "sha256": "6ab7b69a64ea2f96dd536bec893b6f9064935979214ecab3c7db5b8ccc72767c",
+          "bytes": 6160
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-25-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "802f271665e2bafe54d1b4fce6a8f4b1a46f19733ef39b99afae7c90bbfae945",
+          "bytes": 269057
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-25-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "360c9bdc7017bb4b210ddb1137e2ae38f64864d8f11e59173057ae90838ff429",
+          "bytes": 60636
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-25-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "3308d215d943309e307f23d4c325356a795b3d46c6e3496cbd184a837a8daaa7",
+          "bytes": 218379
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-26",
+      "surfaces": {
+        "research": {
+          "path": "judging/evidence/candidate-26/research.md",
+          "sha256": "c3c52c6d90a7faff07688325ddb20c2bbb61c8bee75e6b9cf5c08e7bdef7eb4e",
+          "bytes": 15584
+        },
+        "content": {
+          "path": "judging/evidence/candidate-26/content.md",
+          "sha256": "08624b363c11f1b69b188c8f90a86cbe40cf6f44892f266bf37063181b96a097",
+          "bytes": 16438
+        },
+        "readme": {
+          "path": "judging/evidence/candidate-26/README.md",
+          "sha256": "c14c68127b4f86a114b403acd20bafcd112e52852916dcde801b7006421a7d6b",
+          "bytes": 4113
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-26-desktop.png",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "media": "light",
+          "status": "captured",
+          "sha256": "db19150444e200b422d44e604b0f8aabc70a18352ed33f62e998cab2084d87ce",
+          "bytes": 185065
+        },
+        "mobile": {
+          "path": "judging/evidence/candidate-26-mobile-viewport.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": false,
+          "status": "captured",
+          "sha256": "f92e682e473b8c576f827f7c3000345ae18705ea4b2902274f237771306109bd",
+          "bytes": 53235
+        },
+        "mobileFullPageAttempt": {
+          "path": "judging/evidence/candidate-26-mobile.png",
+          "viewport": {
+            "width": 375,
+            "height": 812
+          },
+          "media": "light",
+          "fullPage": true,
+          "status": "captured-with-stitching-duplication",
+          "sha256": "c43021d5eba20fd43ff3529d19b5303c8b4ddaefe63bc09becc97b332599cf18",
+          "bytes": 249408
+        }
+      },
+      "runtime": {
+        "desktop": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        "mobile": {
+          "status": "captured",
+          "httpStatus": 200,
+          "consoleMessages": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "fullPageAttempt": "captured-with-stitching-duplication"
+        }
+      },
+      "metadataCoverage": {
+        "sourceArtifacts": "complete",
+        "desktopRender": "complete",
+        "mobileRender": "complete-top-viewport",
+        "networkDiagnostics": "limited-to-console-and-page-errors",
+        "accessibilityProbe": "not-requested",
+        "mobileFullPageAttempt": "captured-with-stitching-duplication"
+      }
+    }
+  ],
+  "captureEnvironment": {
+    "browser": "Codex In-app Browser",
+    "os": "macOS",
+    "renderer": "marked + GitHub-like static CSS",
+    "rendererVersion": "marked package from workspace dependency tree",
+    "desktopViewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "mobileViewport": {
+      "width": 375,
+      "height": 812
+    },
+    "captureSettings": {
+      "fullPage": true,
+      "media": "light"
+    },
+    "identityBlinded": true,
+    "sourcePathsScrubbed": true,
+    "mobileNote": "The browser backend duplicated document content during full-page mobile stitching; clean 375x812 top-viewport captures are the judge-visible mobile surface, while the full-page attempts remain retained as diagnostic evidence."
+  },
+  "provenance": {
+    "producer": "11ai-benchmark-freeze-cycle",
+    "method": "measured",
+    "sources": [
+      "benchmark/cycles/cycle-1/cycle.json",
+      "benchmark/audits/*.json",
+      "runs/<registered-run>/research.md",
+      "runs/<registered-run>/content.md",
+      "runs/<registered-run>/README.md"
+    ]
+  }
+}

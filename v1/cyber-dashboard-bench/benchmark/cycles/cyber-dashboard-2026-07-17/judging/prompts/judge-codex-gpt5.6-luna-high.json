@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "judge-prompt:cyber-dashboard-2026-07-17:judge-codex-gpt5.6-luna-high",
+  "status": "complete",
+  "sourceDigest": "0a79454a111be5ac508eb015b825f0bc09d399c4d44b9b072f2030582cf02d6d",
+  "generatedAt": "2026-07-17T14:37:53.380Z",
+  "cycleId": "cyber-dashboard-2026-07-17",
+  "judgeId": "judge-codex-gpt5.6-luna-high",
+  "judgeType": "ai",
+  "judgePromptTemplateSha": "f2e9df4dcd9a7c67338e39bc56cee0edf0702fe1426643194921de747e915c0b",
+  "judgePromptInstanceSha": "eb75d4a3eecd2899fef6df453c168690eaed148bcddd4d947180d296c67d9d40",
+  "judgePromptVariables": {
+    "CYCLE_ID": "cyber-dashboard-2026-07-17",
+    "JUDGE_ID": "judge-codex-gpt5.6-luna-high",
+    "JUDGE_TYPE": "ai"
+  },
+  "promptPath": "benchmark/cycles/cyber-dashboard-2026-07-17/judging/prompts/judge-codex-gpt5.6-luna-high.md",
+  "provenance": {
+    "producer": "create-judge-prompt.mjs",
+    "method": "derived",
+    "sources": [
+      "JUDGE.md",
+      "benchmark/cycles/cyber-dashboard-2026-07-17/cycle.json"
+    ]
+  }
+}

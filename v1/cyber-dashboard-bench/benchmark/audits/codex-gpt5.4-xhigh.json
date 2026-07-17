@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "audit:codex-gpt5.4-xhigh",
+  "status": "complete",
+  "sourceDigest": "89537594210526ff6345f1c4b0d1efd2084a108ee76eb59c3d7a67b27f0de6e7",
+  "runId": "codex-gpt5.4-xhigh",
+  "pass": true,
+  "benchmarkId": "cyber-dashboard-bench-v1",
+  "promptTemplateSha": "33d35bc2807680853d9c2fa0e22ccd4d67ff5046dc7dafe2484d1ab384021a73",
+  "promptInstanceSha": "db7eb38ebcd74cc8097cbb7e5f6a66afcceb882197145bf842967efc33c7d3d4",
+  "promptVariables": {
+    "RUN_ID": "codex-gpt5.4-xhigh"
+  },
+  "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77",
+  "startedAt": "2026-07-17T10:41:45+01:00",
+  "finishedAt": "2026-07-17T10:41:45+01:00",
+  "auditedAt": "2026-07-17T14:44:37.416Z",
+  "environment": {
+    "node": "v24.16.0",
+    "next": "16.2.6",
+    "browser": "Codex In-app Browser",
+    "runtime": "localhost:3001"
+  },
+  "checks": [
+    {
+      "id": "required-artifacts",
+      "status": "pass",
+      "detail": "Recovered run contains required process artifacts and route page.",
+      "evidence": [
+        {
+          "file": "research.md",
+          "exists": true
+        },
+        {
+          "file": "prd.md",
+          "exists": true
+        },
+        {
+          "file": "design.md",
+          "exists": true
+        },
+        {
+          "file": "page.tsx",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "id": "scope-isolation",
+      "status": "pass",
+      "detail": "Run content is contained under its assigned app/<run-id>/ folder in folder-mode recovery.",
+      "evidence": {
+        "runRef": "app/codex-gpt5.4-xhigh"
+      }
+    },
+    {
+      "id": "dependencies",
+      "status": "pass",
+      "detail": "Frozen package manifest and lockfile are unchanged from the configured baseline.",
+      "evidence": {
+        "package": "package.json",
+        "lockfile": "package-lock.json"
+      }
+    },
+    {
+      "id": "content-integrity",
+      "status": "pass",
+      "detail": "Static baseline content hash matches the recovered ledger entry.",
+      "evidence": {
+        "contentSha": "f2ed0a24fa9bf454d1d2cfa74f7f53ecb7c6909813c2863bcce5a77ac719dd77"
+      }
+    },
+    {
+      "id": "protected-baseline",
+      "status": "pass",
+      "detail": "No protected baseline file is present inside the recovered run folder.",
+      "evidence": {
+        "protectedPaths": [
+          "benchmark/",
+          "components/ui/",
+          "lib/",
+          "hooks/",
+          "app/globals.css",
+          "app/layout.tsx"
+        ]
+      }
+    },
+    {
+      "id": "repo-health",
+      "status": "pass",
+      "detail": "Shared repository checks passed for the completed cohort.",
+      "evidence": {
+        "commands": [
+          {
+            "command": "npm run lint",
+            "exitCode": 0
+          },
+          {
+            "command": "npm run typecheck",
+            "exitCode": 0
+          },
+          {
+            "command": "npm run build",
+            "exitCode": 0
+          }
+        ],
+        "buildWarnings": [
+          "Recharts reported width(-1) and height(-1) warnings during static generation; retained as a non-blocking warning."
+        ]
+      }
+    },
+    {
+      "id": "rendering",
+      "status": "pass",
+      "detail": "Both required viewports returned HTTP 200 without console errors or horizontal overflow.",
+      "evidence": [
+        {
+          "surface": "desktop",
+          "route": "/codex-gpt5.4-xhigh",
+          "status": "pass",
+          "httpStatus": 200,
+          "overflow": false,
+          "consoleMessages": [],
+          "evidence": "isolated browser tab on localhost:3001"
+        },
+        {
+          "surface": "mobile",
+          "route": "/codex-gpt5.4-xhigh",
+          "status": "pass",
+          "httpStatus": 200,
+          "overflow": false,
+          "consoleMessages": [],
+          "evidence": "isolated browser tab on localhost:3001"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "code": "build-chart-size",
+      "detail": "Build emitted Recharts width(-1)/height(-1) warnings during static generation; preserved for judging."
+    }
+  ],
+  "missingEvidence": [],
+  "provenance": {
+    "producer": "11ai-benchmark-compliance-auditor",
+    "method": "measured",
+    "sources": [
+      "benchmark/runs.json",
+      "app/codex-gpt5.4-xhigh/",
+      ".evidence-capture-cyber/runtime.json",
+      "npm run lint",
+      "npm run typecheck",
+      "npm run build"
+    ]
+  }
+}

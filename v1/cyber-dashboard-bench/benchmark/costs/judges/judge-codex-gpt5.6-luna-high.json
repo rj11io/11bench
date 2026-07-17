@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-judge:judge-codex-gpt5.6-luna-high",
+  "status": "complete",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "judgeId": "judge-codex-gpt5.6-luna-high",
+  "threadCount": 1,
+  "tokens": 17459449,
+  "costUsd": 3.8042824000000004,
+  "knownTokenThreads": 1,
+  "knownCostThreads": 1,
+  "sourceThreads": [
+    "codex:829251586fba5beffad8a351"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/17/rollout-2026-07-17T15-27-44-019f7079-e309-7e71-b3b3-a5b5758de599.jsonl"
+    ]
+  }
+}

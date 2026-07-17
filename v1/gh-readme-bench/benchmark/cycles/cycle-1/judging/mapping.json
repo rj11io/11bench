@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "mapping:gh-readme-bench-v1:cycle-1",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "seed": "gh-readme-bench-v1-cycle-1",
+  "method": "deterministic-sha256-shuffle",
+  "mapping": [
+    {
+      "runId": "claude-haiku4.5",
+      "anonymizedAs": "candidate-01"
+    },
+    {
+      "runId": "codex-gpt5.5-medium",
+      "anonymizedAs": "candidate-02"
+    },
+    {
+      "runId": "codex-gpt5.6-sol-medium",
+      "anonymizedAs": "candidate-03"
+    },
+    {
+      "runId": "codex-gpt5.4-medium",
+      "anonymizedAs": "candidate-04"
+    },
+    {
+      "runId": "codex-gpt5.4-xhigh",
+      "anonymizedAs": "candidate-05"
+    },
+    {
+      "runId": "codex-gpt5.6-sol-xhigh",
+      "anonymizedAs": "candidate-06"
+    },
+    {
+      "runId": "codex-gpt5.4-light",
+      "anonymizedAs": "candidate-07"
+    },
+    {
+      "runId": "codex-gpt5.6-luna-light",
+      "anonymizedAs": "candidate-08"
+    },
+    {
+      "runId": "codex-gpt5.6-terra-medium",
+      "anonymizedAs": "candidate-09"
+    },
+    {
+      "runId": "codex-gpt5.4mini-xhigh",
+      "anonymizedAs": "candidate-10"
+    },
+    {
+      "runId": "codex-gpt5.6-luna-xhigh",
+      "anonymizedAs": "candidate-11"
+    },
+    {
+      "runId": "codex-gpt5.6-luna-medium",
+      "anonymizedAs": "candidate-12"
+    },
+    {
+      "runId": "codex-gpt5.6-terra-light",
+      "anonymizedAs": "candidate-13"
+    },
+    {
+      "runId": "codex-gpt5.4mini-high",
+      "anonymizedAs": "candidate-14"
+    },
+    {
+      "runId": "codex-gpt5.6-sol-light",
+      "anonymizedAs": "candidate-15"
+    },
+    {
+      "runId": "codex-gpt5.4-high",
+      "anonymizedAs": "candidate-16"
+    },
+    {
+      "runId": "codex-gpt5.4mini-light",
+      "anonymizedAs": "candidate-17"
+    },
+    {
+      "runId": "codex-gpt5.5-light",
+      "anonymizedAs": "candidate-18"
+    },
+    {
+      "runId": "codex-gpt5.6-terra-high",
+      "anonymizedAs": "candidate-19"
+    },
+    {
+      "runId": "codex-gpt5.5-high",
+      "anonymizedAs": "candidate-20"
+    },
+    {
+      "runId": "codex-gpt5.6-luna-high",
+      "anonymizedAs": "candidate-21"
+    },
+    {
+      "runId": "codex-gpt5.6-sol-high",
+      "anonymizedAs": "candidate-22"
+    },
+    {
+      "runId": "codex-gpt5.4mini-medium",
+      "anonymizedAs": "candidate-23"
+    },
+    {
+      "runId": "codex-gpt5.5-xhigh",
+      "anonymizedAs": "candidate-24"
+    },
+    {
+      "runId": "claude-fable5-high",
+      "anonymizedAs": "candidate-25"
+    },
+    {
+      "runId": "codex-gpt5.6-terra-xhigh",
+      "anonymizedAs": "candidate-26"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": 2,
+  "artifactId": "run-plan:cv-redesign-bench-v1",
+  "status": "complete",
+  "campaignStatus": "open",
+  "closurePolicy": "manual",
+  "latestInterimCycleId": "cycle-1",
+  "targets": [],
+  "provenance": {
+    "producer": "11ai-benchmark-publish-cycle",
+    "method": "reported",
+    "sources": ["benchmark/cycles/cycle-1/cycle.json"]
+  }
+}

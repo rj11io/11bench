@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "run-plan:gh-readme-bench-v1",
+  "status": "complete",
+  "benchmarkId": "gh-readme-bench-v1",
+  "campaignStatus": "open",
+  "closurePolicy": "manual",
+  "campaignRevision": 1,
+  "targets": [],
+  "latestInterimCycleId": "cycle-1",
+  "finalCycleId": null,
+  "hardClosedAt": null,
+  "hardCloseWaiver": null,
+  "provenance": {
+    "producer": "11ai-benchmark-publish-cycle",
+    "method": "reported",
+    "sources": [
+      "benchmark/cycles/cycle-1/cycle.json"
+    ],
+    "note": "Legacy cohort has no planned target set; campaign remains open."
+  }
+}

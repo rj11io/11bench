@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "evidence:cv-redesign-bench-v1:cycle-1",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "runs": [
+    {
+      "anonymizedAs": "candidate-a",
+      "surfaces": {
+        "mobile": {
+          "path": "judging/evidence/candidate-a/mobile.png",
+          "sha256": "427e160752f5a1b413a6efd1b9cd2692837df07caf54417d1c0cfbe30c01e530",
+          "surface": "mobile-375x812"
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-a/desktop.png",
+          "sha256": "98b42bd45891d84d16568e42b507b65a8ad7d880ee6cf1f865781e691fe29c20",
+          "surface": "desktop-1440x900"
+        },
+        "print": {
+          "path": "judging/evidence/candidate-a/print.pdf",
+          "sha256": "822348638a702e116a1c2664b13b752c9989bf438430e4a6ca5be59eff7fe809",
+          "pages": 2,
+          "pageSize": "A4",
+          "surface": "print-a4"
+        }
+      },
+      "artifacts": {
+        "research": {
+          "path": "judging/evidence/candidate-a/research.md",
+          "sha256": "bd065675e64fbc9d5091b30103285f0abc6639de57d74fa03066825cc2b152b3",
+          "surface": "research"
+        },
+        "content": {
+          "path": "judging/evidence/candidate-a/content.md",
+          "sha256": "fcc4de9fbab2ab822cc662ed47063309b92cb701170befabd6be33705dc7bdca",
+          "surface": "content"
+        },
+        "design": {
+          "path": "judging/evidence/candidate-a/design.md",
+          "sha256": "2825aca32bacd478e9184339d101f299bc0870a0db7406b8f4555ea93a77face",
+          "surface": "design"
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "mobile": {
+          "bodyChildren": 16,
+          "buttonCount": 1,
+          "headingCount": 17,
+          "linkCount": 15,
+          "printFunction": false,
+          "scrollHeight": 4216,
+          "scrollWidth": 375,
+          "title": "Ricardo Jorge - AI Product Engineer CV",
+          "viewportWidth": 375
+        },
+        "desktop": {
+          "bodyChildren": 16,
+          "buttonCount": 1,
+          "headingCount": 17,
+          "linkCount": 15,
+          "printFunction": false,
+          "scrollHeight": 2856,
+          "scrollWidth": 1440,
+          "title": "Ricardo Jorge - AI Product Engineer CV",
+          "viewportWidth": 1440
+        },
+        "consoleWarnings": [
+          "[Vercel Web Analytics] Failed to load script from /_vercel/insights/script.js"
+        ]
+      },
+      "metadataCoverage": {
+        "originalHarness": "unavailable",
+        "originalModel": "blinded",
+        "originalTranscript": "unavailable",
+        "printCapture": "route-matched legacy PDF reused"
+      }
+    },
+    {
+      "anonymizedAs": "candidate-b",
+      "surfaces": {
+        "mobile": {
+          "path": "judging/evidence/candidate-b/mobile.png",
+          "sha256": "9300574ddd475294002420cb6a4238c0c7d16b77997906d0a7fc64816c796906",
+          "surface": "mobile-375x812"
+        },
+        "desktop": {
+          "path": "judging/evidence/candidate-b/desktop.png",
+          "sha256": "2260c73d70ce9ea7fa9bbfeadb1fdd68cf617b10f28f954ce1f70dd3aa881ae4",
+          "surface": "desktop-1440x900"
+        },
+        "print": {
+          "path": "judging/evidence/candidate-b/print.pdf",
+          "sha256": "18267406863840cd2212a4676f7963825181106ae7c35909455fef9e3be4ebbe",
+          "pages": 2,
+          "pageSize": "A4",
+          "surface": "print-a4"
+        }
+      },
+      "artifacts": {
+        "research": {
+          "path": "judging/evidence/candidate-b/research.md",
+          "sha256": "afe00c8a9ec1d8975a6baab21b525ebfdafab48de55479786a6bd42616dca7ed",
+          "surface": "research"
+        },
+        "content": {
+          "path": "judging/evidence/candidate-b/content.md",
+          "sha256": "2d1cf75719d23584791d817d702eb47ee5b9a0119688f6cc810a402d85c601cc",
+          "surface": "content"
+        },
+        "design": {
+          "path": "judging/evidence/candidate-b/design.md",
+          "sha256": "0fd586b0a36cbe93794a692432e5c0b61d8c1b26ba01fab224b8c000723cfb8c",
+          "surface": "design"
+        }
+      },
+      "runtime": {
+        "httpStatus": 200,
+        "mobile": {
+          "bodyChildren": 11,
+          "buttonCount": 1,
+          "headingCount": 24,
+          "linkCount": 15,
+          "printFunction": false,
+          "scrollHeight": 4094,
+          "scrollWidth": 375,
+          "title": "Ricardo Jorge - AI Product Engineer",
+          "viewportWidth": 375
+        },
+        "desktop": {
+          "bodyChildren": 11,
+          "buttonCount": 1,
+          "headingCount": 24,
+          "linkCount": 15,
+          "printFunction": false,
+          "scrollHeight": 2511,
+          "scrollWidth": 1440,
+          "title": "Ricardo Jorge - AI Product Engineer",
+          "viewportWidth": 1440
+        },
+        "consoleWarnings": [
+          "[Vercel Web Analytics] Failed to load script from /_vercel/insights/script.js"
+        ]
+      },
+      "metadataCoverage": {
+        "originalHarness": "unavailable",
+        "originalModel": "blinded",
+        "originalTranscript": "unavailable",
+        "printCapture": "route-matched legacy PDF reused"
+      }
+    }
+  ],
+  "captureEnvironment": {
+    "browser": "Codex In-app Browser",
+    "os": "macOS",
+    "viewportProfiles": {
+      "mobile": {
+        "width": 375,
+        "height": 812
+      },
+      "desktop": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    "print": {
+      "pageSize": "A4",
+      "expectedPages": 2
+    },
+    "capturedAt": "2026-07-17T14:47:34.443Z",
+    "identityBlinded": true
+  },
+  "sourceDigest": "de860d972e738c4b5c867d57e9c45ba226627f5440007cab7b21310427575c69",
+  "generatedAt": "2026-07-17T14:56:40.684Z",
+  "provenance": {
+    "producer": "legacy-route-evidence-bundle",
+    "method": "measured",
+    "sources": [
+      "benchmark/cycles/cycle-1/cycle.json",
+      "benchmark/screenshots/pre-cycle/manifest.json"
+    ]
+  }
+}

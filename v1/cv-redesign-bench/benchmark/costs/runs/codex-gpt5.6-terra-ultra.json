@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:codex-gpt5.6-terra-ultra",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "id": "codex-gpt5.6-terra-ultra",
+  "harness": "unknown",
+  "model": "gpt-5.6-terra",
+  "effort": null,
+  "tokens": 30281310,
+  "inputTokens": 30114822,
+  "outputTokens": 166488,
+  "costUsd": 13.564407,
+  "cacheHitRate": 0.9477794024484023,
+  "wallTimeMinutes": 53.20138333333333,
+  "method": "measured",
+  "sourceCount": 5,
+  "sourceThreads": [
+    "codex:6009bf27b0fcff2fcb37290d",
+    "codex:cdfeea9a0ff1d5b0435a6edf",
+    "codex:aa8213bea6de59fc55477774",
+    "codex:69c0a8cd8c6588d35f9b37c6",
+    "codex:1e962afa4d5db1d00d01098f"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-11-50-019f6c20-b517-73c3-a828-dca994832ead.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-02-019f6c20-e4db-7d00-b9c0-45641c54227c.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-07-019f6c20-f6ac-7fe0-81c2-67ef59f848aa.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-12-10-019f6c21-01af-7800-9aa7-0fb71f704e16.jsonl",
+      "~/.codex/sessions/2026/07/16/rollout-2026-07-16T19-35-01-019f6c35-ebfd-79f0-9181-71c31a02a133.jsonl"
+    ]
+  }
+}

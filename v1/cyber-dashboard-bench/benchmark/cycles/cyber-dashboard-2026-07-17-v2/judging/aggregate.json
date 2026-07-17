@@ -1,0 +1,1180 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "judging-aggregate:cyber-dashboard-2026-07-17-v2",
+  "status": "complete",
+  "generatedAt": "2026-07-17T14:52:06.350Z",
+  "sourceDigest": "bb478d6bce5d9a32734e930e9af86553f6224cd68de910e81305760e93f92615",
+  "cycleId": "cyber-dashboard-2026-07-17-v2",
+  "rubricSha": "b8a1a2619d2e13f8f590ca16e6ad50f185dd0b9f53062a539056ebbe2fbe1a44",
+  "evidenceSha": "58ebb83752f2adf63fe1d69e972e96be7155714756dd55d005ee9b4dc50c7777",
+  "algorithmVersion": "median-weighted+borda-v1",
+  "judgeIds": [
+    "judge-codex-gpt5.6-luna-high"
+  ],
+  "judgeCounts": {
+    "total": 1,
+    "ai": 1,
+    "human": 0
+  },
+  "runs": [
+    {
+      "anonymizedAs": "run-06",
+      "dimensions": {
+        "research-rigor": 10,
+        "product-strategy": 10,
+        "design-coherence": 10,
+        "cybersecurity-fitness": 10,
+        "information-design": 9,
+        "frontend-craft": 8
+      },
+      "total": 9.5,
+      "holisticMedianRank": 1,
+      "holisticBorda": 23,
+      "dispersion": {
+        "research-rigor": {
+          "min": 10,
+          "max": 10,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 10,
+          "max": 10,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 10,
+          "max": 10,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 10,
+          "max": 10,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 1,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-03",
+      "dimensions": {
+        "research-rigor": 10,
+        "product-strategy": 10,
+        "design-coherence": 9,
+        "cybersecurity-fitness": 10,
+        "information-design": 9,
+        "frontend-craft": 8
+      },
+      "total": 9.35,
+      "holisticMedianRank": 12,
+      "holisticBorda": 12,
+      "dispersion": {
+        "research-rigor": {
+          "min": 10,
+          "max": 10,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 10,
+          "max": 10,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 10,
+          "max": 10,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 2,
+      "scoreHolisticDisagreement": 10
+    },
+    {
+      "anonymizedAs": "run-16",
+      "dimensions": {
+        "research-rigor": 9,
+        "product-strategy": 9,
+        "design-coherence": 9,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 9
+      },
+      "total": 9,
+      "holisticMedianRank": 2,
+      "holisticBorda": 22,
+      "dispersion": {
+        "research-rigor": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 3,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "run-13",
+      "dimensions": {
+        "research-rigor": 9,
+        "product-strategy": 9,
+        "design-coherence": 9,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 9
+      },
+      "total": 9,
+      "holisticMedianRank": 3,
+      "holisticBorda": 21,
+      "dispersion": {
+        "research-rigor": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 4,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "run-05",
+      "dimensions": {
+        "research-rigor": 9,
+        "product-strategy": 9,
+        "design-coherence": 9,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 9
+      },
+      "total": 9,
+      "holisticMedianRank": 4,
+      "holisticBorda": 20,
+      "dispersion": {
+        "research-rigor": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        }
+      },
+      "rank": 5,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "run-08",
+      "dimensions": {
+        "research-rigor": 9,
+        "product-strategy": 9,
+        "design-coherence": 9,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 8
+      },
+      "total": 8.85,
+      "holisticMedianRank": 5,
+      "holisticBorda": 19,
+      "dispersion": {
+        "research-rigor": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 6,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "run-22",
+      "dimensions": {
+        "research-rigor": 9,
+        "product-strategy": 9,
+        "design-coherence": 9,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 8
+      },
+      "total": 8.85,
+      "holisticMedianRank": 6,
+      "holisticBorda": 18,
+      "dispersion": {
+        "research-rigor": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 7,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "run-09",
+      "dimensions": {
+        "research-rigor": 9,
+        "product-strategy": 9,
+        "design-coherence": 9,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 8
+      },
+      "total": 8.85,
+      "holisticMedianRank": 7,
+      "holisticBorda": 17,
+      "dispersion": {
+        "research-rigor": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 8,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "run-15",
+      "dimensions": {
+        "research-rigor": 9,
+        "product-strategy": 9,
+        "design-coherence": 9,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 8
+      },
+      "total": 8.85,
+      "holisticMedianRank": 8,
+      "holisticBorda": 16,
+      "dispersion": {
+        "research-rigor": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 9,
+      "scoreHolisticDisagreement": 1
+    },
+    {
+      "anonymizedAs": "run-01",
+      "dimensions": {
+        "research-rigor": 9,
+        "product-strategy": 9,
+        "design-coherence": 9,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 8
+      },
+      "total": 8.85,
+      "holisticMedianRank": 10,
+      "holisticBorda": 14,
+      "dispersion": {
+        "research-rigor": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 10,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-02",
+      "dimensions": {
+        "research-rigor": 9,
+        "product-strategy": 9,
+        "design-coherence": 8,
+        "cybersecurity-fitness": 9,
+        "information-design": 8,
+        "frontend-craft": 8
+      },
+      "total": 8.5,
+      "holisticMedianRank": 11,
+      "holisticBorda": 13,
+      "dispersion": {
+        "research-rigor": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 11,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-17",
+      "dimensions": {
+        "research-rigor": 8,
+        "product-strategy": 8,
+        "design-coherence": 8,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 8
+      },
+      "total": 8.35,
+      "holisticMedianRank": 9,
+      "holisticBorda": 15,
+      "dispersion": {
+        "research-rigor": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 12,
+      "scoreHolisticDisagreement": 3
+    },
+    {
+      "anonymizedAs": "run-10",
+      "dimensions": {
+        "research-rigor": 8,
+        "product-strategy": 8,
+        "design-coherence": 8,
+        "cybersecurity-fitness": 9,
+        "information-design": 9,
+        "frontend-craft": 8
+      },
+      "total": 8.35,
+      "holisticMedianRank": 13,
+      "holisticBorda": 11,
+      "dispersion": {
+        "research-rigor": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "information-design": {
+          "min": 9,
+          "max": 9,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 13,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-11",
+      "dimensions": {
+        "research-rigor": 8,
+        "product-strategy": 8,
+        "design-coherence": 8,
+        "cybersecurity-fitness": 8,
+        "information-design": 8,
+        "frontend-craft": 8
+      },
+      "total": 8,
+      "holisticMedianRank": 14,
+      "holisticBorda": 10,
+      "dispersion": {
+        "research-rigor": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-design": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        }
+      },
+      "rank": 14,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-20",
+      "dimensions": {
+        "research-rigor": 8,
+        "product-strategy": 8,
+        "design-coherence": 8,
+        "cybersecurity-fitness": 8,
+        "information-design": 8,
+        "frontend-craft": 7
+      },
+      "total": 7.8500000000000005,
+      "holisticMedianRank": 15,
+      "holisticBorda": 9,
+      "dispersion": {
+        "research-rigor": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-design": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        }
+      },
+      "rank": 15,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-21",
+      "dimensions": {
+        "research-rigor": 8,
+        "product-strategy": 8,
+        "design-coherence": 8,
+        "cybersecurity-fitness": 8,
+        "information-design": 8,
+        "frontend-craft": 7
+      },
+      "total": 7.8500000000000005,
+      "holisticMedianRank": 16,
+      "holisticBorda": 8,
+      "dispersion": {
+        "research-rigor": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-design": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        }
+      },
+      "rank": 16,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-18",
+      "dimensions": {
+        "research-rigor": 8,
+        "product-strategy": 8,
+        "design-coherence": 7,
+        "cybersecurity-fitness": 8,
+        "information-design": 8,
+        "frontend-craft": 7
+      },
+      "total": 7.7,
+      "holisticMedianRank": 17,
+      "holisticBorda": 7,
+      "dispersion": {
+        "research-rigor": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-design": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        }
+      },
+      "rank": 17,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-19",
+      "dimensions": {
+        "research-rigor": 7,
+        "product-strategy": 7,
+        "design-coherence": 7,
+        "cybersecurity-fitness": 8,
+        "information-design": 8,
+        "frontend-craft": 7
+      },
+      "total": 7.3500000000000005,
+      "holisticMedianRank": 18,
+      "holisticBorda": 6,
+      "dispersion": {
+        "research-rigor": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "information-design": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        }
+      },
+      "rank": 18,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-24",
+      "dimensions": {
+        "research-rigor": 8,
+        "product-strategy": 8,
+        "design-coherence": 7,
+        "cybersecurity-fitness": 1,
+        "information-design": 1,
+        "frontend-craft": 1
+      },
+      "total": 4.35,
+      "holisticMedianRank": 24,
+      "holisticBorda": 0,
+      "dispersion": {
+        "research-rigor": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 8,
+          "max": 8,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 7,
+          "max": 7,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "information-design": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        }
+      },
+      "rank": 19,
+      "scoreHolisticDisagreement": 5
+    },
+    {
+      "anonymizedAs": "run-04",
+      "dimensions": {
+        "research-rigor": 4,
+        "product-strategy": 4,
+        "design-coherence": 3,
+        "cybersecurity-fitness": 1,
+        "information-design": 1,
+        "frontend-craft": 1
+      },
+      "total": 2.3499999999999996,
+      "holisticMedianRank": 20,
+      "holisticBorda": 4,
+      "dispersion": {
+        "research-rigor": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "information-design": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        }
+      },
+      "rank": 20,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-07",
+      "dimensions": {
+        "research-rigor": 4,
+        "product-strategy": 4,
+        "design-coherence": 3,
+        "cybersecurity-fitness": 1,
+        "information-design": 1,
+        "frontend-craft": 1
+      },
+      "total": 2.3499999999999996,
+      "holisticMedianRank": 21,
+      "holisticBorda": 3,
+      "dispersion": {
+        "research-rigor": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "information-design": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        }
+      },
+      "rank": 21,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-14",
+      "dimensions": {
+        "research-rigor": 4,
+        "product-strategy": 4,
+        "design-coherence": 3,
+        "cybersecurity-fitness": 1,
+        "information-design": 1,
+        "frontend-craft": 1
+      },
+      "total": 2.3499999999999996,
+      "holisticMedianRank": 22,
+      "holisticBorda": 2,
+      "dispersion": {
+        "research-rigor": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 4,
+          "max": 4,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "information-design": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        }
+      },
+      "rank": 22,
+      "scoreHolisticDisagreement": 0
+    },
+    {
+      "anonymizedAs": "run-12",
+      "dimensions": {
+        "research-rigor": 3,
+        "product-strategy": 3,
+        "design-coherence": 3,
+        "cybersecurity-fitness": 1,
+        "information-design": 1,
+        "frontend-craft": 1
+      },
+      "total": 1.9999999999999998,
+      "holisticMedianRank": 19,
+      "holisticBorda": 5,
+      "dispersion": {
+        "research-rigor": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "information-design": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        }
+      },
+      "rank": 23,
+      "scoreHolisticDisagreement": 4
+    },
+    {
+      "anonymizedAs": "run-23",
+      "dimensions": {
+        "research-rigor": 3,
+        "product-strategy": 3,
+        "design-coherence": 3,
+        "cybersecurity-fitness": 1,
+        "information-design": 1,
+        "frontend-craft": 1
+      },
+      "total": 1.9999999999999998,
+      "holisticMedianRank": 23,
+      "holisticBorda": 1,
+      "dispersion": {
+        "research-rigor": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "product-strategy": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "design-coherence": {
+          "min": 3,
+          "max": 3,
+          "range": 0
+        },
+        "cybersecurity-fitness": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "information-design": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        },
+        "frontend-craft": {
+          "min": 1,
+          "max": 1,
+          "range": 0
+        }
+      },
+      "rank": 24,
+      "scoreHolisticDisagreement": 1
+    }
+  ],
+  "provenance": {
+    "producer": "aggregate-judges.mjs",
+    "method": "derived",
+    "sources": [
+      "judge-codex-gpt5.6-luna-high.json"
+    ]
+  }
+}

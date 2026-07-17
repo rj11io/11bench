@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactId": "cost-run:claude-fable5-high",
+  "status": "complete",
+  "cycleId": "cycle-1",
+  "id": "claude-fable5-high",
+  "harness": "unknown",
+  "model": "claude-fable-5",
+  "effort": null,
+  "tokens": 10926938,
+  "inputTokens": 10862109,
+  "outputTokens": 64829,
+  "costUsd": 18.083403999999998,
+  "cacheHitRate": 0.9999860984639355,
+  "wallTimeMinutes": 23.16433333333333,
+  "method": "measured",
+  "sourceCount": 1,
+  "sourceThreads": [
+    "claude:81431e443cc951af5e9aa1eb"
+  ],
+  "provenance": {
+    "producer": "account-transcripts.mjs",
+    "method": "derived",
+    "sources": [
+      "~/.claude/projects/-Users-ricardojorge-Desktop-archive-2026-repos-11bench-v1-cv-redesign-bench/f614bd2d-dd89-44b5-a586-4e95a6818361.jsonl"
+    ]
+  }
+}
