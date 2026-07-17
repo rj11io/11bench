@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/rj11io/11bench/compare/v1.7.0...v1.8.0) (2026-07-17)
+
+
+### Features
+
+* improve www ([f59a642](https://github.com/rj11io/11bench/commit/f59a642eaf2f16c1d46bca1774b2d59ce35f3b3f))
+
 # [1.7.0](https://github.com/rj11io/11bench/compare/v1.6.0...v1.7.0) (2026-07-17)
 
 
