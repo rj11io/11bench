@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/rj11io/11bench/compare/v1.8.0...v1.8.1) (2026-07-18)
+
+
+### Bug Fixes
+
+* www improvements ([5ff7937](https://github.com/rj11io/11bench/commit/5ff793788481cfafde65468c51ced477977b7aa9))
+
 # [1.8.0](https://github.com/rj11io/11bench/compare/v1.7.0...v1.8.0) (2026-07-17)
 
 
