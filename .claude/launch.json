@@ -4,22 +4,9 @@
     {
       "name": "www",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--prefix", "www", "--", "--port", "3100"],
-      "port": 3100
-    },
-    {
-      "name": "cv-design-bench",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": [
-        "run",
-        "dev",
-        "--prefix",
-        "v1/cv-design-bench",
-        "--",
-        "--port",
-        "3101"
-      ],
-      "port": 3101
+      "runtimeArgs": ["run", "dev", "--prefix", "www", "--", "--port", "3400"],
+      "port": 3400,
+      "autoPort": true
     }
   ]
 }
