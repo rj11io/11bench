@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/rj11io/11bench/compare/v1.8.3...v1.9.0) (2026-07-25)
+
+
+### Features
+
+* bench opus 5 high ([3e9a64e](https://github.com/rj11io/11bench/commit/3e9a64efb776b9932773ea281993962ab773ff1f))
+
 ## [1.8.3](https://github.com/rj11io/11bench/compare/v1.8.2...v1.8.3) (2026-07-18)
 
 
