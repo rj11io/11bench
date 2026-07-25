@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/rj11io/11bench/compare/v1.9.0...v1.10.0) (2026-07-25)
+
+
+### Features
+
+* crypto bench opus 5 high ([3d2862c](https://github.com/rj11io/11bench/commit/3d2862cf0ef7b65ebac482cdc418f22100579fd8))
+
 # [1.9.0](https://github.com/rj11io/11bench/compare/v1.8.3...v1.9.0) (2026-07-25)
 
 
