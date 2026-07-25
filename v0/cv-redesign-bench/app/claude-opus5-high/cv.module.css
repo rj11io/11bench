@@ -1,0 +1,735 @@
+/*
+ * CV — "The Ledger"
+ *
+ * Scoped to this route. Nothing here leaks out; nothing global is imported.
+ * See design.md for the rationale behind every number in this file.
+ *
+ * Structure
+ *   .root      colour + type scale, switched by theme and by print
+ *   .bar       sticky utility bar, screen only
+ *   .shell     centring frame
+ *   .sheet     one A4 page's worth of content
+ *   .section   rail (label) + spine + content column
+ */
+
+/* ------------------------------------------------------------------ tokens */
+
+.root {
+  /* Warm paper and warm ink: less clinical than pure #fff/#000, and the
+     warmth survives a cheap office printer better than a cool grey. */
+  --paper: #fbfaf8;
+  --ink: #171614; /* 17.8:1 on paper */
+  --ink-2: #4a4843; /* 8.8:1  — employer lines, notes */
+  --ink-3: #6e6b64; /* 5.1:1  — labels, dates, micro type */
+  --rule: #ddd9d2;
+  --rule-strong: #b9b4ab;
+  --accent: #a8391b; /* 6.2:1  — links, markers, the promotion arrow */
+
+  --rail: 9rem;
+  --rail-pad: 0.9rem;
+  --spine: 1.6rem;
+  --section-gap: 1.65rem;
+  --entry-gap: 1.15rem;
+
+  --fs-name: clamp(2.375rem, 8vw, 3.25rem);
+  --fs-standfirst: clamp(1.0625rem, 3.4vw, 1.3125rem);
+  --fs-title: 1.0625rem;
+  --fs-body: 0.9375rem;
+  --fs-small: 0.875rem;
+  --fs-date: 0.75rem;
+  --fs-label: 0.625rem;
+  --fs-micro: 0.6875rem;
+
+  --lh-body: 1.55;
+
+  background: var(--paper);
+  color: var(--ink);
+  min-height: 100dvh;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  /* Inter's tabular figures keep every date column optically aligned. */
+  font-variant-numeric: tabular-nums;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+:global(.dark) .root {
+  --paper: #12110f;
+  --ink: #f2efe9; /* 17.6:1 */
+  --ink-2: #c3bfb6; /* 10.4:1 */
+  --ink-3: #938f86; /* 5.9:1  */
+  --rule: #2d2b27;
+  --rule-strong: #4a4741;
+  --accent: #e8825c; /* 7.1:1  */
+}
+
+/* ------------------------------------------------------------- utility bar */
+
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.6rem 1.125rem;
+  border-bottom: 1px solid var(--rule);
+  background: color-mix(in oklab, var(--paper) 86%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.barName {
+  /* min-width: 0 is load-bearing. Flex items default to min-width: auto, so
+     without it this label refuses to shrink and widens the whole document
+     past a 375px viewport. */
+  min-width: 0;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: var(--fs-micro);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.print {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: var(--fs-micro);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:
+    border-color 120ms ease,
+    color 120ms ease,
+    background-color 120ms ease;
+}
+
+.print:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.print:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.printIcon {
+  width: 0.85em;
+  height: 0.85em;
+  flex: none;
+}
+
+/* ----------------------------------------------------------------- framing */
+
+.shell {
+  padding: 1.75rem 1.125rem 4rem;
+}
+
+.sheet {
+  max-width: 47rem;
+  margin-inline: auto;
+}
+
+/* ---------------------------------------------------------------- masthead */
+
+.masthead {
+  padding-bottom: 1.5rem;
+}
+
+.name {
+  margin: 0;
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 500;
+  font-size: var(--fs-name);
+  line-height: 0.95;
+  letter-spacing: -0.021em;
+  text-wrap: balance;
+}
+
+.role {
+  margin: 0.5rem 0 0;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: var(--fs-date);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.standfirst {
+  margin: 1.1rem 0 0;
+  max-width: 30rem;
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: var(--fs-standfirst);
+  line-height: 1.34;
+  letter-spacing: -0.008em;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
+.contacts {
+  margin: 1.25rem 0 0;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  line-height: 1.75;
+}
+
+/* ---------------------------------------------------------------- sections */
+
+.section {
+  display: grid;
+  grid-template-columns: var(--rail) minmax(0, 1fr);
+  border-top: 1px solid var(--rule);
+}
+
+.label {
+  margin: 0;
+  padding: var(--section-gap) var(--rail-pad) 0 0;
+  text-align: right;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: var(--fs-label);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  /* Optical nudge: mono caps sit high, the serif/sans body sits lower. */
+  line-height: 1.9;
+}
+
+.body {
+  padding: var(--section-gap) 0 var(--section-gap) var(--spine);
+  border-left: 1px solid var(--rule);
+}
+
+/* ----------------------------------------------------------------- profile */
+
+.prose {
+  margin: 0;
+  max-width: 36rem;
+  text-wrap: pretty;
+}
+
+.prose + .prose {
+  margin-top: 0.7rem;
+}
+
+.prose strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* ------------------------------------------------------------------ skills */
+
+/* Run-in labels, not a label column: the label anchors the left edge where the
+   eye scans, and every row gets the full measure. design.md §4. */
+.skillRow {
+  max-width: 36rem;
+  font-size: var(--fs-small);
+  text-wrap: pretty;
+}
+
+.skillRow + .skillRow {
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid color-mix(in oklab, var(--rule) 62%, transparent);
+}
+
+.skillLabel {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.skillLabel::after {
+  content: " — ";
+  font-weight: 400;
+  color: var(--ink-3);
+}
+
+.skillItems {
+  display: inline;
+  margin: 0;
+  color: var(--ink-2);
+}
+
+/* ---------------------------------------------------- rows: entry + dates */
+
+.entryHead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0 1rem;
+  align-items: baseline;
+}
+
+.entryTitle {
+  margin: 0;
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 600;
+  font-size: var(--fs-title);
+  line-height: 1.22;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  text-wrap: pretty;
+}
+
+/* Holds " → " including its spaces, so the extracted text of the printed PDF
+   reads "Senior Frontend Engineer → Team Lead" rather than running together. */
+.arrow {
+  color: var(--accent);
+  font-style: normal;
+  white-space: pre;
+}
+
+.dates {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: var(--fs-date);
+  letter-spacing: 0.01em;
+  color: var(--ink-3);
+  white-space: nowrap;
+}
+
+.meta {
+  margin: 0.28rem 0 0;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+}
+
+.employer {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.framing {
+  margin: 0.5rem 0 0;
+  max-width: 36rem;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
+/* ---------------------------------------------------------------- bullets */
+
+.bullets {
+  margin: 0.55rem 0 0;
+  padding: 0;
+  list-style: none;
+  max-width: 36rem;
+}
+
+/* Hanging indent without positioning. `position: relative` here would make each
+   <li> a positioned box, and positioned boxes paint after in-flow ones — which
+   pushed every bullet to the end of the printed page's text order. */
+.bullets li {
+  padding-left: 1.05rem;
+  text-indent: -1.05rem;
+  text-wrap: pretty;
+}
+
+.bullets li + li {
+  margin-top: 0.32rem;
+}
+
+/* Drawn, not typed: a marker glyph would be read out by a screen reader and
+   would land in the extracted text of the printed PDF. It is a border rather
+   than a background because browsers drop backgrounds when printing. */
+.bullets li::before {
+  content: "";
+  display: inline-block;
+  width: 0.4rem;
+  margin-right: 0.65rem;
+  border-top: 1px solid var(--accent);
+  vertical-align: 0.3em;
+}
+
+.bullets strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* --------------------------------------------------------------- entries */
+
+.entry + .entry {
+  margin-top: var(--entry-gap);
+  padding-top: var(--entry-gap);
+  border-top: 1px solid color-mix(in oklab, var(--rule) 62%, transparent);
+}
+
+/* Never split a role across the page break. */
+.entry,
+.row,
+.skillRow,
+.eduBlock {
+  break-inside: avoid;
+}
+
+/* ----------------------------------------------------- compact one-liners */
+
+.row + .row {
+  margin-top: 0.55rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid color-mix(in oklab, var(--rule) 62%, transparent);
+}
+
+.rowTitle {
+  margin: 0;
+  font-size: var(--fs-body);
+  font-weight: 400;
+  color: var(--ink);
+  text-wrap: pretty;
+}
+
+.rowTitle strong,
+.rowName {
+  font-weight: 600;
+}
+
+.rowNote {
+  margin: 0.16rem 0 0;
+  max-width: 36rem;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
+.note {
+  margin: 0.7rem 0 0;
+  font-size: var(--fs-micro);
+  color: var(--ink-3);
+}
+
+/* --------------------------------------------------------------- education */
+
+.eduBlock {
+  max-width: 36rem;
+}
+
+.eduOriginal {
+  margin: 0.16rem 0 0;
+  font-size: var(--fs-small);
+  font-style: italic;
+  color: var(--ink-3);
+}
+
+/* ------------------------------------------------------------------ footer */
+
+.docFoot {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0 1rem;
+  align-items: baseline;
+  padding-top: 1.1rem;
+  margin-top: 0.4rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: var(--fs-micro);
+  letter-spacing: 0.02em;
+  color: var(--ink-3);
+}
+
+/* Print-only running head on page two. */
+.runningHead {
+  display: none;
+}
+
+/* ------------------------------------------------------------------- links */
+
+.link {
+  color: var(--accent);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  text-decoration-color: color-mix(in oklab, var(--accent) 42%, transparent);
+  transition:
+    text-decoration-color 120ms ease,
+    color 120ms ease;
+}
+
+.link:hover {
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+}
+
+.link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+
+/* ----------------------------------------------------------- mobile: 375px */
+
+@media (max-width: 40rem) {
+  .root {
+    --section-gap: 1.3rem;
+    --fs-label: 0.6rem;
+  }
+
+  .shell {
+    padding: 1.25rem 1.125rem 3.5rem;
+  }
+
+  /* The rail folds up: the label becomes a row above its own content, so the
+     reading order on a phone is identical to the reading order in print. */
+  .section {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .label {
+    padding: var(--section-gap) 0 0;
+    text-align: left;
+    line-height: 1.4;
+  }
+
+  .body {
+    padding: 0.6rem 0 var(--section-gap);
+    border-left: 0;
+  }
+
+  .entryHead,
+  .docFoot {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.2rem;
+  }
+
+  .contacts {
+    line-height: 1.9;
+  }
+
+  /* Phone: the bar keeps the name only — the job title is two lines below it. */
+  .barRole {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------- desktop: 1440px */
+
+@media (min-width: 64rem) {
+  .root {
+    --rail: 10rem;
+    --spine: 2rem;
+    --section-gap: 1.9rem;
+    --entry-gap: 1.3rem;
+    --fs-body: 1rem;
+    --fs-small: 0.9375rem;
+    --fs-title: 1.1875rem;
+    --fs-date: 0.78125rem;
+  }
+
+  .shell {
+    padding: 2.75rem 2rem 6rem;
+  }
+
+  .sheet {
+    max-width: 52rem;
+  }
+
+  .bar {
+    padding: 0.7rem 2rem;
+  }
+}
+
+/* -------------------------------------------------------- reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .print,
+  .link {
+    transition: none;
+  }
+}
+
+/* ==================================================================== print
+ *
+ * Exactly two A4 pages. One forced break, no fixed sheet heights: a box the
+ * exact height of the page can round up and emit a blank third page, and any
+ * overflow inside a fixed box is clipped silently. See design.md §6.
+ */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  /* Forced black on white, whatever the screen theme was. The dark selector is
+     repeated because next-themes leaves `.dark` on <html> when printing. */
+  .root,
+  :global(.dark) .root {
+    --paper: #fff;
+    --ink: #000;
+    --ink-2: #1c1c1c;
+    --ink-3: #3d3d3d;
+    --rule: #c9c9c9;
+    --rule-strong: #8d8d8d;
+    --accent: #000;
+
+    --rail: 25mm;
+    --rail-pad: 3mm;
+    --spine: 4.5mm;
+    --section-gap: 3.1mm;
+    --entry-gap: 2.4mm;
+
+    --fs-name: 21.5pt;
+    --fs-standfirst: 10.4pt;
+    --fs-title: 10.6pt;
+    --fs-body: 9.4pt;
+    --fs-small: 8.3pt;
+    --fs-date: 7.6pt;
+    --fs-label: 6.8pt;
+    --fs-micro: 7.1pt;
+
+    --lh-body: 1.3;
+
+    background: #fff;
+    min-height: 0;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .shell {
+    padding: 0;
+  }
+
+  .sheet {
+    width: 210mm;
+    max-width: none;
+    margin: 0;
+    padding: 11mm 14mm 12mm;
+  }
+
+  /* The only page break in the document. */
+  .sheetOne {
+    break-after: page;
+  }
+
+  .sheetTwo {
+    padding-top: 9mm;
+  }
+
+  .runningHead {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0 1rem;
+    align-items: baseline;
+    padding-bottom: 2.6mm;
+    margin-bottom: 1.4mm;
+    border-bottom: 1px solid var(--rule-strong);
+    font-family: var(--font-mono), ui-monospace, monospace;
+    font-size: var(--fs-label);
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .masthead {
+    padding-bottom: 4mm;
+  }
+
+  .name {
+    letter-spacing: -0.024em;
+  }
+
+  .role {
+    margin-top: 1.4mm;
+    letter-spacing: 0.18em;
+  }
+
+  .standfirst {
+    margin-top: 2.6mm;
+    max-width: 126mm;
+  }
+
+  .contacts {
+    margin-top: 3mm;
+    line-height: 1.4;
+  }
+
+  .framing,
+  .bullets,
+  .rowNote,
+  .skillRow,
+  .eduBlock {
+    max-width: none;
+  }
+
+  /* Continuous prose gets a shorter measure than bullets do. The full column is
+     ~92 characters; these paragraphs are the only multi-line running text in the
+     document, so they are the place worth spending width on. design.md §3. */
+  .prose {
+    max-width: 142mm;
+  }
+
+  .prose + .prose {
+    margin-top: 1.4mm;
+  }
+
+  .skillRow + .skillRow {
+    margin-top: 1mm;
+    padding-top: 1mm;
+  }
+
+  .bullets {
+    margin-top: 1.2mm;
+  }
+
+  .bullets li {
+    padding-left: 3.6mm;
+    text-indent: -3.6mm;
+  }
+
+  .bullets li + li {
+    margin-top: 0.7mm;
+  }
+
+  .bullets li::before {
+    width: 1.6mm;
+    margin-right: 2mm;
+    border-top-width: 0.5pt;
+  }
+
+  .meta {
+    margin-top: 0.7mm;
+  }
+
+  .framing {
+    margin-top: 1mm;
+  }
+
+  .row + .row {
+    margin-top: 1mm;
+    padding-top: 1mm;
+  }
+
+  .rowNote {
+    margin-top: 0.3mm;
+  }
+
+  .note {
+    margin-top: 1.6mm;
+  }
+
+  .docFoot {
+    margin-top: 0.4mm;
+    padding-top: 1.8mm;
+  }
+
+  /* Links stay black and underlined; every address is also printed as text, so
+     the document works on paper even if the clickable layer is lost. */
+  .link {
+    color: var(--ink);
+    text-decoration-color: var(--rule-strong);
+    text-decoration-thickness: 0.4pt;
+  }
+}

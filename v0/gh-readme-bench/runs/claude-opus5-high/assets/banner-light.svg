@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 180" width="780" height="180" role="img">
+  <title>Ricardo Jorge — AI Product Engineer, Lisbon, Portugal</title>
+  <desc>A header card. On the left, a rounded square holding the number eleven, Ricardo Jorge's personal mark. To its right, his name in large bold type, a short accent rule, and the line "AI Product Engineer · Lisbon, Portugal".</desc>
+
+  <rect x="1" y="1" width="778" height="178" rx="14" fill="#ffffff" stroke="#d1d9e0" stroke-width="2"/>
+
+  <rect x="30" y="46" width="88" height="88" rx="20" fill="#0f766e"/>
+  <text x="74" y="107" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="48" font-weight="700" fill="#ffffff">11</text>
+
+  <text x="140" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="#1f2328">Ricardo Jorge</text>
+
+  <rect x="140" y="96" width="64" height="5" rx="2.5" fill="#0f766e"/>
+
+  <text x="140" y="132" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="26" fill="#59636e">AI Product Engineer · Lisbon, Portugal</text>
+</svg>
