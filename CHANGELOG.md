@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/rj11io/11bench/compare/v1.10.0...v1.10.1) (2026-07-29)
+
+
+### Bug Fixes
+
+* fix ci version bump ([38a051b](https://github.com/rj11io/11bench/commit/38a051b91473e99e877ba228e60a6562f6691254))
+
 # [1.10.0](https://github.com/rj11io/11bench/compare/v1.9.0...v1.10.0) (2026-07-25)
 
 
