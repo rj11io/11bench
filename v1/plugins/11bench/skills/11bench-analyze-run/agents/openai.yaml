@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Run"
+  short_description: "Analyze exact-thread usage for one run"
+  default_prompt: "Use 11bench-analyze-run to generate standalone analytics for a benchmark run."

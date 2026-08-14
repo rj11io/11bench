@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Cohort"
+  short_description: "Aggregate run analytics for one cohort"
+  default_prompt: "Use 11bench-analyze-cohort to regenerate analytics for a benchmark cohort."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Launch Run"
+  short_description: "Launch prepared candidates safely"
+  default_prompt: "Use 11bench-launch-run to produce or execute launch instructions for prepared benchmark runs."

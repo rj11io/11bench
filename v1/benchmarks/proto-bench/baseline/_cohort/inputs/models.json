@@ -1,0 +1,78 @@
+{
+  "dataset": "Fictional 11bench prototype data",
+  "generatedAt": "2026-08-14T00:00:00Z",
+  "runs": [
+    {
+      "id": "run-001",
+      "provider": "OpenAI",
+      "model": "gpt-5.6",
+      "effort": "high",
+      "task": "Dashboard redesign",
+      "quality": 91,
+      "latencyMs": 48200,
+      "tokens": 28450,
+      "costUsd": 0.84,
+      "status": "complete"
+    },
+    {
+      "id": "run-002",
+      "provider": "Anthropic",
+      "model": "claude-opus-4.6",
+      "effort": "high",
+      "task": "Dashboard redesign",
+      "quality": 89,
+      "latencyMs": 53700,
+      "tokens": 31220,
+      "costUsd": 1.12,
+      "status": "complete"
+    },
+    {
+      "id": "run-003",
+      "provider": "Google",
+      "model": "gemini-3-pro",
+      "effort": "medium",
+      "task": "Dashboard redesign",
+      "quality": 84,
+      "latencyMs": 39600,
+      "tokens": 24180,
+      "costUsd": null,
+      "status": "complete"
+    },
+    {
+      "id": "run-004",
+      "provider": "OpenAI",
+      "model": "gpt-5.6",
+      "effort": "medium",
+      "task": "Accessibility pass",
+      "quality": 87,
+      "latencyMs": 34400,
+      "tokens": 19870,
+      "costUsd": 0.61,
+      "status": "complete"
+    },
+    {
+      "id": "run-005",
+      "provider": "Anthropic",
+      "model": "claude-sonnet-4.5",
+      "effort": "medium",
+      "task": "Accessibility pass",
+      "quality": 82,
+      "latencyMs": 31100,
+      "tokens": 17640,
+      "costUsd": 0.47,
+      "status": "tainted"
+    },
+    {
+      "id": "run-006",
+      "provider": "Google",
+      "model": "gemini-3-flash",
+      "effort": "low",
+      "task": "Data density pass",
+      "quality": 78,
+      "latencyMs": 12800,
+      "tokens": 9340,
+      "costUsd": 0.09,
+      "status": "failed"
+    }
+  ]
+}

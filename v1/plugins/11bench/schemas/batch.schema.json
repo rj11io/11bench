@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bench.rj11.io/schemas/batch.schema.json",
+  "title": "11bench batch",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "batchId", "benchmarkId", "cohortId", "status", "runs"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "batchId": { "type": "string" },
+    "benchmarkId": { "type": "string" },
+    "cohortId": { "type": "string" },
+    "status": { "enum": ["prepared", "running", "complete", "partial", "failed"] },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "finishedAt": { "type": ["string", "null"], "format": "date-time" },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["runId", "runPath", "status"],
+        "properties": {
+          "runId": { "type": "string" },
+          "runPath": { "type": "string" },
+          "workspacePath": { "type": "string" },
+          "taskId": { "type": ["string", "null"] },
+          "threadId": { "type": ["string", "null"] },
+          "status": { "type": "string" },
+          "error": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

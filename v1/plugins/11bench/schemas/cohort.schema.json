@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bench.rj11.io/schemas/cohort.schema.json",
+  "title": "11bench cohort",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "benchmarkId", "status", "prompt", "inputs", "template", "skills", "permissions"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
+    "benchmarkId": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
+    "status": { "enum": ["draft", "frozen"] },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "frozenAt": { "type": ["string", "null"], "format": "date-time" },
+    "sourceRef": { "type": ["string", "null"] },
+    "prompt": { "$ref": "#/$defs/artifact" },
+    "inputs": { "$ref": "#/$defs/artifact" },
+    "template": { "$ref": "#/$defs/artifact" },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "path": { "type": ["string", "null"] },
+          "sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" }
+        }
+      }
+    },
+    "permissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["requiredIsolation", "network", "packageInstall", "gitHistory", "declaredSkillsOnly"],
+      "properties": {
+        "requiredIsolation": { "enum": ["enforced", "partial", "advisory"] },
+        "network": { "enum": ["deny", "allow"] },
+        "packageInstall": { "enum": ["deny", "allow"] },
+        "gitHistory": { "enum": ["deny", "allow"] },
+        "declaredSkillsOnly": { "type": "boolean" },
+        "connectors": { "type": "array", "items": { "type": "string" } },
+        "externalApps": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "analyticsSchemaVersion": { "type": "integer", "minimum": 1 }
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" }
+      }
+    }
+  }
+}

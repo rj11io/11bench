@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Benchmark"
+  short_description: "Aggregate analytics for one benchmark"
+  default_prompt: "Use 11bench-analyze-benchmark to regenerate analytics across a benchmark's cohorts."

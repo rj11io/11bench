@@ -1,0 +1,4 @@
+interface:
+  display_name: "Freeze Cohort"
+  short_description: "Validate and lock a cohort configuration"
+  default_prompt: "Use 11bench-freeze-cohort to validate and freeze a cohort before preparing runs."

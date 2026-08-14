@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bench.rj11.io/schemas/analytics.schema.json",
+  "title": "11bench analytics",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["schemaVersion", "scope", "generatedAt", "sourceDigest", "sources", "summary"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "scope": { "enum": ["run", "cohort", "benchmark", "global"] },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "sourceDigest": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "sources": { "type": "array" },
+    "summary": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["runCount", "threadCount"],
+      "properties": {
+        "runCount": { "type": "integer", "minimum": 0 },
+        "threadCount": { "type": "integer", "minimum": 0 },
+        "tokens": { "type": ["number", "null"], "minimum": 0 },
+        "costUsd": { "type": ["number", "null"], "minimum": 0 },
+        "wallTimeMs": { "type": ["number", "null"], "minimum": 0 },
+        "activeTimeMs": { "type": ["number", "null"], "minimum": 0 }
+      }
+    }
+  }
+}

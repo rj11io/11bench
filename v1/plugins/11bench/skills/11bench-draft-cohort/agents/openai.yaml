@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft Cohort"
+  short_description: "Create or clone an editable cohort draft"
+  default_prompt: "Use 11bench-draft-cohort to draft or clone a cohort for an existing benchmark."

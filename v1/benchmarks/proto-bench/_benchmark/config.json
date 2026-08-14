@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "proto-bench",
+  "title": "Models Dashboard Bench",
+  "description": "Small offline dashboard prototype for validating the 11bench lifecycle before larger benchmarks.",
+  "createdAt": "2026-08-14T00:00:00.000Z",
+  "prototype": true,
+  "analyticsSchemaVersion": 1
+}

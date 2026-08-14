@@ -1,0 +1,4 @@
+interface:
+  display_name: "11bench FAQ"
+  short_description: "Answer 11bench questions from source"
+  default_prompt: "Use 11bench-faq to answer a question about 11bench behavior with source citations."

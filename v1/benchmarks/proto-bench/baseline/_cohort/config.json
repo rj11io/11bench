@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "baseline",
+  "benchmarkId": "proto-bench",
+  "status": "draft",
+  "createdAt": "2026-08-14T00:00:00.000Z",
+  "frozenAt": null,
+  "sourceRef": null,
+  "prompt": {
+    "path": "prompt.md",
+    "sha256": null
+  },
+  "inputs": {
+    "path": "inputs",
+    "sha256": null
+  },
+  "template": {
+    "path": "../../_benchmark/template",
+    "sha256": null
+  },
+  "skills": [],
+  "permissions": {
+    "requiredIsolation": "enforced",
+    "network": "deny",
+    "packageInstall": "deny",
+    "gitHistory": "deny",
+    "declaredSkillsOnly": true,
+    "connectors": [],
+    "externalApps": []
+  },
+  "analyticsSchemaVersion": 1
+}

@@ -1,0 +1,22 @@
+{
+  "name": "11bench",
+  "version": "1.0.0",
+  "description": "Draft, isolate, launch, finalize, and analyze reproducible AI benchmark runs.",
+  "author": {
+    "name": "rj11io"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "11bench",
+    "shortDescription": "Reproducible AI benchmark operations and analytics.",
+    "longDescription": "Create benchmark projects and cohorts, enforce isolated candidate workspaces, run candidates sequentially or in parallel, finalize immutable results, and generate standalone run-to-global analytics.",
+    "developerName": "rj11io",
+    "category": "Developer Tools",
+    "capabilities": ["Benchmarking", "Analytics", "Automation"],
+    "defaultPrompt": [
+      "Draft a benchmark with a baseline cohort.",
+      "Prepare isolated runs for this cohort.",
+      "Explain this benchmark state with citations."
+    ]
+  }
+}

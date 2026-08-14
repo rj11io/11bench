@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Run"
+  short_description: "Prepare isolated workspaces for model runs"
+  default_prompt: "Use 11bench-prepare-run to prepare one or more isolated benchmark candidate workspaces."

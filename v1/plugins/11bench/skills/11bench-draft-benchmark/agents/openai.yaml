@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft Benchmark"
+  short_description: "Create a benchmark with baseline cohort"
+  default_prompt: "Use 11bench-draft-benchmark to draft a new benchmark project with a baseline cohort."

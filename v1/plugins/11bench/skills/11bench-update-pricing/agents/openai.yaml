@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Pricing"
+  short_description: "Maintain standalone model pricing history"
+  default_prompt: "Use 11bench-update-pricing to verify and update the bundled 11bench pricing catalog."

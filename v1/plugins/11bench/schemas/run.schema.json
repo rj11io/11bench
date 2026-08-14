@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bench.rj11.io/schemas/run.schema.json",
+  "title": "11bench run",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["schemaVersion", "runId", "benchmarkId", "cohortId", "status", "model", "workspace"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "runId": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
+    "benchmarkId": { "type": "string" },
+    "cohortId": { "type": "string" },
+    "status": { "enum": ["prepared", "running", "complete", "failed", "tainted"] },
+    "provider": { "type": ["string", "null"] },
+    "model": { "type": "string" },
+    "effort": { "type": ["string", "null"] },
+    "harness": { "type": ["string", "null"] },
+    "rootThreadId": { "type": ["string", "null"] },
+    "subagentThreadIds": { "type": "array", "items": { "type": "string" } },
+    "isolationStatus": { "enum": ["pending", "enforced", "partial", "advisory", "unsupported"] },
+    "taintReasons": { "type": "array", "items": { "type": "string" } },
+    "workspace": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "autoDelete", "cleanupPolicy", "cleanupEligible", "cleanupWarning"],
+      "properties": {
+        "path": { "type": "string" },
+        "autoDelete": { "const": false },
+        "cleanupPolicy": { "const": "manual-only" },
+        "cleanupEligible": { "type": "boolean" },
+        "cleanupWarning": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

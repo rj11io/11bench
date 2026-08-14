@@ -1,0 +1,9 @@
+{
+  "name": "11bench",
+  "version": "1.0.0",
+  "description": "Draft, isolate, launch, finalize, and analyze reproducible AI benchmark runs.",
+  "author": {
+    "name": "rj11io"
+  },
+  "skills": "./skills/"
+}

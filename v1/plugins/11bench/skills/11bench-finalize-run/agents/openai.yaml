@@ -1,0 +1,4 @@
+interface:
+  display_name: "Finalize Run"
+  short_description: "Validate, analyze, and seal completed runs"
+  default_prompt: "Use 11bench-finalize-run to finalize one or more completed candidate workspaces."

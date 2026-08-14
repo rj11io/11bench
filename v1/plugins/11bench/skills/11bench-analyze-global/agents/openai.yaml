@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Global"
+  short_description: "Aggregate analytics across all v1 benchmarks"
+  default_prompt: "Use 11bench-analyze-global to regenerate v1-wide benchmark analytics."

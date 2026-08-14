@@ -1,0 +1,15 @@
+{
+  "architecture": ["../../docs/architecture.md", "../../docs/directory-contract.md"],
+  "terms": ["../../docs/glossary.md"],
+  "draft": ["../../docs/drafting-benchmarks.md", "../../docs/cohort-lifecycle.md"],
+  "freeze": ["../../docs/cohort-lifecycle.md", "../../schemas/cohort.schema.json"],
+  "prepare": ["../../docs/run-protocol.md", "../../docs/candidate-workspaces.md"],
+  "candidate-workspace": ["../../docs/candidate-workspaces.md", "../../schemas/run.schema.json"],
+  "cleanup": ["../../docs/candidate-workspaces.md", "../../schemas/run.schema.json"],
+  "launch": ["../../docs/manual-runs.md", "../../docs/permissions-and-isolation.md"],
+  "parallel": ["../../docs/parallel-runs.md", "../../schemas/batch.schema.json"],
+  "analytics": ["../../docs/analytics.md", "../../schemas/analytics.schema.json"],
+  "pricing": ["../../docs/pricing.md", "../../skills/11bench-update-pricing/references/provider-sources.md"],
+  "judging": ["../../docs/future-judging.md"],
+  "troubleshooting": ["../../docs/troubleshooting.md"]
+}
