@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/rj11io/11bench/compare/v1.10.1...v1.11.0) (2026-08-14)
+
+
+### Features
+
+* **v1:** implement cohort benchmark lifecycle and standalone analytics ([a8b0fb8](https://github.com/rj11io/11bench/commit/a8b0fb81d40a139bd2a6df3600ef0574152fe2c7))
+
 ## [1.10.1](https://github.com/rj11io/11bench/compare/v1.10.0...v1.10.1) (2026-07-29)
 
 
